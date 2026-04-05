@@ -1,0 +1,206 @@
+[0.000000] (-) TimerEvent: {}
+[0.000276] (-) JobUnselected: {'identifier': 'cpp_pubsub'}
+[0.000347] (-) JobUnselected: {'identifier': 'examples_rclcpp_async_client'}
+[0.000389] (-) JobUnselected: {'identifier': 'examples_rclcpp_cbg_executor'}
+[0.000424] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_client'}
+[0.000457] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_server'}
+[0.000489] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_client'}
+[0.000519] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_composition'}
+[0.000568] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_publisher'}
+[0.001855] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_service'}
+[0.001962] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_subscriber'}
+[0.001998] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_timer'}
+[0.002030] (-) JobUnselected: {'identifier': 'examples_rclcpp_multithreaded_executor'}
+[0.002060] (-) JobUnselected: {'identifier': 'examples_rclcpp_wait_set'}
+[0.002090] (-) JobUnselected: {'identifier': 'examples_rclpy_executors'}
+[0.002119] (-) JobUnselected: {'identifier': 'examples_rclpy_guard_conditions'}
+[0.002148] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_client'}
+[0.002177] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_server'}
+[0.002205] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_client'}
+[0.002234] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_publisher'}
+[0.002282] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_service'}
+[0.002312] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_subscriber'}
+[0.002341] (-) JobUnselected: {'identifier': 'examples_rclpy_pointcloud_publisher'}
+[0.002370] (-) JobUnselected: {'identifier': 'launch_testing_examples'}
+[0.002398] (-) JobUnselected: {'identifier': 'my_package'}
+[0.002426] (-) JobUnselected: {'identifier': 'my_python_package'}
+[0.002456] (-) JobUnselected: {'identifier': 'py_pubsub'}
+[0.002486] (-) JobUnselected: {'identifier': 'turtlesim'}
+[0.002521] (cpp_srvcli) JobQueued: {'identifier': 'cpp_srvcli', 'dependencies': OrderedDict()}
+[0.002578] (cpp_srvcli) JobStarted: {'identifier': 'cpp_srvcli'}
+[0.025638] (cpp_srvcli) JobProgress: {'identifier': 'cpp_srvcli', 'progress': 'cmake'}
+[0.027015] (cpp_srvcli) Command: {'cmd': ['/usr/bin/cmake', '/home/yixin/ros2_ws/src/cpp_srvcli', '-DCMAKE_INSTALL_PREFIX=/home/yixin/ros2_ws/install/cpp_srvcli'], 'cwd': '/home/yixin/ros2_ws/build/cpp_srvcli', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'yixin', 'FONTCONFIG_PATH': '/etc/fonts', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/share/gz', 'GIO_MODULE_DIR': '/home/yixin/snap/code/common/.cache/gio-modules', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/snap/code/230/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'GTK_EXE_PREFIX_VSCODE_SNAP_ORIG': '', 'GDK_BACKEND_VSCODE_SNAP_ORIG': '', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/yixin', 'CHROME_DESKTOP': 'code.desktop', 'LOCPATH_VSCODE_SNAP_ORIG': '', 'TERM_PROGRAM_VERSION': '1.112.0', 'DESKTOP_SESSION': 'ubuntu', 'GTK_PATH': '/snap/code/230/usr/lib/x86_64-linux-gnu/gtk-3.0', 'XDG_DATA_HOME_VSCODE_SNAP_ORIG': '', 'GTK_IM_MODULE_FILE': '/home/yixin/snap/code/common/.cache/immodules/immodules.cache', 'GIO_LAUNCHED_DESKTOP_FILE': '/var/lib/snapd/desktop/applications/code_code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SDL_IM_MODULE': 'fcitx', 'GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG': '', 'VSCODE_GIT_ASKPASS_MAIN': '/snap/code/230/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/snap/code/230/usr/share/code/code', 'MANAGERPID': '2045', 'SYSTEMD_EXEC_PID': '2308', 'IM_CONFIG_CHECK_ENV': '1', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '90538', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'GTK_IM_MODULE': 'fcitx', 'LOGNAME': 'yixin', 'JOURNAL_STREAM': '8:19137', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'XDG_DATA_DIRS_VSCODE_SNAP_ORIG': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'USERNAME': 'yixin', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'FC_FONTATIONS': '1', 'PATH': '/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/yixin-Aspire-A315-24PT:@/tmp/.ICE-unix/2254,unix/yixin-Aspire-A315-24PT:/tmp/.ICE-unix/2254', 'GTK_EXE_PREFIX': '/snap/code/230/usr', 'INVOCATION_ID': '610530ee567a4061b439bd0697df0e3e', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LOCPATH': '/snap/code/230/usr/lib/locale', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'GIO_MODULE_DIR_VSCODE_SNAP_ORIG': '', 'XDG_DATA_HOME': '/home/yixin/snap/code/230/.local/share', 'XMODIFIERS': '@im=fcitx', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.X3LGM3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-e32af5f84d.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'GSETTINGS_SCHEMA_DIR': '/home/yixin/snap/code/230/.local/share/glib-2.0/schemas', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GTK_PATH_VSCODE_SNAP_ORIG': '', 'FONTCONFIG_FILE': '/etc/fonts/fonts.conf', 'GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG': '', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'fcitx', 'PWD': '/home/yixin/ros2_ws/build/cpp_srvcli', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CLUTTER_IM_MODULE': 'xim', 'XDG_DATA_DIRS': '/home/yixin/snap/code/230/.local/share:/home/yixin/snap/code/230:/snap/code/230/usr/share:/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'QTWEBENGINE_DICTIONARIES_PATH': '/usr/share/hunspell-bdic/', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.099423] (-) TimerEvent: {}
+[0.199881] (-) TimerEvent: {}
+[0.218535] (cpp_srvcli) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.300073] (-) TimerEvent: {}
+[0.396820] (cpp_srvcli) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.400193] (-) TimerEvent: {}
+[0.458974] (cpp_srvcli) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.500343] (-) TimerEvent: {}
+[0.600796] (-) TimerEvent: {}
+[0.701244] (-) TimerEvent: {}
+[0.727473] (cpp_srvcli) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.758156] (cpp_srvcli) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.760887] (cpp_srvcli) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.762454] (cpp_srvcli) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.791052] (cpp_srvcli) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.801432] (-) TimerEvent: {}
+[0.901901] (-) TimerEvent: {}
+[1.002396] (-) TimerEvent: {}
+[1.101747] (cpp_srvcli) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.102506] (-) TimerEvent: {}
+[1.133605] (cpp_srvcli) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.134338] (cpp_srvcli) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.139441] (cpp_srvcli) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.155102] (cpp_srvcli) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[1.202714] (-) TimerEvent: {}
+[1.303271] (-) TimerEvent: {}
+[1.403693] (-) TimerEvent: {}
+[1.504181] (-) TimerEvent: {}
+[1.572968] (cpp_srvcli) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[1.604364] (-) TimerEvent: {}
+[1.704829] (-) TimerEvent: {}
+[1.805267] (-) TimerEvent: {}
+[1.905783] (-) TimerEvent: {}
+[1.909049] (cpp_srvcli) StdoutLine: {'line': b'-- Found rclcpp: 28.1.16 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[2.005949] (-) TimerEvent: {}
+[2.072844] (cpp_srvcli) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[2.106114] (-) TimerEvent: {}
+[2.120877] (cpp_srvcli) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[2.186932] (cpp_srvcli) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.206275] (-) TimerEvent: {}
+[2.257942] (cpp_srvcli) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.306446] (-) TimerEvent: {}
+[2.406922] (-) TimerEvent: {}
+[2.507374] (-) TimerEvent: {}
+[2.542101] (cpp_srvcli) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[2.553865] (cpp_srvcli) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.607573] (-) TimerEvent: {}
+[2.708020] (-) TimerEvent: {}
+[2.808474] (-) TimerEvent: {}
+[2.828070] (cpp_srvcli) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[2.894338] (cpp_srvcli) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[2.908627] (-) TimerEvent: {}
+[2.974787] (cpp_srvcli) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[3.008785] (-) TimerEvent: {}
+[3.109335] (-) TimerEvent: {}
+[3.210111] (-) TimerEvent: {}
+[3.277408] (cpp_srvcli) StdoutLine: {'line': b'-- Found example_interfaces: 0.12.0 (/opt/ros/jazzy/share/example_interfaces/cmake)\n'}
+[3.310266] (-) TimerEvent: {}
+[3.410798] (-) TimerEvent: {}
+[3.497171] (cpp_srvcli) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.4 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[3.510964] (-) TimerEvent: {}
+[3.611410] (-) TimerEvent: {}
+[3.711895] (-) TimerEvent: {}
+[3.812372] (-) TimerEvent: {}
+[3.840924] (cpp_srvcli) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[3.841648] (cpp_srvcli) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[3.841934] (cpp_srvcli) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[3.845258] (cpp_srvcli) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.850896] (cpp_srvcli) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[3.851398] (cpp_srvcli) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[3.853691] (cpp_srvcli) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.858709] (cpp_srvcli) StdoutLine: {'line': b'-- Configuring done (3.8s)\n'}
+[3.905690] (cpp_srvcli) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[3.912496] (-) TimerEvent: {}
+[3.920908] (cpp_srvcli) StdoutLine: {'line': b'-- Build files have been written to: /home/yixin/ros2_ws/build/cpp_srvcli\n'}
+[3.953390] (cpp_srvcli) CommandEnded: {'returncode': 0}
+[3.954688] (cpp_srvcli) JobProgress: {'identifier': 'cpp_srvcli', 'progress': 'build'}
+[3.956388] (cpp_srvcli) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/yixin/ros2_ws/build/cpp_srvcli', '--', '-j8', '-l8'], 'cwd': '/home/yixin/ros2_ws/build/cpp_srvcli', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'yixin', 'FONTCONFIG_PATH': '/etc/fonts', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/share/gz', 'GIO_MODULE_DIR': '/home/yixin/snap/code/common/.cache/gio-modules', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/snap/code/230/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'GTK_EXE_PREFIX_VSCODE_SNAP_ORIG': '', 'GDK_BACKEND_VSCODE_SNAP_ORIG': '', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/yixin', 'CHROME_DESKTOP': 'code.desktop', 'LOCPATH_VSCODE_SNAP_ORIG': '', 'TERM_PROGRAM_VERSION': '1.112.0', 'DESKTOP_SESSION': 'ubuntu', 'GTK_PATH': '/snap/code/230/usr/lib/x86_64-linux-gnu/gtk-3.0', 'XDG_DATA_HOME_VSCODE_SNAP_ORIG': '', 'GTK_IM_MODULE_FILE': '/home/yixin/snap/code/common/.cache/immodules/immodules.cache', 'GIO_LAUNCHED_DESKTOP_FILE': '/var/lib/snapd/desktop/applications/code_code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SDL_IM_MODULE': 'fcitx', 'GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG': '', 'VSCODE_GIT_ASKPASS_MAIN': '/snap/code/230/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/snap/code/230/usr/share/code/code', 'MANAGERPID': '2045', 'SYSTEMD_EXEC_PID': '2308', 'IM_CONFIG_CHECK_ENV': '1', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '90538', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'GTK_IM_MODULE': 'fcitx', 'LOGNAME': 'yixin', 'JOURNAL_STREAM': '8:19137', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'XDG_DATA_DIRS_VSCODE_SNAP_ORIG': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'USERNAME': 'yixin', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'FC_FONTATIONS': '1', 'PATH': '/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/yixin-Aspire-A315-24PT:@/tmp/.ICE-unix/2254,unix/yixin-Aspire-A315-24PT:/tmp/.ICE-unix/2254', 'GTK_EXE_PREFIX': '/snap/code/230/usr', 'INVOCATION_ID': '610530ee567a4061b439bd0697df0e3e', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LOCPATH': '/snap/code/230/usr/lib/locale', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'GIO_MODULE_DIR_VSCODE_SNAP_ORIG': '', 'XDG_DATA_HOME': '/home/yixin/snap/code/230/.local/share', 'XMODIFIERS': '@im=fcitx', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.X3LGM3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-e32af5f84d.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'GSETTINGS_SCHEMA_DIR': '/home/yixin/snap/code/230/.local/share/glib-2.0/schemas', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GTK_PATH_VSCODE_SNAP_ORIG': '', 'FONTCONFIG_FILE': '/etc/fonts/fonts.conf', 'GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG': '', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'fcitx', 'PWD': '/home/yixin/ros2_ws/build/cpp_srvcli', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CLUTTER_IM_MODULE': 'xim', 'XDG_DATA_DIRS': '/home/yixin/snap/code/230/.local/share:/home/yixin/snap/code/230:/snap/code/230/usr/share:/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'QTWEBENGINE_DICTIONARIES_PATH': '/usr/share/hunspell-bdic/', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[4.012679] (-) TimerEvent: {}
+[4.113180] (-) TimerEvent: {}
+[4.129061] (cpp_srvcli) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/server.dir/src/add_two_ints_server.cpp.o\x1b[0m\n'}
+[4.130631] (cpp_srvcli) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/client.dir/src/add_two_ints_client.cpp.o\x1b[0m\n'}
+[4.213328] (-) TimerEvent: {}
+[4.313817] (-) TimerEvent: {}
+[4.414353] (-) TimerEvent: {}
+[4.514917] (-) TimerEvent: {}
+[4.615530] (-) TimerEvent: {}
+[4.716201] (-) TimerEvent: {}
+[4.816679] (-) TimerEvent: {}
+[4.917153] (-) TimerEvent: {}
+[5.017647] (-) TimerEvent: {}
+[5.118143] (-) TimerEvent: {}
+[5.218646] (-) TimerEvent: {}
+[5.319158] (-) TimerEvent: {}
+[5.419702] (-) TimerEvent: {}
+[5.520362] (-) TimerEvent: {}
+[5.621089] (-) TimerEvent: {}
+[5.721605] (-) TimerEvent: {}
+[5.822083] (-) TimerEvent: {}
+[5.922570] (-) TimerEvent: {}
+[6.023288] (-) TimerEvent: {}
+[6.124103] (-) TimerEvent: {}
+[6.224970] (-) TimerEvent: {}
+[6.325458] (-) TimerEvent: {}
+[6.426000] (-) TimerEvent: {}
+[6.526519] (-) TimerEvent: {}
+[6.627103] (-) TimerEvent: {}
+[6.727667] (-) TimerEvent: {}
+[6.828194] (-) TimerEvent: {}
+[6.928780] (-) TimerEvent: {}
+[7.029316] (-) TimerEvent: {}
+[7.129826] (-) TimerEvent: {}
+[7.230313] (-) TimerEvent: {}
+[7.330849] (-) TimerEvent: {}
+[7.431328] (-) TimerEvent: {}
+[7.531866] (-) TimerEvent: {}
+[7.632388] (-) TimerEvent: {}
+[7.732937] (-) TimerEvent: {}
+[7.833592] (-) TimerEvent: {}
+[7.934240] (-) TimerEvent: {}
+[8.034815] (-) TimerEvent: {}
+[8.135341] (-) TimerEvent: {}
+[8.235923] (-) TimerEvent: {}
+[8.336529] (-) TimerEvent: {}
+[8.437045] (-) TimerEvent: {}
+[8.537535] (-) TimerEvent: {}
+[8.638310] (-) TimerEvent: {}
+[8.738852] (-) TimerEvent: {}
+[8.839328] (-) TimerEvent: {}
+[8.939816] (-) TimerEvent: {}
+[9.040327] (-) TimerEvent: {}
+[9.140875] (-) TimerEvent: {}
+[9.241418] (-) TimerEvent: {}
+[9.341973] (-) TimerEvent: {}
+[9.442478] (-) TimerEvent: {}
+[9.542946] (-) TimerEvent: {}
+[9.643573] (-) TimerEvent: {}
+[9.744040] (-) TimerEvent: {}
+[9.784643] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yixin/ros2_ws/src/cpp_srvcli/src/add_two_ints_server.cpp:35:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before \xe2\x80\x98\x1b[01m\x1b[K{\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[9.784919] (cpp_srvcli) StderrLine: {'line': b'   35 | \x1b[01;31m\x1b[K{\x1b[m\x1b[K\n'}
+[9.785006] (cpp_srvcli) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[9.785080] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yixin/ros2_ws/src/cpp_srvcli/src/add_two_ints_server.cpp:42:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kredefinition of \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[01;32m\x1b[K main\x1b[m\x1b[K(int, char**)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.785154] (cpp_srvcli) StderrLine: {'line': b'   42 | int \x1b[01;31m\x1b[Kmain\x1b[m\x1b[K(int argc, char **argv)\n'}
+[9.785226] (cpp_srvcli) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[9.785296] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yixin/ros2_ws/src/cpp_srvcli/src/add_two_ints_server.cpp:16:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kint\x1b[01;32m\x1b[K main\x1b[m\x1b[K(int, char**)\x1b[m\x1b[K\xe2\x80\x99 previously defined here\n'}
+[9.785390] (cpp_srvcli) StderrLine: {'line': b'   16 | int \x1b[01;36m\x1b[Kmain\x1b[m\x1b[K(int argc, char **argv)\n'}
+[9.785463] (cpp_srvcli) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[9.844232] (-) TimerEvent: {}
+[9.944817] (-) TimerEvent: {}
+[10.045296] (-) TimerEvent: {}
+[10.145815] (-) TimerEvent: {}
+[10.246407] (-) TimerEvent: {}
+[10.346897] (-) TimerEvent: {}
+[10.447383] (-) TimerEvent: {}
+[10.547849] (-) TimerEvent: {}
+[10.648435] (-) TimerEvent: {}
+[10.748875] (-) TimerEvent: {}
+[10.773728] (cpp_srvcli) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/server.dir/build.make:76: CMakeFiles/server.dir/src/add_two_ints_server.cpp.o] Error 1\n'}
+[10.773984] (cpp_srvcli) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/server.dir/all] Error 2\n'}
+[10.774072] (cpp_srvcli) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[10.849028] (-) TimerEvent: {}
+[10.949453] (-) TimerEvent: {}
+[11.049885] (-) TimerEvent: {}
+[11.150293] (-) TimerEvent: {}
+[11.250743] (-) TimerEvent: {}
+[11.351159] (-) TimerEvent: {}
+[11.370587] (cpp_srvcli) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable client\x1b[0m\n'}
+[11.451336] (-) TimerEvent: {}
+[11.551769] (-) TimerEvent: {}
+[11.578402] (cpp_srvcli) StdoutLine: {'line': b'[ 75%] Built target client\n'}
+[11.580121] (cpp_srvcli) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[11.583278] (cpp_srvcli) CommandEnded: {'returncode': 2}
+[11.593091] (cpp_srvcli) JobEnded: {'identifier': 'cpp_srvcli', 'rc': 2}
+[11.603568] (-) EventReactorShutdown: {}

@@ -1,0 +1,23 @@
+[0.083s] Invoking command in '/home/yixin/ros2_ws/build/examples_rclcpp_async_client': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/yixin/ros2_ws/build/examples_rclcpp_async_client -- -j8 -l8
+[0.420s] [100%] Built target client_main
+[0.559s] Invoked command in '/home/yixin/ros2_ws/build/examples_rclcpp_async_client' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/yixin/ros2_ws/build/examples_rclcpp_async_client -- -j8 -l8
+[0.560s] Invoking command in '/home/yixin/ros2_ws/build/examples_rclcpp_async_client': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/yixin/ros2_ws/build/examples_rclcpp_async_client
+[0.608s] -- Install configuration: "Debug"
+[0.608s] -- Execute custom install script
+[0.609s] -- Up-to-date symlink: /home/yixin/ros2_ws/install/examples_rclcpp_async_client/lib/examples_rclcpp_async_client/client_main
+[0.609s] -- Up-to-date symlink: /home/yixin/ros2_ws/install/examples_rclcpp_async_client/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_async_client
+[0.610s] -- Up-to-date symlink: /home/yixin/ros2_ws/install/examples_rclcpp_async_client/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_async_client
+[0.611s] -- Up-to-date symlink: /home/yixin/ros2_ws/install/examples_rclcpp_async_client/share/examples_rclcpp_async_client/environment/ament_prefix_path.sh
+[0.611s] -- Up-to-date symlink: /home/yixin/ros2_ws/install/examples_rclcpp_async_client/share/examples_rclcpp_async_client/environment/ament_prefix_path.dsv
+[0.617s] -- Up-to-date symlink: /home/yixin/ros2_ws/install/examples_rclcpp_async_client/share/examples_rclcpp_async_client/environment/path.sh
+[0.617s] -- Up-to-date symlink: /home/yixin/ros2_ws/install/examples_rclcpp_async_client/share/examples_rclcpp_async_client/environment/path.dsv
+[0.617s] -- Up-to-date symlink: /home/yixin/ros2_ws/install/examples_rclcpp_async_client/share/examples_rclcpp_async_client/local_setup.bash
+[0.618s] -- Up-to-date symlink: /home/yixin/ros2_ws/install/examples_rclcpp_async_client/share/examples_rclcpp_async_client/local_setup.sh
+[0.618s] -- Up-to-date symlink: /home/yixin/ros2_ws/install/examples_rclcpp_async_client/share/examples_rclcpp_async_client/local_setup.zsh
+[0.618s] -- Up-to-date symlink: /home/yixin/ros2_ws/install/examples_rclcpp_async_client/share/examples_rclcpp_async_client/local_setup.dsv
+[0.618s] -- Symlinking: /home/yixin/ros2_ws/install/examples_rclcpp_async_client/share/examples_rclcpp_async_client/package.dsv
+[0.658s] -- Up-to-date symlink: /home/yixin/ros2_ws/install/examples_rclcpp_async_client/share/ament_index/resource_index/packages/examples_rclcpp_async_client
+[0.659s] -- Up-to-date symlink: /home/yixin/ros2_ws/install/examples_rclcpp_async_client/share/examples_rclcpp_async_client/cmake/examples_rclcpp_async_clientConfig.cmake
+[0.660s] -- Up-to-date symlink: /home/yixin/ros2_ws/install/examples_rclcpp_async_client/share/examples_rclcpp_async_client/cmake/examples_rclcpp_async_clientConfig-version.cmake
+[0.660s] -- Up-to-date symlink: /home/yixin/ros2_ws/install/examples_rclcpp_async_client/share/examples_rclcpp_async_client/package.xml
+[0.743s] Invoked command in '/home/yixin/ros2_ws/build/examples_rclcpp_async_client' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/yixin/ros2_ws/build/examples_rclcpp_async_client

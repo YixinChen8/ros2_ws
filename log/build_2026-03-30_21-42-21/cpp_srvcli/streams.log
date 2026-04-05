@@ -1,0 +1,28 @@
+[0.029s] Invoking command in '/home/yixin/ros2_ws/build/cpp_srvcli': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/yixin/ros2_ws/build/cpp_srvcli -- -j8 -l8
+[0.264s] [ 25%] [32mBuilding CXX object CMakeFiles/server.dir/src/add_two_ints_server.cpp.o[0m
+[0.271s] [ 75%] Built target client
+[9.082s] [100%] [32m[1mLinking CXX executable server[0m
+[9.333s] [100%] Built target server
+[9.352s] Invoked command in '/home/yixin/ros2_ws/build/cpp_srvcli' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/yixin/ros2_ws/build/cpp_srvcli -- -j8 -l8
+[9.366s] Invoking command in '/home/yixin/ros2_ws/build/cpp_srvcli': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/yixin/ros2_ws/build/cpp_srvcli
+[9.381s] -- Install configuration: ""
+[9.381s] -- Installing: /home/yixin/ros2_ws/install/cpp_srvcli/lib/cpp_srvcli/server
+[9.383s] -- Set non-toolchain portion of runtime path of "/home/yixin/ros2_ws/install/cpp_srvcli/lib/cpp_srvcli/server" to ""
+[9.383s] -- Installing: /home/yixin/ros2_ws/install/cpp_srvcli/lib/cpp_srvcli/client
+[9.385s] -- Set non-toolchain portion of runtime path of "/home/yixin/ros2_ws/install/cpp_srvcli/lib/cpp_srvcli/client" to ""
+[9.385s] -- Installing: /home/yixin/ros2_ws/install/cpp_srvcli/share/ament_index/resource_index/package_run_dependencies/cpp_srvcli
+[9.385s] -- Installing: /home/yixin/ros2_ws/install/cpp_srvcli/share/ament_index/resource_index/parent_prefix_path/cpp_srvcli
+[9.386s] -- Installing: /home/yixin/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.sh
+[9.386s] -- Installing: /home/yixin/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.dsv
+[9.387s] -- Installing: /home/yixin/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/environment/path.sh
+[9.387s] -- Installing: /home/yixin/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/environment/path.dsv
+[9.387s] -- Installing: /home/yixin/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.bash
+[9.387s] -- Installing: /home/yixin/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.sh
+[9.387s] -- Installing: /home/yixin/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.zsh
+[9.388s] -- Installing: /home/yixin/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.dsv
+[9.388s] -- Installing: /home/yixin/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/package.dsv
+[9.388s] -- Installing: /home/yixin/ros2_ws/install/cpp_srvcli/share/ament_index/resource_index/packages/cpp_srvcli
+[9.389s] -- Installing: /home/yixin/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig.cmake
+[9.389s] -- Installing: /home/yixin/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig-version.cmake
+[9.389s] -- Installing: /home/yixin/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/package.xml
+[9.393s] Invoked command in '/home/yixin/ros2_ws/build/cpp_srvcli' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/yixin/ros2_ws/build/cpp_srvcli

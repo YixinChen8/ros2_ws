@@ -1,0 +1,198 @@
+[0.000000] (-) TimerEvent: {}
+[0.000654] (-) JobUnselected: {'identifier': 'cpp_srvcli'}
+[0.001198] (-) JobUnselected: {'identifier': 'examples_rclcpp_async_client'}
+[0.001253] (-) JobUnselected: {'identifier': 'examples_rclcpp_cbg_executor'}
+[0.001292] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_client'}
+[0.001324] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_server'}
+[0.001355] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_client'}
+[0.001386] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_composition'}
+[0.001414] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_publisher'}
+[0.001443] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_service'}
+[0.001472] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_subscriber'}
+[0.001502] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_timer'}
+[0.001531] (-) JobUnselected: {'identifier': 'examples_rclcpp_multithreaded_executor'}
+[0.001561] (-) JobUnselected: {'identifier': 'examples_rclcpp_wait_set'}
+[0.001606] (-) JobUnselected: {'identifier': 'examples_rclpy_executors'}
+[0.001918] (-) JobUnselected: {'identifier': 'examples_rclpy_guard_conditions'}
+[0.001951] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_client'}
+[0.001981] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_server'}
+[0.002010] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_client'}
+[0.002040] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_publisher'}
+[0.002085] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_service'}
+[0.002118] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_subscriber'}
+[0.002147] (-) JobUnselected: {'identifier': 'examples_rclpy_pointcloud_publisher'}
+[0.002176] (-) JobUnselected: {'identifier': 'launch_testing_examples'}
+[0.002205] (-) JobUnselected: {'identifier': 'my_package'}
+[0.002235] (-) JobUnselected: {'identifier': 'my_python_package'}
+[0.002264] (-) JobUnselected: {'identifier': 'py_pubsub'}
+[0.002295] (-) JobUnselected: {'identifier': 'py_srvcli'}
+[0.002324] (-) JobUnselected: {'identifier': 'turtlesim'}
+[0.002353] (-) JobUnselected: {'identifier': 'tutorial_interfaces'}
+[0.002389] (cpp_pubsub) JobQueued: {'identifier': 'cpp_pubsub', 'dependencies': OrderedDict({'tutorial_interfaces': '/home/yixin/ros2_ws/install/tutorial_interfaces'})}
+[0.002443] (cpp_pubsub) JobStarted: {'identifier': 'cpp_pubsub'}
+[0.048842] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'cmake'}
+[0.052469] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'build'}
+[0.052840] (cpp_pubsub) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/yixin/ros2_ws/build/cpp_pubsub', '--', '-j8', '-l8'], 'cwd': '/home/yixin/ros2_ws/build/cpp_pubsub', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'yixin', 'FONTCONFIG_PATH': '/etc/fonts', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/share/gz', 'GIO_MODULE_DIR': '/home/yixin/snap/code/common/.cache/gio-modules', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/snap/code/230/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'GTK_EXE_PREFIX_VSCODE_SNAP_ORIG': '', 'GDK_BACKEND_VSCODE_SNAP_ORIG': '', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/yixin/ros2_ws/install/tutorial_interfaces/lib:/home/yixin/ros2_ws/install/turtlesim/lib:/home/yixin/ros2_ws/install/examples_rclcpp_wait_set/lib:/home/yixin/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib:/home/yixin/ros2_ws/install/examples_rclcpp_minimal_composition/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/yixin', 'CHROME_DESKTOP': 'code.desktop', 'LOCPATH_VSCODE_SNAP_ORIG': '', 'OLDPWD': '/home/yixin/ros2_ws/src', 'TERM_PROGRAM_VERSION': '1.112.0', 'DESKTOP_SESSION': 'ubuntu', 'GTK_PATH': '/snap/code/230/usr/lib/x86_64-linux-gnu/gtk-3.0', 'XDG_DATA_HOME_VSCODE_SNAP_ORIG': '', 'GTK_IM_MODULE_FILE': '/home/yixin/snap/code/common/.cache/immodules/immodules.cache', 'GIO_LAUNCHED_DESKTOP_FILE': '/var/lib/snapd/desktop/applications/code_code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SDL_IM_MODULE': 'fcitx', 'GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG': '', 'VSCODE_GIT_ASKPASS_MAIN': '/snap/code/230/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/snap/code/230/usr/share/code/code', 'MANAGERPID': '2045', 'SYSTEMD_EXEC_PID': '2308', 'IM_CONFIG_CHECK_ENV': '1', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '90538', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/yixin/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'GTK_IM_MODULE': 'fcitx', 'LOGNAME': 'yixin', 'JOURNAL_STREAM': '8:19137', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'XDG_DATA_DIRS_VSCODE_SNAP_ORIG': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'USERNAME': 'yixin', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'FC_FONTATIONS': '1', 'PATH': '/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/yixin-Aspire-A315-24PT:@/tmp/.ICE-unix/2254,unix/yixin-Aspire-A315-24PT:/tmp/.ICE-unix/2254', 'GTK_EXE_PREFIX': '/snap/code/230/usr', 'INVOCATION_ID': '610530ee567a4061b439bd0697df0e3e', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LOCPATH': '/snap/code/230/usr/lib/locale', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'GIO_MODULE_DIR_VSCODE_SNAP_ORIG': '', 'XDG_DATA_HOME': '/home/yixin/snap/code/230/.local/share', 'XMODIFIERS': '@im=fcitx', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.X3LGM3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-e32af5f84d.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'GSETTINGS_SCHEMA_DIR': '/home/yixin/snap/code/230/.local/share/glib-2.0/schemas', 'AMENT_PREFIX_PATH': '/home/yixin/ros2_ws/install/tutorial_interfaces:/home/yixin/ros2_ws/install/turtlesim:/home/yixin/ros2_ws/install/py_srvcli:/home/yixin/ros2_ws/install/py_pubsub:/home/yixin/ros2_ws/install/my_python_package:/home/yixin/ros2_ws/install/my_package:/home/yixin/ros2_ws/install/launch_testing_examples:/home/yixin/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/yixin/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/yixin/ros2_ws/install/examples_rclpy_minimal_service:/home/yixin/ros2_ws/install/examples_rclpy_minimal_publisher:/home/yixin/ros2_ws/install/examples_rclpy_minimal_client:/home/yixin/ros2_ws/install/examples_rclpy_minimal_action_server:/home/yixin/ros2_ws/install/examples_rclpy_minimal_action_client:/home/yixin/ros2_ws/install/examples_rclpy_guard_conditions:/home/yixin/ros2_ws/install/examples_rclpy_executors:/home/yixin/ros2_ws/install/examples_rclcpp_wait_set:/home/yixin/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/yixin/ros2_ws/install/examples_rclcpp_minimal_timer:/home/yixin/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/yixin/ros2_ws/install/examples_rclcpp_minimal_service:/home/yixin/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/yixin/ros2_ws/install/examples_rclcpp_minimal_composition:/home/yixin/ros2_ws/install/examples_rclcpp_minimal_client:/home/yixin/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/yixin/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/yixin/ros2_ws/install/examples_rclcpp_cbg_executor:/home/yixin/ros2_ws/install/examples_rclcpp_async_client:/home/yixin/ros2_ws/install/cpp_srvcli:/home/yixin/ros2_ws/install/cpp_pubsub:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GTK_PATH_VSCODE_SNAP_ORIG': '', 'FONTCONFIG_FILE': '/etc/fonts/fonts.conf', 'GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG': '', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'fcitx', 'PWD': '/home/yixin/ros2_ws/build/cpp_pubsub', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CLUTTER_IM_MODULE': 'xim', 'XDG_DATA_DIRS': '/home/yixin/snap/code/230/.local/share:/home/yixin/snap/code/230:/snap/code/230/usr/share:/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'QTWEBENGINE_DICTIONARIES_PATH': '/usr/share/hunspell-bdic/', 'PYTHONPATH': '/home/yixin/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages:/home/yixin/ros2_ws/install/turtlesim/lib/python3.12/site-packages:/home/yixin/ros2_ws/install/py_srvcli/lib/python3.12/site-packages:/home/yixin/ros2_ws/install/py_pubsub/lib/python3.12/site-packages:/home/yixin/ros2_ws/install/my_python_package/lib/python3.12/site-packages:/home/yixin/ros2_ws/install/launch_testing_examples/lib/python3.12/site-packages:/home/yixin/ros2_ws/install/examples_rclpy_pointcloud_publisher/lib/python3.12/site-packages:/home/yixin/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.12/site-packages:/home/yixin/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.12/site-packages:/home/yixin/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.12/site-packages:/home/yixin/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.12/site-packages:/home/yixin/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.12/site-packages:/home/yixin/ros2_ws/install/examples_rclpy_minimal_action_client/lib/python3.12/site-packages:/home/yixin/ros2_ws/install/examples_rclpy_guard_conditions/lib/python3.12/site-packages:/home/yixin/ros2_ws/install/examples_rclpy_executors/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/home/yixin/ros2_ws/install/tutorial_interfaces:/home/yixin/ros2_ws/install/turtlesim:/home/yixin/ros2_ws/install/my_package:/home/yixin/ros2_ws/install/examples_rclcpp_wait_set:/home/yixin/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/yixin/ros2_ws/install/examples_rclcpp_minimal_timer:/home/yixin/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/yixin/ros2_ws/install/examples_rclcpp_minimal_service:/home/yixin/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/yixin/ros2_ws/install/examples_rclcpp_minimal_composition:/home/yixin/ros2_ws/install/examples_rclcpp_minimal_client:/home/yixin/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/yixin/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/yixin/ros2_ws/install/examples_rclcpp_cbg_executor:/home/yixin/ros2_ws/install/examples_rclcpp_async_client:/home/yixin/ros2_ws/install/cpp_srvcli:/home/yixin/ros2_ws/install/cpp_pubsub:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/yixin/ros2_ws/install/py_srvcli:/home/yixin/ros2_ws/install/py_pubsub:/home/yixin/ros2_ws/install/my_python_package:/home/yixin/ros2_ws/install/launch_testing_examples:/home/yixin/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/yixin/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/yixin/ros2_ws/install/examples_rclpy_minimal_service:/home/yixin/ros2_ws/install/examples_rclpy_minimal_publisher:/home/yixin/ros2_ws/install/examples_rclpy_minimal_client:/home/yixin/ros2_ws/install/examples_rclpy_minimal_action_server:/home/yixin/ros2_ws/install/examples_rclpy_minimal_action_client:/home/yixin/ros2_ws/install/examples_rclpy_guard_conditions:/home/yixin/ros2_ws/install/examples_rclpy_executors:/opt/ros/jazzy'}), 'shell': False}
+[0.099348] (-) TimerEvent: {}
+[0.150190] (cpp_pubsub) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.199519] (-) TimerEvent: {}
+[0.300005] (-) TimerEvent: {}
+[0.400463] (-) TimerEvent: {}
+[0.500903] (-) TimerEvent: {}
+[0.601341] (-) TimerEvent: {}
+[0.701811] (-) TimerEvent: {}
+[0.802266] (-) TimerEvent: {}
+[0.843354] (cpp_pubsub) StdoutLine: {'line': b'-- Found rclcpp: 28.1.16 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[0.902436] (-) TimerEvent: {}
+[0.935231] (cpp_pubsub) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.963284] (cpp_pubsub) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.999926] (cpp_pubsub) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.002552] (-) TimerEvent: {}
+[1.048185] (cpp_pubsub) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.102735] (-) TimerEvent: {}
+[1.203178] (-) TimerEvent: {}
+[1.250465] (cpp_pubsub) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[1.257943] (cpp_pubsub) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.303342] (-) TimerEvent: {}
+[1.403805] (-) TimerEvent: {}
+[1.465762] (cpp_pubsub) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.503979] (-) TimerEvent: {}
+[1.604396] (-) TimerEvent: {}
+[1.671534] (cpp_pubsub) StdoutLine: {'line': b'-- Found tutorial_interfaces: 0.0.0 (/home/yixin/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake)\n'}
+[1.704562] (-) TimerEvent: {}
+[1.805033] (-) TimerEvent: {}
+[1.870558] (cpp_pubsub) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.4 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[1.905185] (-) TimerEvent: {}
+[2.005629] (-) TimerEvent: {}
+[2.106089] (-) TimerEvent: {}
+[2.157412] (cpp_pubsub) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[2.157945] (cpp_pubsub) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[2.158152] (cpp_pubsub) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[2.160127] (cpp_pubsub) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.163741] (cpp_pubsub) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[2.163999] (cpp_pubsub) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[2.164972] (cpp_pubsub) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.167471] (cpp_pubsub) StdoutLine: {'line': b'-- Configuring done (2.0s)\n'}
+[2.206255] (-) TimerEvent: {}
+[2.214901] (cpp_pubsub) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[2.236297] (cpp_pubsub) StdoutLine: {'line': b'-- Build files have been written to: /home/yixin/ros2_ws/build/cpp_pubsub\n'}
+[2.306451] (-) TimerEvent: {}
+[2.388812] (cpp_pubsub) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_lambda_function.cpp.o\x1b[0m\n'}
+[2.389275] (cpp_pubsub) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_lambda_function.cpp.o\x1b[0m\n'}
+[2.406665] (-) TimerEvent: {}
+[2.507205] (-) TimerEvent: {}
+[2.607755] (-) TimerEvent: {}
+[2.708261] (-) TimerEvent: {}
+[2.808811] (-) TimerEvent: {}
+[2.909301] (-) TimerEvent: {}
+[3.009830] (-) TimerEvent: {}
+[3.110339] (-) TimerEvent: {}
+[3.210882] (-) TimerEvent: {}
+[3.311401] (-) TimerEvent: {}
+[3.412003] (-) TimerEvent: {}
+[3.512486] (-) TimerEvent: {}
+[3.613076] (-) TimerEvent: {}
+[3.713567] (-) TimerEvent: {}
+[3.814176] (-) TimerEvent: {}
+[3.914921] (-) TimerEvent: {}
+[4.015476] (-) TimerEvent: {}
+[4.116061] (-) TimerEvent: {}
+[4.216657] (-) TimerEvent: {}
+[4.317199] (-) TimerEvent: {}
+[4.417854] (-) TimerEvent: {}
+[4.518340] (-) TimerEvent: {}
+[4.618856] (-) TimerEvent: {}
+[4.719315] (-) TimerEvent: {}
+[4.819780] (-) TimerEvent: {}
+[4.920254] (-) TimerEvent: {}
+[5.020726] (-) TimerEvent: {}
+[5.121165] (-) TimerEvent: {}
+[5.221658] (-) TimerEvent: {}
+[5.322188] (-) TimerEvent: {}
+[5.422685] (-) TimerEvent: {}
+[5.523139] (-) TimerEvent: {}
+[5.623743] (-) TimerEvent: {}
+[5.724223] (-) TimerEvent: {}
+[5.824801] (-) TimerEvent: {}
+[5.925304] (-) TimerEvent: {}
+[6.025898] (-) TimerEvent: {}
+[6.126388] (-) TimerEvent: {}
+[6.226870] (-) TimerEvent: {}
+[6.327406] (-) TimerEvent: {}
+[6.427964] (-) TimerEvent: {}
+[6.528520] (-) TimerEvent: {}
+[6.629105] (-) TimerEvent: {}
+[6.729656] (-) TimerEvent: {}
+[6.830131] (-) TimerEvent: {}
+[6.932730] (-) TimerEvent: {}
+[7.033337] (-) TimerEvent: {}
+[7.134064] (-) TimerEvent: {}
+[7.234639] (-) TimerEvent: {}
+[7.335144] (-) TimerEvent: {}
+[7.435642] (-) TimerEvent: {}
+[7.536100] (-) TimerEvent: {}
+[7.636570] (-) TimerEvent: {}
+[7.737214] (-) TimerEvent: {}
+[7.837752] (-) TimerEvent: {}
+[7.938308] (-) TimerEvent: {}
+[8.038825] (-) TimerEvent: {}
+[8.111518] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yixin/ros2_ws/src/cpp_pubsub/src/subscriber_lambda_function.cpp:45:24:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd_msgs\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[8.112099] (cpp_pubsub) StderrLine: {'line': b'   45 |   rclcpp::Subscription<\x1b[01;31m\x1b[Kstd_msgs\x1b[m\x1b[K::msg::String>::SharedPtr subscription_;\n'}
+[8.112394] (cpp_pubsub) StderrLine: {'line': b'      |                        \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[8.112695] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yixin/ros2_ws/src/cpp_pubsub/src/subscriber_lambda_function.cpp:45:45:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[8.112864] (cpp_pubsub) StderrLine: {'line': b'   45 |   rclcpp::Subscription<std_msgs::msg::String\x1b[01;31m\x1b[K>\x1b[m\x1b[K::SharedPtr subscription_;\n'}
+[8.113038] (cpp_pubsub) StderrLine: {'line': b'      |                                             \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[8.113190] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yixin/ros2_ws/src/cpp_pubsub/src/subscriber_lambda_function.cpp:45:45:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 3 is invalid\n'}
+[8.113340] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yixin/ros2_ws/src/cpp_pubsub/src/subscriber_lambda_function.cpp:45:45:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 4 is invalid\n'}
+[8.113487] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yixin/ros2_ws/src/cpp_pubsub/src/subscriber_lambda_function.cpp:45:45:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 5 is invalid\n'}
+[8.114126] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yixin/ros2_ws/src/cpp_pubsub/src/subscriber_lambda_function.cpp:45:48:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 at end of member declaration\n'}
+[8.114367] (cpp_pubsub) StderrLine: {'line': b'   45 |   rclcpp::Subscription<std_msgs::msg::String>::\x1b[01;31m\x1b[KSharedPtr\x1b[m\x1b[K subscription_;\n'}
+[8.114520] (cpp_pubsub) StderrLine: {'line': b'      |                                                \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[8.114707] (cpp_pubsub) StderrLine: {'line': b'      |                                                         \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[8.118399] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yixin/ros2_ws/src/cpp_pubsub/src/subscriber_lambda_function.cpp:45:58:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksubscription_\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[Krmw_subscription_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[8.118749] (cpp_pubsub) StderrLine: {'line': b'   45 |   rclcpp::Subscription<std_msgs::msg::String>::SharedPtr \x1b[01;31m\x1b[Ksubscription_\x1b[m\x1b[K;\n'}
+[8.118924] (cpp_pubsub) StderrLine: {'line': b'      |                                                          \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.119081] (cpp_pubsub) StderrLine: {'line': b'      |                                                          \x1b[32m\x1b[Krmw_subscription_t\x1b[m\x1b[K\n'}
+[8.133788] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yixin/ros2_ws/src/cpp_pubsub/src/subscriber_lambda_function.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KMinimalSubscriber::\x1b[01;32m\x1b[KMinimalSubscriber\x1b[m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[8.134288] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yixin/ros2_ws/src/cpp_pubsub/src/subscriber_lambda_function.cpp:40:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksubscription_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krmw_subscription_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[8.134568] (cpp_pubsub) StderrLine: {'line': b'   40 |     \x1b[01;31m\x1b[Ksubscription_\x1b[m\x1b[K = this->create_subscription<tutorial_interfaces::msg::Num>(    // CHANGE\n'}
+[8.134820] (cpp_pubsub) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.134973] (cpp_pubsub) StderrLine: {'line': b'      |     \x1b[32m\x1b[Krmw_subscription_t\x1b[m\x1b[K\n'}
+[8.139007] (-) TimerEvent: {}
+[8.239537] (-) TimerEvent: {}
+[8.340080] (-) TimerEvent: {}
+[8.440588] (-) TimerEvent: {}
+[8.541111] (-) TimerEvent: {}
+[8.641646] (-) TimerEvent: {}
+[8.742108] (-) TimerEvent: {}
+[8.842539] (-) TimerEvent: {}
+[8.942993] (-) TimerEvent: {}
+[9.043445] (-) TimerEvent: {}
+[9.143895] (-) TimerEvent: {}
+[9.244317] (-) TimerEvent: {}
+[9.344723] (-) TimerEvent: {}
+[9.445110] (-) TimerEvent: {}
+[9.545463] (-) TimerEvent: {}
+[9.645887] (-) TimerEvent: {}
+[9.746296] (-) TimerEvent: {}
+[9.846863] (-) TimerEvent: {}
+[9.947244] (-) TimerEvent: {}
+[10.047689] (-) TimerEvent: {}
+[10.148081] (-) TimerEvent: {}
+[10.248465] (-) TimerEvent: {}
+[10.349143] (-) TimerEvent: {}
+[10.449526] (-) TimerEvent: {}
+[10.549941] (-) TimerEvent: {}
+[10.650297] (-) TimerEvent: {}
+[10.665668] (cpp_pubsub) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/listener.dir/build.make:76: CMakeFiles/listener.dir/src/subscriber_lambda_function.cpp.o] Error 1\n'}
+[10.666125] (cpp_pubsub) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/listener.dir/all] Error 2\n'}
+[10.666326] (cpp_pubsub) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[10.712730] (cpp_pubsub) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable talker\x1b[0m\n'}
+[10.750454] (-) TimerEvent: {}
+[10.850915] (-) TimerEvent: {}
+[10.951341] (-) TimerEvent: {}
+[10.951655] (cpp_pubsub) StdoutLine: {'line': b'[ 75%] Built target talker\n'}
+[10.953833] (cpp_pubsub) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[10.956715] (cpp_pubsub) CommandEnded: {'returncode': 2}
+[10.970429] (cpp_pubsub) JobEnded: {'identifier': 'cpp_pubsub', 'rc': 2}
+[10.980937] (-) EventReactorShutdown: {}

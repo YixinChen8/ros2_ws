@@ -1,0 +1,44 @@
+[2.068s] Invoking command in '/home/yixin/ros2_ws/build/examples_rclpy_minimal_subscriber': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/yixin/ros2_ws/build/examples_rclpy_minimal_subscriber/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yixin/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/yixin/ros2_ws/build/examples_rclpy_minimal_subscriber/build
+[3.023s] running develop
+[3.023s] Removing /home/yixin/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.12/site-packages/examples-rclpy-minimal-subscriber.egg-link (link to .)
+[3.145s] Invoked command in '/home/yixin/ros2_ws/build/examples_rclpy_minimal_subscriber' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/yixin/ros2_ws/build/examples_rclpy_minimal_subscriber/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yixin/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/yixin/ros2_ws/build/examples_rclpy_minimal_subscriber/build
+[3.146s] Invoking command in '/home/yixin/ros2_ws/src/examples/rclpy/topics/minimal_subscriber': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/yixin/ros2_ws/build/examples_rclpy_minimal_subscriber/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yixin/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_subscriber build --build-base /home/yixin/ros2_ws/build/examples_rclpy_minimal_subscriber/build install --record /home/yixin/ros2_ws/build/examples_rclpy_minimal_subscriber/install.log --single-version-externally-managed install_data --force
+[3.647s] running egg_info
+[3.667s] writing ../../../../../build/examples_rclpy_minimal_subscriber/examples_rclpy_minimal_subscriber.egg-info/PKG-INFO
+[3.667s] writing dependency_links to ../../../../../build/examples_rclpy_minimal_subscriber/examples_rclpy_minimal_subscriber.egg-info/dependency_links.txt
+[3.667s] writing entry points to ../../../../../build/examples_rclpy_minimal_subscriber/examples_rclpy_minimal_subscriber.egg-info/entry_points.txt
+[3.667s] writing requirements to ../../../../../build/examples_rclpy_minimal_subscriber/examples_rclpy_minimal_subscriber.egg-info/requires.txt
+[3.668s] writing top-level names to ../../../../../build/examples_rclpy_minimal_subscriber/examples_rclpy_minimal_subscriber.egg-info/top_level.txt
+[3.719s] reading manifest file '../../../../../build/examples_rclpy_minimal_subscriber/examples_rclpy_minimal_subscriber.egg-info/SOURCES.txt'
+[3.720s] writing manifest file '../../../../../build/examples_rclpy_minimal_subscriber/examples_rclpy_minimal_subscriber.egg-info/SOURCES.txt'
+[3.720s] running build
+[3.720s] running build_py
+[3.721s] creating /home/yixin/ros2_ws/build/examples_rclpy_minimal_subscriber/build
+[3.721s] creating /home/yixin/ros2_ws/build/examples_rclpy_minimal_subscriber/build/lib
+[3.721s] creating /home/yixin/ros2_ws/build/examples_rclpy_minimal_subscriber/build/lib/examples_rclpy_minimal_subscriber
+[3.721s] copying examples_rclpy_minimal_subscriber/subscriber_old_school.py -> /home/yixin/ros2_ws/build/examples_rclpy_minimal_subscriber/build/lib/examples_rclpy_minimal_subscriber
+[3.721s] copying examples_rclpy_minimal_subscriber/__init__.py -> /home/yixin/ros2_ws/build/examples_rclpy_minimal_subscriber/build/lib/examples_rclpy_minimal_subscriber
+[3.722s] copying examples_rclpy_minimal_subscriber/subscriber_lambda.py -> /home/yixin/ros2_ws/build/examples_rclpy_minimal_subscriber/build/lib/examples_rclpy_minimal_subscriber
+[3.722s] copying examples_rclpy_minimal_subscriber/subscriber_member_function.py -> /home/yixin/ros2_ws/build/examples_rclpy_minimal_subscriber/build/lib/examples_rclpy_minimal_subscriber
+[3.722s] running install
+[3.734s] running install_lib
+[3.763s] creating /home/yixin/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.12/site-packages/examples_rclpy_minimal_subscriber
+[3.764s] copying /home/yixin/ros2_ws/build/examples_rclpy_minimal_subscriber/build/lib/examples_rclpy_minimal_subscriber/subscriber_old_school.py -> /home/yixin/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.12/site-packages/examples_rclpy_minimal_subscriber
+[3.764s] copying /home/yixin/ros2_ws/build/examples_rclpy_minimal_subscriber/build/lib/examples_rclpy_minimal_subscriber/__init__.py -> /home/yixin/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.12/site-packages/examples_rclpy_minimal_subscriber
+[3.764s] copying /home/yixin/ros2_ws/build/examples_rclpy_minimal_subscriber/build/lib/examples_rclpy_minimal_subscriber/subscriber_lambda.py -> /home/yixin/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.12/site-packages/examples_rclpy_minimal_subscriber
+[3.764s] copying /home/yixin/ros2_ws/build/examples_rclpy_minimal_subscriber/build/lib/examples_rclpy_minimal_subscriber/subscriber_member_function.py -> /home/yixin/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.12/site-packages/examples_rclpy_minimal_subscriber
+[3.765s] byte-compiling /home/yixin/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.12/site-packages/examples_rclpy_minimal_subscriber/subscriber_old_school.py to subscriber_old_school.cpython-312.pyc
+[3.766s] byte-compiling /home/yixin/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.12/site-packages/examples_rclpy_minimal_subscriber/__init__.py to __init__.cpython-312.pyc
+[3.767s] byte-compiling /home/yixin/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.12/site-packages/examples_rclpy_minimal_subscriber/subscriber_lambda.py to subscriber_lambda.cpython-312.pyc
+[3.768s] byte-compiling /home/yixin/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.12/site-packages/examples_rclpy_minimal_subscriber/subscriber_member_function.py to subscriber_member_function.cpython-312.pyc
+[3.769s] running install_data
+[3.769s] copying resource/examples_rclpy_minimal_subscriber -> /home/yixin/ros2_ws/install/examples_rclpy_minimal_subscriber/share/ament_index/resource_index/packages
+[3.769s] copying package.xml -> /home/yixin/ros2_ws/install/examples_rclpy_minimal_subscriber/share/examples_rclpy_minimal_subscriber
+[3.769s] running install_egg_info
+[3.803s] Copying ../../../../../build/examples_rclpy_minimal_subscriber/examples_rclpy_minimal_subscriber.egg-info to /home/yixin/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.12/site-packages/examples_rclpy_minimal_subscriber-0.19.7-py3.12.egg-info
+[3.804s] running install_scripts
+[4.029s] Installing subscriber_lambda script to /home/yixin/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/examples_rclpy_minimal_subscriber
+[4.030s] Installing subscriber_member_function script to /home/yixin/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/examples_rclpy_minimal_subscriber
+[4.030s] Installing subscriber_old_school script to /home/yixin/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/examples_rclpy_minimal_subscriber
+[4.030s] writing list of installed files to '/home/yixin/ros2_ws/build/examples_rclpy_minimal_subscriber/install.log'
+[4.430s] Invoked command in '/home/yixin/ros2_ws/src/examples/rclpy/topics/minimal_subscriber' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/yixin/ros2_ws/build/examples_rclpy_minimal_subscriber/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yixin/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_subscriber build --build-base /home/yixin/ros2_ws/build/examples_rclpy_minimal_subscriber/build install --record /home/yixin/ros2_ws/build/examples_rclpy_minimal_subscriber/install.log --single-version-externally-managed install_data --force

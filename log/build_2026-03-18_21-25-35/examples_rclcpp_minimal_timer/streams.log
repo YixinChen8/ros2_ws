@@ -1,0 +1,70 @@
+[0.042s] Invoking command in '/home/yixin/ros2_ws/build/examples_rclcpp_minimal_timer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/yixin/ros2_ws/src/examples/rclcpp/timers/minimal_timer -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/yixin/ros2_ws/install/examples_rclcpp_minimal_timer
+[0.694s] -- The C compiler identification is GNU 13.3.0
+[0.865s] -- The CXX compiler identification is GNU 13.3.0
+[0.924s] -- Detecting C compiler ABI info
+[1.403s] -- Detecting C compiler ABI info - done
+[1.429s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.436s] -- Detecting C compile features
+[1.437s] -- Detecting C compile features - done
+[1.485s] -- Detecting CXX compiler ABI info
+[1.978s] -- Detecting CXX compiler ABI info - done
+[2.030s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.031s] -- Detecting CXX compile features
+[2.032s] -- Detecting CXX compile features - done
+[2.062s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[2.724s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[3.088s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.215s] -- Found rclcpp: 28.1.16 (/opt/ros/jazzy/share/rclcpp/cmake)
+[3.388s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[3.436s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[3.508s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.590s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.882s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[3.893s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[4.180s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[4.235s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[4.323s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.635s] -- Found ament_lint_auto: 0.17.4 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[5.097s] -- Added test 'copyright' to check source files copyright and LICENSE
+[5.101s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[5.101s] -- Configured cppcheck include dirs: 
+[5.106s] -- Configured cppcheck exclude dirs and/or files: 
+[5.106s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[5.109s] -- Configured cpplint exclude dirs and/or files: 
+[5.114s] -- Added test 'lint_cmake' to check CMake code style
+[5.117s] -- Added test 'uncrustify' to check C / C++ code style
+[5.119s] -- Configured uncrustify additional arguments: 
+[5.124s] -- Added test 'xmllint' to check XML markup files
+[5.131s] -- Configuring done (5.0s)
+[5.194s] -- Generating done (0.0s)
+[5.210s] -- Build files have been written to: /home/yixin/ros2_ws/build/examples_rclcpp_minimal_timer
+[5.335s] Invoked command in '/home/yixin/ros2_ws/build/examples_rclcpp_minimal_timer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/yixin/ros2_ws/src/examples/rclcpp/timers/minimal_timer -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/yixin/ros2_ws/install/examples_rclcpp_minimal_timer
+[5.339s] Invoking command in '/home/yixin/ros2_ws/build/examples_rclcpp_minimal_timer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/yixin/ros2_ws/build/examples_rclcpp_minimal_timer -- -j8 -l8
+[5.525s] [ 25%] [32mBuilding CXX object CMakeFiles/timer_lambda.dir/lambda.cpp.o[0m
+[13.121s] [ 50%] [32m[1mLinking CXX executable timer_lambda[0m
+[13.490s] [ 50%] Built target timer_lambda
+[13.533s] [ 75%] [32mBuilding CXX object CMakeFiles/timer_member_function.dir/member_function.cpp.o[0m
+[19.285s] [100%] [32m[1mLinking CXX executable timer_member_function[0m
+[19.504s] [100%] Built target timer_member_function
+[19.523s] Invoked command in '/home/yixin/ros2_ws/build/examples_rclcpp_minimal_timer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/yixin/ros2_ws/build/examples_rclcpp_minimal_timer -- -j8 -l8
+[19.525s] Invoking command in '/home/yixin/ros2_ws/build/examples_rclcpp_minimal_timer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/yixin/ros2_ws/build/examples_rclcpp_minimal_timer
+[19.540s] -- Install configuration: ""
+[19.541s] -- Execute custom install script
+[19.542s] -- Symlinking: /home/yixin/ros2_ws/install/examples_rclcpp_minimal_timer/lib/examples_rclcpp_minimal_timer/timer_lambda
+[19.560s] -- Symlinking: /home/yixin/ros2_ws/install/examples_rclcpp_minimal_timer/lib/examples_rclcpp_minimal_timer/timer_member_function
+[19.579s] -- Symlinking: /home/yixin/ros2_ws/install/examples_rclcpp_minimal_timer/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_timer
+[19.597s] -- Symlinking: /home/yixin/ros2_ws/install/examples_rclcpp_minimal_timer/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_timer
+[19.616s] -- Symlinking: /home/yixin/ros2_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/environment/ament_prefix_path.sh
+[19.635s] -- Symlinking: /home/yixin/ros2_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/environment/ament_prefix_path.dsv
+[19.654s] -- Symlinking: /home/yixin/ros2_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/environment/path.sh
+[19.672s] -- Symlinking: /home/yixin/ros2_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/environment/path.dsv
+[19.689s] -- Symlinking: /home/yixin/ros2_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/local_setup.bash
+[19.707s] -- Symlinking: /home/yixin/ros2_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/local_setup.sh
+[19.725s] -- Symlinking: /home/yixin/ros2_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/local_setup.zsh
+[19.744s] -- Symlinking: /home/yixin/ros2_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/local_setup.dsv
+[19.761s] -- Symlinking: /home/yixin/ros2_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/package.dsv
+[19.779s] -- Symlinking: /home/yixin/ros2_ws/install/examples_rclcpp_minimal_timer/share/ament_index/resource_index/packages/examples_rclcpp_minimal_timer
+[19.796s] -- Symlinking: /home/yixin/ros2_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/cmake/examples_rclcpp_minimal_timerConfig.cmake
+[19.814s] -- Symlinking: /home/yixin/ros2_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/cmake/examples_rclcpp_minimal_timerConfig-version.cmake
+[19.831s] -- Symlinking: /home/yixin/ros2_ws/install/examples_rclcpp_minimal_timer/share/examples_rclcpp_minimal_timer/package.xml
+[19.853s] Invoked command in '/home/yixin/ros2_ws/build/examples_rclcpp_minimal_timer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/yixin/ros2_ws/build/examples_rclcpp_minimal_timer

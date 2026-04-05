@@ -1,0 +1,324 @@
+[0.000000] (-) TimerEvent: {}
+[0.001715] (-) JobUnselected: {'identifier': 'cpp_pubsub'}
+[0.001931] (-) JobUnselected: {'identifier': 'cpp_srvcli'}
+[0.001995] (-) JobUnselected: {'identifier': 'examples_rclcpp_async_client'}
+[0.002035] (-) JobUnselected: {'identifier': 'examples_rclcpp_cbg_executor'}
+[0.002069] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_client'}
+[0.002103] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_server'}
+[0.002133] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_client'}
+[0.002164] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_composition'}
+[0.002194] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_publisher'}
+[0.002224] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_service'}
+[0.002254] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_subscriber'}
+[0.002284] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_timer'}
+[0.002314] (-) JobUnselected: {'identifier': 'examples_rclcpp_multithreaded_executor'}
+[0.002344] (-) JobUnselected: {'identifier': 'examples_rclcpp_wait_set'}
+[0.002374] (-) JobUnselected: {'identifier': 'examples_rclpy_executors'}
+[0.002403] (-) JobUnselected: {'identifier': 'examples_rclpy_guard_conditions'}
+[0.002433] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_client'}
+[0.002463] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_server'}
+[0.002493] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_client'}
+[0.002543] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_publisher'}
+[0.002575] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_service'}
+[0.002605] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_subscriber'}
+[0.002635] (-) JobUnselected: {'identifier': 'examples_rclpy_pointcloud_publisher'}
+[0.002666] (-) JobUnselected: {'identifier': 'launch_testing_examples'}
+[0.002713] (-) JobUnselected: {'identifier': 'my_package'}
+[0.002808] (-) JobUnselected: {'identifier': 'my_python_package'}
+[0.002841] (-) JobUnselected: {'identifier': 'py_pubsub'}
+[0.002872] (-) JobUnselected: {'identifier': 'py_srvcli'}
+[0.002901] (-) JobUnselected: {'identifier': 'turtlesim'}
+[0.002938] (tutorial_interfaces) JobQueued: {'identifier': 'tutorial_interfaces', 'dependencies': OrderedDict()}
+[0.002979] (tutorial_interfaces) JobStarted: {'identifier': 'tutorial_interfaces'}
+[0.024373] (tutorial_interfaces) JobProgress: {'identifier': 'tutorial_interfaces', 'progress': 'cmake'}
+[0.026726] (tutorial_interfaces) JobProgress: {'identifier': 'tutorial_interfaces', 'progress': 'build'}
+[0.028240] (tutorial_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/yixin/ros2_ws/build/tutorial_interfaces', '--', '-j8', '-l8'], 'cwd': '/home/yixin/ros2_ws/build/tutorial_interfaces', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'yixin', 'FONTCONFIG_PATH': '/etc/fonts', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/share/gz', 'GIO_MODULE_DIR': '/home/yixin/snap/code/common/.cache/gio-modules', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/snap/code/230/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'GTK_EXE_PREFIX_VSCODE_SNAP_ORIG': '', 'GDK_BACKEND_VSCODE_SNAP_ORIG': '', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/yixin', 'CHROME_DESKTOP': 'code.desktop', 'LOCPATH_VSCODE_SNAP_ORIG': '', 'OLDPWD': '/home/yixin/ros2_ws/src', 'TERM_PROGRAM_VERSION': '1.112.0', 'DESKTOP_SESSION': 'ubuntu', 'GTK_PATH': '/snap/code/230/usr/lib/x86_64-linux-gnu/gtk-3.0', 'XDG_DATA_HOME_VSCODE_SNAP_ORIG': '', 'GTK_IM_MODULE_FILE': '/home/yixin/snap/code/common/.cache/immodules/immodules.cache', 'GIO_LAUNCHED_DESKTOP_FILE': '/var/lib/snapd/desktop/applications/code_code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SDL_IM_MODULE': 'fcitx', 'GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG': '', 'VSCODE_GIT_ASKPASS_MAIN': '/snap/code/230/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/snap/code/230/usr/share/code/code', 'MANAGERPID': '2045', 'SYSTEMD_EXEC_PID': '2308', 'IM_CONFIG_CHECK_ENV': '1', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '90538', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'GTK_IM_MODULE': 'fcitx', 'LOGNAME': 'yixin', 'JOURNAL_STREAM': '8:19137', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'XDG_DATA_DIRS_VSCODE_SNAP_ORIG': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'USERNAME': 'yixin', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'FC_FONTATIONS': '1', 'PATH': '/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/yixin-Aspire-A315-24PT:@/tmp/.ICE-unix/2254,unix/yixin-Aspire-A315-24PT:/tmp/.ICE-unix/2254', 'GTK_EXE_PREFIX': '/snap/code/230/usr', 'INVOCATION_ID': '610530ee567a4061b439bd0697df0e3e', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LOCPATH': '/snap/code/230/usr/lib/locale', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'GIO_MODULE_DIR_VSCODE_SNAP_ORIG': '', 'XDG_DATA_HOME': '/home/yixin/snap/code/230/.local/share', 'XMODIFIERS': '@im=fcitx', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.X3LGM3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-e32af5f84d.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'GSETTINGS_SCHEMA_DIR': '/home/yixin/snap/code/230/.local/share/glib-2.0/schemas', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GTK_PATH_VSCODE_SNAP_ORIG': '', 'FONTCONFIG_FILE': '/etc/fonts/fonts.conf', 'GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG': '', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'fcitx', 'PWD': '/home/yixin/ros2_ws/build/tutorial_interfaces', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CLUTTER_IM_MODULE': 'xim', 'XDG_DATA_DIRS': '/home/yixin/snap/code/230/.local/share:/home/yixin/snap/code/230:/snap/code/230/usr/share:/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'QTWEBENGINE_DICTIONARIES_PATH': '/usr/share/hunspell-bdic/', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.099280] (-) TimerEvent: {}
+[0.130549] (tutorial_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.199466] (-) TimerEvent: {}
+[0.221120] (tutorial_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[0.299664] (-) TimerEvent: {}
+[0.400281] (-) TimerEvent: {}
+[0.500957] (-) TimerEvent: {}
+[0.504570] (tutorial_interfaces) StdoutLine: {'line': b'-- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)\n'}
+[0.595040] (tutorial_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.601101] (-) TimerEvent: {}
+[0.624129] (tutorial_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.665742] (tutorial_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.701310] (-) TimerEvent: {}
+[0.706720] (tutorial_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.801502] (-) TimerEvent: {}
+[0.844564] (tutorial_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)\n'}
+[0.870762] (tutorial_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.7 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[0.901734] (-) TimerEvent: {}
+[1.002276] (-) TimerEvent: {}
+[1.102793] (-) TimerEvent: {}
+[1.203324] (-) TimerEvent: {}
+[1.303885] (-) TimerEvent: {}
+[1.404376] (-) TimerEvent: {}
+[1.504841] (-) TimerEvent: {}
+[1.605285] (-) TimerEvent: {}
+[1.705761] (-) TimerEvent: {}
+[1.806279] (-) TimerEvent: {}
+[1.833892] (tutorial_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)\n'}
+[1.906458] (-) TimerEvent: {}
+[2.006951] (-) TimerEvent: {}
+[2.107411] (-) TimerEvent: {}
+[2.207878] (-) TimerEvent: {}
+[2.308320] (-) TimerEvent: {}
+[2.408786] (-) TimerEvent: {}
+[2.509238] (-) TimerEvent: {}
+[2.609683] (-) TimerEvent: {}
+[2.710152] (-) TimerEvent: {}
+[2.748198] (tutorial_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.810322] (-) TimerEvent: {}
+[2.910769] (-) TimerEvent: {}
+[3.011213] (-) TimerEvent: {}
+[3.102417] (tutorial_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.105496] (tutorial_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)\n'}
+[3.111334] (-) TimerEvent: {}
+[3.211742] (-) TimerEvent: {}
+[3.312176] (-) TimerEvent: {}
+[3.412593] (-) TimerEvent: {}
+[3.513094] (-) TimerEvent: {}
+[3.613587] (-) TimerEvent: {}
+[3.714090] (-) TimerEvent: {}
+[3.814558] (-) TimerEvent: {}
+[3.884454] (tutorial_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed \n'}
+[3.914762] (-) TimerEvent: {}
+[4.004290] (tutorial_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.4 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[4.014988] (-) TimerEvent: {}
+[4.037044] (tutorial_interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[4.043216] (tutorial_interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[4.050417] (tutorial_interfaces) StdoutLine: {'line': b'-- Configuring done (3.9s)\n'}
+[4.115172] (-) TimerEvent: {}
+[4.193992] (tutorial_interfaces) StdoutLine: {'line': b'-- Generating done (0.1s)\n'}
+[4.215335] (-) TimerEvent: {}
+[4.234740] (tutorial_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/yixin/ros2_ws/build/tutorial_interfaces\n'}
+[4.315499] (-) TimerEvent: {}
+[4.367523] (tutorial_interfaces) StdoutLine: {'line': b'[  1%] Built target tutorial_interfaces__rosidl_generator_type_description\n'}
+[4.398290] (tutorial_interfaces) StdoutLine: {'line': b'[  1%] Built target ament_cmake_python_copy_tutorial_interfaces\n'}
+[4.415662] (-) TimerEvent: {}
+[4.440086] (tutorial_interfaces) StdoutLine: {'line': b'[  3%] Built target tutorial_interfaces__cpp\n'}
+[4.463201] (tutorial_interfaces) StdoutLine: {'line': b'[ 24%] Built target tutorial_interfaces__rosidl_generator_c\n'}
+[4.516797] (-) TimerEvent: {}
+[4.558428] (tutorial_interfaces) StdoutLine: {'line': b'[ 33%] Built target tutorial_interfaces__rosidl_typesupport_c\n'}
+[4.572904] (tutorial_interfaces) StdoutLine: {'line': b'[ 42%] Built target tutorial_interfaces__rosidl_typesupport_cpp\n'}
+[4.591793] (tutorial_interfaces) StdoutLine: {'line': b'[ 51%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[4.592733] (tutorial_interfaces) StdoutLine: {'line': b'[ 61%] Built target tutorial_interfaces__rosidl_typesupport_introspection_c\n'}
+[4.599947] (tutorial_interfaces) StdoutLine: {'line': b'[ 70%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[4.608845] (tutorial_interfaces) StdoutLine: {'line': b'[ 79%] Built target tutorial_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[4.616952] (-) TimerEvent: {}
+[4.682656] (tutorial_interfaces) StdoutLine: {'line': b'[ 79%] Built target tutorial_interfaces\n'}
+[4.717101] (-) TimerEvent: {}
+[4.752723] (tutorial_interfaces) StdoutLine: {'line': b'[ 81%] Built target tutorial_interfaces__py\n'}
+[4.817273] (-) TimerEvent: {}
+[4.847667] (tutorial_interfaces) StdoutLine: {'line': b'[ 88%] Built target tutorial_interfaces__rosidl_generator_py\n'}
+[4.917417] (-) TimerEvent: {}
+[4.938978] (tutorial_interfaces) StdoutLine: {'line': b'[ 92%] Built target tutorial_interfaces_s__rosidl_typesupport_fastrtps_c\n'}
+[4.944949] (tutorial_interfaces) StdoutLine: {'line': b'[ 96%] Built target tutorial_interfaces_s__rosidl_typesupport_c\n'}
+[4.954466] (tutorial_interfaces) StdoutLine: {'line': b'[100%] Built target tutorial_interfaces_s__rosidl_typesupport_introspection_c\n'}
+[5.017572] (-) TimerEvent: {}
+[5.100361] (tutorial_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[5.117766] (-) TimerEvent: {}
+[5.163436] (tutorial_interfaces) StdoutLine: {'line': b'writing tutorial_interfaces.egg-info/PKG-INFO\n'}
+[5.164170] (tutorial_interfaces) StdoutLine: {'line': b'writing dependency_links to tutorial_interfaces.egg-info/dependency_links.txt\n'}
+[5.164672] (tutorial_interfaces) StdoutLine: {'line': b'writing top-level names to tutorial_interfaces.egg-info/top_level.txt\n'}
+[5.217925] (-) TimerEvent: {}
+[5.318400] (-) TimerEvent: {}
+[5.338331] (tutorial_interfaces) StdoutLine: {'line': b"reading manifest file 'tutorial_interfaces.egg-info/SOURCES.txt'\n"}
+[5.341620] (tutorial_interfaces) StdoutLine: {'line': b"writing manifest file 'tutorial_interfaces.egg-info/SOURCES.txt'\n"}
+[5.418559] (-) TimerEvent: {}
+[5.444500] (tutorial_interfaces) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_tutorial_interfaces_egg\n'}
+[5.490048] (tutorial_interfaces) CommandEnded: {'returncode': 0}
+[5.491641] (tutorial_interfaces) JobProgress: {'identifier': 'tutorial_interfaces', 'progress': 'install'}
+[5.519279] (tutorial_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/yixin/ros2_ws/build/tutorial_interfaces'], 'cwd': '/home/yixin/ros2_ws/build/tutorial_interfaces', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'yixin', 'FONTCONFIG_PATH': '/etc/fonts', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/share/gz', 'GIO_MODULE_DIR': '/home/yixin/snap/code/common/.cache/gio-modules', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/snap/code/230/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'GTK_EXE_PREFIX_VSCODE_SNAP_ORIG': '', 'GDK_BACKEND_VSCODE_SNAP_ORIG': '', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/yixin', 'CHROME_DESKTOP': 'code.desktop', 'LOCPATH_VSCODE_SNAP_ORIG': '', 'OLDPWD': '/home/yixin/ros2_ws/src', 'TERM_PROGRAM_VERSION': '1.112.0', 'DESKTOP_SESSION': 'ubuntu', 'GTK_PATH': '/snap/code/230/usr/lib/x86_64-linux-gnu/gtk-3.0', 'XDG_DATA_HOME_VSCODE_SNAP_ORIG': '', 'GTK_IM_MODULE_FILE': '/home/yixin/snap/code/common/.cache/immodules/immodules.cache', 'GIO_LAUNCHED_DESKTOP_FILE': '/var/lib/snapd/desktop/applications/code_code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SDL_IM_MODULE': 'fcitx', 'GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG': '', 'VSCODE_GIT_ASKPASS_MAIN': '/snap/code/230/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/snap/code/230/usr/share/code/code', 'MANAGERPID': '2045', 'SYSTEMD_EXEC_PID': '2308', 'IM_CONFIG_CHECK_ENV': '1', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '90538', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'GTK_IM_MODULE': 'fcitx', 'LOGNAME': 'yixin', 'JOURNAL_STREAM': '8:19137', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'XDG_DATA_DIRS_VSCODE_SNAP_ORIG': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'USERNAME': 'yixin', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'FC_FONTATIONS': '1', 'PATH': '/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/yixin-Aspire-A315-24PT:@/tmp/.ICE-unix/2254,unix/yixin-Aspire-A315-24PT:/tmp/.ICE-unix/2254', 'GTK_EXE_PREFIX': '/snap/code/230/usr', 'INVOCATION_ID': '610530ee567a4061b439bd0697df0e3e', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LOCPATH': '/snap/code/230/usr/lib/locale', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'GIO_MODULE_DIR_VSCODE_SNAP_ORIG': '', 'XDG_DATA_HOME': '/home/yixin/snap/code/230/.local/share', 'XMODIFIERS': '@im=fcitx', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.X3LGM3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-e32af5f84d.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'GSETTINGS_SCHEMA_DIR': '/home/yixin/snap/code/230/.local/share/glib-2.0/schemas', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GTK_PATH_VSCODE_SNAP_ORIG': '', 'FONTCONFIG_FILE': '/etc/fonts/fonts.conf', 'GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG': '', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'fcitx', 'PWD': '/home/yixin/ros2_ws/build/tutorial_interfaces', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CLUTTER_IM_MODULE': 'xim', 'XDG_DATA_DIRS': '/home/yixin/snap/code/230/.local/share:/home/yixin/snap/code/230:/snap/code/230/usr/share:/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'QTWEBENGINE_DICTIONARIES_PATH': '/usr/share/hunspell-bdic/', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[5.520371] (-) TimerEvent: {}
+[5.545875] (tutorial_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.549331] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/share/ament_index/resource_index/rosidl_interfaces/tutorial_interfaces\n'}
+[5.550365] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/msg/Num.json\n'}
+[5.550619] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/msg/Sphere.json\n'}
+[5.550914] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/srv/AddThreeInts.json\n'}
+[5.551150] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces\n'}
+[5.551374] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg\n'}
+[5.551603] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[5.551875] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail\n'}
+[5.552119] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__struct.h\n'}
+[5.552426] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__functions.h\n'}
+[5.552650] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__description.c\n'}
+[5.555356] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__functions.h\n'}
+[5.555709] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__type_support.h\n'}
+[5.555961] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__type_support.h\n'}
+[5.556181] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__description.c\n'}
+[5.556458] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__type_support.c\n'}
+[5.556679] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__struct.h\n'}
+[5.556920] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__functions.c\n'}
+[5.557329] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__functions.c\n'}
+[5.557682] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__type_support.c\n'}
+[5.558021] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/num.h\n'}
+[5.558254] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/sphere.h\n'}
+[5.558473] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv\n'}
+[5.558742] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/add_three_ints.h\n'}
+[5.559276] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail\n'}
+[5.559673] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__type_support.h\n'}
+[5.560304] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__description.c\n'}
+[5.560552] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__type_support.c\n'}
+[5.560822] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__functions.h\n'}
+[5.561067] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__functions.c\n'}
+[5.561284] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__struct.h\n'}
+[5.561503] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/library_path.sh\n'}
+[5.561724] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/library_path.dsv\n'}
+[5.561943] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_generator_c.so\n'}
+[5.562138] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces\n'}
+[5.562331] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg\n'}
+[5.562521] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail\n'}
+[5.562738] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__rosidl_typesupport_fastrtps_c.h\n'}
+[5.563271] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__rosidl_typesupport_fastrtps_c.h\n'}
+[5.563547] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[5.563794] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv\n'}
+[5.564181] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail\n'}
+[5.564547] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_c.h\n'}
+[5.565155] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[5.565403] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces\n'}
+[5.565642] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg\n'}
+[5.565887] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail\n'}
+[5.566088] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__traits.hpp\n'}
+[5.566282] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__struct.hpp\n'}
+[5.566482] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__type_support.hpp\n'}
+[5.566721] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__struct.hpp\n'}
+[5.566967] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__builder.hpp\n'}
+[5.567177] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__type_support.hpp\n'}
+[5.567372] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__builder.hpp\n'}
+[5.567562] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__traits.hpp\n'}
+[5.567785] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[5.568036] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/sphere.hpp\n'}
+[5.568258] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/num.hpp\n'}
+[5.568470] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv\n'}
+[5.568673] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail\n'}
+[5.569122] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__struct.hpp\n'}
+[5.569544] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__traits.hpp\n'}
+[5.569904] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__builder.hpp\n'}
+[5.570178] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__type_support.hpp\n'}
+[5.570572] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/add_three_ints.hpp\n'}
+[5.570810] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces\n'}
+[5.571047] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg\n'}
+[5.571348] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail\n'}
+[5.571529] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.571761] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/dds_fastrtps\n'}
+[5.571941] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.572145] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[5.572345] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv\n'}
+[5.572542] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail\n'}
+[5.572750] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/dds_fastrtps\n'}
+[5.573219] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.573453] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[5.573631] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces\n'}
+[5.573994] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg\n'}
+[5.574177] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail\n'}
+[5.574326] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__type_support.c\n'}
+[5.574478] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__rosidl_typesupport_introspection_c.h\n'}
+[5.574629] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__rosidl_typesupport_introspection_c.h\n'}
+[5.574817] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__type_support.c\n'}
+[5.575057] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[5.575217] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv\n'}
+[5.575366] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail\n'}
+[5.575530] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__type_support.c\n'}
+[5.575727] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__rosidl_typesupport_introspection_c.h\n'}
+[5.576084] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[5.576296] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_c.so\n'}
+[5.576514] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces\n'}
+[5.576855] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg\n'}
+[5.577092] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail\n'}
+[5.577292] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__rosidl_typesupport_introspection_cpp.hpp\n'}
+[5.577491] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__type_support.cpp\n'}
+[5.577687] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__type_support.cpp\n'}
+[5.577996] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__rosidl_typesupport_introspection_cpp.hpp\n'}
+[5.578216] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv\n'}
+[5.578413] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail\n'}
+[5.578616] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__rosidl_typesupport_introspection_cpp.hpp\n'}
+[5.578973] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__type_support.cpp\n'}
+[5.579201] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[5.579418] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_cpp.so\n'}
+[5.579632] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/pythonpath.sh\n'}
+[5.579930] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/pythonpath.dsv\n'}
+[5.580194] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces-0.0.0-py3.12.egg-info\n'}
+[5.580356] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/yixin/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces-0.0.0-py3.12.egg-info/top_level.txt\n'}
+[5.580580] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/yixin/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces-0.0.0-py3.12.egg-info/dependency_links.txt\n'}
+[5.580773] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/yixin/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces-0.0.0-py3.12.egg-info/PKG-INFO\n'}
+[5.580942] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/yixin/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces-0.0.0-py3.12.egg-info/SOURCES.txt\n'}
+[5.581097] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces\n'}
+[5.581265] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.so\n'}
+[5.581421] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/yixin/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/__init__.py\n'}
+[5.581576] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[5.581761] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[5.581931] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[5.582086] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/msg\n'}
+[5.582237] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/msg/_sphere.py\n'}
+[5.582395] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/msg/_sphere_s.c\n'}
+[5.582549] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/msg/__init__.py\n'}
+[5.582723] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/msg/_num.py\n'}
+[5.582909] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/msg/_num_s.c\n'}
+[5.583064] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_c.so\n'}
+[5.583219] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_introspection_c.so\n'}
+[5.583374] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/srv\n'}
+[5.583528] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/srv/__init__.py\n'}
+[5.583683] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/srv/_add_three_ints_s.c\n'}
+[5.583919] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/srv/_add_three_ints.py\n'}
+[5.620554] (-) TimerEvent: {}
+[5.682918] (tutorial_interfaces) StdoutLine: {'line': b"Listing '/home/yixin/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces'...\n"}
+[5.683270] (tutorial_interfaces) StdoutLine: {'line': b"Compiling '/home/yixin/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/__init__.py'...\n"}
+[5.683438] (tutorial_interfaces) StdoutLine: {'line': b"Listing '/home/yixin/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/msg'...\n"}
+[5.683590] (tutorial_interfaces) StdoutLine: {'line': b"Listing '/home/yixin/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/srv'...\n"}
+[5.698638] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.so\n'}
+[5.699429] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_introspection_c.so\n'}
+[5.700247] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_c.so\n'}
+[5.701123] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_generator_py.so\n'}
+[5.701730] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/msg/Num.idl\n'}
+[5.702100] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/msg/Sphere.idl\n'}
+[5.702439] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/srv/AddThreeInts.idl\n'}
+[5.702664] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/msg/Num.msg\n'}
+[5.703012] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/msg/Sphere.msg\n'}
+[5.703231] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/srv/AddThreeInts.srv\n'}
+[5.703432] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/share/ament_index/resource_index/package_run_dependencies/tutorial_interfaces\n'}
+[5.703637] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/share/ament_index/resource_index/parent_prefix_path/tutorial_interfaces\n'}
+[5.704014] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/ament_prefix_path.sh\n'}
+[5.704236] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/ament_prefix_path.dsv\n'}
+[5.704433] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/path.sh\n'}
+[5.704634] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/path.dsv\n'}
+[5.704924] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.bash\n'}
+[5.705130] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.sh\n'}
+[5.705332] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.zsh\n'}
+[5.705530] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.dsv\n'}
+[5.705868] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/yixin/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/package.dsv\n'}
+[5.706080] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/share/ament_index/resource_index/packages/tutorial_interfaces\n'}
+[5.706283] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_cExport.cmake\n'}
+[5.706483] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[5.706818] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[5.707056] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[5.707265] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_cppExport.cmake\n'}
+[5.707532] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[5.707786] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[5.708053] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[5.708259] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[5.708460] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[5.708659] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[5.709006] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[5.709213] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[5.709410] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[5.709713] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[5.710055] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_pyExport.cmake\n'}
+[5.710261] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[5.710460] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[5.710730] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[5.710909] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[5.711069] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[5.711221] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[5.711371] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[5.711522] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[5.711670] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfacesConfig.cmake\n'}
+[5.711869] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfacesConfig-version.cmake\n'}
+[5.712025] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/yixin/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/package.xml\n'}
+[5.716684] (tutorial_interfaces) CommandEnded: {'returncode': 0}
+[5.720682] (-) TimerEvent: {}
+[5.781763] (tutorial_interfaces) JobEnded: {'identifier': 'tutorial_interfaces', 'rc': 0}
+[5.783597] (-) EventReactorShutdown: {}

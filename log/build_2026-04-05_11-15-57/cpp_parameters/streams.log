@@ -1,0 +1,47 @@
+[0.041s] Invoking command in '/home/yixin/ros2_ws/build/cpp_parameters': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yixin/ros2_ws/install/py_srvcli:/home/yixin/ros2_ws/install/py_pubsub:/home/yixin/ros2_ws/install/my_python_package:/home/yixin/ros2_ws/install/launch_testing_examples:/home/yixin/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/yixin/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/yixin/ros2_ws/install/examples_rclpy_minimal_service:/home/yixin/ros2_ws/install/examples_rclpy_minimal_publisher:/home/yixin/ros2_ws/install/examples_rclpy_minimal_client:/home/yixin/ros2_ws/install/examples_rclpy_minimal_action_server:/home/yixin/ros2_ws/install/examples_rclpy_minimal_action_client:/home/yixin/ros2_ws/install/examples_rclpy_guard_conditions:/home/yixin/ros2_ws/install/examples_rclpy_executors:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/yixin/ros2_ws/build/cpp_parameters -- -j8 -l8
+[0.130s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.816s] -- Found rclcpp: 28.1.16 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.905s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.938s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.975s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.021s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.219s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.230s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.437s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.649s] -- Found ament_lint_auto: 0.17.4 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.941s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.941s] -- Configured cppcheck include dirs: 
+[1.941s] -- Configured cppcheck exclude dirs and/or files: 
+[1.942s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.942s] -- Configured 'flake8' exclude dirs and/or files: 
+[1.947s] -- Added test 'lint_cmake' to check CMake code style
+[1.948s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.955s] -- Added test 'uncrustify' to check C / C++ code style
+[1.955s] -- Configured uncrustify additional arguments: 
+[1.956s] -- Added test 'xmllint' to check XML markup files
+[1.958s] -- Configuring done (1.8s)
+[1.989s] -- Generating done (0.0s)
+[2.000s] -- Build files have been written to: /home/yixin/ros2_ws/build/cpp_parameters
+[2.152s] [100%] Built target minimal_param_node
+[2.189s] Invoked command in '/home/yixin/ros2_ws/build/cpp_parameters' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yixin/ros2_ws/install/py_srvcli:/home/yixin/ros2_ws/install/py_pubsub:/home/yixin/ros2_ws/install/my_python_package:/home/yixin/ros2_ws/install/launch_testing_examples:/home/yixin/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/yixin/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/yixin/ros2_ws/install/examples_rclpy_minimal_service:/home/yixin/ros2_ws/install/examples_rclpy_minimal_publisher:/home/yixin/ros2_ws/install/examples_rclpy_minimal_client:/home/yixin/ros2_ws/install/examples_rclpy_minimal_action_server:/home/yixin/ros2_ws/install/examples_rclpy_minimal_action_client:/home/yixin/ros2_ws/install/examples_rclpy_guard_conditions:/home/yixin/ros2_ws/install/examples_rclpy_executors:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/yixin/ros2_ws/build/cpp_parameters -- -j8 -l8
+[2.221s] Invoking command in '/home/yixin/ros2_ws/build/cpp_parameters': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yixin/ros2_ws/install/py_srvcli:/home/yixin/ros2_ws/install/py_pubsub:/home/yixin/ros2_ws/install/my_python_package:/home/yixin/ros2_ws/install/launch_testing_examples:/home/yixin/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/yixin/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/yixin/ros2_ws/install/examples_rclpy_minimal_service:/home/yixin/ros2_ws/install/examples_rclpy_minimal_publisher:/home/yixin/ros2_ws/install/examples_rclpy_minimal_client:/home/yixin/ros2_ws/install/examples_rclpy_minimal_action_server:/home/yixin/ros2_ws/install/examples_rclpy_minimal_action_client:/home/yixin/ros2_ws/install/examples_rclpy_guard_conditions:/home/yixin/ros2_ws/install/examples_rclpy_executors:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/yixin/ros2_ws/build/cpp_parameters
+[2.249s] -- Install configuration: ""
+[2.250s] -- Up-to-date: /home/yixin/ros2_ws/install/cpp_parameters/lib/cpp_parameters/minimal_param_node
+[2.251s] -- Installing: /home/yixin/ros2_ws/install/cpp_parameters/share/cpp_parameters/launch
+[2.251s] -- Installing: /home/yixin/ros2_ws/install/cpp_parameters/share/cpp_parameters/launch/cpp_parameters_launch.py
+[2.252s] -- Up-to-date: /home/yixin/ros2_ws/install/cpp_parameters/share/ament_index/resource_index/package_run_dependencies/cpp_parameters
+[2.252s] -- Up-to-date: /home/yixin/ros2_ws/install/cpp_parameters/share/ament_index/resource_index/parent_prefix_path/cpp_parameters
+[2.253s] -- Up-to-date: /home/yixin/ros2_ws/install/cpp_parameters/share/cpp_parameters/environment/ament_prefix_path.sh
+[2.253s] -- Up-to-date: /home/yixin/ros2_ws/install/cpp_parameters/share/cpp_parameters/environment/ament_prefix_path.dsv
+[2.253s] -- Up-to-date: /home/yixin/ros2_ws/install/cpp_parameters/share/cpp_parameters/environment/path.sh
+[2.253s] -- Up-to-date: /home/yixin/ros2_ws/install/cpp_parameters/share/cpp_parameters/environment/path.dsv
+[2.253s] -- Up-to-date: /home/yixin/ros2_ws/install/cpp_parameters/share/cpp_parameters/local_setup.bash
+[2.254s] -- Up-to-date: /home/yixin/ros2_ws/install/cpp_parameters/share/cpp_parameters/local_setup.sh
+[2.254s] -- Up-to-date: /home/yixin/ros2_ws/install/cpp_parameters/share/cpp_parameters/local_setup.zsh
+[2.254s] -- Up-to-date: /home/yixin/ros2_ws/install/cpp_parameters/share/cpp_parameters/local_setup.dsv
+[2.254s] -- Installing: /home/yixin/ros2_ws/install/cpp_parameters/share/cpp_parameters/package.dsv
+[2.255s] -- Up-to-date: /home/yixin/ros2_ws/install/cpp_parameters/share/ament_index/resource_index/packages/cpp_parameters
+[2.255s] -- Up-to-date: /home/yixin/ros2_ws/install/cpp_parameters/share/cpp_parameters/cmake/cpp_parametersConfig.cmake
+[2.255s] -- Up-to-date: /home/yixin/ros2_ws/install/cpp_parameters/share/cpp_parameters/cmake/cpp_parametersConfig-version.cmake
+[2.256s] -- Up-to-date: /home/yixin/ros2_ws/install/cpp_parameters/share/cpp_parameters/package.xml
+[2.263s] Invoked command in '/home/yixin/ros2_ws/build/cpp_parameters' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yixin/ros2_ws/install/py_srvcli:/home/yixin/ros2_ws/install/py_pubsub:/home/yixin/ros2_ws/install/my_python_package:/home/yixin/ros2_ws/install/launch_testing_examples:/home/yixin/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/yixin/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/yixin/ros2_ws/install/examples_rclpy_minimal_service:/home/yixin/ros2_ws/install/examples_rclpy_minimal_publisher:/home/yixin/ros2_ws/install/examples_rclpy_minimal_client:/home/yixin/ros2_ws/install/examples_rclpy_minimal_action_server:/home/yixin/ros2_ws/install/examples_rclpy_minimal_action_client:/home/yixin/ros2_ws/install/examples_rclpy_guard_conditions:/home/yixin/ros2_ws/install/examples_rclpy_executors:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/yixin/ros2_ws/build/cpp_parameters

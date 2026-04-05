@@ -1,0 +1,57 @@
+[0.026s] Invoking command in '/home/yixin/ros2_ws/build/cpp_srvcli': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/yixin/ros2_ws/src/cpp_srvcli -DCMAKE_INSTALL_PREFIX=/home/yixin/ros2_ws/install/cpp_srvcli
+[0.216s] -- The C compiler identification is GNU 13.3.0
+[0.394s] -- The CXX compiler identification is GNU 13.3.0
+[0.457s] -- Detecting C compiler ABI info
+[0.725s] -- Detecting C compiler ABI info - done
+[0.756s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.758s] -- Detecting C compile features
+[0.760s] -- Detecting C compile features - done
+[0.789s] -- Detecting CXX compiler ABI info
+[1.099s] -- Detecting CXX compiler ABI info - done
+[1.131s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.132s] -- Detecting CXX compile features
+[1.137s] -- Detecting CXX compile features - done
+[1.153s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.571s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.907s] -- Found rclcpp: 28.1.16 (/opt/ros/jazzy/share/rclcpp/cmake)
+[2.070s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[2.119s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[2.185s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.255s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.540s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[2.552s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[2.826s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[2.892s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[2.972s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.275s] -- Found example_interfaces: 0.12.0 (/opt/ros/jazzy/share/example_interfaces/cmake)
+[3.495s] -- Found ament_lint_auto: 0.17.4 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[3.839s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.839s] -- Configured cppcheck include dirs: 
+[3.839s] -- Configured cppcheck exclude dirs and/or files: 
+[3.843s] -- Added test 'lint_cmake' to check CMake code style
+[3.849s] -- Added test 'uncrustify' to check C / C++ code style
+[3.849s] -- Configured uncrustify additional arguments: 
+[3.851s] -- Added test 'xmllint' to check XML markup files
+[3.856s] -- Configuring done (3.8s)
+[3.903s] -- Generating done (0.0s)
+[3.918s] -- Build files have been written to: /home/yixin/ros2_ws/build/cpp_srvcli
+[3.951s] Invoked command in '/home/yixin/ros2_ws/build/cpp_srvcli' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/yixin/ros2_ws/src/cpp_srvcli -DCMAKE_INSTALL_PREFIX=/home/yixin/ros2_ws/install/cpp_srvcli
+[3.954s] Invoking command in '/home/yixin/ros2_ws/build/cpp_srvcli': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/yixin/ros2_ws/build/cpp_srvcli -- -j8 -l8
+[4.128s] [ 50%] [32mBuilding CXX object CMakeFiles/server.dir/src/add_two_ints_server.cpp.o[0m
+[4.128s] [ 50%] [32mBuilding CXX object CMakeFiles/client.dir/src/add_two_ints_client.cpp.o[0m
+[9.782s] [01m[K/home/yixin/ros2_ws/src/cpp_srvcli/src/add_two_ints_server.cpp:35:1:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K{[m[K’ token
+[9.782s]    35 | [01;31m[K{[m[K
+[9.782s]       | [01;31m[K^[m[K
+[9.782s] [01m[K/home/yixin/ros2_ws/src/cpp_srvcli/src/add_two_ints_server.cpp:42:5:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’
+[9.782s]    42 | int [01;31m[Kmain[m[K(int argc, char **argv)
+[9.783s]       |     [01;31m[K^~~~[m[K
+[9.783s] [01m[K/home/yixin/ros2_ws/src/cpp_srvcli/src/add_two_ints_server.cpp:16:5:[m[K [01;36m[Knote: [m[K‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’ previously defined here
+[9.783s]    16 | int [01;36m[Kmain[m[K(int argc, char **argv)
+[9.783s]       |     [01;36m[K^~~~[m[K
+[10.771s] gmake[2]: *** [CMakeFiles/server.dir/build.make:76: CMakeFiles/server.dir/src/add_two_ints_server.cpp.o] Error 1
+[10.771s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/server.dir/all] Error 2
+[10.771s] gmake[1]: *** Waiting for unfinished jobs....
+[11.368s] [ 75%] [32m[1mLinking CXX executable client[0m
+[11.576s] [ 75%] Built target client
+[11.577s] gmake: *** [Makefile:146: all] Error 2
+[11.581s] Invoked command in '/home/yixin/ros2_ws/build/cpp_srvcli' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/yixin/ros2_ws/build/cpp_srvcli -- -j8 -l8

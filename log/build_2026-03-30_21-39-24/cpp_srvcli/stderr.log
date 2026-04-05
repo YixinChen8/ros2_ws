@@ -1,0 +1,13 @@
+[01m[K/home/yixin/ros2_ws/src/cpp_srvcli/src/add_two_ints_server.cpp:35:1:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K{[m[K’ token
+   35 | [01;31m[K{[m[K
+      | [01;31m[K^[m[K
+[01m[K/home/yixin/ros2_ws/src/cpp_srvcli/src/add_two_ints_server.cpp:42:5:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’
+   42 | int [01;31m[Kmain[m[K(int argc, char **argv)
+      |     [01;31m[K^~~~[m[K
+[01m[K/home/yixin/ros2_ws/src/cpp_srvcli/src/add_two_ints_server.cpp:16:5:[m[K [01;36m[Knote: [m[K‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’ previously defined here
+   16 | int [01;36m[Kmain[m[K(int argc, char **argv)
+      |     [01;36m[K^~~~[m[K
+gmake[2]: *** [CMakeFiles/server.dir/build.make:76: CMakeFiles/server.dir/src/add_two_ints_server.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/server.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2

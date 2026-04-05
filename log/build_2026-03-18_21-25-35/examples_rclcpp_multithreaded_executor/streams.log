@@ -1,0 +1,67 @@
+[0.035s] Invoking command in '/home/yixin/ros2_ws/build/examples_rclcpp_multithreaded_executor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/yixin/ros2_ws/src/examples/rclcpp/executors/multithreaded_executor -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/yixin/ros2_ws/install/examples_rclcpp_multithreaded_executor
+[1.900s] -- The C compiler identification is GNU 13.3.0
+[1.900s] -- The CXX compiler identification is GNU 13.3.0
+[1.901s] -- Detecting C compiler ABI info
+[1.901s] -- Detecting C compiler ABI info - done
+[1.901s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.901s] -- Detecting C compile features
+[1.901s] -- Detecting C compile features - done
+[1.901s] -- Detecting CXX compiler ABI info
+[1.901s] -- Detecting CXX compiler ABI info - done
+[1.901s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.901s] -- Detecting CXX compile features
+[1.901s] -- Detecting CXX compile features - done
+[1.901s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[2.265s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[2.565s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.634s] -- Found rclcpp: 28.1.16 (/opt/ros/jazzy/share/rclcpp/cmake)
+[2.722s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[2.746s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[2.791s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.835s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.080s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[3.088s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[3.361s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[3.447s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[3.541s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.834s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[3.894s] -- Found ament_lint_auto: 0.17.4 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[4.330s] -- Added test 'copyright' to check source files copyright and LICENSE
+[4.330s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.332s] -- Configured cppcheck include dirs: 
+[4.338s] -- Configured cppcheck exclude dirs and/or files: 
+[4.338s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[4.338s] -- Configured cpplint exclude dirs and/or files: 
+[4.339s] -- Added test 'lint_cmake' to check CMake code style
+[4.344s] -- Added test 'uncrustify' to check C / C++ code style
+[4.344s] -- Configured uncrustify additional arguments: 
+[4.346s] -- Added test 'xmllint' to check XML markup files
+[4.352s] -- Configuring done (4.2s)
+[4.390s] -- Generating done (0.0s)
+[4.397s] -- Build files have been written to: /home/yixin/ros2_ws/build/examples_rclcpp_multithreaded_executor
+[4.524s] Invoked command in '/home/yixin/ros2_ws/build/examples_rclcpp_multithreaded_executor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/yixin/ros2_ws/src/examples/rclcpp/executors/multithreaded_executor -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/yixin/ros2_ws/install/examples_rclcpp_multithreaded_executor
+[4.527s] Invoking command in '/home/yixin/ros2_ws/build/examples_rclcpp_multithreaded_executor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/yixin/ros2_ws/build/examples_rclcpp_multithreaded_executor -- -j8 -l8
+[4.686s] [ 50%] [32mBuilding CXX object CMakeFiles/multithreaded_executor.dir/multithreaded_executor.cpp.o[0m
+[20.002s] [100%] [32m[1mLinking CXX executable multithreaded_executor[0m
+[20.505s] [100%] Built target multithreaded_executor
+[20.523s] Invoked command in '/home/yixin/ros2_ws/build/examples_rclcpp_multithreaded_executor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/yixin/ros2_ws/build/examples_rclcpp_multithreaded_executor -- -j8 -l8
+[20.524s] Invoking command in '/home/yixin/ros2_ws/build/examples_rclcpp_multithreaded_executor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/yixin/ros2_ws/build/examples_rclcpp_multithreaded_executor
+[20.536s] -- Install configuration: ""
+[20.536s] -- Execute custom install script
+[20.537s] -- Symlinking: /home/yixin/ros2_ws/install/examples_rclcpp_multithreaded_executor/lib/examples_rclcpp_multithreaded_executor/multithreaded_executor
+[20.551s] -- Symlinking: /home/yixin/ros2_ws/install/examples_rclcpp_multithreaded_executor/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_multithreaded_executor
+[20.564s] -- Symlinking: /home/yixin/ros2_ws/install/examples_rclcpp_multithreaded_executor/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_multithreaded_executor
+[20.577s] -- Symlinking: /home/yixin/ros2_ws/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/environment/ament_prefix_path.sh
+[20.588s] -- Symlinking: /home/yixin/ros2_ws/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/environment/ament_prefix_path.dsv
+[20.601s] -- Symlinking: /home/yixin/ros2_ws/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/environment/path.sh
+[20.613s] -- Symlinking: /home/yixin/ros2_ws/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/environment/path.dsv
+[20.625s] -- Symlinking: /home/yixin/ros2_ws/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/local_setup.bash
+[20.638s] -- Symlinking: /home/yixin/ros2_ws/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/local_setup.sh
+[20.651s] -- Symlinking: /home/yixin/ros2_ws/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/local_setup.zsh
+[20.663s] -- Symlinking: /home/yixin/ros2_ws/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/local_setup.dsv
+[20.676s] -- Symlinking: /home/yixin/ros2_ws/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/package.dsv
+[20.689s] -- Symlinking: /home/yixin/ros2_ws/install/examples_rclcpp_multithreaded_executor/share/ament_index/resource_index/packages/examples_rclcpp_multithreaded_executor
+[20.702s] -- Symlinking: /home/yixin/ros2_ws/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/cmake/examples_rclcpp_multithreaded_executorConfig.cmake
+[20.714s] -- Symlinking: /home/yixin/ros2_ws/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/cmake/examples_rclcpp_multithreaded_executorConfig-version.cmake
+[20.727s] -- Symlinking: /home/yixin/ros2_ws/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/package.xml
+[20.743s] Invoked command in '/home/yixin/ros2_ws/build/examples_rclcpp_multithreaded_executor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/yixin/ros2_ws/build/examples_rclcpp_multithreaded_executor

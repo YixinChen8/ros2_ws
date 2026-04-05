@@ -1,0 +1,67 @@
+[0.074s] Invoking command in '/home/yixin/ros2_ws/build/examples_rclcpp_minimal_service': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/yixin/ros2_ws/src/examples/rclcpp/services/minimal_service -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/yixin/ros2_ws/install/examples_rclcpp_minimal_service
+[4.861s] -- The C compiler identification is GNU 13.3.0
+[4.861s] -- The CXX compiler identification is GNU 13.3.0
+[4.862s] -- Detecting C compiler ABI info
+[4.862s] -- Detecting C compiler ABI info - done
+[4.862s] -- Check for working C compiler: /usr/bin/cc - skipped
+[4.863s] -- Detecting C compile features
+[4.863s] -- Detecting C compile features - done
+[4.863s] -- Detecting CXX compiler ABI info
+[4.863s] -- Detecting CXX compiler ABI info - done
+[4.864s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[4.868s] -- Detecting CXX compile features
+[4.868s] -- Detecting CXX compile features - done
+[4.869s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[4.869s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[4.869s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[4.869s] -- Found example_interfaces: 0.12.0 (/opt/ros/jazzy/share/example_interfaces/cmake)
+[4.869s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[4.870s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[4.870s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.870s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.870s] -- Found rclcpp: 28.1.16 (/opt/ros/jazzy/share/rclcpp/cmake)
+[4.871s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[4.871s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[4.871s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[4.871s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[4.877s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.877s] -- Found ament_lint_auto: 0.17.4 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[4.877s] -- Added test 'copyright' to check source files copyright and LICENSE
+[4.878s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.878s] -- Configured cppcheck include dirs: 
+[4.878s] -- Configured cppcheck exclude dirs and/or files: 
+[4.878s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[4.879s] -- Configured cpplint exclude dirs and/or files: 
+[4.879s] -- Added test 'lint_cmake' to check CMake code style
+[4.879s] -- Added test 'uncrustify' to check C / C++ code style
+[4.879s] -- Configured uncrustify additional arguments: 
+[4.879s] -- Added test 'xmllint' to check XML markup files
+[4.890s] -- Configuring done (4.7s)
+[4.898s] -- Generating done (0.0s)
+[4.905s] -- Build files have been written to: /home/yixin/ros2_ws/build/examples_rclcpp_minimal_service
+[4.952s] Invoked command in '/home/yixin/ros2_ws/build/examples_rclcpp_minimal_service' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/yixin/ros2_ws/src/examples/rclcpp/services/minimal_service -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/yixin/ros2_ws/install/examples_rclcpp_minimal_service
+[4.955s] Invoking command in '/home/yixin/ros2_ws/build/examples_rclcpp_minimal_service': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/yixin/ros2_ws/build/examples_rclcpp_minimal_service -- -j8 -l8
+[5.297s] [ 50%] [32mBuilding CXX object CMakeFiles/service_main.dir/main.cpp.o[0m
+[29.585s] [100%] [32m[1mLinking CXX executable service_main[0m
+[30.992s] [100%] Built target service_main
+[31.080s] Invoked command in '/home/yixin/ros2_ws/build/examples_rclcpp_minimal_service' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/yixin/ros2_ws/build/examples_rclcpp_minimal_service -- -j8 -l8
+[31.080s] Invoking command in '/home/yixin/ros2_ws/build/examples_rclcpp_minimal_service': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/yixin/ros2_ws/build/examples_rclcpp_minimal_service
+[31.144s] -- Install configuration: ""
+[31.144s] -- Execute custom install script
+[31.144s] -- Symlinking: /home/yixin/ros2_ws/install/examples_rclcpp_minimal_service/lib/examples_rclcpp_minimal_service/service_main
+[31.215s] -- Symlinking: /home/yixin/ros2_ws/install/examples_rclcpp_minimal_service/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_service
+[31.296s] -- Symlinking: /home/yixin/ros2_ws/install/examples_rclcpp_minimal_service/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_service
+[31.331s] -- Symlinking: /home/yixin/ros2_ws/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/environment/ament_prefix_path.sh
+[31.396s] -- Symlinking: /home/yixin/ros2_ws/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/environment/ament_prefix_path.dsv
+[31.455s] -- Symlinking: /home/yixin/ros2_ws/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/environment/path.sh
+[31.511s] -- Symlinking: /home/yixin/ros2_ws/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/environment/path.dsv
+[31.560s] -- Symlinking: /home/yixin/ros2_ws/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/local_setup.bash
+[31.614s] -- Symlinking: /home/yixin/ros2_ws/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/local_setup.sh
+[31.672s] -- Symlinking: /home/yixin/ros2_ws/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/local_setup.zsh
+[31.725s] -- Symlinking: /home/yixin/ros2_ws/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/local_setup.dsv
+[31.777s] -- Symlinking: /home/yixin/ros2_ws/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/package.dsv
+[31.833s] -- Symlinking: /home/yixin/ros2_ws/install/examples_rclcpp_minimal_service/share/ament_index/resource_index/packages/examples_rclcpp_minimal_service
+[31.887s] -- Symlinking: /home/yixin/ros2_ws/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/cmake/examples_rclcpp_minimal_serviceConfig.cmake
+[31.927s] -- Symlinking: /home/yixin/ros2_ws/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/cmake/examples_rclcpp_minimal_serviceConfig-version.cmake
+[31.977s] -- Symlinking: /home/yixin/ros2_ws/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/package.xml
+[32.048s] Invoked command in '/home/yixin/ros2_ws/build/examples_rclcpp_minimal_service' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/yixin/ros2_ws/build/examples_rclcpp_minimal_service

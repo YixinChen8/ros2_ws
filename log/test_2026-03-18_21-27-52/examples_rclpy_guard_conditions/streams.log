@@ -1,0 +1,17 @@
+[0.745s] Invoking command in '/home/yixin/ros2_ws/src/examples/rclpy/guard_conditions': AMENT_PREFIX_PATH=/home/yixin/ros2_ws/install/examples_rclpy_guard_conditions:${AMENT_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTEST_ADDOPTS=--tb=short --junit-xml=/home/yixin/ros2_ws/build/examples_rclpy_guard_conditions/pytest.xml --junit-prefix=examples_rclpy_guard_conditions -o cache_dir=/home/yixin/ros2_ws/build/examples_rclpy_guard_conditions/.pytest_cache PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=/home/yixin/ros2_ws/build/examples_rclpy_guard_conditions:/home/yixin/ros2_ws/install/examples_rclpy_guard_conditions/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -m pytest
+[2.006s] [1m============================= test session starts ==============================[0m
+[2.008s] platform linux -- Python 3.12.3, pytest-7.4.4, pluggy-1.4.0
+[2.022s] cachedir: /home/yixin/ros2_ws/build/examples_rclpy_guard_conditions/.pytest_cache
+[2.024s] rootdir: /home/yixin/ros2_ws/src/examples/rclpy
+[2.024s] configfile: pytest.ini
+[2.025s] plugins: ament-flake8-0.17.4, ament-xmllint-0.17.4, launch-testing-ros-0.26.11, ament-pep257-0.17.4, ament-copyright-0.17.4, launch-testing-3.4.10, ament-lint-0.17.4, typeguard-4.1.5, cov-4.1.0, colcon-core-0.20.1
+[2.264s] [1mcollecting ... [0m[1m
+[2.264s] collected 3 items                                                              [0m
+[2.265s] 
+[2.992s] test/test_copyright.py [32m.[0m[32m                                                 [ 33%][0m
+[3.422s] test/test_flake8.py [32m.[0m[32m                                                    [ 66%][0m
+[3.487s] test/test_pep257.py [32m.[0m[32m                                                    [100%][0m
+[3.497s] 
+[3.497s] - generated xml file: /home/yixin/ros2_ws/build/examples_rclpy_guard_conditions/pytest.xml -
+[3.497s] [32m============================== [32m[1m3 passed[0m[32m in 1.48s[0m[32m ===============================[0m
+[3.718s] Invoked command in '/home/yixin/ros2_ws/src/examples/rclpy/guard_conditions' returned '0': AMENT_PREFIX_PATH=/home/yixin/ros2_ws/install/examples_rclpy_guard_conditions:${AMENT_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTEST_ADDOPTS=--tb=short --junit-xml=/home/yixin/ros2_ws/build/examples_rclpy_guard_conditions/pytest.xml --junit-prefix=examples_rclpy_guard_conditions -o cache_dir=/home/yixin/ros2_ws/build/examples_rclpy_guard_conditions/.pytest_cache PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=/home/yixin/ros2_ws/build/examples_rclpy_guard_conditions:/home/yixin/ros2_ws/install/examples_rclpy_guard_conditions/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -m pytest

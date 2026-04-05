@@ -1,0 +1,141 @@
+[0.105s] Invoking command in '/home/yixin/ros2_ws/build/examples_rclcpp_minimal_composition': AMENT_PREFIX_PATH=/home/yixin/ros2_ws/install/examples_rclcpp_minimal_composition:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yixin/ros2_ws/install/examples_rclcpp_minimal_composition:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/yixin/ros2_ws/install/examples_rclcpp_minimal_composition/lib:${LD_LIBRARY_PATH} /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
+[0.229s] UpdateCTestConfiguration  from :/home/yixin/ros2_ws/build/examples_rclcpp_minimal_composition/CTestConfiguration.ini
+[0.229s] Parse Config file:/home/yixin/ros2_ws/build/examples_rclcpp_minimal_composition/CTestConfiguration.ini
+[0.230s]    Site: yixin-Aspire-A315-24PT
+[0.230s]    Build name: (empty)
+[0.230s]  Add coverage exclude regular expressions.
+[0.230s] Create new tag: 20260319-0127 - Experimental
+[0.231s] UpdateCTestConfiguration  from :/home/yixin/ros2_ws/build/examples_rclcpp_minimal_composition/CTestConfiguration.ini
+[0.231s] Parse Config file:/home/yixin/ros2_ws/build/examples_rclcpp_minimal_composition/CTestConfiguration.ini
+[0.231s] Test project /home/yixin/ros2_ws/build/examples_rclcpp_minimal_composition
+[0.231s] Constructing a list of tests
+[0.232s] Done constructing a list of tests
+[0.232s] Updating test list for fixtures
+[0.232s] Added 0 tests to meet fixture requirements
+[0.237s] Checking test dependency graph...
+[0.238s] Checking test dependency graph end
+[0.238s] test 1
+[0.238s]     Start 1: copyright
+[0.239s] 
+[0.239s] 1: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/yixin/ros2_ws/build/examples_rclcpp_minimal_composition/test_results/examples_rclcpp_minimal_composition/copyright.xunit.xml" "--package-name" "examples_rclcpp_minimal_composition" "--output-file" "/home/yixin/ros2_ws/build/examples_rclcpp_minimal_composition/ament_copyright/copyright.txt" "--command" "/opt/ros/jazzy/bin/ament_copyright" "--xunit-file" "/home/yixin/ros2_ws/build/examples_rclcpp_minimal_composition/test_results/examples_rclcpp_minimal_composition/copyright.xunit.xml"
+[0.239s] 1: Working Directory: /home/yixin/ros2_ws/src/examples/rclcpp/composition/minimal_composition
+[0.239s] 1: Test timeout computed to be: 200
+[0.363s] 1: -- run_test.py: invoking following command in '/home/yixin/ros2_ws/src/examples/rclcpp/composition/minimal_composition':
+[0.363s] 1:  - /opt/ros/jazzy/bin/ament_copyright --xunit-file /home/yixin/ros2_ws/build/examples_rclcpp_minimal_composition/test_results/examples_rclcpp_minimal_composition/copyright.xunit.xml
+[2.197s] 1: No problems found, checked 8 files
+[2.261s] 1: -- run_test.py: return code 0
+[2.262s] 1: -- run_test.py: verify result file '/home/yixin/ros2_ws/build/examples_rclcpp_minimal_composition/test_results/examples_rclcpp_minimal_composition/copyright.xunit.xml'
+[2.307s] 1/6 Test #1: copyright ........................   Passed    2.17 sec
+[2.307s] test 2
+[2.308s]     Start 2: cppcheck
+[2.314s] 
+[2.314s] 2: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/yixin/ros2_ws/build/examples_rclcpp_minimal_composition/test_results/examples_rclcpp_minimal_composition/cppcheck.xunit.xml" "--package-name" "examples_rclcpp_minimal_composition" "--output-file" "/home/yixin/ros2_ws/build/examples_rclcpp_minimal_composition/ament_cppcheck/cppcheck.txt" "--command" "/opt/ros/jazzy/bin/ament_cppcheck" "--xunit-file" "/home/yixin/ros2_ws/build/examples_rclcpp_minimal_composition/test_results/examples_rclcpp_minimal_composition/cppcheck.xunit.xml" "--include_dirs" "/home/yixin/ros2_ws/src/examples/rclcpp/composition/minimal_composition/include"
+[2.314s] 2: Working Directory: /home/yixin/ros2_ws/src/examples/rclcpp/composition/minimal_composition
+[2.314s] 2: Test timeout computed to be: 300
+[2.563s] 2: -- run_test.py: invoking following command in '/home/yixin/ros2_ws/src/examples/rclcpp/composition/minimal_composition':
+[2.563s] 2:  - /opt/ros/jazzy/bin/ament_cppcheck --xunit-file /home/yixin/ros2_ws/build/examples_rclcpp_minimal_composition/test_results/examples_rclcpp_minimal_composition/cppcheck.xunit.xml --include_dirs /home/yixin/ros2_ws/src/examples/rclcpp/composition/minimal_composition/include
+[2.869s] 2: cppcheck 2.13.0 has known performance issues and therefore will not be used, set the AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS environment variable to override this.
+[2.932s] 2: -- run_test.py: return code 0
+[2.933s] 2: -- run_test.py: verify result file '/home/yixin/ros2_ws/build/examples_rclcpp_minimal_composition/test_results/examples_rclcpp_minimal_composition/cppcheck.xunit.xml'
+[2.985s] 2/6 Test #2: cppcheck .........................   Passed    0.68 sec
+[2.985s] test 3
+[2.985s]     Start 3: cpplint
+[2.986s] 
+[2.986s] 3: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/yixin/ros2_ws/build/examples_rclcpp_minimal_composition/test_results/examples_rclcpp_minimal_composition/cpplint.xunit.xml" "--package-name" "examples_rclcpp_minimal_composition" "--output-file" "/home/yixin/ros2_ws/build/examples_rclcpp_minimal_composition/ament_cpplint/cpplint.txt" "--command" "/opt/ros/jazzy/bin/ament_cpplint" "--xunit-file" "/home/yixin/ros2_ws/build/examples_rclcpp_minimal_composition/test_results/examples_rclcpp_minimal_composition/cpplint.xunit.xml"
+[2.986s] 3: Working Directory: /home/yixin/ros2_ws/src/examples/rclcpp/composition/minimal_composition
+[2.987s] 3: Test timeout computed to be: 120
+[3.206s] 3: -- run_test.py: invoking following command in '/home/yixin/ros2_ws/src/examples/rclcpp/composition/minimal_composition':
+[3.206s] 3:  - /opt/ros/jazzy/bin/ament_cpplint --xunit-file /home/yixin/ros2_ws/build/examples_rclcpp_minimal_composition/test_results/examples_rclcpp_minimal_composition/cpplint.xunit.xml
+[3.784s] 3: Using '--root=/home/yixin/ros2_ws/src/examples/rclcpp/composition/minimal_composition/include' argument
+[3.784s] 3: 
+[3.784s] 3: Done processing /home/yixin/ros2_ws/src/examples/rclcpp/composition/minimal_composition/include/minimal_composition/publisher_node.hpp
+[3.784s] 3: 
+[3.785s] 3: Done processing /home/yixin/ros2_ws/src/examples/rclcpp/composition/minimal_composition/include/minimal_composition/subscriber_node.hpp
+[3.785s] 3: 
+[3.785s] 3: Done processing /home/yixin/ros2_ws/src/examples/rclcpp/composition/minimal_composition/include/minimal_composition/visibility.h
+[3.785s] 3: 
+[3.786s] 3: Using '--root=/home/yixin/ros2_ws/src/examples/rclcpp/composition/minimal_composition/src' argument
+[3.786s] 3: 
+[3.787s] 3: Done processing /home/yixin/ros2_ws/src/examples/rclcpp/composition/minimal_composition/src/composed.cpp
+[3.787s] 3: 
+[3.788s] 3: Done processing /home/yixin/ros2_ws/src/examples/rclcpp/composition/minimal_composition/src/publisher_node.cpp
+[3.788s] 3: 
+[3.788s] 3: Done processing /home/yixin/ros2_ws/src/examples/rclcpp/composition/minimal_composition/src/standalone_publisher.cpp
+[3.788s] 3: 
+[3.789s] 3: Done processing /home/yixin/ros2_ws/src/examples/rclcpp/composition/minimal_composition/src/standalone_subscriber.cpp
+[3.789s] 3: 
+[3.789s] 3: Done processing /home/yixin/ros2_ws/src/examples/rclcpp/composition/minimal_composition/src/subscriber_node.cpp
+[3.789s] 3: 
+[3.789s] 3: No problems found
+[3.848s] 3: -- run_test.py: return code 0
+[3.849s] 3: -- run_test.py: verify result file '/home/yixin/ros2_ws/build/examples_rclcpp_minimal_composition/test_results/examples_rclcpp_minimal_composition/cpplint.xunit.xml'
+[3.895s] 3/6 Test #3: cpplint ..........................   Passed    0.91 sec
+[3.895s] test 4
+[3.895s]     Start 4: lint_cmake
+[3.896s] 
+[3.896s] 4: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/yixin/ros2_ws/build/examples_rclcpp_minimal_composition/test_results/examples_rclcpp_minimal_composition/lint_cmake.xunit.xml" "--package-name" "examples_rclcpp_minimal_composition" "--output-file" "/home/yixin/ros2_ws/build/examples_rclcpp_minimal_composition/ament_lint_cmake/lint_cmake.txt" "--command" "/opt/ros/jazzy/bin/ament_lint_cmake" "--xunit-file" "/home/yixin/ros2_ws/build/examples_rclcpp_minimal_composition/test_results/examples_rclcpp_minimal_composition/lint_cmake.xunit.xml"
+[3.897s] 4: Working Directory: /home/yixin/ros2_ws/src/examples/rclcpp/composition/minimal_composition
+[3.897s] 4: Test timeout computed to be: 60
+[4.123s] 4: -- run_test.py: invoking following command in '/home/yixin/ros2_ws/src/examples/rclcpp/composition/minimal_composition':
+[4.123s] 4:  - /opt/ros/jazzy/bin/ament_lint_cmake --xunit-file /home/yixin/ros2_ws/build/examples_rclcpp_minimal_composition/test_results/examples_rclcpp_minimal_composition/lint_cmake.xunit.xml
+[4.413s] 4: 
+[4.414s] 4: No problems found
+[4.478s] 4: -- run_test.py: return code 0
+[4.479s] 4: -- run_test.py: verify result file '/home/yixin/ros2_ws/build/examples_rclcpp_minimal_composition/test_results/examples_rclcpp_minimal_composition/lint_cmake.xunit.xml'
+[4.524s] 4/6 Test #4: lint_cmake .......................   Passed    0.63 sec
+[4.524s] test 5
+[4.524s]     Start 5: uncrustify
+[4.524s] 
+[4.525s] 5: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/yixin/ros2_ws/build/examples_rclcpp_minimal_composition/test_results/examples_rclcpp_minimal_composition/uncrustify.xunit.xml" "--package-name" "examples_rclcpp_minimal_composition" "--output-file" "/home/yixin/ros2_ws/build/examples_rclcpp_minimal_composition/ament_uncrustify/uncrustify.txt" "--command" "/opt/ros/jazzy/bin/ament_uncrustify" "--xunit-file" "/home/yixin/ros2_ws/build/examples_rclcpp_minimal_composition/test_results/examples_rclcpp_minimal_composition/uncrustify.xunit.xml"
+[4.526s] 5: Working Directory: /home/yixin/ros2_ws/src/examples/rclcpp/composition/minimal_composition
+[4.526s] 5: Test timeout computed to be: 60
+[4.702s] 5: -- run_test.py: invoking following command in '/home/yixin/ros2_ws/src/examples/rclcpp/composition/minimal_composition':
+[4.702s] 5:  - /opt/ros/jazzy/bin/ament_uncrustify --xunit-file /home/yixin/ros2_ws/build/examples_rclcpp_minimal_composition/test_results/examples_rclcpp_minimal_composition/uncrustify.xunit.xml
+[4.960s] 5: No code style divergence in file 'include/minimal_composition/publisher_node.hpp'
+[4.960s] 5: 
+[4.960s] 5: No code style divergence in file 'include/minimal_composition/subscriber_node.hpp'
+[4.960s] 5: 
+[4.960s] 5: No code style divergence in file 'include/minimal_composition/visibility.h'
+[4.960s] 5: 
+[4.961s] 5: No code style divergence in file 'src/composed.cpp'
+[4.961s] 5: 
+[4.961s] 5: No code style divergence in file 'src/publisher_node.cpp'
+[4.961s] 5: 
+[4.961s] 5: No code style divergence in file 'src/standalone_publisher.cpp'
+[4.962s] 5: 
+[4.962s] 5: No code style divergence in file 'src/standalone_subscriber.cpp'
+[4.962s] 5: 
+[4.962s] 5: No code style divergence in file 'src/subscriber_node.cpp'
+[4.962s] 5: 
+[4.963s] 5: No problems found
+[5.000s] 5: -- run_test.py: return code 0
+[5.001s] 5: -- run_test.py: verify result file '/home/yixin/ros2_ws/build/examples_rclcpp_minimal_composition/test_results/examples_rclcpp_minimal_composition/uncrustify.xunit.xml'
+[5.028s] 5/6 Test #5: uncrustify .......................   Passed    0.50 sec
+[5.028s] test 6
+[5.028s]     Start 6: xmllint
+[5.029s] 
+[5.029s] 6: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/yixin/ros2_ws/build/examples_rclcpp_minimal_composition/test_results/examples_rclcpp_minimal_composition/xmllint.xunit.xml" "--package-name" "examples_rclcpp_minimal_composition" "--output-file" "/home/yixin/ros2_ws/build/examples_rclcpp_minimal_composition/ament_xmllint/xmllint.txt" "--command" "/opt/ros/jazzy/bin/ament_xmllint" "--xunit-file" "/home/yixin/ros2_ws/build/examples_rclcpp_minimal_composition/test_results/examples_rclcpp_minimal_composition/xmllint.xunit.xml"
+[5.029s] 6: Working Directory: /home/yixin/ros2_ws/src/examples/rclcpp/composition/minimal_composition
+[5.029s] 6: Test timeout computed to be: 60
+[5.229s] 6: -- run_test.py: invoking following command in '/home/yixin/ros2_ws/src/examples/rclcpp/composition/minimal_composition':
+[5.229s] 6:  - /opt/ros/jazzy/bin/ament_xmllint --xunit-file /home/yixin/ros2_ws/build/examples_rclcpp_minimal_composition/test_results/examples_rclcpp_minimal_composition/xmllint.xunit.xml
+[5.632s] 6: File 'package.xml' is valid
+[5.632s] 6: 
+[5.632s] 6: No problems found
+[5.674s] 6: -- run_test.py: return code 0
+[5.674s] 6: -- run_test.py: verify result file '/home/yixin/ros2_ws/build/examples_rclcpp_minimal_composition/test_results/examples_rclcpp_minimal_composition/xmllint.xunit.xml'
+[5.701s] 6/6 Test #6: xmllint ..........................   Passed    0.67 sec
+[5.702s] 
+[5.702s] [0;32m100% tests passed[0;0m, 0 tests failed[0;0m out of 6
+[5.703s] 
+[5.703s] Label Time Summary:
+[5.703s] copyright     =   2.17 sec*proc (1 test)
+[5.703s] cppcheck      =   0.68 sec*proc (1 test)
+[5.703s] cpplint       =   0.91 sec*proc (1 test)
+[5.703s] lint_cmake    =   0.63 sec*proc (1 test)
+[5.704s] linter        =   5.56 sec*proc (6 tests)
+[5.704s] uncrustify    =   0.50 sec*proc (1 test)
+[5.704s] xmllint       =   0.67 sec*proc (1 test)
+[5.704s] 
+[5.704s] Total Test time (real) =   5.57 sec
+[6.051s] Invoked command in '/home/yixin/ros2_ws/build/examples_rclcpp_minimal_composition' returned '0': AMENT_PREFIX_PATH=/home/yixin/ros2_ws/install/examples_rclcpp_minimal_composition:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yixin/ros2_ws/install/examples_rclcpp_minimal_composition:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/yixin/ros2_ws/install/examples_rclcpp_minimal_composition/lib:${LD_LIBRARY_PATH} /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process

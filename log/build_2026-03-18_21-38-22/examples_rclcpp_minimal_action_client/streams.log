@@ -1,0 +1,65 @@
+[0.098s] Invoking command in '/home/yixin/ros2_ws/build/examples_rclcpp_minimal_action_client': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yixin/ros2_ws/install/launch_testing_examples:/home/yixin/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/yixin/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/yixin/ros2_ws/install/examples_rclpy_minimal_service:/home/yixin/ros2_ws/install/examples_rclpy_minimal_publisher:/home/yixin/ros2_ws/install/examples_rclpy_minimal_client:/home/yixin/ros2_ws/install/examples_rclpy_minimal_action_server:/home/yixin/ros2_ws/install/examples_rclpy_minimal_action_client:/home/yixin/ros2_ws/install/examples_rclpy_guard_conditions:/home/yixin/ros2_ws/install/examples_rclpy_executors:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/yixin/ros2_ws/src/examples/rclcpp/actions/minimal_action_client -DCMAKE_BUILD_TYPE=Debug -DCMAKE_INSTALL_PREFIX=/home/yixin/ros2_ws/install/examples_rclcpp_minimal_action_client
+[0.152s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.137s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.166s] -- Found example_interfaces: 0.12.0 (/opt/ros/jazzy/share/example_interfaces/cmake)
+[1.279s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.317s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.376s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.438s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.820s] -- Found rclcpp: 28.1.16 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.980s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.993s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[2.255s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.550s] -- Found rclcpp_action: 28.1.16 (/opt/ros/jazzy/share/rclcpp_action/cmake)
+[2.638s] -- Found ament_lint_auto: 0.17.4 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[3.085s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.090s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.091s] -- Configured cppcheck include dirs: 
+[3.091s] -- Configured cppcheck exclude dirs and/or files: 
+[3.096s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.096s] -- Configured cpplint exclude dirs and/or files: 
+[3.097s] -- Added test 'lint_cmake' to check CMake code style
+[3.100s] -- Added test 'uncrustify' to check C / C++ code style
+[3.100s] -- Configured uncrustify additional arguments: 
+[3.101s] -- Added test 'xmllint' to check XML markup files
+[3.111s] -- Configuring done (3.0s)
+[3.217s] -- Generating done (0.1s)
+[3.269s] -- Build files have been written to: /home/yixin/ros2_ws/build/examples_rclcpp_minimal_action_client
+[3.343s] Invoked command in '/home/yixin/ros2_ws/build/examples_rclcpp_minimal_action_client' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yixin/ros2_ws/install/launch_testing_examples:/home/yixin/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/yixin/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/yixin/ros2_ws/install/examples_rclpy_minimal_service:/home/yixin/ros2_ws/install/examples_rclpy_minimal_publisher:/home/yixin/ros2_ws/install/examples_rclpy_minimal_client:/home/yixin/ros2_ws/install/examples_rclpy_minimal_action_server:/home/yixin/ros2_ws/install/examples_rclpy_minimal_action_client:/home/yixin/ros2_ws/install/examples_rclpy_guard_conditions:/home/yixin/ros2_ws/install/examples_rclpy_executors:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/yixin/ros2_ws/src/examples/rclcpp/actions/minimal_action_client -DCMAKE_BUILD_TYPE=Debug -DCMAKE_INSTALL_PREFIX=/home/yixin/ros2_ws/install/examples_rclcpp_minimal_action_client
+[3.344s] Invoking command in '/home/yixin/ros2_ws/build/examples_rclcpp_minimal_action_client': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yixin/ros2_ws/install/launch_testing_examples:/home/yixin/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/yixin/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/yixin/ros2_ws/install/examples_rclpy_minimal_service:/home/yixin/ros2_ws/install/examples_rclpy_minimal_publisher:/home/yixin/ros2_ws/install/examples_rclpy_minimal_client:/home/yixin/ros2_ws/install/examples_rclpy_minimal_action_server:/home/yixin/ros2_ws/install/examples_rclpy_minimal_action_client:/home/yixin/ros2_ws/install/examples_rclpy_guard_conditions:/home/yixin/ros2_ws/install/examples_rclpy_executors:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/yixin/ros2_ws/build/examples_rclcpp_minimal_action_client -- -j8 -l8
+[35.755s] [ 12%] [32mBuilding CXX object CMakeFiles/action_client_not_composable_with_feedback.dir/not_composable_with_feedback.cpp.o[0m
+[35.755s] [ 25%] [32mBuilding CXX object CMakeFiles/action_client_member_functions.dir/member_functions.cpp.o[0m
+[35.755s] [ 37%] [32mBuilding CXX object CMakeFiles/action_client_not_composable_with_cancel.dir/not_composable_with_cancel.cpp.o[0m
+[35.755s] [ 50%] [32mBuilding CXX object CMakeFiles/action_client_not_composable.dir/not_composable.cpp.o[0m
+[37.796s] [ 62%] [32m[1mLinking CXX executable action_client_not_composable_with_feedback[0m
+[38.645s] [ 75%] [32m[1mLinking CXX executable action_client_not_composable[0m
+[39.105s] [ 75%] Built target action_client_not_composable_with_feedback
+[39.655s] [ 75%] Built target action_client_not_composable
+[40.104s] [ 87%] [32m[1mLinking CXX executable action_client_member_functions[0m
+[40.840s] [ 87%] Built target action_client_member_functions
+[41.309s] [100%] [32m[1mLinking CXX executable action_client_not_composable_with_cancel[0m
+[41.954s] [100%] Built target action_client_not_composable_with_cancel
+[42.010s] Invoked command in '/home/yixin/ros2_ws/build/examples_rclcpp_minimal_action_client' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yixin/ros2_ws/install/launch_testing_examples:/home/yixin/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/yixin/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/yixin/ros2_ws/install/examples_rclpy_minimal_service:/home/yixin/ros2_ws/install/examples_rclpy_minimal_publisher:/home/yixin/ros2_ws/install/examples_rclpy_minimal_client:/home/yixin/ros2_ws/install/examples_rclpy_minimal_action_server:/home/yixin/ros2_ws/install/examples_rclpy_minimal_action_client:/home/yixin/ros2_ws/install/examples_rclpy_guard_conditions:/home/yixin/ros2_ws/install/examples_rclpy_executors:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/yixin/ros2_ws/build/examples_rclcpp_minimal_action_client -- -j8 -l8
+[42.012s] Invoking command in '/home/yixin/ros2_ws/build/examples_rclcpp_minimal_action_client': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yixin/ros2_ws/install/launch_testing_examples:/home/yixin/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/yixin/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/yixin/ros2_ws/install/examples_rclpy_minimal_service:/home/yixin/ros2_ws/install/examples_rclpy_minimal_publisher:/home/yixin/ros2_ws/install/examples_rclpy_minimal_client:/home/yixin/ros2_ws/install/examples_rclpy_minimal_action_server:/home/yixin/ros2_ws/install/examples_rclpy_minimal_action_client:/home/yixin/ros2_ws/install/examples_rclpy_guard_conditions:/home/yixin/ros2_ws/install/examples_rclpy_executors:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/yixin/ros2_ws/build/examples_rclcpp_minimal_action_client
+[43.675s] -- Install configuration: "Debug"
+[43.675s] -- Execute custom install script
+[43.675s] -- Up-to-date symlink: /home/yixin/ros2_ws/install/examples_rclcpp_minimal_action_client/lib/examples_rclcpp_minimal_action_client/action_client_member_functions
+[43.675s] -- Up-to-date symlink: /home/yixin/ros2_ws/install/examples_rclcpp_minimal_action_client/lib/examples_rclcpp_minimal_action_client/action_client_not_composable
+[43.676s] -- Up-to-date symlink: /home/yixin/ros2_ws/install/examples_rclcpp_minimal_action_client/lib/examples_rclcpp_minimal_action_client/action_client_not_composable_with_cancel
+[43.678s] -- Up-to-date symlink: /home/yixin/ros2_ws/install/examples_rclcpp_minimal_action_client/lib/examples_rclcpp_minimal_action_client/action_client_not_composable_with_feedback
+[43.678s] -- Up-to-date symlink: /home/yixin/ros2_ws/install/examples_rclcpp_minimal_action_client/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_action_client
+[43.678s] -- Up-to-date symlink: /home/yixin/ros2_ws/install/examples_rclcpp_minimal_action_client/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_action_client
+[43.678s] -- Up-to-date symlink: /home/yixin/ros2_ws/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/environment/ament_prefix_path.sh
+[43.678s] -- Up-to-date symlink: /home/yixin/ros2_ws/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/environment/ament_prefix_path.dsv
+[43.679s] -- Up-to-date symlink: /home/yixin/ros2_ws/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/environment/path.sh
+[43.679s] -- Up-to-date symlink: /home/yixin/ros2_ws/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/environment/path.dsv
+[43.679s] -- Up-to-date symlink: /home/yixin/ros2_ws/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/local_setup.bash
+[43.679s] -- Up-to-date symlink: /home/yixin/ros2_ws/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/local_setup.sh
+[43.679s] -- Up-to-date symlink: /home/yixin/ros2_ws/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/local_setup.zsh
+[43.679s] -- Up-to-date symlink: /home/yixin/ros2_ws/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/local_setup.dsv
+[43.679s] -- Symlinking: /home/yixin/ros2_ws/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/package.dsv
+[43.679s] -- Up-to-date symlink: /home/yixin/ros2_ws/install/examples_rclcpp_minimal_action_client/share/ament_index/resource_index/packages/examples_rclcpp_minimal_action_client
+[43.679s] -- Up-to-date symlink: /home/yixin/ros2_ws/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/cmake/examples_rclcpp_minimal_action_clientConfig.cmake
+[43.679s] -- Up-to-date symlink: /home/yixin/ros2_ws/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/cmake/examples_rclcpp_minimal_action_clientConfig-version.cmake
+[43.679s] -- Up-to-date symlink: /home/yixin/ros2_ws/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/package.xml
+[43.733s] Invoked command in '/home/yixin/ros2_ws/build/examples_rclcpp_minimal_action_client' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yixin/ros2_ws/install/launch_testing_examples:/home/yixin/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/yixin/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/yixin/ros2_ws/install/examples_rclpy_minimal_service:/home/yixin/ros2_ws/install/examples_rclpy_minimal_publisher:/home/yixin/ros2_ws/install/examples_rclpy_minimal_client:/home/yixin/ros2_ws/install/examples_rclpy_minimal_action_server:/home/yixin/ros2_ws/install/examples_rclpy_minimal_action_client:/home/yixin/ros2_ws/install/examples_rclpy_guard_conditions:/home/yixin/ros2_ws/install/examples_rclpy_executors:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/yixin/ros2_ws/build/examples_rclcpp_minimal_action_client

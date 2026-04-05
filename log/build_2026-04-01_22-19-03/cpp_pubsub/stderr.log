@@ -1,0 +1,26 @@
+[01m[K/home/yixin/ros2_ws/src/cpp_pubsub/src/subscriber_lambda_function.cpp:45:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_msgs[m[K’ was not declared in this scope
+   45 |   rclcpp::Subscription<[01;31m[Kstd_msgs[m[K::msg::String>::SharedPtr subscription_;
+      |                        [01;31m[K^~~~~~~~[m[K
+[01m[K/home/yixin/ros2_ws/src/cpp_pubsub/src/subscriber_lambda_function.cpp:45:45:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   45 |   rclcpp::Subscription<std_msgs::msg::String[01;31m[K>[m[K::SharedPtr subscription_;
+      |                                             [01;31m[K^[m[K
+[01m[K/home/yixin/ros2_ws/src/cpp_pubsub/src/subscriber_lambda_function.cpp:45:45:[m[K [01;31m[Kerror: [m[Ktemplate argument 3 is invalid
+[01m[K/home/yixin/ros2_ws/src/cpp_pubsub/src/subscriber_lambda_function.cpp:45:45:[m[K [01;31m[Kerror: [m[Ktemplate argument 4 is invalid
+[01m[K/home/yixin/ros2_ws/src/cpp_pubsub/src/subscriber_lambda_function.cpp:45:45:[m[K [01;31m[Kerror: [m[Ktemplate argument 5 is invalid
+[01m[K/home/yixin/ros2_ws/src/cpp_pubsub/src/subscriber_lambda_function.cpp:45:48:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   45 |   rclcpp::Subscription<std_msgs::msg::String>::[01;31m[KSharedPtr[m[K subscription_;
+      |                                                [01;31m[K^~~~~~~~~[m[K
+      |                                                         [32m[K;[m[K
+[01m[K/home/yixin/ros2_ws/src/cpp_pubsub/src/subscriber_lambda_function.cpp:45:58:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_[m[K’ does not name a type; did you mean ‘[01m[Krmw_subscription_t[m[K’?
+   45 |   rclcpp::Subscription<std_msgs::msg::String>::SharedPtr [01;31m[Ksubscription_[m[K;
+      |                                                          [01;31m[K^~~~~~~~~~~~~[m[K
+      |                                                          [32m[Krmw_subscription_t[m[K
+[01m[K/home/yixin/ros2_ws/src/cpp_pubsub/src/subscriber_lambda_function.cpp:[m[K In constructor ‘[01m[KMinimalSubscriber::[01;32m[KMinimalSubscriber[m[K()[m[K’:
+[01m[K/home/yixin/ros2_ws/src/cpp_pubsub/src/subscriber_lambda_function.cpp:40:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_subscription_t[m[K’?
+   40 |     [01;31m[Ksubscription_[m[K = this->create_subscription<tutorial_interfaces::msg::Num>(    // CHANGE
+      |     [01;31m[K^~~~~~~~~~~~~[m[K
+      |     [32m[Krmw_subscription_t[m[K
+gmake[2]: *** [CMakeFiles/listener.dir/build.make:76: CMakeFiles/listener.dir/src/subscriber_lambda_function.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/listener.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2

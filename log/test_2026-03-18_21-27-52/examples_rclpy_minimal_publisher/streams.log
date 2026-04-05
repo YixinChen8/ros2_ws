@@ -1,0 +1,17 @@
+[0.307s] Invoking command in '/home/yixin/ros2_ws/src/examples/rclpy/topics/minimal_publisher': AMENT_PREFIX_PATH=/home/yixin/ros2_ws/install/examples_rclpy_minimal_publisher:${AMENT_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTEST_ADDOPTS=--tb=short --junit-xml=/home/yixin/ros2_ws/build/examples_rclpy_minimal_publisher/pytest.xml --junit-prefix=examples_rclpy_minimal_publisher -o cache_dir=/home/yixin/ros2_ws/build/examples_rclpy_minimal_publisher/.pytest_cache PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=/home/yixin/ros2_ws/build/examples_rclpy_minimal_publisher:/home/yixin/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -m pytest
+[0.685s] [1m============================= test session starts ==============================[0m
+[0.685s] platform linux -- Python 3.12.3, pytest-7.4.4, pluggy-1.4.0
+[0.689s] cachedir: /home/yixin/ros2_ws/build/examples_rclpy_minimal_publisher/.pytest_cache
+[0.689s] rootdir: /home/yixin/ros2_ws/src/examples/rclpy
+[0.689s] configfile: pytest.ini
+[0.689s] plugins: ament-flake8-0.17.4, ament-xmllint-0.17.4, launch-testing-ros-0.26.11, ament-pep257-0.17.4, ament-copyright-0.17.4, launch-testing-3.4.10, ament-lint-0.17.4, typeguard-4.1.5, cov-4.1.0, colcon-core-0.20.1
+[0.781s] [1mcollecting ... [0m[1m
+[0.781s] collected 3 items                                                              [0m
+[0.782s] 
+[1.111s] test/test_copyright.py [32m.[0m[32m                                                 [ 33%][0m
+[1.272s] test/test_flake8.py [32m.[0m[32m                                                    [ 66%][0m
+[1.305s] test/test_pep257.py [32m.[0m[32m                                                    [100%][0m
+[1.306s] 
+[1.306s] - generated xml file: /home/yixin/ros2_ws/build/examples_rclpy_minimal_publisher/pytest.xml -
+[1.306s] [32m============================== [32m[1m3 passed[0m[32m in 0.62s[0m[32m ===============================[0m
+[1.492s] Invoked command in '/home/yixin/ros2_ws/src/examples/rclpy/topics/minimal_publisher' returned '0': AMENT_PREFIX_PATH=/home/yixin/ros2_ws/install/examples_rclpy_minimal_publisher:${AMENT_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTEST_ADDOPTS=--tb=short --junit-xml=/home/yixin/ros2_ws/build/examples_rclpy_minimal_publisher/pytest.xml --junit-prefix=examples_rclpy_minimal_publisher -o cache_dir=/home/yixin/ros2_ws/build/examples_rclpy_minimal_publisher/.pytest_cache PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=/home/yixin/ros2_ws/build/examples_rclpy_minimal_publisher:/home/yixin/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -m pytest

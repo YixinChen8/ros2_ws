@@ -1,0 +1,30 @@
+[0.075s] Invoking command in '/home/yixin/ros2_ws/build/examples_rclcpp_cbg_executor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/yixin/ros2_ws/build/examples_rclcpp_cbg_executor -- -j8 -l8
+[0.447s] [ 30%] Built target ping
+[0.452s] [ 70%] Built target ping_pong
+[0.460s] [100%] Built target pong
+[0.562s] Invoked command in '/home/yixin/ros2_ws/build/examples_rclcpp_cbg_executor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/yixin/ros2_ws/build/examples_rclcpp_cbg_executor -- -j8 -l8
+[0.563s] Invoking command in '/home/yixin/ros2_ws/build/examples_rclcpp_cbg_executor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/yixin/ros2_ws/build/examples_rclcpp_cbg_executor
+[0.618s] -- Install configuration: "Debug"
+[0.624s] -- Execute custom install script
+[0.624s] -- Up-to-date symlink: /home/yixin/ros2_ws/install/examples_rclcpp_cbg_executor/lib/examples_rclcpp_cbg_executor/ping
+[0.629s] -- Up-to-date symlink: /home/yixin/ros2_ws/install/examples_rclcpp_cbg_executor/lib/examples_rclcpp_cbg_executor/pong
+[0.629s] -- Up-to-date symlink: /home/yixin/ros2_ws/install/examples_rclcpp_cbg_executor/lib/examples_rclcpp_cbg_executor/ping_pong
+[0.633s] -- Up-to-date symlink: /home/yixin/ros2_ws/install/examples_rclcpp_cbg_executor/include/examples_rclcpp_cbg_executor/ping_node.hpp
+[0.641s] -- Up-to-date symlink: /home/yixin/ros2_ws/install/examples_rclcpp_cbg_executor/include/examples_rclcpp_cbg_executor/pong_node.hpp
+[0.641s] -- Up-to-date symlink: /home/yixin/ros2_ws/install/examples_rclcpp_cbg_executor/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_cbg_executor
+[0.642s] -- Up-to-date symlink: /home/yixin/ros2_ws/install/examples_rclcpp_cbg_executor/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_cbg_executor
+[0.642s] -- Up-to-date symlink: /home/yixin/ros2_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/environment/ament_prefix_path.sh
+[0.642s] -- Up-to-date symlink: /home/yixin/ros2_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/environment/ament_prefix_path.dsv
+[0.642s] -- Up-to-date symlink: /home/yixin/ros2_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/environment/path.sh
+[0.643s] -- Up-to-date symlink: /home/yixin/ros2_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/environment/path.dsv
+[0.643s] -- Up-to-date symlink: /home/yixin/ros2_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/local_setup.bash
+[0.643s] -- Up-to-date symlink: /home/yixin/ros2_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/local_setup.sh
+[0.645s] -- Up-to-date symlink: /home/yixin/ros2_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/local_setup.zsh
+[0.645s] -- Up-to-date symlink: /home/yixin/ros2_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/local_setup.dsv
+[0.645s] -- Symlinking: /home/yixin/ros2_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/package.dsv
+[0.669s] -- Up-to-date symlink: /home/yixin/ros2_ws/install/examples_rclcpp_cbg_executor/share/ament_index/resource_index/packages/examples_rclcpp_cbg_executor
+[0.669s] -- Up-to-date symlink: /home/yixin/ros2_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.670s] -- Up-to-date symlink: /home/yixin/ros2_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/cmake/examples_rclcpp_cbg_executorConfig.cmake
+[0.670s] -- Up-to-date symlink: /home/yixin/ros2_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/cmake/examples_rclcpp_cbg_executorConfig-version.cmake
+[0.671s] -- Up-to-date symlink: /home/yixin/ros2_ws/install/examples_rclcpp_cbg_executor/share/examples_rclcpp_cbg_executor/package.xml
+[0.827s] Invoked command in '/home/yixin/ros2_ws/build/examples_rclcpp_cbg_executor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/yixin/ros2_ws/build/examples_rclcpp_cbg_executor

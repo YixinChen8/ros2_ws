@@ -1,0 +1,46 @@
+[0.240s] Invoking command in '/home/yixin/ros2_ws/build/examples_rclcpp_wait_set': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/yixin/ros2_ws/build/examples_rclcpp_wait_set -- -j8 -l8
+[1.480s] [  8%] Built target talker
+[1.481s] [ 25%] Built target listener
+[1.481s] [ 25%] Built target wait_set
+[1.481s] [ 33%] Built target wait_set_talker
+[1.481s] [ 41%] Built target wait_set_topics_and_timer
+[1.481s] [ 50%] Built target static_wait_set
+[1.481s] [ 58%] Built target thread_safe_wait_set
+[1.482s] [ 66%] Built target wait_set_listener
+[1.482s] [ 75%] Built target wait_set_random_order
+[1.482s] [ 83%] Built target executor_random_order
+[1.482s] [ 91%] Built target wait_set_composed
+[1.482s] [100%] Built target wait_set_topics_with_different_rates
+[2.022s] Invoked command in '/home/yixin/ros2_ws/build/examples_rclcpp_wait_set' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/yixin/ros2_ws/build/examples_rclcpp_wait_set -- -j8 -l8
+[2.024s] Invoking command in '/home/yixin/ros2_ws/build/examples_rclcpp_wait_set': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/yixin/ros2_ws/build/examples_rclcpp_wait_set
+[2.569s] -- Install configuration: "Debug"
+[2.569s] -- Execute custom install script
+[2.569s] -- Up-to-date symlink: /home/yixin/ros2_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_talker
+[2.569s] -- Up-to-date symlink: /home/yixin/ros2_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_listener
+[2.569s] -- Up-to-date symlink: /home/yixin/ros2_ws/install/examples_rclcpp_wait_set/lib/libtalker.so
+[2.570s] -- Up-to-date symlink: /home/yixin/ros2_ws/install/examples_rclcpp_wait_set/lib/liblistener.so
+[2.570s] -- Up-to-date symlink: /home/yixin/ros2_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set
+[2.570s] -- Up-to-date symlink: /home/yixin/ros2_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/static_wait_set
+[2.570s] -- Up-to-date symlink: /home/yixin/ros2_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/thread_safe_wait_set
+[2.570s] -- Up-to-date symlink: /home/yixin/ros2_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_topics_and_timer
+[2.570s] -- Up-to-date symlink: /home/yixin/ros2_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_random_order
+[2.571s] -- Up-to-date symlink: /home/yixin/ros2_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/executor_random_order
+[2.571s] -- Up-to-date symlink: /home/yixin/ros2_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_topics_with_different_rates
+[2.571s] -- Up-to-date symlink: /home/yixin/ros2_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_composed
+[2.571s] -- Up-to-date symlink: /home/yixin/ros2_ws/install/examples_rclcpp_wait_set/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_wait_set
+[2.571s] -- Up-to-date symlink: /home/yixin/ros2_ws/install/examples_rclcpp_wait_set/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_wait_set
+[2.572s] -- Up-to-date symlink: /home/yixin/ros2_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/environment/ament_prefix_path.sh
+[2.572s] -- Up-to-date symlink: /home/yixin/ros2_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/environment/ament_prefix_path.dsv
+[2.572s] -- Up-to-date symlink: /home/yixin/ros2_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/environment/path.sh
+[2.572s] -- Up-to-date symlink: /home/yixin/ros2_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/environment/path.dsv
+[2.573s] -- Up-to-date symlink: /home/yixin/ros2_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/local_setup.bash
+[2.573s] -- Up-to-date symlink: /home/yixin/ros2_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/local_setup.sh
+[2.573s] -- Up-to-date symlink: /home/yixin/ros2_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/local_setup.zsh
+[2.573s] -- Up-to-date symlink: /home/yixin/ros2_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/local_setup.dsv
+[2.574s] -- Symlinking: /home/yixin/ros2_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/package.dsv
+[2.574s] -- Up-to-date symlink: /home/yixin/ros2_ws/install/examples_rclcpp_wait_set/share/ament_index/resource_index/packages/examples_rclcpp_wait_set
+[2.574s] -- Up-to-date symlink: /home/yixin/ros2_ws/install/examples_rclcpp_wait_set/share/ament_index/resource_index/rclcpp_components/examples_rclcpp_wait_set
+[2.574s] -- Up-to-date symlink: /home/yixin/ros2_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/cmake/examples_rclcpp_wait_setConfig.cmake
+[2.575s] -- Up-to-date symlink: /home/yixin/ros2_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/cmake/examples_rclcpp_wait_setConfig-version.cmake
+[2.575s] -- Up-to-date symlink: /home/yixin/ros2_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/package.xml
+[2.677s] Invoked command in '/home/yixin/ros2_ws/build/examples_rclcpp_wait_set' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/yixin/ros2_ws/build/examples_rclcpp_wait_set

@@ -1,0 +1,72 @@
+[0.069s] Invoking command in '/home/yixin/ros2_ws/build/examples_rclcpp_minimal_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yixin/ros2_ws/install/launch_testing_examples:/home/yixin/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/yixin/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/yixin/ros2_ws/install/examples_rclpy_minimal_service:/home/yixin/ros2_ws/install/examples_rclpy_minimal_publisher:/home/yixin/ros2_ws/install/examples_rclpy_minimal_client:/home/yixin/ros2_ws/install/examples_rclpy_minimal_action_server:/home/yixin/ros2_ws/install/examples_rclpy_minimal_action_client:/home/yixin/ros2_ws/install/examples_rclpy_guard_conditions:/home/yixin/ros2_ws/install/examples_rclpy_executors:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/yixin/ros2_ws/src/examples/rclcpp/topics/minimal_publisher -DCMAKE_BUILD_TYPE=Debug -DCMAKE_INSTALL_PREFIX=/home/yixin/ros2_ws/install/examples_rclcpp_minimal_publisher
+[2.913s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[2.913s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.913s] -- Found rclcpp: 28.1.16 (/opt/ros/jazzy/share/rclcpp/cmake)
+[2.913s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[2.914s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[2.914s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.914s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.914s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[2.915s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[2.919s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.919s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[2.920s] -- Found ament_lint_auto: 0.17.4 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[2.957s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.961s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.961s] -- Configured cppcheck include dirs: 
+[2.962s] -- Configured cppcheck exclude dirs and/or files: 
+[2.964s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.965s] -- Configured cpplint exclude dirs and/or files: 
+[2.966s] -- Added test 'lint_cmake' to check CMake code style
+[2.970s] -- Added test 'uncrustify' to check C / C++ code style
+[2.973s] -- Configured uncrustify additional arguments: 
+[2.973s] -- Added test 'xmllint' to check XML markup files
+[2.976s] -- Configuring done (2.9s)
+[3.157s] -- Generating done (0.1s)
+[3.237s] -- Build files have been written to: /home/yixin/ros2_ws/build/examples_rclcpp_minimal_publisher
+[3.279s] Invoked command in '/home/yixin/ros2_ws/build/examples_rclcpp_minimal_publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yixin/ros2_ws/install/launch_testing_examples:/home/yixin/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/yixin/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/yixin/ros2_ws/install/examples_rclpy_minimal_service:/home/yixin/ros2_ws/install/examples_rclpy_minimal_publisher:/home/yixin/ros2_ws/install/examples_rclpy_minimal_client:/home/yixin/ros2_ws/install/examples_rclpy_minimal_action_server:/home/yixin/ros2_ws/install/examples_rclpy_minimal_action_client:/home/yixin/ros2_ws/install/examples_rclpy_guard_conditions:/home/yixin/ros2_ws/install/examples_rclpy_executors:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/yixin/ros2_ws/src/examples/rclcpp/topics/minimal_publisher -DCMAKE_BUILD_TYPE=Debug -DCMAKE_INSTALL_PREFIX=/home/yixin/ros2_ws/install/examples_rclcpp_minimal_publisher
+[3.282s] Invoking command in '/home/yixin/ros2_ws/build/examples_rclcpp_minimal_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yixin/ros2_ws/install/launch_testing_examples:/home/yixin/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/yixin/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/yixin/ros2_ws/install/examples_rclpy_minimal_service:/home/yixin/ros2_ws/install/examples_rclpy_minimal_publisher:/home/yixin/ros2_ws/install/examples_rclpy_minimal_client:/home/yixin/ros2_ws/install/examples_rclpy_minimal_action_server:/home/yixin/ros2_ws/install/examples_rclpy_minimal_action_client:/home/yixin/ros2_ws/install/examples_rclpy_guard_conditions:/home/yixin/ros2_ws/install/examples_rclpy_executors:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/yixin/ros2_ws/build/examples_rclcpp_minimal_publisher -- -j8 -l8
+[34.126s] [  8%] [32mBuilding CXX object CMakeFiles/publisher_member_function_with_type_adapter.dir/member_function_with_type_adapter.cpp.o[0m
+[34.126s] [ 16%] [32mBuilding CXX object CMakeFiles/publisher_member_function.dir/member_function.cpp.o[0m
+[34.126s] [ 33%] [32mBuilding CXX object CMakeFiles/publisher_not_composable.dir/not_composable.cpp.o[0m
+[34.126s] [ 25%] [32mBuilding CXX object CMakeFiles/publisher_lambda.dir/lambda.cpp.o[0m
+[34.126s] [ 41%] [32mBuilding CXX object CMakeFiles/publisher_member_function_with_unique_network_flow_endpoints.dir/member_function_with_unique_network_flow_endpoints.cpp.o[0m
+[34.127s] [ 50%] [32mBuilding CXX object CMakeFiles/publisher_wait_for_all_acked.dir/member_function_with_wait_for_all_acked.cpp.o[0m
+[34.889s] [ 58%] [32m[1mLinking CXX executable publisher_not_composable[0m
+[36.148s] [ 66%] [32m[1mLinking CXX executable publisher_lambda[0m
+[36.669s] [ 66%] Built target publisher_not_composable
+[37.165s] [ 66%] Built target publisher_lambda
+[37.887s] [ 75%] [32m[1mLinking CXX executable publisher_member_function_with_type_adapter[0m
+[38.044s] [ 83%] [32m[1mLinking CXX executable publisher_wait_for_all_acked[0m
+[39.245s] [ 83%] Built target publisher_wait_for_all_acked
+[39.282s] [ 83%] Built target publisher_member_function_with_type_adapter
+[40.303s] [ 91%] [32m[1mLinking CXX executable publisher_member_function_with_unique_network_flow_endpoints[0m
+[40.943s] [100%] [32m[1mLinking CXX executable publisher_member_function[0m
+[41.177s] [100%] Built target publisher_member_function_with_unique_network_flow_endpoints
+[41.682s] [100%] Built target publisher_member_function
+[41.727s] Invoked command in '/home/yixin/ros2_ws/build/examples_rclcpp_minimal_publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yixin/ros2_ws/install/launch_testing_examples:/home/yixin/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/yixin/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/yixin/ros2_ws/install/examples_rclpy_minimal_service:/home/yixin/ros2_ws/install/examples_rclpy_minimal_publisher:/home/yixin/ros2_ws/install/examples_rclpy_minimal_client:/home/yixin/ros2_ws/install/examples_rclpy_minimal_action_server:/home/yixin/ros2_ws/install/examples_rclpy_minimal_action_client:/home/yixin/ros2_ws/install/examples_rclpy_guard_conditions:/home/yixin/ros2_ws/install/examples_rclpy_executors:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/yixin/ros2_ws/build/examples_rclcpp_minimal_publisher -- -j8 -l8
+[41.732s] Invoking command in '/home/yixin/ros2_ws/build/examples_rclcpp_minimal_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yixin/ros2_ws/install/launch_testing_examples:/home/yixin/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/yixin/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/yixin/ros2_ws/install/examples_rclpy_minimal_service:/home/yixin/ros2_ws/install/examples_rclpy_minimal_publisher:/home/yixin/ros2_ws/install/examples_rclpy_minimal_client:/home/yixin/ros2_ws/install/examples_rclpy_minimal_action_server:/home/yixin/ros2_ws/install/examples_rclpy_minimal_action_client:/home/yixin/ros2_ws/install/examples_rclpy_guard_conditions:/home/yixin/ros2_ws/install/examples_rclpy_executors:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/yixin/ros2_ws/build/examples_rclcpp_minimal_publisher
+[43.622s] -- Install configuration: "Debug"
+[43.622s] -- Execute custom install script
+[43.622s] -- Up-to-date symlink: /home/yixin/ros2_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_lambda
+[43.622s] -- Up-to-date symlink: /home/yixin/ros2_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_member_function
+[43.623s] -- Up-to-date symlink: /home/yixin/ros2_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_member_function_with_type_adapter
+[43.623s] -- Up-to-date symlink: /home/yixin/ros2_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_member_function_with_unique_network_flow_endpoints
+[43.623s] -- Up-to-date symlink: /home/yixin/ros2_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_wait_for_all_acked
+[43.623s] -- Up-to-date symlink: /home/yixin/ros2_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_not_composable
+[43.623s] -- Up-to-date symlink: /home/yixin/ros2_ws/install/examples_rclcpp_minimal_publisher/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_publisher
+[43.623s] -- Up-to-date symlink: /home/yixin/ros2_ws/install/examples_rclcpp_minimal_publisher/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_publisher
+[43.623s] -- Up-to-date symlink: /home/yixin/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/environment/ament_prefix_path.sh
+[43.623s] -- Up-to-date symlink: /home/yixin/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/environment/ament_prefix_path.dsv
+[43.623s] -- Up-to-date symlink: /home/yixin/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/environment/path.sh
+[43.623s] -- Up-to-date symlink: /home/yixin/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/environment/path.dsv
+[43.623s] -- Up-to-date symlink: /home/yixin/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/local_setup.bash
+[43.624s] -- Up-to-date symlink: /home/yixin/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/local_setup.sh
+[43.624s] -- Up-to-date symlink: /home/yixin/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/local_setup.zsh
+[43.624s] -- Up-to-date symlink: /home/yixin/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/local_setup.dsv
+[43.624s] -- Symlinking: /home/yixin/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/package.dsv
+[43.624s] -- Up-to-date symlink: /home/yixin/ros2_ws/install/examples_rclcpp_minimal_publisher/share/ament_index/resource_index/packages/examples_rclcpp_minimal_publisher
+[43.624s] -- Up-to-date symlink: /home/yixin/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/cmake/examples_rclcpp_minimal_publisherConfig.cmake
+[43.624s] -- Up-to-date symlink: /home/yixin/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/cmake/examples_rclcpp_minimal_publisherConfig-version.cmake
+[43.624s] -- Up-to-date symlink: /home/yixin/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/package.xml
+[43.634s] Invoked command in '/home/yixin/ros2_ws/build/examples_rclcpp_minimal_publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yixin/ros2_ws/install/launch_testing_examples:/home/yixin/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/yixin/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/yixin/ros2_ws/install/examples_rclpy_minimal_service:/home/yixin/ros2_ws/install/examples_rclpy_minimal_publisher:/home/yixin/ros2_ws/install/examples_rclpy_minimal_client:/home/yixin/ros2_ws/install/examples_rclpy_minimal_action_server:/home/yixin/ros2_ws/install/examples_rclpy_minimal_action_client:/home/yixin/ros2_ws/install/examples_rclpy_guard_conditions:/home/yixin/ros2_ws/install/examples_rclpy_executors:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/yixin/ros2_ws/build/examples_rclcpp_minimal_publisher

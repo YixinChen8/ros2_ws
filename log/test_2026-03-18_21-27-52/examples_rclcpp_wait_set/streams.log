@@ -1,0 +1,169 @@
+[0.673s] Invoking command in '/home/yixin/ros2_ws/build/examples_rclcpp_wait_set': AMENT_PREFIX_PATH=/home/yixin/ros2_ws/install/examples_rclcpp_wait_set:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yixin/ros2_ws/install/examples_rclcpp_wait_set:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/yixin/ros2_ws/install/examples_rclcpp_wait_set/lib:${LD_LIBRARY_PATH} /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
+[0.751s] UpdateCTestConfiguration  from :/home/yixin/ros2_ws/build/examples_rclcpp_wait_set/CTestConfiguration.ini
+[0.751s] Parse Config file:/home/yixin/ros2_ws/build/examples_rclcpp_wait_set/CTestConfiguration.ini
+[0.751s]    Site: yixin-Aspire-A315-24PT
+[0.751s]    Build name: (empty)
+[0.752s]  Add coverage exclude regular expressions.
+[0.752s] Create new tag: 20260319-0127 - Experimental
+[0.752s] UpdateCTestConfiguration  from :/home/yixin/ros2_ws/build/examples_rclcpp_wait_set/CTestConfiguration.ini
+[0.752s] Parse Config file:/home/yixin/ros2_ws/build/examples_rclcpp_wait_set/CTestConfiguration.ini
+[0.753s] Test project /home/yixin/ros2_ws/build/examples_rclcpp_wait_set
+[0.753s] Constructing a list of tests
+[0.753s] Done constructing a list of tests
+[0.757s] Updating test list for fixtures
+[0.758s] Added 0 tests to meet fixture requirements
+[0.758s] Checking test dependency graph...
+[0.758s] Checking test dependency graph end
+[0.759s] test 1
+[0.759s]     Start 1: copyright
+[0.759s] 
+[0.759s] 1: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/yixin/ros2_ws/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/copyright.xunit.xml" "--package-name" "examples_rclcpp_wait_set" "--output-file" "/home/yixin/ros2_ws/build/examples_rclcpp_wait_set/ament_copyright/copyright.txt" "--command" "/opt/ros/jazzy/bin/ament_copyright" "--xunit-file" "/home/yixin/ros2_ws/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/copyright.xunit.xml"
+[0.760s] 1: Working Directory: /home/yixin/ros2_ws/src/examples/rclcpp/wait_set
+[0.760s] 1: Test timeout computed to be: 200
+[0.920s] 1: -- run_test.py: invoking following command in '/home/yixin/ros2_ws/src/examples/rclcpp/wait_set':
+[0.920s] 1:  - /opt/ros/jazzy/bin/ament_copyright --xunit-file /home/yixin/ros2_ws/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/copyright.xunit.xml
+[3.221s] 1: No problems found, checked 15 files
+[3.270s] 1: -- run_test.py: return code 0
+[3.270s] 1: -- run_test.py: verify result file '/home/yixin/ros2_ws/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/copyright.xunit.xml'
+[3.311s] 1/6 Test #1: copyright ........................   Passed    2.61 sec
+[3.312s] test 2
+[3.312s]     Start 2: cppcheck
+[3.313s] 
+[3.313s] 2: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/yixin/ros2_ws/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/cppcheck.xunit.xml" "--package-name" "examples_rclcpp_wait_set" "--output-file" "/home/yixin/ros2_ws/build/examples_rclcpp_wait_set/ament_cppcheck/cppcheck.txt" "--command" "/opt/ros/jazzy/bin/ament_cppcheck" "--xunit-file" "/home/yixin/ros2_ws/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/cppcheck.xunit.xml" "--include_dirs" "/home/yixin/ros2_ws/src/examples/rclcpp/wait_set/include"
+[3.314s] 2: Working Directory: /home/yixin/ros2_ws/src/examples/rclcpp/wait_set
+[3.316s] 2: Test timeout computed to be: 300
+[3.493s] 2: -- run_test.py: invoking following command in '/home/yixin/ros2_ws/src/examples/rclcpp/wait_set':
+[3.494s] 2:  - /opt/ros/jazzy/bin/ament_cppcheck --xunit-file /home/yixin/ros2_ws/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/cppcheck.xunit.xml --include_dirs /home/yixin/ros2_ws/src/examples/rclcpp/wait_set/include
+[3.734s] 2: cppcheck 2.13.0 has known performance issues and therefore will not be used, set the AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS environment variable to override this.
+[3.785s] 2: -- run_test.py: return code 0
+[3.785s] 2: -- run_test.py: verify result file '/home/yixin/ros2_ws/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/cppcheck.xunit.xml'
+[3.819s] 2/6 Test #2: cppcheck .........................   Passed    0.50 sec
+[3.819s] test 3
+[3.819s]     Start 3: cpplint
+[3.821s] 
+[3.822s] 3: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/yixin/ros2_ws/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/cpplint.xunit.xml" "--package-name" "examples_rclcpp_wait_set" "--output-file" "/home/yixin/ros2_ws/build/examples_rclcpp_wait_set/ament_cpplint/cpplint.txt" "--command" "/opt/ros/jazzy/bin/ament_cpplint" "--xunit-file" "/home/yixin/ros2_ws/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/cpplint.xunit.xml"
+[3.822s] 3: Working Directory: /home/yixin/ros2_ws/src/examples/rclcpp/wait_set
+[3.822s] 3: Test timeout computed to be: 120
+[3.982s] 3: -- run_test.py: invoking following command in '/home/yixin/ros2_ws/src/examples/rclcpp/wait_set':
+[3.984s] 3:  - /opt/ros/jazzy/bin/ament_cpplint --xunit-file /home/yixin/ros2_ws/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/cpplint.xunit.xml
+[4.501s] 3: Using '--root=/home/yixin/ros2_ws/src/examples/rclcpp/wait_set/include' argument
+[4.501s] 3: 
+[4.501s] 3: Done processing /home/yixin/ros2_ws/src/examples/rclcpp/wait_set/include/wait_set/listener.hpp
+[4.501s] 3: 
+[4.502s] 3: Done processing /home/yixin/ros2_ws/src/examples/rclcpp/wait_set/include/wait_set/random_listener.hpp
+[4.502s] 3: 
+[4.502s] 3: Done processing /home/yixin/ros2_ws/src/examples/rclcpp/wait_set/include/wait_set/random_talker.hpp
+[4.502s] 3: 
+[4.502s] 3: Done processing /home/yixin/ros2_ws/src/examples/rclcpp/wait_set/include/wait_set/talker.hpp
+[4.503s] 3: 
+[4.503s] 3: Done processing /home/yixin/ros2_ws/src/examples/rclcpp/wait_set/include/wait_set/visibility.h
+[4.503s] 3: 
+[4.503s] 3: Using '--root=/home/yixin/ros2_ws/src/examples/rclcpp/wait_set/src' argument
+[4.503s] 3: 
+[4.503s] 3: Done processing /home/yixin/ros2_ws/src/examples/rclcpp/wait_set/src/executor_random_order.cpp
+[4.503s] 3: 
+[4.503s] 3: Done processing /home/yixin/ros2_ws/src/examples/rclcpp/wait_set/src/listener.cpp
+[4.504s] 3: 
+[4.504s] 3: Done processing /home/yixin/ros2_ws/src/examples/rclcpp/wait_set/src/static_wait_set.cpp
+[4.504s] 3: 
+[4.504s] 3: Done processing /home/yixin/ros2_ws/src/examples/rclcpp/wait_set/src/talker.cpp
+[4.504s] 3: 
+[4.504s] 3: Done processing /home/yixin/ros2_ws/src/examples/rclcpp/wait_set/src/thread_safe_wait_set.cpp
+[4.504s] 3: 
+[4.504s] 3: Done processing /home/yixin/ros2_ws/src/examples/rclcpp/wait_set/src/wait_set.cpp
+[4.505s] 3: 
+[4.505s] 3: Done processing /home/yixin/ros2_ws/src/examples/rclcpp/wait_set/src/wait_set_composed.cpp
+[4.505s] 3: 
+[4.505s] 3: Done processing /home/yixin/ros2_ws/src/examples/rclcpp/wait_set/src/wait_set_random_order.cpp
+[4.505s] 3: 
+[4.505s] 3: Done processing /home/yixin/ros2_ws/src/examples/rclcpp/wait_set/src/wait_set_topics_and_timer.cpp
+[4.505s] 3: 
+[4.505s] 3: Done processing /home/yixin/ros2_ws/src/examples/rclcpp/wait_set/src/wait_set_topics_with_different_rates.cpp
+[4.505s] 3: 
+[4.505s] 3: No problems found
+[4.542s] 3: -- run_test.py: return code 0
+[4.542s] 3: -- run_test.py: verify result file '/home/yixin/ros2_ws/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/cpplint.xunit.xml'
+[4.577s] 3/6 Test #3: cpplint ..........................   Passed    0.75 sec
+[4.577s] test 4
+[4.577s]     Start 4: lint_cmake
+[4.577s] 
+[4.577s] 4: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/yixin/ros2_ws/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/lint_cmake.xunit.xml" "--package-name" "examples_rclcpp_wait_set" "--output-file" "/home/yixin/ros2_ws/build/examples_rclcpp_wait_set/ament_lint_cmake/lint_cmake.txt" "--command" "/opt/ros/jazzy/bin/ament_lint_cmake" "--xunit-file" "/home/yixin/ros2_ws/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/lint_cmake.xunit.xml"
+[4.577s] 4: Working Directory: /home/yixin/ros2_ws/src/examples/rclcpp/wait_set
+[4.577s] 4: Test timeout computed to be: 60
+[4.660s] 4: -- run_test.py: invoking following command in '/home/yixin/ros2_ws/src/examples/rclcpp/wait_set':
+[4.660s] 4:  - /opt/ros/jazzy/bin/ament_lint_cmake --xunit-file /home/yixin/ros2_ws/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/lint_cmake.xunit.xml
+[4.747s] 4: 
+[4.747s] 4: No problems found
+[4.782s] 4: -- run_test.py: return code 0
+[4.782s] 4: -- run_test.py: verify result file '/home/yixin/ros2_ws/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/lint_cmake.xunit.xml'
+[4.813s] 4/6 Test #4: lint_cmake .......................   Passed    0.24 sec
+[4.813s] test 5
+[4.813s]     Start 5: uncrustify
+[4.813s] 
+[4.814s] 5: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/yixin/ros2_ws/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/uncrustify.xunit.xml" "--package-name" "examples_rclcpp_wait_set" "--output-file" "/home/yixin/ros2_ws/build/examples_rclcpp_wait_set/ament_uncrustify/uncrustify.txt" "--command" "/opt/ros/jazzy/bin/ament_uncrustify" "--xunit-file" "/home/yixin/ros2_ws/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/uncrustify.xunit.xml"
+[4.814s] 5: Working Directory: /home/yixin/ros2_ws/src/examples/rclcpp/wait_set
+[4.814s] 5: Test timeout computed to be: 60
+[4.910s] 5: -- run_test.py: invoking following command in '/home/yixin/ros2_ws/src/examples/rclcpp/wait_set':
+[4.910s] 5:  - /opt/ros/jazzy/bin/ament_uncrustify --xunit-file /home/yixin/ros2_ws/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/uncrustify.xunit.xml
+[5.079s] 5: No code style divergence in file 'include/wait_set/listener.hpp'
+[5.080s] 5: 
+[5.080s] 5: No code style divergence in file 'include/wait_set/random_listener.hpp'
+[5.080s] 5: 
+[5.080s] 5: No code style divergence in file 'include/wait_set/random_talker.hpp'
+[5.080s] 5: 
+[5.080s] 5: No code style divergence in file 'include/wait_set/talker.hpp'
+[5.080s] 5: 
+[5.080s] 5: No code style divergence in file 'include/wait_set/visibility.h'
+[5.080s] 5: 
+[5.080s] 5: No code style divergence in file 'src/executor_random_order.cpp'
+[5.080s] 5: 
+[5.080s] 5: No code style divergence in file 'src/listener.cpp'
+[5.080s] 5: 
+[5.081s] 5: No code style divergence in file 'src/static_wait_set.cpp'
+[5.081s] 5: 
+[5.081s] 5: No code style divergence in file 'src/talker.cpp'
+[5.081s] 5: 
+[5.081s] 5: No code style divergence in file 'src/thread_safe_wait_set.cpp'
+[5.081s] 5: 
+[5.081s] 5: No code style divergence in file 'src/wait_set.cpp'
+[5.081s] 5: 
+[5.081s] 5: No code style divergence in file 'src/wait_set_composed.cpp'
+[5.081s] 5: 
+[5.081s] 5: No code style divergence in file 'src/wait_set_random_order.cpp'
+[5.081s] 5: 
+[5.081s] 5: No code style divergence in file 'src/wait_set_topics_and_timer.cpp'
+[5.081s] 5: 
+[5.081s] 5: No code style divergence in file 'src/wait_set_topics_with_different_rates.cpp'
+[5.082s] 5: 
+[5.082s] 5: No problems found
+[5.119s] 5: -- run_test.py: return code 0
+[5.119s] 5: -- run_test.py: verify result file '/home/yixin/ros2_ws/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/uncrustify.xunit.xml'
+[5.150s] 5/6 Test #5: uncrustify .......................   Passed    0.34 sec
+[5.150s] test 6
+[5.150s]     Start 6: xmllint
+[5.150s] 
+[5.150s] 6: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/yixin/ros2_ws/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/xmllint.xunit.xml" "--package-name" "examples_rclcpp_wait_set" "--output-file" "/home/yixin/ros2_ws/build/examples_rclcpp_wait_set/ament_xmllint/xmllint.txt" "--command" "/opt/ros/jazzy/bin/ament_xmllint" "--xunit-file" "/home/yixin/ros2_ws/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/xmllint.xunit.xml"
+[5.151s] 6: Working Directory: /home/yixin/ros2_ws/src/examples/rclcpp/wait_set
+[5.151s] 6: Test timeout computed to be: 60
+[5.228s] 6: -- run_test.py: invoking following command in '/home/yixin/ros2_ws/src/examples/rclcpp/wait_set':
+[5.228s] 6:  - /opt/ros/jazzy/bin/ament_xmllint --xunit-file /home/yixin/ros2_ws/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/xmllint.xunit.xml
+[5.461s] 6: File 'package.xml' is valid
+[5.461s] 6: 
+[5.461s] 6: No problems found
+[5.500s] 6: -- run_test.py: return code 0
+[5.500s] 6: -- run_test.py: verify result file '/home/yixin/ros2_ws/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/xmllint.xunit.xml'
+[5.525s] 6/6 Test #6: xmllint ..........................   Passed    0.37 sec
+[5.525s] 
+[5.525s] [0;32m100% tests passed[0;0m, 0 tests failed[0;0m out of 6
+[5.525s] 
+[5.525s] Label Time Summary:
+[5.526s] copyright     =   2.61 sec*proc (1 test)
+[5.526s] cppcheck      =   0.50 sec*proc (1 test)
+[5.526s] cpplint       =   0.75 sec*proc (1 test)
+[5.526s] lint_cmake    =   0.24 sec*proc (1 test)
+[5.526s] linter        =   4.82 sec*proc (6 tests)
+[5.526s] uncrustify    =   0.34 sec*proc (1 test)
+[5.526s] xmllint       =   0.37 sec*proc (1 test)
+[5.526s] 
+[5.526s] Total Test time (real) =   4.83 sec
+[5.647s] Invoked command in '/home/yixin/ros2_ws/build/examples_rclcpp_wait_set' returned '0': AMENT_PREFIX_PATH=/home/yixin/ros2_ws/install/examples_rclcpp_wait_set:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yixin/ros2_ws/install/examples_rclcpp_wait_set:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/yixin/ros2_ws/install/examples_rclcpp_wait_set/lib:${LD_LIBRARY_PATH} /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process

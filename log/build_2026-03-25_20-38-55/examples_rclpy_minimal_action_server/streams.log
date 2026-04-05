@@ -1,0 +1,25 @@
+[5.379s] Invoking command in '/home/yixin/ros2_ws/src/examples/rclpy/actions/minimal_action_server': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/yixin/ros2_ws/build/examples_rclpy_minimal_action_server/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yixin/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_action_server build --build-base /home/yixin/ros2_ws/build/examples_rclpy_minimal_action_server/build install --record /home/yixin/ros2_ws/build/examples_rclpy_minimal_action_server/install.log --single-version-externally-managed install_data
+[6.255s] running egg_info
+[6.316s] writing ../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/PKG-INFO
+[6.317s] writing dependency_links to ../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/dependency_links.txt
+[6.318s] writing entry points to ../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/entry_points.txt
+[6.322s] writing requirements to ../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/requires.txt
+[6.323s] writing top-level names to ../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/top_level.txt
+[6.447s] reading manifest file '../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/SOURCES.txt'
+[6.449s] writing manifest file '../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/SOURCES.txt'
+[6.451s] running build
+[6.451s] running build_py
+[6.452s] running install
+[6.471s] running install_lib
+[6.531s] running install_data
+[6.531s] running install_egg_info
+[6.591s] removing '/home/yixin/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.12/site-packages/examples_rclpy_minimal_action_server-0.19.7-py3.12.egg-info' (and everything under it)
+[6.592s] Copying ../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info to /home/yixin/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.12/site-packages/examples_rclpy_minimal_action_server-0.19.7-py3.12.egg-info
+[6.596s] running install_scripts
+[6.884s] Installing server script to /home/yixin/ros2_ws/install/examples_rclpy_minimal_action_server/lib/examples_rclpy_minimal_action_server
+[6.885s] Installing server_defer script to /home/yixin/ros2_ws/install/examples_rclpy_minimal_action_server/lib/examples_rclpy_minimal_action_server
+[6.885s] Installing server_not_composable script to /home/yixin/ros2_ws/install/examples_rclpy_minimal_action_server/lib/examples_rclpy_minimal_action_server
+[6.887s] Installing server_queue_goals script to /home/yixin/ros2_ws/install/examples_rclpy_minimal_action_server/lib/examples_rclpy_minimal_action_server
+[6.888s] Installing server_single_goal script to /home/yixin/ros2_ws/install/examples_rclpy_minimal_action_server/lib/examples_rclpy_minimal_action_server
+[6.888s] writing list of installed files to '/home/yixin/ros2_ws/build/examples_rclpy_minimal_action_server/install.log'
+[7.041s] Invoked command in '/home/yixin/ros2_ws/src/examples/rclpy/actions/minimal_action_server' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/yixin/ros2_ws/build/examples_rclpy_minimal_action_server/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yixin/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_action_server build --build-base /home/yixin/ros2_ws/build/examples_rclpy_minimal_action_server/build install --record /home/yixin/ros2_ws/build/examples_rclpy_minimal_action_server/install.log --single-version-externally-managed install_data

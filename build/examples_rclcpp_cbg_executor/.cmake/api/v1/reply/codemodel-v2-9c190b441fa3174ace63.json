@@ -1,0 +1,97 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-d44cbf605c5cd53d7aaa.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "examples_rclcpp_cbg_executor",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "examples_rclcpp_cbg_executor_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-examples_rclcpp_cbg_executor_uninstall-Debug-dcdf3cf00d1823d5aa60.json",
+					"name" : "examples_rclcpp_cbg_executor_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ping::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ping-Debug-a4ef56c00ab3651cc175.json",
+					"name" : "ping",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ping_pong::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ping_pong-Debug-fbf54d77d532c79b6323.json",
+					"name" : "ping_pong",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pong::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pong-Debug-edea413fa3c953dfb4e7.json",
+					"name" : "pong",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Debug-ad76576b17aaf3c11d35.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/yixin/ros2_ws/build/examples_rclcpp_cbg_executor",
+		"source" : "/home/yixin/ros2_ws/src/examples/rclcpp/executors/cbg_executor"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}
