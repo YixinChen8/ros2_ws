@@ -1,0 +1,38 @@
+[2.601s] Invoking command in '/home/yixin/ros2_ws/src/python_parameters': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/yixin/ros2_ws/build/python_parameters/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yixin/ros2_ws/install/python_parameters/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/python_parameters build --build-base /home/yixin/ros2_ws/build/python_parameters/build install --record /home/yixin/ros2_ws/build/python_parameters/install.log --single-version-externally-managed install_data
+[3.452s] running egg_info
+[3.453s] creating ../../build/python_parameters/python_parameters.egg-info
+[3.509s] writing ../../build/python_parameters/python_parameters.egg-info/PKG-INFO
+[3.509s] writing dependency_links to ../../build/python_parameters/python_parameters.egg-info/dependency_links.txt
+[3.509s] writing entry points to ../../build/python_parameters/python_parameters.egg-info/entry_points.txt
+[3.510s] writing requirements to ../../build/python_parameters/python_parameters.egg-info/requires.txt
+[3.510s] writing top-level names to ../../build/python_parameters/python_parameters.egg-info/top_level.txt
+[3.510s] writing manifest file '../../build/python_parameters/python_parameters.egg-info/SOURCES.txt'
+[3.636s] reading manifest file '../../build/python_parameters/python_parameters.egg-info/SOURCES.txt'
+[3.636s] adding license file 'LICENSE'
+[3.638s] writing manifest file '../../build/python_parameters/python_parameters.egg-info/SOURCES.txt'
+[3.640s] running build
+[3.640s] running build_py
+[3.641s] creating /home/yixin/ros2_ws/build/python_parameters/build
+[3.641s] creating /home/yixin/ros2_ws/build/python_parameters/build/lib
+[3.642s] creating /home/yixin/ros2_ws/build/python_parameters/build/lib/python_parameters
+[3.642s] copying python_parameters/__init__.py -> /home/yixin/ros2_ws/build/python_parameters/build/lib/python_parameters
+[3.643s] copying python_parameters/python_parameters_node.py -> /home/yixin/ros2_ws/build/python_parameters/build/lib/python_parameters
+[3.643s] running install
+[3.662s] running install_lib
+[3.720s] creating /home/yixin/ros2_ws/install/python_parameters/lib/python3.12/site-packages/python_parameters
+[3.720s] copying /home/yixin/ros2_ws/build/python_parameters/build/lib/python_parameters/__init__.py -> /home/yixin/ros2_ws/install/python_parameters/lib/python3.12/site-packages/python_parameters
+[3.721s] copying /home/yixin/ros2_ws/build/python_parameters/build/lib/python_parameters/python_parameters_node.py -> /home/yixin/ros2_ws/install/python_parameters/lib/python3.12/site-packages/python_parameters
+[3.728s] byte-compiling /home/yixin/ros2_ws/install/python_parameters/lib/python3.12/site-packages/python_parameters/__init__.py to __init__.cpython-312.pyc
+[3.728s] byte-compiling /home/yixin/ros2_ws/install/python_parameters/lib/python3.12/site-packages/python_parameters/python_parameters_node.py to python_parameters_node.cpython-312.pyc
+[3.729s] running install_data
+[3.729s] creating /home/yixin/ros2_ws/install/python_parameters/share/ament_index
+[3.729s] creating /home/yixin/ros2_ws/install/python_parameters/share/ament_index/resource_index
+[3.729s] creating /home/yixin/ros2_ws/install/python_parameters/share/ament_index/resource_index/packages
+[3.729s] copying resource/python_parameters -> /home/yixin/ros2_ws/install/python_parameters/share/ament_index/resource_index/packages
+[3.730s] copying package.xml -> /home/yixin/ros2_ws/install/python_parameters/share/python_parameters
+[3.730s] running install_egg_info
+[3.792s] Copying ../../build/python_parameters/python_parameters.egg-info to /home/yixin/ros2_ws/install/python_parameters/lib/python3.12/site-packages/python_parameters-0.0.0-py3.12.egg-info
+[3.795s] running install_scripts
+[4.225s] Installing minimal_param_node script to /home/yixin/ros2_ws/install/python_parameters/lib/python_parameters
+[4.226s] writing list of installed files to '/home/yixin/ros2_ws/build/python_parameters/install.log'
+[4.319s] Invoked command in '/home/yixin/ros2_ws/src/python_parameters' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/yixin/ros2_ws/build/python_parameters/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yixin/ros2_ws/install/python_parameters/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/python_parameters build --build-base /home/yixin/ros2_ws/build/python_parameters/build install --record /home/yixin/ros2_ws/build/python_parameters/install.log --single-version-externally-managed install_data
