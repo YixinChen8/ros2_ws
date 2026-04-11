@@ -11,6 +11,9 @@ find_package(ament_cmake_ros REQUIRED)
 find_package(polygon_base REQUIRED)
 find_package(pluginlib REQUIRED)
 
+# The arguments to the pluginlib_export_plugin_description_file command are:
+# The package with the base class, i.e. polygon_base
+# The relative path to the Plugin Declaration xml, i.e. plugins.xml
 pluginlib_export_plugin_description_file(polygon_base plugins.xml)
 
 add_library(polygon_plugins src/polygon_plugins.cpp)
