@@ -1,0 +1,106 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-9d8f1438badcc879c264.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "custom_action_cpp",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "action_client::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-action_client-b28e8d8c3f32a1585650.json",
+					"name" : "action_client",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "action_server::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-action_server-24f374fd1a28003b4ab5.json",
+					"name" : "action_server",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "custom_action_cpp_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-custom_action_cpp_uninstall-218b078357976a32578c.json",
+					"name" : "custom_action_cpp_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "fibonacci_action_client::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-fibonacci_action_client-ec422aed75e37a1be141.json",
+					"name" : "fibonacci_action_client",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "fibonacci_action_server::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-fibonacci_action_server-f74e3a1c0d0a0c3b13b7.json",
+					"name" : "fibonacci_action_server",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-fe468cca8140c9e68b30.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/yixin/ros2_ws/build/custom_action_cpp",
+		"source" : "/home/yixin/ros2_ws/src/custom_action_cpp"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

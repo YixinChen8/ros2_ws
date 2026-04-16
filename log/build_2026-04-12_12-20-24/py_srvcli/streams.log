@@ -1,0 +1,23 @@
+[2.401s] Invoking command in '/home/yixin/ros2_ws/src/py_srvcli': AMENT_PREFIX_PATH=/home/yixin/ros2_ws/install/tutorial_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yixin/ros2_ws/install/tutorial_interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/yixin/ros2_ws/install/tutorial_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/yixin/ros2_ws/build/py_srvcli/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yixin/ros2_ws/install/py_srvcli/lib/python3.12/site-packages:/home/yixin/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_srvcli build --build-base /home/yixin/ros2_ws/build/py_srvcli/build install --record /home/yixin/ros2_ws/build/py_srvcli/install.log --single-version-externally-managed install_data
+[2.906s] running egg_info
+[2.946s] writing ../../build/py_srvcli/py_srvcli.egg-info/PKG-INFO
+[2.946s] writing dependency_links to ../../build/py_srvcli/py_srvcli.egg-info/dependency_links.txt
+[2.947s] writing entry points to ../../build/py_srvcli/py_srvcli.egg-info/entry_points.txt
+[2.947s] writing requirements to ../../build/py_srvcli/py_srvcli.egg-info/requires.txt
+[2.948s] writing top-level names to ../../build/py_srvcli/py_srvcli.egg-info/top_level.txt
+[3.025s] reading manifest file '../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'
+[3.026s] adding license file 'LICENSE'
+[3.027s] writing manifest file '../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'
+[3.030s] running build
+[3.030s] running build_py
+[3.030s] running install
+[3.041s] running install_lib
+[3.076s] running install_data
+[3.079s] running install_egg_info
+[3.118s] removing '/home/yixin/ros2_ws/install/py_srvcli/lib/python3.12/site-packages/py_srvcli-0.0.0-py3.12.egg-info' (and everything under it)
+[3.121s] Copying ../../build/py_srvcli/py_srvcli.egg-info to /home/yixin/ros2_ws/install/py_srvcli/lib/python3.12/site-packages/py_srvcli-0.0.0-py3.12.egg-info
+[3.125s] running install_scripts
+[3.367s] Installing client script to /home/yixin/ros2_ws/install/py_srvcli/lib/py_srvcli
+[3.368s] Installing service script to /home/yixin/ros2_ws/install/py_srvcli/lib/py_srvcli
+[3.369s] writing list of installed files to '/home/yixin/ros2_ws/build/py_srvcli/install.log'
+[3.491s] Invoked command in '/home/yixin/ros2_ws/src/py_srvcli' returned '0': AMENT_PREFIX_PATH=/home/yixin/ros2_ws/install/tutorial_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yixin/ros2_ws/install/tutorial_interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/yixin/ros2_ws/install/tutorial_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/yixin/ros2_ws/build/py_srvcli/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yixin/ros2_ws/install/py_srvcli/lib/python3.12/site-packages:/home/yixin/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_srvcli build --build-base /home/yixin/ros2_ws/build/py_srvcli/build install --record /home/yixin/ros2_ws/build/py_srvcli/install.log --single-version-externally-managed install_data

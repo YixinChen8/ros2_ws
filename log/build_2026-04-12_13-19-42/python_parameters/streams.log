@@ -1,0 +1,22 @@
+[2.412s] Invoking command in '/home/yixin/ros2_ws/src/python_parameters': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/yixin/ros2_ws/build/python_parameters/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yixin/ros2_ws/install/python_parameters/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/python_parameters build --build-base /home/yixin/ros2_ws/build/python_parameters/build install --record /home/yixin/ros2_ws/build/python_parameters/install.log --single-version-externally-managed install_data
+[2.910s] running egg_info
+[2.936s] writing ../../build/python_parameters/python_parameters.egg-info/PKG-INFO
+[2.936s] writing dependency_links to ../../build/python_parameters/python_parameters.egg-info/dependency_links.txt
+[2.937s] writing entry points to ../../build/python_parameters/python_parameters.egg-info/entry_points.txt
+[2.937s] writing requirements to ../../build/python_parameters/python_parameters.egg-info/requires.txt
+[2.937s] writing top-level names to ../../build/python_parameters/python_parameters.egg-info/top_level.txt
+[2.990s] reading manifest file '../../build/python_parameters/python_parameters.egg-info/SOURCES.txt'
+[2.992s] adding license file 'LICENSE'
+[2.993s] writing manifest file '../../build/python_parameters/python_parameters.egg-info/SOURCES.txt'
+[2.993s] running build
+[2.993s] running build_py
+[2.993s] running install
+[3.005s] running install_lib
+[3.039s] running install_data
+[3.039s] running install_egg_info
+[3.074s] removing '/home/yixin/ros2_ws/install/python_parameters/lib/python3.12/site-packages/python_parameters-0.0.0-py3.12.egg-info' (and everything under it)
+[3.078s] Copying ../../build/python_parameters/python_parameters.egg-info to /home/yixin/ros2_ws/install/python_parameters/lib/python3.12/site-packages/python_parameters-0.0.0-py3.12.egg-info
+[3.079s] running install_scripts
+[3.333s] Installing minimal_param_node script to /home/yixin/ros2_ws/install/python_parameters/lib/python_parameters
+[3.334s] writing list of installed files to '/home/yixin/ros2_ws/build/python_parameters/install.log'
+[3.449s] Invoked command in '/home/yixin/ros2_ws/src/python_parameters' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/yixin/ros2_ws/build/python_parameters/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yixin/ros2_ws/install/python_parameters/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/python_parameters build --build-base /home/yixin/ros2_ws/build/python_parameters/build install --record /home/yixin/ros2_ws/build/python_parameters/install.log --single-version-externally-managed install_data

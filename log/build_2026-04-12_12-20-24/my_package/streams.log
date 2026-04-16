@@ -1,0 +1,34 @@
+[0.461s] Invoking command in '/home/yixin/ros2_ws/build/my_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/yixin/ros2_ws/build/my_package -- -j8 -l8
+[0.552s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.175s] -- Found ament_lint_auto: 0.17.4 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.441s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.441s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/yixin/ros2_ws/src/my_package/include>
+[1.441s] -- Configured cppcheck exclude dirs and/or files: 
+[1.442s] -- Added test 'lint_cmake' to check CMake code style
+[1.444s] -- Added test 'uncrustify' to check C / C++ code style
+[1.445s] -- Configured uncrustify additional arguments: 
+[1.445s] -- Added test 'xmllint' to check XML markup files
+[1.447s] -- Configuring done (0.9s)
+[1.462s] -- Generating done (0.0s)
+[1.469s] -- Build files have been written to: /home/yixin/ros2_ws/build/my_package
+[1.562s] [100%] Built target my_node
+[1.600s] Invoked command in '/home/yixin/ros2_ws/build/my_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/yixin/ros2_ws/build/my_package -- -j8 -l8
+[1.602s] Invoking command in '/home/yixin/ros2_ws/build/my_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/yixin/ros2_ws/build/my_package
+[1.639s] -- Install configuration: ""
+[1.641s] -- Up-to-date: /home/yixin/ros2_ws/install/my_package/lib/my_package/my_node
+[1.645s] -- Up-to-date: /home/yixin/ros2_ws/install/my_package/share/ament_index/resource_index/package_run_dependencies/my_package
+[1.645s] -- Up-to-date: /home/yixin/ros2_ws/install/my_package/share/ament_index/resource_index/parent_prefix_path/my_package
+[1.646s] -- Up-to-date: /home/yixin/ros2_ws/install/my_package/share/my_package/environment/ament_prefix_path.sh
+[1.646s] -- Up-to-date: /home/yixin/ros2_ws/install/my_package/share/my_package/environment/ament_prefix_path.dsv
+[1.646s] -- Up-to-date: /home/yixin/ros2_ws/install/my_package/share/my_package/environment/path.sh
+[1.646s] -- Up-to-date: /home/yixin/ros2_ws/install/my_package/share/my_package/environment/path.dsv
+[1.646s] -- Up-to-date: /home/yixin/ros2_ws/install/my_package/share/my_package/local_setup.bash
+[1.646s] -- Up-to-date: /home/yixin/ros2_ws/install/my_package/share/my_package/local_setup.sh
+[1.646s] -- Up-to-date: /home/yixin/ros2_ws/install/my_package/share/my_package/local_setup.zsh
+[1.646s] -- Up-to-date: /home/yixin/ros2_ws/install/my_package/share/my_package/local_setup.dsv
+[1.646s] -- Up-to-date: /home/yixin/ros2_ws/install/my_package/share/my_package/package.dsv
+[1.646s] -- Up-to-date: /home/yixin/ros2_ws/install/my_package/share/ament_index/resource_index/packages/my_package
+[1.647s] -- Up-to-date: /home/yixin/ros2_ws/install/my_package/share/my_package/cmake/my_packageConfig.cmake
+[1.647s] -- Up-to-date: /home/yixin/ros2_ws/install/my_package/share/my_package/cmake/my_packageConfig-version.cmake
+[1.647s] -- Installing: /home/yixin/ros2_ws/install/my_package/share/my_package/package.xml
+[1.652s] Invoked command in '/home/yixin/ros2_ws/build/my_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/yixin/ros2_ws/build/my_package
