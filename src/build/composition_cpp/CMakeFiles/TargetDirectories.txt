@@ -1,0 +1,10 @@
+/home/yixin/ros2_ws/src/build/composition_cpp/CMakeFiles/uninstall.dir
+/home/yixin/ros2_ws/src/build/composition_cpp/CMakeFiles/composition_cpp_uninstall.dir
+/home/yixin/ros2_ws/src/build/composition_cpp/CMakeFiles/talker_component.dir
+/home/yixin/ros2_ws/src/build/composition_cpp/CMakeFiles/test.dir
+/home/yixin/ros2_ws/src/build/composition_cpp/CMakeFiles/edit_cache.dir
+/home/yixin/ros2_ws/src/build/composition_cpp/CMakeFiles/rebuild_cache.dir
+/home/yixin/ros2_ws/src/build/composition_cpp/CMakeFiles/list_install_components.dir
+/home/yixin/ros2_ws/src/build/composition_cpp/CMakeFiles/install.dir
+/home/yixin/ros2_ws/src/build/composition_cpp/CMakeFiles/install/local.dir
+/home/yixin/ros2_ws/src/build/composition_cpp/CMakeFiles/install/strip.dir

@@ -1,0 +1,17 @@
+/home/yixin/ros2_ws/src/install/composition_cpp/lib/libtalker_component.so
+/home/yixin/ros2_ws/src/install/composition_cpp/share/ament_index/resource_index/package_run_dependencies/composition_cpp
+/home/yixin/ros2_ws/src/install/composition_cpp/share/ament_index/resource_index/parent_prefix_path/composition_cpp
+/home/yixin/ros2_ws/src/install/composition_cpp/share/composition_cpp/environment/ament_prefix_path.sh
+/home/yixin/ros2_ws/src/install/composition_cpp/share/composition_cpp/environment/ament_prefix_path.dsv
+/home/yixin/ros2_ws/src/install/composition_cpp/share/composition_cpp/environment/path.sh
+/home/yixin/ros2_ws/src/install/composition_cpp/share/composition_cpp/environment/path.dsv
+/home/yixin/ros2_ws/src/install/composition_cpp/share/composition_cpp/local_setup.bash
+/home/yixin/ros2_ws/src/install/composition_cpp/share/composition_cpp/local_setup.sh
+/home/yixin/ros2_ws/src/install/composition_cpp/share/composition_cpp/local_setup.zsh
+/home/yixin/ros2_ws/src/install/composition_cpp/share/composition_cpp/local_setup.dsv
+/home/yixin/ros2_ws/src/install/composition_cpp/share/composition_cpp/package.dsv
+/home/yixin/ros2_ws/src/install/composition_cpp/share/ament_index/resource_index/packages/composition_cpp
+/home/yixin/ros2_ws/src/install/composition_cpp/share/ament_index/resource_index/rclcpp_components/composition_cpp
+/home/yixin/ros2_ws/src/install/composition_cpp/share/composition_cpp/cmake/composition_cppConfig.cmake
+/home/yixin/ros2_ws/src/install/composition_cpp/share/composition_cpp/cmake/composition_cppConfig-version.cmake
+/home/yixin/ros2_ws/src/install/composition_cpp/share/composition_cpp/package.xml

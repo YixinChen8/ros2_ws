@@ -1,0 +1,33 @@
+[0.045s] Invoking command in '/home/yixin/ros2_ws/build/vincent_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yixin/ros2_ws/install/py_srvcli:/home/yixin/ros2_ws/install/py_pubsub:/home/yixin/ros2_ws/install/python_parameters:/home/yixin/ros2_ws/install/my_python_package:/home/yixin/ros2_ws/install/launch_testing_examples:/home/yixin/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/yixin/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/yixin/ros2_ws/install/examples_rclpy_minimal_service:/home/yixin/ros2_ws/install/examples_rclpy_minimal_publisher:/home/yixin/ros2_ws/install/examples_rclpy_minimal_client:/home/yixin/ros2_ws/install/examples_rclpy_minimal_action_server:/home/yixin/ros2_ws/install/examples_rclpy_minimal_action_client:/home/yixin/ros2_ws/install/examples_rclpy_guard_conditions:/home/yixin/ros2_ws/install/examples_rclpy_executors:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/yixin/ros2_ws/build/vincent_driver -- -j8 -l8
+[0.145s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.833s] -- Found rclcpp: 28.1.16 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.923s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.950s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.988s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.035s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.236s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.244s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.446s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.648s] -- Found rclcpp_components: 28.1.16 (/opt/ros/jazzy/share/rclcpp_components/cmake)
+[1.731s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[1.784s] -- Found ament_lint_auto: 0.17.4 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[2.072s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.072s] -- Configured cppcheck include dirs: 
+[2.073s] -- Configured cppcheck exclude dirs and/or files: 
+[2.074s] -- Added test 'lint_cmake' to check CMake code style
+[2.078s] -- Added test 'uncrustify' to check C / C++ code style
+[2.078s] -- Configured uncrustify additional arguments: 
+[2.079s] -- Added test 'xmllint' to check XML markup files
+[2.082s] -- Configuring done (2.0s)
+[2.129s] -- Generating done (0.0s)
+[2.146s] -- Build files have been written to: /home/yixin/ros2_ws/build/vincent_driver
+[2.303s] [ 50%] Built target vincent_driver_component
+[2.378s] [ 75%] [32mBuilding CXX object CMakeFiles/vincent_driver_node.dir/src/vincent_driver_main.cpp.o[0m
+[3.177s] [01m[K/home/yixin/ros2_ws/src/vincent_driver/src/vincent_driver_main.cpp:4:10:[m[K [01;31m[Kfatal error: [m[Kvincent_driver/vincent_driver.hpp: No such file or directory
+[3.178s]     4 | #include [01;31m[K"vincent_driver/vincent_driver.hpp"[m[K
+[3.178s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.178s] compilation terminated.
+[3.189s] gmake[2]: *** [CMakeFiles/vincent_driver_node.dir/build.make:76: CMakeFiles/vincent_driver_node.dir/src/vincent_driver_main.cpp.o] Error 1
+[3.190s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/vincent_driver_node.dir/all] Error 2
+[3.191s] gmake: *** [Makefile:146: all] Error 2
+[3.197s] Invoked command in '/home/yixin/ros2_ws/build/vincent_driver' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yixin/ros2_ws/install/py_srvcli:/home/yixin/ros2_ws/install/py_pubsub:/home/yixin/ros2_ws/install/python_parameters:/home/yixin/ros2_ws/install/my_python_package:/home/yixin/ros2_ws/install/launch_testing_examples:/home/yixin/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/yixin/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/yixin/ros2_ws/install/examples_rclpy_minimal_service:/home/yixin/ros2_ws/install/examples_rclpy_minimal_publisher:/home/yixin/ros2_ws/install/examples_rclpy_minimal_client:/home/yixin/ros2_ws/install/examples_rclpy_minimal_action_server:/home/yixin/ros2_ws/install/examples_rclpy_minimal_action_client:/home/yixin/ros2_ws/install/examples_rclpy_guard_conditions:/home/yixin/ros2_ws/install/examples_rclpy_executors:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/yixin/ros2_ws/build/vincent_driver -- -j8 -l8
