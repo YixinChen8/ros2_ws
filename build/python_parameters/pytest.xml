@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="0" failures="1" skipped="1" tests="3" time="0.589" timestamp="2026-05-31T18:50:58.476638" hostname="yixin-Aspire-A315-24PT"><testcase classname="python_parameters.test.test_copyright" name="test_copyright" time="0.001"><skipped type="pytest.skip" message="No copyright header has been placed in the generated source file.">/home/yixin/ros2_ws/src/python_parameters/test/test_copyright.py:20: No copyright header has been placed in the generated source file.</skipped></testcase><testcase classname="python_parameters.test.test_flake8" name="test_flake8" time="0.263"><failure message="AssertionError: Found 15 code style errors / warnings:&#10;  ./launch/python_parameters_launch.py:18:7: W292 no newline at end of file&#10;  ./python_parameters/python_parameters_node.py:5:1: E302 expected 2 blank lines, found 1&#10;  ./python_parameters/python_parameters_node.py:6:100: E501 line too long (122 &gt; 99 characters)&#10;  ./python_parameters/python_parameters_node.py:11:93: W291 trailing whitespace&#10;  ./python_parameters/python_parameters_node.py:32:100: E501 line too long (117 &gt; 99 characters)&#10;  ./python_parameters/python_parameters_node.py:33:100: E501 line too long (122 &gt; 99 characters)&#10;  ./python_parameters/python_parameters_node.py:36:1: E302 expected 2 blank lines, found 1&#10;  ./python_parameters/python_parameters_node.py:44:1: E305 expected 2 blank lines after class or function definition, found 1&#10;  ./python_parameters/python_parameters_node.py:45:11: W292 no newline at end of file&#10;  ./setup.py:2:1: I100 Import statements are in the wrong order. 'from glob import glob' should be before 'import os'&#10;  ./setup.py:3:1: I201 Missing newline between import groups. 'from setuptools import find_packages, setup' is identified as Third Party and 'from glob import glob' is identified as Stdlib.&#10;  ./setup.py:15:75: W291 trailing whitespace&#10;  ./setup.py:22:45: W291 trailing whitespace&#10;  ./setup.py:31:9: E122 continuation line missing indentation or outdented&#10;  ./setup.py:31:78: W291 trailing whitespace&#10;assert 1 == 0">test/test_flake8.py:23: in test_flake8
+    assert rc == 0, \
+E   AssertionError: Found 15 code style errors / warnings:
+E     ./launch/python_parameters_launch.py:18:7: W292 no newline at end of file
+E     ./python_parameters/python_parameters_node.py:5:1: E302 expected 2 blank lines, found 1
+E     ./python_parameters/python_parameters_node.py:6:100: E501 line too long (122 &gt; 99 characters)
+E     ./python_parameters/python_parameters_node.py:11:93: W291 trailing whitespace
+E     ./python_parameters/python_parameters_node.py:32:100: E501 line too long (117 &gt; 99 characters)
+E     ./python_parameters/python_parameters_node.py:33:100: E501 line too long (122 &gt; 99 characters)
+E     ./python_parameters/python_parameters_node.py:36:1: E302 expected 2 blank lines, found 1
+E     ./python_parameters/python_parameters_node.py:44:1: E305 expected 2 blank lines after class or function definition, found 1
+E     ./python_parameters/python_parameters_node.py:45:11: W292 no newline at end of file
+E     ./setup.py:2:1: I100 Import statements are in the wrong order. 'from glob import glob' should be before 'import os'
+E     ./setup.py:3:1: I201 Missing newline between import groups. 'from setuptools import find_packages, setup' is identified as Third Party and 'from glob import glob' is identified as Stdlib.
+E     ./setup.py:15:75: W291 trailing whitespace
+E     ./setup.py:22:45: W291 trailing whitespace
+E     ./setup.py:31:9: E122 continuation line missing indentation or outdented
+E     ./setup.py:31:78: W291 trailing whitespace
+E   assert 1 == 0</failure></testcase><testcase classname="python_parameters.test.test_pep257" name="test_pep257" time="0.027" /></testsuite></testsuites>

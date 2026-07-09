@@ -1,0 +1,130 @@
+UpdateCTestConfiguration  from :/home/yixin/ros2_ws/build/cpp_srvcli/CTestConfiguration.ini
+Parse Config file:/home/yixin/ros2_ws/build/cpp_srvcli/CTestConfiguration.ini
+   Site: yixin-Aspire-A315-24PT
+   Build name: (empty)
+ Add coverage exclude regular expressions.
+Create new tag: 20260531-2250 - Experimental
+UpdateCTestConfiguration  from :/home/yixin/ros2_ws/build/cpp_srvcli/CTestConfiguration.ini
+Parse Config file:/home/yixin/ros2_ws/build/cpp_srvcli/CTestConfiguration.ini
+Test project /home/yixin/ros2_ws/build/cpp_srvcli
+Constructing a list of tests
+Done constructing a list of tests
+Updating test list for fixtures
+Added 0 tests to meet fixture requirements
+Checking test dependency graph...
+Checking test dependency graph end
+test 1
+    Start 1: cppcheck
+
+1: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/yixin/ros2_ws/build/cpp_srvcli/test_results/cpp_srvcli/cppcheck.xunit.xml" "--package-name" "cpp_srvcli" "--output-file" "/home/yixin/ros2_ws/build/cpp_srvcli/ament_cppcheck/cppcheck.txt" "--command" "/opt/ros/jazzy/bin/ament_cppcheck" "--xunit-file" "/home/yixin/ros2_ws/build/cpp_srvcli/test_results/cpp_srvcli/cppcheck.xunit.xml"
+1: Working Directory: /home/yixin/ros2_ws/src/cpp_srvcli
+1: Test timeout computed to be: 300
+1: -- run_test.py: invoking following command in '/home/yixin/ros2_ws/src/cpp_srvcli':
+1:  - /opt/ros/jazzy/bin/ament_cppcheck --xunit-file /home/yixin/ros2_ws/build/cpp_srvcli/test_results/cpp_srvcli/cppcheck.xunit.xml
+1: cppcheck 2.13.0 has known performance issues and therefore will not be used, set the AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS environment variable to override this.
+1: -- run_test.py: return code 0
+1: -- run_test.py: verify result file '/home/yixin/ros2_ws/build/cpp_srvcli/test_results/cpp_srvcli/cppcheck.xunit.xml'
+1/4 Test #1: cppcheck .........................   Passed    0.45 sec
+test 2
+    Start 2: lint_cmake
+
+2: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/yixin/ros2_ws/build/cpp_srvcli/test_results/cpp_srvcli/lint_cmake.xunit.xml" "--package-name" "cpp_srvcli" "--output-file" "/home/yixin/ros2_ws/build/cpp_srvcli/ament_lint_cmake/lint_cmake.txt" "--command" "/opt/ros/jazzy/bin/ament_lint_cmake" "--xunit-file" "/home/yixin/ros2_ws/build/cpp_srvcli/test_results/cpp_srvcli/lint_cmake.xunit.xml"
+2: Working Directory: /home/yixin/ros2_ws/src/cpp_srvcli
+2: Test timeout computed to be: 60
+2: -- run_test.py: invoking following command in '/home/yixin/ros2_ws/src/cpp_srvcli':
+2:  - /opt/ros/jazzy/bin/ament_lint_cmake --xunit-file /home/yixin/ros2_ws/build/cpp_srvcli/test_results/cpp_srvcli/lint_cmake.xunit.xml
+2: CMakeLists.txt:38: Line ends in whitespace [whitespace/eol]
+2: 
+2: 
+2: 1 errors
+2: -- run_test.py: return code 1
+2: -- run_test.py: verify result file '/home/yixin/ros2_ws/build/cpp_srvcli/test_results/cpp_srvcli/lint_cmake.xunit.xml'
+2/4 Test #2: lint_cmake .......................***Failed    0.36 sec
+test 3
+    Start 3: uncrustify
+
+3: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/yixin/ros2_ws/build/cpp_srvcli/test_results/cpp_srvcli/uncrustify.xunit.xml" "--package-name" "cpp_srvcli" "--output-file" "/home/yixin/ros2_ws/build/cpp_srvcli/ament_uncrustify/uncrustify.txt" "--command" "/opt/ros/jazzy/bin/ament_uncrustify" "--xunit-file" "/home/yixin/ros2_ws/build/cpp_srvcli/test_results/cpp_srvcli/uncrustify.xunit.xml"
+3: Working Directory: /home/yixin/ros2_ws/src/cpp_srvcli
+3: Test timeout computed to be: 60
+3: -- run_test.py: invoking following command in '/home/yixin/ros2_ws/src/cpp_srvcli':
+3:  - /opt/ros/jazzy/bin/ament_uncrustify --xunit-file /home/yixin/ros2_ws/build/cpp_srvcli/test_results/cpp_srvcli/uncrustify.xunit.xml
+3: Code style divergence in file 'src/add_two_ints_client.cpp':
+3: 
+3: --- src/add_two_ints_client.cpp
+3: +++ src/add_two_ints_client.cpp.uncrustify
+3: @@ -16 +16 @@
+3: -  if (argc != 4) { // CHANGE    
+3: +  if (argc != 4) { // CHANGE
+3: @@ -18,2 +18,2 @@
+3: -      RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "usage: add_three_ints_client X Y Z");      // CHANGE      
+3: -      return 1;
+3: +    RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "usage: add_three_ints_client X Y Z");        // CHANGE
+3: +    return 1;
+3: @@ -30 +30 @@
+3: -    node->create_client<tutorial_interfaces::srv::AddThreeInts>("add_three_ints");          // CHANGE    
+3: +    node->create_client<tutorial_interfaces::srv::AddThreeInts>("add_three_ints");          // CHANGE
+3: @@ -44 +44,2 @@
+3: -      RCLCPP_ERROR(rclcpp::get_logger("rclcpp"), "Interrupted while waiting for the service. Exiting.");
+3: +      RCLCPP_ERROR(rclcpp::get_logger("rclcpp"),
+3: +        "Interrupted while waiting for the service. Exiting.");
+3: @@ -64 +65 @@
+3: -}
+3: +}
+3: 
+3: Code style divergence in file 'src/add_two_ints_server.cpp':
+3: 
+3: --- src/add_two_ints_server.cpp
+3: +++ src/add_two_ints_server.cpp.uncrustify
+3: @@ -17,2 +17,3 @@
+3: -void add(const std::shared_ptr<tutorial_interfaces::srv::AddThreeInts::Request> request,     // CHANGE
+3: -          std::shared_ptr<tutorial_interfaces::srv::AddThreeInts::Response>       response)  // CHANGE
+3: +void add(
+3: +  const std::shared_ptr<tutorial_interfaces::srv::AddThreeInts::Request> request,            // CHANGE
+3: +  std::shared_ptr<tutorial_interfaces::srv::AddThreeInts::Response> response)                // CHANGE
+3: @@ -23 +24,2 @@
+3: -  RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "sending back response: [%ld]", (long int)response->sum);
+3: +  RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "sending back response: [%ld]",
+3: +    (long int)response->sum);
+3: @@ -38 +40 @@
+3: -//   // Prints a log message when it’s ready 
+3: +//   // Prints a log message when it’s ready
+3: @@ -53 +55 @@
+3: -    node->create_service<tutorial_interfaces::srv::AddThreeInts>("add_three_ints",  &add);   // CHANGE
+3: +    node->create_service<tutorial_interfaces::srv::AddThreeInts>("add_three_ints", &add);    // CHANGE
+3: @@ -59 +61 @@
+3: -}
+3: +}
+3: 
+3: 2 files with code style divergence
+3: -- run_test.py: return code 1
+3: -- run_test.py: verify result file '/home/yixin/ros2_ws/build/cpp_srvcli/test_results/cpp_srvcli/uncrustify.xunit.xml'
+3/4 Test #3: uncrustify .......................***Failed    0.41 sec
+test 4
+    Start 4: xmllint
+
+4: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/yixin/ros2_ws/build/cpp_srvcli/test_results/cpp_srvcli/xmllint.xunit.xml" "--package-name" "cpp_srvcli" "--output-file" "/home/yixin/ros2_ws/build/cpp_srvcli/ament_xmllint/xmllint.txt" "--command" "/opt/ros/jazzy/bin/ament_xmllint" "--xunit-file" "/home/yixin/ros2_ws/build/cpp_srvcli/test_results/cpp_srvcli/xmllint.xunit.xml"
+4: Working Directory: /home/yixin/ros2_ws/src/cpp_srvcli
+4: Test timeout computed to be: 60
+4: -- run_test.py: invoking following command in '/home/yixin/ros2_ws/src/cpp_srvcli':
+4:  - /opt/ros/jazzy/bin/ament_xmllint --xunit-file /home/yixin/ros2_ws/build/cpp_srvcli/test_results/cpp_srvcli/xmllint.xunit.xml
+4: File 'package.xml' is valid
+4: 
+4: No problems found
+4: -- run_test.py: return code 0
+4: -- run_test.py: verify result file '/home/yixin/ros2_ws/build/cpp_srvcli/test_results/cpp_srvcli/xmllint.xunit.xml'
+4/4 Test #4: xmllint ..........................   Passed    0.54 sec
+
+50% tests passed[0;0m, [0;31m2 tests failed[0;0m out of 4
+
+Label Time Summary:
+cppcheck      =   0.45 sec*proc (1 test)
+lint_cmake    =   0.36 sec*proc (1 test)
+linter        =   1.76 sec*proc (4 tests)
+uncrustify    =   0.41 sec*proc (1 test)
+xmllint       =   0.54 sec*proc (1 test)
+
+Total Test time (real) =   1.76 sec
+
+The following tests FAILED:
+	[0;31m  2 - lint_cmake (Failed)[0;0m
+	[0;31m  3 - uncrustify (Failed)[0;0m

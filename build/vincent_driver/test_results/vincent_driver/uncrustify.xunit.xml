@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite
+  name="vincent_driver.uncrustify"
+  tests="2"
+  failures="2"
+  errors="0"
+  time="0.016"
+>
+  <testcase
+    name="include/vincent_driver/vincent_driver.hpp"
+    classname="vincent_driver.uncrustify"
+  >
+      <failure message="Diff with 5 lines"><![CDATA[--- include/vincent_driver/vincent_driver.hpp
++++ include/vincent_driver/vincent_driver.hpp.uncrustify
+@@ -17 +17 @@
+-#endif+#endif
+]]></failure>
+  </testcase>
+  <testcase
+    name="src/vincent_driver.cpp"
+    classname="vincent_driver.uncrustify"
+  >
+      <failure message="Diff with 5 lines"><![CDATA[--- src/vincent_driver.cpp
++++ src/vincent_driver.cpp.uncrustify
+@@ -20 +20 @@
+-RCLCPP_COMPONENTS_REGISTER_NODE(palomino::VincentDriver)+RCLCPP_COMPONENTS_REGISTER_NODE(palomino::VincentDriver)
+]]></failure>
+  </testcase>
+  <system-out>Checked files:
+* include/vincent_driver/vincent_driver.hpp
+* src/vincent_driver.cpp</system-out>
+</testsuite>

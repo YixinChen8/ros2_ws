@@ -1,0 +1,100 @@
+UpdateCTestConfiguration  from :/home/yixin/ros2_ws/build/more_interfaces/CTestConfiguration.ini
+Parse Config file:/home/yixin/ros2_ws/build/more_interfaces/CTestConfiguration.ini
+   Site: yixin-Aspire-A315-24PT
+   Build name: (empty)
+ Add coverage exclude regular expressions.
+Create new tag: 20260531-2250 - Experimental
+UpdateCTestConfiguration  from :/home/yixin/ros2_ws/build/more_interfaces/CTestConfiguration.ini
+Parse Config file:/home/yixin/ros2_ws/build/more_interfaces/CTestConfiguration.ini
+Test project /home/yixin/ros2_ws/build/more_interfaces
+Constructing a list of tests
+Done constructing a list of tests
+Updating test list for fixtures
+Added 0 tests to meet fixture requirements
+Checking test dependency graph...
+Checking test dependency graph end
+test 1
+    Start 1: cppcheck
+
+1: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/yixin/ros2_ws/build/more_interfaces/test_results/more_interfaces/cppcheck.xunit.xml" "--package-name" "more_interfaces" "--output-file" "/home/yixin/ros2_ws/build/more_interfaces/ament_cppcheck/cppcheck.txt" "--command" "/opt/ros/jazzy/bin/ament_cppcheck" "--xunit-file" "/home/yixin/ros2_ws/build/more_interfaces/test_results/more_interfaces/cppcheck.xunit.xml"
+1: Working Directory: /home/yixin/ros2_ws/src/more_interfaces
+1: Test timeout computed to be: 300
+1: -- run_test.py: invoking following command in '/home/yixin/ros2_ws/src/more_interfaces':
+1:  - /opt/ros/jazzy/bin/ament_cppcheck --xunit-file /home/yixin/ros2_ws/build/more_interfaces/test_results/more_interfaces/cppcheck.xunit.xml
+1: cppcheck 2.13.0 has known performance issues and therefore will not be used, set the AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS environment variable to override this.
+1: -- run_test.py: return code 0
+1: -- run_test.py: verify result file '/home/yixin/ros2_ws/build/more_interfaces/test_results/more_interfaces/cppcheck.xunit.xml'
+1/4 Test #1: cppcheck .........................   Passed    0.44 sec
+test 2
+    Start 2: lint_cmake
+
+2: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/yixin/ros2_ws/build/more_interfaces/test_results/more_interfaces/lint_cmake.xunit.xml" "--package-name" "more_interfaces" "--output-file" "/home/yixin/ros2_ws/build/more_interfaces/ament_lint_cmake/lint_cmake.txt" "--command" "/opt/ros/jazzy/bin/ament_lint_cmake" "--xunit-file" "/home/yixin/ros2_ws/build/more_interfaces/test_results/more_interfaces/lint_cmake.xunit.xml"
+2: Working Directory: /home/yixin/ros2_ws/src/more_interfaces
+2: Test timeout computed to be: 60
+2: -- run_test.py: invoking following command in '/home/yixin/ros2_ws/src/more_interfaces':
+2:  - /opt/ros/jazzy/bin/ament_lint_cmake --xunit-file /home/yixin/ros2_ws/build/more_interfaces/test_results/more_interfaces/lint_cmake.xunit.xml
+2: CMakeLists.txt:41: Line ends in whitespace [whitespace/eol]
+2: 
+2: 
+2: 1 errors
+2: -- run_test.py: return code 1
+2: -- run_test.py: verify result file '/home/yixin/ros2_ws/build/more_interfaces/test_results/more_interfaces/lint_cmake.xunit.xml'
+2/4 Test #2: lint_cmake .......................***Failed    0.45 sec
+test 3
+    Start 3: uncrustify
+
+3: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/yixin/ros2_ws/build/more_interfaces/test_results/more_interfaces/uncrustify.xunit.xml" "--package-name" "more_interfaces" "--output-file" "/home/yixin/ros2_ws/build/more_interfaces/ament_uncrustify/uncrustify.txt" "--command" "/opt/ros/jazzy/bin/ament_uncrustify" "--xunit-file" "/home/yixin/ros2_ws/build/more_interfaces/test_results/more_interfaces/uncrustify.xunit.xml"
+3: Working Directory: /home/yixin/ros2_ws/src/more_interfaces
+3: Test timeout computed to be: 60
+3: -- run_test.py: invoking following command in '/home/yixin/ros2_ws/src/more_interfaces':
+3:  - /opt/ros/jazzy/bin/ament_uncrustify --xunit-file /home/yixin/ros2_ws/build/more_interfaces/test_results/more_interfaces/uncrustify.xunit.xml
+3: Code style divergence in file 'src/publish_address_book.cpp':
+3: 
+3: --- src/publish_address_book.cpp
+3: +++ src/publish_address_book.cpp.uncrustify
+3: @@ -20 +20 @@
+3: -    // Create a callback "putoblish_msg" to publish the messages periodically  
+3: +    // Create a callback "putoblish_msg" to publish the messages periodically
+3: @@ -37 +37 @@
+3: -    // Create a 1 second timer to call "publish_msg" function every second  
+3: +    // Create a 1 second timer to call "publish_msg" function every second
+3: @@ -54 +54 @@
+3: -}
+3: +}
+3: 
+3: 1 files with code style divergence
+3: -- run_test.py: return code 1
+3: -- run_test.py: verify result file '/home/yixin/ros2_ws/build/more_interfaces/test_results/more_interfaces/uncrustify.xunit.xml'
+3/4 Test #3: uncrustify .......................***Failed    0.44 sec
+test 4
+    Start 4: xmllint
+
+4: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/yixin/ros2_ws/build/more_interfaces/test_results/more_interfaces/xmllint.xunit.xml" "--package-name" "more_interfaces" "--output-file" "/home/yixin/ros2_ws/build/more_interfaces/ament_xmllint/xmllint.txt" "--command" "/opt/ros/jazzy/bin/ament_xmllint" "--xunit-file" "/home/yixin/ros2_ws/build/more_interfaces/test_results/more_interfaces/xmllint.xunit.xml"
+4: Working Directory: /home/yixin/ros2_ws/src/more_interfaces
+4: Test timeout computed to be: 60
+4: -- run_test.py: invoking following command in '/home/yixin/ros2_ws/src/more_interfaces':
+4:  - /opt/ros/jazzy/bin/ament_xmllint --xunit-file /home/yixin/ros2_ws/build/more_interfaces/test_results/more_interfaces/xmllint.xunit.xml
+4: File 'package.xml' is invalid:
+4: /home/yixin/ros2_ws/src/more_interfaces/package.xml:20: element test_depend: Schemas validity error : Element 'test_depend': This element is not expected. Expected is one of ( member_of_group, export ).
+4: /home/yixin/ros2_ws/src/more_interfaces/package.xml fails to validate
+4: 
+4: 1 files are invalid
+4: -- run_test.py: return code 1
+4: -- run_test.py: verify result file '/home/yixin/ros2_ws/build/more_interfaces/test_results/more_interfaces/xmllint.xunit.xml'
+4/4 Test #4: xmllint ..........................***Failed    0.69 sec
+
+25% tests passed[0;0m, [0;31m3 tests failed[0;0m out of 4
+
+Label Time Summary:
+cppcheck      =   0.44 sec*proc (1 test)
+lint_cmake    =   0.45 sec*proc (1 test)
+linter        =   2.02 sec*proc (4 tests)
+uncrustify    =   0.44 sec*proc (1 test)
+xmllint       =   0.69 sec*proc (1 test)
+
+Total Test time (real) =   2.03 sec
+
+The following tests FAILED:
+	[0;31m  2 - lint_cmake (Failed)[0;0m
+	[0;31m  3 - uncrustify (Failed)[0;0m
+	[0;31m  4 - xmllint (Failed)[0;0m

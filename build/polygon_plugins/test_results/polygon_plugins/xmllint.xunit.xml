@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite
+  name="polygon_plugins.xmllint"
+  tests="2"
+  errors="0"
+  failures="0"
+  time="0.146"
+>
+  <testcase
+    name="package.xml"
+    classname="polygon_plugins.xmllint"/>
+  <testcase
+    name="plugins.xml"
+    classname="polygon_plugins.xmllint"/>
+  <system-out>Checked files:
+* package.xml
+* plugins.xml</system-out>
+</testsuite>

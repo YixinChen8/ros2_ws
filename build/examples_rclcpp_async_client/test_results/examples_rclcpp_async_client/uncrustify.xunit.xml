@@ -4,7 +4,7 @@
   tests="1"
   failures="0"
   errors="0"
-  time="0.035"
+  time="0.033"
 >
   <testcase
     name="main.cpp"

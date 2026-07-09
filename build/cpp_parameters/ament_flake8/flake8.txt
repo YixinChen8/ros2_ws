@@ -1,0 +1,21 @@
+-- run_test.py: invoking following command in '/home/yixin/ros2_ws/src/cpp_parameters':
+ - /opt/ros/jazzy/bin/ament_flake8 --xunit-file /home/yixin/ros2_ws/build/cpp_parameters/test_results/cpp_parameters/flake8.xunit.xml
+
+    ])      ^
+1     W292 no newline at end of file
+
+./launch/cpp_parameters_launch.py:18:7: W292 no newline at end of file
+
+
+1 files checked
+1 errors
+
+'W'-type errors: 1
+
+Checked files:
+
+* ./launch/cpp_parameters_launch.py
+
+
+-- run_test.py: return code 1
+-- run_test.py: verify result file '/home/yixin/ros2_ws/build/cpp_parameters/test_results/cpp_parameters/flake8.xunit.xml'

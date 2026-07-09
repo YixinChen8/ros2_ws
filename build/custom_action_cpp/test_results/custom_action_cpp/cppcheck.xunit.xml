@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite
+  name="custom_action_cpp.cppcheck"
+  tests="3"
+  errors="0"
+  failures="0"
+  time="0.000"
+  skipped="3"
+>
+  <testcase
+    name="include/custom_action_cpp/visibility_control.hpp"
+    classname="custom_action_cpp.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.13.0 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="src/fibonacci_action_client.cpp"
+    classname="custom_action_cpp.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.13.0 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="src/fibonacci_action_server.cpp"
+    classname="custom_action_cpp.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.13.0 performance issues]]
+    </skipped>
+  </testcase>
+  <system-err>Tests Skipped due to cppcheck 2.13.0 performance issues</system-err>
+</testsuite>

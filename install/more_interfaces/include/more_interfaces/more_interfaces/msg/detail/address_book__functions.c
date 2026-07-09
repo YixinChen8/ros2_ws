@@ -157,6 +157,9 @@ more_interfaces__msg__AddressBook__Sequence__init(more_interfaces__msg__AddressB
   more_interfaces__msg__AddressBook * data = NULL;
 
   if (size) {
+    if (size > SIZE_MAX / sizeof(more_interfaces__msg__AddressBook)) {
+      return false;
+    }
     data = (more_interfaces__msg__AddressBook *)allocator.zero_allocate(size, sizeof(more_interfaces__msg__AddressBook), allocator.state);
     if (!data) {
       return false;
@@ -262,6 +265,9 @@ more_interfaces__msg__AddressBook__Sequence__copy(
     return false;
   }
   if (output->capacity < input->size) {
+    if (input->size > SIZE_MAX / sizeof(more_interfaces__msg__AddressBook)) {
+      return false;
+    }
     const size_t allocation_size =
       input->size * sizeof(more_interfaces__msg__AddressBook);
     rcutils_allocator_t allocator = rcutils_get_default_allocator();

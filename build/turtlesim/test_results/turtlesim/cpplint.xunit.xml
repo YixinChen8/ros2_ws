@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite
+  name="turtlesim.cpplint"
+  tests="9"
+  failures="0"
+  errors="0"
+  time="0.393"
+>
+  <testcase
+    name="/home/yixin/ros2_ws/src/ros_tutorials/turtlesim/tutorials/draw_square.cpp"
+    classname="turtlesim.cpplint"/>
+  <testcase
+    name="/home/yixin/ros2_ws/src/ros_tutorials/turtlesim/tutorials/mimic.cpp"
+    classname="turtlesim.cpplint"/>
+  <testcase
+    name="/home/yixin/ros2_ws/src/ros_tutorials/turtlesim/tutorials/teleop_turtle_key.cpp"
+    classname="turtlesim.cpplint"/>
+  <testcase
+    name="/home/yixin/ros2_ws/src/ros_tutorials/turtlesim/include/turtlesim/qos.hpp"
+    classname="turtlesim.cpplint"/>
+  <testcase
+    name="/home/yixin/ros2_ws/src/ros_tutorials/turtlesim/include/turtlesim/turtle.hpp"
+    classname="turtlesim.cpplint"/>
+  <testcase
+    name="/home/yixin/ros2_ws/src/ros_tutorials/turtlesim/include/turtlesim/turtle_frame.hpp"
+    classname="turtlesim.cpplint"/>
+  <testcase
+    name="/home/yixin/ros2_ws/src/ros_tutorials/turtlesim/src/turtle.cpp"
+    classname="turtlesim.cpplint"/>
+  <testcase
+    name="/home/yixin/ros2_ws/src/ros_tutorials/turtlesim/src/turtle_frame.cpp"
+    classname="turtlesim.cpplint"/>
+  <testcase
+    name="/home/yixin/ros2_ws/src/ros_tutorials/turtlesim/src/turtlesim.cpp"
+    classname="turtlesim.cpplint"/>
+  <system-out>Checked files:
+* /home/yixin/ros2_ws/src/ros_tutorials/turtlesim/tutorials/draw_square.cpp
+* /home/yixin/ros2_ws/src/ros_tutorials/turtlesim/tutorials/mimic.cpp
+* /home/yixin/ros2_ws/src/ros_tutorials/turtlesim/tutorials/teleop_turtle_key.cpp
+* /home/yixin/ros2_ws/src/ros_tutorials/turtlesim/include/turtlesim/qos.hpp
+* /home/yixin/ros2_ws/src/ros_tutorials/turtlesim/include/turtlesim/turtle.hpp
+* /home/yixin/ros2_ws/src/ros_tutorials/turtlesim/include/turtlesim/turtle_frame.hpp
+* /home/yixin/ros2_ws/src/ros_tutorials/turtlesim/src/turtle.cpp
+* /home/yixin/ros2_ws/src/ros_tutorials/turtlesim/src/turtle_frame.cpp
+* /home/yixin/ros2_ws/src/ros_tutorials/turtlesim/src/turtlesim.cpp</system-out>
+</testsuite>

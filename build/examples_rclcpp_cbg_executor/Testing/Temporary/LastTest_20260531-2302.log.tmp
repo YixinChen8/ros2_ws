@@ -1,0 +1,22 @@
+Start testing: May 31 19:02 EDT
+----------------------------------------------------------
+1/6 Testing: copyright
+1/6 Test: copyright
+Command: "/usr/bin/python3" "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/yixin/ros2_ws/build/examples_rclcpp_cbg_executor/test_results/examples_rclcpp_cbg_executor/copyright.xunit.xml" "--package-name" "examples_rclcpp_cbg_executor" "--output-file" "/home/yixin/ros2_ws/build/examples_rclcpp_cbg_executor/ament_copyright/copyright.txt" "--command" "/opt/ros/jazzy/bin/ament_copyright" "--xunit-file" "/home/yixin/ros2_ws/build/examples_rclcpp_cbg_executor/test_results/examples_rclcpp_cbg_executor/copyright.xunit.xml"
+Directory: /home/yixin/ros2_ws/src/examples/rclcpp/executors/cbg_executor
+"copyright" start time: May 31 19:02 EDT
+Output:
+----------------------------------------------------------
+-- run_test.py: invoking following command in '/home/yixin/ros2_ws/src/examples/rclcpp/executors/cbg_executor':
+ - /opt/ros/jazzy/bin/ament_copyright --xunit-file /home/yixin/ros2_ws/build/examples_rclcpp_cbg_executor/test_results/examples_rclcpp_cbg_executor/copyright.xunit.xml
+No problems found, checked 8 files
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/yixin/ros2_ws/build/examples_rclcpp_cbg_executor/test_results/examples_rclcpp_cbg_executor/copyright.xunit.xml'
+<end of output>
+Test time =   2.44 sec
+----------------------------------------------------------
+Test Passed.
+"copyright" end time: May 31 19:02 EDT
+"copyright" time elapsed: 00:00:02
+----------------------------------------------------------
+

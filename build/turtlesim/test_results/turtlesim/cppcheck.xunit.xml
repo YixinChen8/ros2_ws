@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite
+  name="turtlesim.cppcheck"
+  tests="9"
+  errors="0"
+  failures="0"
+  time="0.001"
+  skipped="9"
+>
+  <testcase
+    name="include/turtlesim/qos.hpp"
+    classname="turtlesim.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.13.0 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="include/turtlesim/turtle.hpp"
+    classname="turtlesim.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.13.0 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="include/turtlesim/turtle_frame.hpp"
+    classname="turtlesim.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.13.0 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="src/turtle.cpp"
+    classname="turtlesim.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.13.0 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="src/turtle_frame.cpp"
+    classname="turtlesim.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.13.0 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="src/turtlesim.cpp"
+    classname="turtlesim.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.13.0 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="tutorials/draw_square.cpp"
+    classname="turtlesim.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.13.0 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="tutorials/mimic.cpp"
+    classname="turtlesim.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.13.0 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="tutorials/teleop_turtle_key.cpp"
+    classname="turtlesim.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.13.0 performance issues]]
+    </skipped>
+  </testcase>
+  <system-err>Tests Skipped due to cppcheck 2.13.0 performance issues</system-err>
+</testsuite>

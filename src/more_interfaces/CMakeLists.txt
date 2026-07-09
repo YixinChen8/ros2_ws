@@ -31,14 +31,20 @@ ament_export_dependencies(rosidl_default_runtime)
 add_executable(publish_address_book src/publish_address_book.cpp)
 ament_target_dependencies(publish_address_book rclcpp)
 
+add_executable(subscriber_address_book src/subscriber_address_book.cpp)
+# ament_target_dependencies(listener rclcpp std_msgs)
+ament_target_dependencies(subscriber_address_book rclcpp)  # CHANGE
+
 install(TARGETS
     publish_address_book
+    subscriber_address_book
   DESTINATION lib/${PROJECT_NAME})
 
 rosidl_get_typesupport_target(cpp_typesupport_target
   ${PROJECT_NAME} rosidl_typesupport_cpp)
 
 target_link_libraries(publish_address_book "${cpp_typesupport_target}")  
+target_link_libraries(subscriber_address_book "${cpp_typesupport_target}")  
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)

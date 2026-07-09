@@ -17,7 +17,11 @@ public:
     address_book_publisher_ =
       this->create_publisher<more_interfaces::msg::AddressBook>("address_book", 10);
 
-    // Create a callback "putoblish_msg" to publish the messages periodically  
+    // It's ok to use a different topic name "yixin_address_book"
+    // address_book_publisher_ =
+    //   this->create_publisher<more_interfaces::msg::AddressBook>("yixin_address_book", 10);
+
+    // Create a callback "publish_msg" to publish the messages periodically  
     auto publish_msg = [this]() -> void {
         // Create an AddressBook message instance "message" that we will later publish
         auto message = more_interfaces::msg::AddressBook();

@@ -1,0 +1,56 @@
+[0.169s] Invoking command in '/home/yixin/ros2_ws/build/examples_rclcpp_async_client': AMENT_PREFIX_PATH=/home/yixin/ros2_ws/install/examples_rclcpp_async_client:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yixin/ros2_ws/install/examples_rclcpp_async_client:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/ctest -C Debug -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
+[0.243s] UpdateCTestConfiguration  from :/home/yixin/ros2_ws/build/examples_rclcpp_async_client/CTestConfiguration.ini
+[0.243s] Parse Config file:/home/yixin/ros2_ws/build/examples_rclcpp_async_client/CTestConfiguration.ini
+[0.243s]    Site: yixin-Aspire-A315-24PT
+[0.244s]    Build name: (empty)
+[0.246s]  Add coverage exclude regular expressions.
+[0.246s] Create new tag: 20260531-2302 - Experimental
+[0.246s] UpdateCTestConfiguration  from :/home/yixin/ros2_ws/build/examples_rclcpp_async_client/CTestConfiguration.ini
+[0.247s] Parse Config file:/home/yixin/ros2_ws/build/examples_rclcpp_async_client/CTestConfiguration.ini
+[0.247s] Test project /home/yixin/ros2_ws/build/examples_rclcpp_async_client
+[0.247s] Constructing a list of tests
+[0.247s] Done constructing a list of tests
+[0.248s] Updating test list for fixtures
+[0.248s] Added 0 tests to meet fixture requirements
+[0.248s] Checking test dependency graph...
+[0.249s] Checking test dependency graph end
+[0.251s] test 1
+[0.252s]     Start 1: copyright
+[0.252s] 
+[0.253s] 1: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/yixin/ros2_ws/build/examples_rclcpp_async_client/test_results/examples_rclcpp_async_client/copyright.xunit.xml" "--package-name" "examples_rclcpp_async_client" "--output-file" "/home/yixin/ros2_ws/build/examples_rclcpp_async_client/ament_copyright/copyright.txt" "--command" "/opt/ros/jazzy/bin/ament_copyright" "--xunit-file" "/home/yixin/ros2_ws/build/examples_rclcpp_async_client/test_results/examples_rclcpp_async_client/copyright.xunit.xml"
+[0.253s] 1: Working Directory: /home/yixin/ros2_ws/src/examples/rclcpp/services/async_client
+[0.253s] 1: Test timeout computed to be: 200
+[0.503s] 1: -- run_test.py: invoking following command in '/home/yixin/ros2_ws/src/examples/rclcpp/services/async_client':
+[0.504s] 1:  - /opt/ros/jazzy/bin/ament_copyright --xunit-file /home/yixin/ros2_ws/build/examples_rclcpp_async_client/test_results/examples_rclcpp_async_client/copyright.xunit.xml
+[1.304s] 1: No problems found, checked 1 files
+[1.405s] 1: -- run_test.py: return code 0
+[1.405s] 1: -- run_test.py: verify result file '/home/yixin/ros2_ws/build/examples_rclcpp_async_client/test_results/examples_rclcpp_async_client/copyright.xunit.xml'
+[1.496s] 1/6 Test #1: copyright ........................   Passed    1.30 sec
+[1.497s] test 2
+[1.497s]     Start 2: cppcheck
+[1.502s] 
+[1.502s] 2: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/yixin/ros2_ws/build/examples_rclcpp_async_client/test_results/examples_rclcpp_async_client/cppcheck.xunit.xml" "--package-name" "examples_rclcpp_async_client" "--output-file" "/home/yixin/ros2_ws/build/examples_rclcpp_async_client/ament_cppcheck/cppcheck.txt" "--command" "/opt/ros/jazzy/bin/ament_cppcheck" "--xunit-file" "/home/yixin/ros2_ws/build/examples_rclcpp_async_client/test_results/examples_rclcpp_async_client/cppcheck.xunit.xml"
+[1.503s] 2: Working Directory: /home/yixin/ros2_ws/src/examples/rclcpp/services/async_client
+[1.503s] 2: Test timeout computed to be: 300
+[1.878s] 2: -- run_test.py: invoking following command in '/home/yixin/ros2_ws/src/examples/rclcpp/services/async_client':
+[1.878s] 2:  - /opt/ros/jazzy/bin/ament_cppcheck --xunit-file /home/yixin/ros2_ws/build/examples_rclcpp_async_client/test_results/examples_rclcpp_async_client/cppcheck.xunit.xml
+[2.177s] 2: cppcheck 2.13.0 has known performance issues and therefore will not be used, set the AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS environment variable to override this.
+[2.240s] 2: -- run_test.py: return code 0
+[2.253s] 2: -- run_test.py: verify result file '/home/yixin/ros2_ws/build/examples_rclcpp_async_client/test_results/examples_rclcpp_async_client/cppcheck.xunit.xml'
+[2.304s] 2/6 Test #2: cppcheck .........................   Passed    0.81 sec
+[2.306s] test 3
+[2.307s]     Start 3: cpplint
+[2.308s] 
+[2.309s] 3: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/yixin/ros2_ws/build/examples_rclcpp_async_client/test_results/examples_rclcpp_async_client/cpplint.xunit.xml" "--package-name" "examples_rclcpp_async_client" "--output-file" "/home/yixin/ros2_ws/build/examples_rclcpp_async_client/ament_cpplint/cpplint.txt" "--command" "/opt/ros/jazzy/bin/ament_cpplint" "--xunit-file" "/home/yixin/ros2_ws/build/examples_rclcpp_async_client/test_results/examples_rclcpp_async_client/cpplint.xunit.xml"
+[2.309s] 3: Working Directory: /home/yixin/ros2_ws/src/examples/rclcpp/services/async_client
+[2.313s] 3: Test timeout computed to be: 120
+[2.568s] 3: -- run_test.py: invoking following command in '/home/yixin/ros2_ws/src/examples/rclcpp/services/async_client':
+[2.569s] 3:  - /opt/ros/jazzy/bin/ament_cpplint --xunit-file /home/yixin/ros2_ws/build/examples_rclcpp_async_client/test_results/examples_rclcpp_async_client/cpplint.xunit.xml
+[3.293s] 3: Using '--root=/home/yixin/ros2_ws/src' argument
+[3.294s] 3: 
+[3.295s] 3: Done processing /home/yixin/ros2_ws/src/examples/rclcpp/services/async_client/main.cpp
+[3.298s] 3: 
+[3.299s] 3: No problems found
+[3.360s] 3: -- run_test.py: return code 0
+[3.361s] 3: -- run_test.py: verify result file '/home/yixin/ros2_ws/build/examples_rclcpp_async_client/test_results/examples_rclcpp_async_client/cpplint.xunit.xml'
+[3.462s] Invoked command in '/home/yixin/ros2_ws/build/examples_rclcpp_async_client' returned '-2': AMENT_PREFIX_PATH=/home/yixin/ros2_ws/install/examples_rclcpp_async_client:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yixin/ros2_ws/install/examples_rclcpp_async_client:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/ctest -C Debug -D ExperimentalTest --no-compress-output -V --force-new-ctest-process

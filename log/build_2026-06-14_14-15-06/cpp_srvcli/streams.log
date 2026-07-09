@@ -1,0 +1,30 @@
+[0.039s] Invoking command in '/home/yixin/ros2_ws/build/cpp_srvcli': AMENT_PREFIX_PATH=/home/yixin/ros2_ws/install/tutorial_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yixin/ros2_ws/install/tutorial_interfaces:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/yixin/ros2_ws/install/tutorial_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/yixin/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/yixin/ros2_ws/build/cpp_srvcli -- -j8 -l8
+[0.297s] [ 50%] [32mBuilding CXX object CMakeFiles/client.dir/src/add_two_ints_client.cpp.o[0m
+[0.298s] [ 50%] [32mBuilding CXX object CMakeFiles/server.dir/src/add_two_ints_server.cpp.o[0m
+[9.529s] [ 75%] [32m[1mLinking CXX executable server[0m
+[9.789s] [100%] [32m[1mLinking CXX executable client[0m
+[9.847s] [100%] Built target server
+[10.032s] [100%] Built target client
+[10.048s] Invoked command in '/home/yixin/ros2_ws/build/cpp_srvcli' returned '0': AMENT_PREFIX_PATH=/home/yixin/ros2_ws/install/tutorial_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yixin/ros2_ws/install/tutorial_interfaces:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/yixin/ros2_ws/install/tutorial_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/yixin/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/yixin/ros2_ws/build/cpp_srvcli -- -j8 -l8
+[10.061s] Invoking command in '/home/yixin/ros2_ws/build/cpp_srvcli': AMENT_PREFIX_PATH=/home/yixin/ros2_ws/install/tutorial_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yixin/ros2_ws/install/tutorial_interfaces:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/yixin/ros2_ws/install/tutorial_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/yixin/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/yixin/ros2_ws/build/cpp_srvcli
+[10.074s] -- Install configuration: ""
+[10.075s] -- Installing: /home/yixin/ros2_ws/install/cpp_srvcli/lib/cpp_srvcli/server
+[10.077s] -- Set non-toolchain portion of runtime path of "/home/yixin/ros2_ws/install/cpp_srvcli/lib/cpp_srvcli/server" to ""
+[10.077s] -- Installing: /home/yixin/ros2_ws/install/cpp_srvcli/lib/cpp_srvcli/client
+[10.079s] -- Set non-toolchain portion of runtime path of "/home/yixin/ros2_ws/install/cpp_srvcli/lib/cpp_srvcli/client" to ""
+[10.079s] -- Up-to-date: /home/yixin/ros2_ws/install/cpp_srvcli/share/ament_index/resource_index/package_run_dependencies/cpp_srvcli
+[10.079s] -- Up-to-date: /home/yixin/ros2_ws/install/cpp_srvcli/share/ament_index/resource_index/parent_prefix_path/cpp_srvcli
+[10.079s] -- Up-to-date: /home/yixin/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.sh
+[10.079s] -- Up-to-date: /home/yixin/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.dsv
+[10.080s] -- Up-to-date: /home/yixin/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/environment/path.sh
+[10.080s] -- Up-to-date: /home/yixin/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/environment/path.dsv
+[10.080s] -- Up-to-date: /home/yixin/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.bash
+[10.080s] -- Up-to-date: /home/yixin/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.sh
+[10.080s] -- Up-to-date: /home/yixin/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.zsh
+[10.080s] -- Up-to-date: /home/yixin/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.dsv
+[10.080s] -- Installing: /home/yixin/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/package.dsv
+[10.080s] -- Up-to-date: /home/yixin/ros2_ws/install/cpp_srvcli/share/ament_index/resource_index/packages/cpp_srvcli
+[10.080s] -- Up-to-date: /home/yixin/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig.cmake
+[10.081s] -- Up-to-date: /home/yixin/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig-version.cmake
+[10.081s] -- Up-to-date: /home/yixin/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/package.xml
+[10.084s] Invoked command in '/home/yixin/ros2_ws/build/cpp_srvcli' returned '0': AMENT_PREFIX_PATH=/home/yixin/ros2_ws/install/tutorial_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yixin/ros2_ws/install/tutorial_interfaces:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/yixin/ros2_ws/install/tutorial_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/yixin/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/yixin/ros2_ws/build/cpp_srvcli

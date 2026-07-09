@@ -1,0 +1,137 @@
+Start testing: May 31 19:02 EDT
+----------------------------------------------------------
+1/4 Testing: cppcheck
+1/4 Test: cppcheck
+Command: "/usr/bin/python3" "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/yixin/ros2_ws/build/polygon_base/test_results/polygon_base/cppcheck.xunit.xml" "--package-name" "polygon_base" "--output-file" "/home/yixin/ros2_ws/build/polygon_base/ament_cppcheck/cppcheck.txt" "--command" "/opt/ros/jazzy/bin/ament_cppcheck" "--xunit-file" "/home/yixin/ros2_ws/build/polygon_base/test_results/polygon_base/cppcheck.xunit.xml" "--include_dirs" "/home/yixin/ros2_ws/src/polygon_base/include"
+Directory: /home/yixin/ros2_ws/src/polygon_base
+"cppcheck" start time: May 31 19:02 EDT
+Output:
+----------------------------------------------------------
+-- run_test.py: invoking following command in '/home/yixin/ros2_ws/src/polygon_base':
+ - /opt/ros/jazzy/bin/ament_cppcheck --xunit-file /home/yixin/ros2_ws/build/polygon_base/test_results/polygon_base/cppcheck.xunit.xml --include_dirs /home/yixin/ros2_ws/src/polygon_base/include
+cppcheck 2.13.0 has known performance issues and therefore will not be used, set the AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS environment variable to override this.
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/yixin/ros2_ws/build/polygon_base/test_results/polygon_base/cppcheck.xunit.xml'
+<end of output>
+Test time =   0.86 sec
+----------------------------------------------------------
+Test Passed.
+"cppcheck" end time: May 31 19:02 EDT
+"cppcheck" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/4 Testing: lint_cmake
+2/4 Test: lint_cmake
+Command: "/usr/bin/python3" "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/yixin/ros2_ws/build/polygon_base/test_results/polygon_base/lint_cmake.xunit.xml" "--package-name" "polygon_base" "--output-file" "/home/yixin/ros2_ws/build/polygon_base/ament_lint_cmake/lint_cmake.txt" "--command" "/opt/ros/jazzy/bin/ament_lint_cmake" "--xunit-file" "/home/yixin/ros2_ws/build/polygon_base/test_results/polygon_base/lint_cmake.xunit.xml"
+Directory: /home/yixin/ros2_ws/src/polygon_base
+"lint_cmake" start time: May 31 19:02 EDT
+Output:
+----------------------------------------------------------
+-- run_test.py: invoking following command in '/home/yixin/ros2_ws/src/polygon_base':
+ - /opt/ros/jazzy/bin/ament_lint_cmake --xunit-file /home/yixin/ros2_ws/build/polygon_base/test_results/polygon_base/lint_cmake.xunit.xml
+
+No problems found
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/yixin/ros2_ws/build/polygon_base/test_results/polygon_base/lint_cmake.xunit.xml'
+<end of output>
+Test time =   0.96 sec
+----------------------------------------------------------
+Test Passed.
+"lint_cmake" end time: May 31 19:02 EDT
+"lint_cmake" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/4 Testing: uncrustify
+3/4 Test: uncrustify
+Command: "/usr/bin/python3" "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/yixin/ros2_ws/build/polygon_base/test_results/polygon_base/uncrustify.xunit.xml" "--package-name" "polygon_base" "--output-file" "/home/yixin/ros2_ws/build/polygon_base/ament_uncrustify/uncrustify.txt" "--command" "/opt/ros/jazzy/bin/ament_uncrustify" "--xunit-file" "/home/yixin/ros2_ws/build/polygon_base/test_results/polygon_base/uncrustify.xunit.xml"
+Directory: /home/yixin/ros2_ws/src/polygon_base
+"uncrustify" start time: May 31 19:02 EDT
+Output:
+----------------------------------------------------------
+-- run_test.py: invoking following command in '/home/yixin/ros2_ws/src/polygon_base':
+ - /opt/ros/jazzy/bin/ament_uncrustify --xunit-file /home/yixin/ros2_ws/build/polygon_base/test_results/polygon_base/uncrustify.xunit.xml
+Code style divergence in file 'include/polygon_base/regular_polygon.hpp':
+
+--- include/polygon_base/regular_polygon.hpp
++++ include/polygon_base/regular_polygon.hpp.uncrustify
+@@ -7,5 +7,5 @@
+-  class RegularPolygon
+-  {
+-    public:
+-    // One thing to notice is the presence of the initialize method. 
+-    // With pluginlib, a constructor without parameters is required, 
++class RegularPolygon
++{
++public:
++    // One thing to notice is the presence of the initialize method.
++    // With pluginlib, a constructor without parameters is required,
+@@ -13,3 +13,3 @@
+-      virtual void initialize(double side_length) = 0;
+-      virtual double area() = 0;
+-      virtual ~RegularPolygon(){}
++  virtual void initialize(double side_length) = 0;
++  virtual double area() = 0;
++  virtual ~RegularPolygon() {}
+@@ -17,3 +17,3 @@
+-    protected:
+-      RegularPolygon(){}
+-  };
++protected:
++  RegularPolygon() {}
++};
+@@ -22 +22 @@
+-#endif  // POLYGON_BASE_REGULAR_POLYGON_HPP
++#endif  // POLYGON_BASE_REGULAR_POLYGON_HPP
+
+Code style divergence in file 'src/area_node.cpp':
+
+--- src/area_node.cpp
++++ src/area_node.cpp.uncrustify
+@@ -16 +16 @@
+-int main(int argc, char** argv)
++int main(int argc, char ** argv)
+@@ -28 +28,2 @@
+-  pluginlib::ClassLoader<polygon_base::RegularPolygon> poly_loader("polygon_base", "polygon_base::RegularPolygon");
++  pluginlib::ClassLoader<polygon_base::RegularPolygon> poly_loader("polygon_base",
++    "polygon_base::RegularPolygon");
+@@ -30,2 +31 @@
+-  try
+-  {
++  try {
+@@ -33,4 +33,4 @@
+-    There are a number of ways to instantiate an instance of the class. In this example, we’re using shared pointers. 
+-    We just need to call createSharedInstance with a reference to the plugin: 
+-    This can be either the fully-qualified type of the plugin class (the type attribute of the declaration XML file, e.g. polygon_plugins::Square), 
+-    or the optional magic name (the name attribute of the declaration XML file, e.g., awesome_triangle).    
++    There are a number of ways to instantiate an instance of the class. In this example, we’re using shared pointers.
++    We just need to call createSharedInstance with a reference to the plugin:
++    This can be either the fully-qualified type of the plugin class (the type attribute of the declaration XML file, e.g. polygon_plugins::Square),
++    or the optional magic name (the name attribute of the declaration XML file, e.g., awesome_triangle).
+@@ -38 +38,2 @@
+-    std::shared_ptr<polygon_base::RegularPolygon> triangle = poly_loader.createSharedInstance("awesome_triangle");
++    std::shared_ptr<polygon_base::RegularPolygon> triangle =
++      poly_loader.createSharedInstance("awesome_triangle");
+@@ -41 +42,2 @@
+-    std::shared_ptr<polygon_base::RegularPolygon> square = poly_loader.createSharedInstance("polygon_plugins::Square");
++    std::shared_ptr<polygon_base::RegularPolygon> square =
++      poly_loader.createSharedInstance("polygon_plugins::Square");
+@@ -46,3 +48 @@
+-  }
+-  catch(pluginlib::PluginlibException& ex)
+-  {
++  } catch(pluginlib::PluginlibException & ex) {
+@@ -53 +53 @@
+-}
++}
+
+2 files with code style divergence
+-- run_test.py: return code 1
+-- run_test.py: verify result file '/home/yixin/ros2_ws/build/polygon_base/test_results/polygon_base/uncrustify.xunit.xml'
+<end of output>
+Test time =   0.88 sec
+----------------------------------------------------------
+Test Failed.
+"uncrustify" end time: May 31 19:02 EDT
+"uncrustify" time elapsed: 00:00:00
+----------------------------------------------------------
+

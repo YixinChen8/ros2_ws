@@ -4,7 +4,7 @@
   tests="2"
   failures="0"
   errors="0"
-  time="0.177"
+  time="0.066"
 >
   <testcase
     name="/home/yixin/ros2_ws/src/examples/rclcpp/actions/minimal_action_server/member_functions.cpp"

@@ -4,7 +4,7 @@
   tests="8"
   errors="0"
   failures="0"
-  time="1.303"
+  time="1.510"
 >
   <testcase
     name="include/examples_rclcpp_cbg_executor/ping_node.hpp"

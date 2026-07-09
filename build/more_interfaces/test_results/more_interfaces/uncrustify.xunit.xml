@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite
+  name="more_interfaces.uncrustify"
+  tests="1"
+  failures="1"
+  errors="0"
+  time="0.020"
+>
+  <testcase
+    name="src/publish_address_book.cpp"
+    classname="more_interfaces.uncrustify"
+  >
+      <failure message="Diff with 11 lines"><![CDATA[--- src/publish_address_book.cpp
++++ src/publish_address_book.cpp.uncrustify
+@@ -20 +20 @@
+-    // Create a callback "putoblish_msg" to publish the messages periodically  
++    // Create a callback "putoblish_msg" to publish the messages periodically
+@@ -37 +37 @@
+-    // Create a 1 second timer to call "publish_msg" function every second  
++    // Create a 1 second timer to call "publish_msg" function every second
+@@ -54 +54 @@
+-}+}
+]]></failure>
+  </testcase>
+  <system-out>Checked files:
+* src/publish_address_book.cpp</system-out>
+</testsuite>

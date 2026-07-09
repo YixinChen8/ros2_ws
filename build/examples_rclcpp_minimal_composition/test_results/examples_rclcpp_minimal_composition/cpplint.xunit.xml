@@ -4,7 +4,7 @@
   tests="8"
   failures="0"
   errors="0"
-  time="0.271"
+  time="0.151"
 >
   <testcase
     name="/home/yixin/ros2_ws/src/examples/rclcpp/composition/minimal_composition/include/minimal_composition/publisher_node.hpp"

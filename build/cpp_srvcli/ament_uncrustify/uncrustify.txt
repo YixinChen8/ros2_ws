@@ -1,0 +1,55 @@
+-- run_test.py: invoking following command in '/home/yixin/ros2_ws/src/cpp_srvcli':
+ - /opt/ros/jazzy/bin/ament_uncrustify --xunit-file /home/yixin/ros2_ws/build/cpp_srvcli/test_results/cpp_srvcli/uncrustify.xunit.xml
+
+Code style divergence in file 'src/add_two_ints_client.cpp':
+
+--- src/add_two_ints_client.cpp
++++ src/add_two_ints_client.cpp.uncrustify
+@@ -16 +16 @@
+-  if (argc != 4) { // CHANGE    
++  if (argc != 4) { // CHANGE
+@@ -18,2 +18,2 @@
+-      RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "usage: add_three_ints_client X Y Z");      // CHANGE      
+-      return 1;
++    RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "usage: add_three_ints_client X Y Z");        // CHANGE
++    return 1;
+@@ -30 +30 @@
+-    node->create_client<tutorial_interfaces::srv::AddThreeInts>("add_three_ints");          // CHANGE    
++    node->create_client<tutorial_interfaces::srv::AddThreeInts>("add_three_ints");          // CHANGE
+@@ -44 +44,2 @@
+-      RCLCPP_ERROR(rclcpp::get_logger("rclcpp"), "Interrupted while waiting for the service. Exiting.");
++      RCLCPP_ERROR(rclcpp::get_logger("rclcpp"),
++        "Interrupted while waiting for the service. Exiting.");
+@@ -64 +65 @@
+-}
++}
+
+Code style divergence in file 'src/add_two_ints_server.cpp':
+
+--- src/add_two_ints_server.cpp
++++ src/add_two_ints_server.cpp.uncrustify
+@@ -17,2 +17,3 @@
+-void add(const std::shared_ptr<tutorial_interfaces::srv::AddThreeInts::Request> request,     // CHANGE
+-          std::shared_ptr<tutorial_interfaces::srv::AddThreeInts::Response>       response)  // CHANGE
++void add(
++  const std::shared_ptr<tutorial_interfaces::srv::AddThreeInts::Request> request,            // CHANGE
++  std::shared_ptr<tutorial_interfaces::srv::AddThreeInts::Response> response)                // CHANGE
+@@ -23 +24,2 @@
+-  RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "sending back response: [%ld]", (long int)response->sum);
++  RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "sending back response: [%ld]",
++    (long int)response->sum);
+@@ -38 +40 @@
+-//   // Prints a log message when it’s ready 
++//   // Prints a log message when it’s ready
+@@ -53 +55 @@
+-    node->create_service<tutorial_interfaces::srv::AddThreeInts>("add_three_ints",  &add);   // CHANGE
++    node->create_service<tutorial_interfaces::srv::AddThreeInts>("add_three_ints", &add);    // CHANGE
+@@ -59 +61 @@
+-}
++}
+
+2 files with code style divergence
+
+
+-- run_test.py: return code 1
+-- run_test.py: verify result file '/home/yixin/ros2_ws/build/cpp_srvcli/test_results/cpp_srvcli/uncrustify.xunit.xml'

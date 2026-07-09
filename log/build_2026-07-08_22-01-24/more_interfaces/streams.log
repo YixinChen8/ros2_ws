@@ -1,0 +1,25 @@
+[0.048s] Invoking command in '/home/yixin/ros2_ws/build/more_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yixin/ros2_ws/install/py_srvcli:/home/yixin/ros2_ws/install/py_pubsub:/home/yixin/ros2_ws/install/python_parameters:/home/yixin/ros2_ws/install/my_python_package:/home/yixin/ros2_ws/install/launch_testing_examples:/home/yixin/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/yixin/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/yixin/ros2_ws/install/examples_rclpy_minimal_service:/home/yixin/ros2_ws/install/examples_rclpy_minimal_publisher:/home/yixin/ros2_ws/install/examples_rclpy_minimal_client:/home/yixin/ros2_ws/install/examples_rclpy_minimal_action_server:/home/yixin/ros2_ws/install/examples_rclpy_minimal_action_client:/home/yixin/ros2_ws/install/examples_rclpy_guard_conditions:/home/yixin/ros2_ws/install/examples_rclpy_executors:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/yixin/ros2_ws/build/more_interfaces -- -j8 -l8
+[0.153s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.549s] -- Found rosidl_default_generators: 1.6.1 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.572s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.697s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.800s] -- Found rosidl_adapter: 4.6.9 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.805s] -- Found rclcpp: 28.1.21 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.030s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.043s] -- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.260s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.285s] -- Found ament_cmake_ros: 0.12.1 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[2.587s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.978s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.982s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[3.889s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[4.029s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[4.041s] -- Configuring incomplete, errors occurred!
+[4.044s] [31mCMake Error at /opt/ros/jazzy/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:42 (message):
+[4.044s]   ament_target_dependencies() the first argument must be a valid target name
+[4.044s] Call Stack (most recent call first):
+[4.045s]   CMakeLists.txt:36 (ament_target_dependencies)
+[4.045s] 
+[4.045s] [0m
+[4.077s] gmake: *** [Makefile:870: cmake_check_build_system] Error 1
+[4.084s] Invoked command in '/home/yixin/ros2_ws/build/more_interfaces' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yixin/ros2_ws/install/py_srvcli:/home/yixin/ros2_ws/install/py_pubsub:/home/yixin/ros2_ws/install/python_parameters:/home/yixin/ros2_ws/install/my_python_package:/home/yixin/ros2_ws/install/launch_testing_examples:/home/yixin/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/yixin/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/yixin/ros2_ws/install/examples_rclpy_minimal_service:/home/yixin/ros2_ws/install/examples_rclpy_minimal_publisher:/home/yixin/ros2_ws/install/examples_rclpy_minimal_client:/home/yixin/ros2_ws/install/examples_rclpy_minimal_action_server:/home/yixin/ros2_ws/install/examples_rclpy_minimal_action_client:/home/yixin/ros2_ws/install/examples_rclpy_guard_conditions:/home/yixin/ros2_ws/install/examples_rclpy_executors:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/yixin/ros2_ws/build/more_interfaces -- -j8 -l8

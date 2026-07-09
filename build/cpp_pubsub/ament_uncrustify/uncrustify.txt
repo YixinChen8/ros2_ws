@@ -1,0 +1,43 @@
+-- run_test.py: invoking following command in '/home/yixin/ros2_ws/src/cpp_pubsub':
+ - /opt/ros/jazzy/bin/ament_uncrustify --xunit-file /home/yixin/ros2_ws/build/cpp_pubsub/test_results/cpp_pubsub/uncrustify.xunit.xml
+
+Code style divergence in file 'src/publisher_lambda_function.cpp':
+
+--- src/publisher_lambda_function.cpp
++++ src/publisher_lambda_function.cpp.uncrustify
+@@ -47,5 +47,5 @@
+-      auto message = tutorial_interfaces::msg::Num();                                   // CHANGE
+-      message.num = this->count_++;                                                     // CHANGE
+-      RCLCPP_INFO_STREAM(this->get_logger(), "Publishing: '" << message.num << "'");    // CHANGE
+-      publisher_->publish(message);
+-    };      
++        auto message = tutorial_interfaces::msg::Num();                                 // CHANGE
++        message.num = this->count_++;                                                   // CHANGE
++        RCLCPP_INFO_STREAM(this->get_logger(), "Publishing: '" << message.num << "'");  // CHANGE
++        publisher_->publish(message);
++      };
+@@ -58 +58 @@
+-  rclcpp::Publisher<tutorial_interfaces::msg::Num>::SharedPtr publisher_;             // CHANGE  
++  rclcpp::Publisher<tutorial_interfaces::msg::Num>::SharedPtr publisher_;             // CHANGE
+
+Code style divergence in file 'src/subscriber_lambda_function.cpp':
+
+--- src/subscriber_lambda_function.cpp
++++ src/subscriber_lambda_function.cpp.uncrustify
+@@ -38,2 +38,2 @@
+-      RCLCPP_INFO_STREAM(this->get_logger(), "I heard: '" << msg.num << "'");    // CHANGE
+-    };
++        RCLCPP_INFO_STREAM(this->get_logger(), "I heard: '" << msg.num << "'");  // CHANGE
++      };
+@@ -41 +41 @@
+-      "topic", 10, topic_callback);      
++      "topic", 10, topic_callback);
+@@ -46 +46 @@
+-  rclcpp::Subscription<tutorial_interfaces::msg::Num>::SharedPtr subscription_;  // CHANGE  
++  rclcpp::Subscription<tutorial_interfaces::msg::Num>::SharedPtr subscription_;  // CHANGE
+
+2 files with code style divergence
+
+
+-- run_test.py: return code 1
+-- run_test.py: verify result file '/home/yixin/ros2_ws/build/cpp_pubsub/test_results/cpp_pubsub/uncrustify.xunit.xml'

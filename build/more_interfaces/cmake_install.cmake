@@ -363,6 +363,14 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/rust_packages" TYPE FILE FILES "/home/yixin/ros2_ws/build/more_interfaces/ament_cmake_index/share/ament_index/resource_index/rust_packages/more_interfaces")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/more_interfaces" TYPE DIRECTORY FILES "/home/yixin/ros2_ws/build/more_interfaces/rosidl_generator_rs/more_interfaces/rust")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/more_interfaces/msg" TYPE FILE FILES "/home/yixin/ros2_ws/build/more_interfaces/rosidl_adapter/more_interfaces/msg/AddressBook.idl")
 endif()
 
@@ -392,6 +400,30 @@ endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   include("/home/yixin/ros2_ws/build/more_interfaces/CMakeFiles/publish_address_book.dir/install-cxx-module-bmi-noconfig.cmake" OPTIONAL)
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/more_interfaces/subscriber_address_book" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/more_interfaces/subscriber_address_book")
+    file(RPATH_CHECK
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/more_interfaces/subscriber_address_book"
+         RPATH "")
+  endif()
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/more_interfaces" TYPE EXECUTABLE FILES "/home/yixin/ros2_ws/build/more_interfaces/subscriber_address_book")
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/more_interfaces/subscriber_address_book" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/more_interfaces/subscriber_address_book")
+    file(RPATH_CHANGE
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/more_interfaces/subscriber_address_book"
+         OLD_RPATH "/opt/ros/jazzy/lib:/home/yixin/ros2_ws/build/more_interfaces:"
+         NEW_RPATH "")
+    if(CMAKE_INSTALL_DO_STRIP)
+      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/more_interfaces/subscriber_address_book")
+    endif()
+  endif()
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  include("/home/yixin/ros2_ws/build/more_interfaces/CMakeFiles/subscriber_address_book.dir/install-cxx-module-bmi-noconfig.cmake" OPTIONAL)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -675,6 +707,10 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/more_interfaces/cmake" TYPE FILE FILES "/home/yixin/ros2_ws/build/more_interfaces/rosidl_cmake/rosidl_cmake_aggregate_target-extras.cmake")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/more_interfaces/cmake" TYPE FILE FILES
     "/home/yixin/ros2_ws/build/more_interfaces/ament_cmake_core/more_interfacesConfig.cmake"
     "/home/yixin/ros2_ws/build/more_interfaces/ament_cmake_core/more_interfacesConfig-version.cmake"
@@ -688,6 +724,7 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/yixin/ros2_ws/build/more_interfaces/more_interfaces__py/cmake_install.cmake")
+  include("/home/yixin/ros2_ws/build/more_interfaces/more_interfaces__rs/cmake_install.cmake")
 
 endif()
 

@@ -1,0 +1,22 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/vincent_driver_component.dir/src/vincent_driver.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library libvincent_driver_component.so[0m
+[100%] Built target vincent_driver_component
+-- Install configuration: ""
+-- Installing: /home/yixin/ros2_ws/install/vincent_driver/lib/libvincent_driver_component.so
+-- Set non-toolchain portion of runtime path of "/home/yixin/ros2_ws/install/vincent_driver/lib/libvincent_driver_component.so" to ""
+-- Up-to-date: /home/yixin/ros2_ws/install/vincent_driver/share/ament_index/resource_index/package_run_dependencies/vincent_driver
+-- Up-to-date: /home/yixin/ros2_ws/install/vincent_driver/share/ament_index/resource_index/parent_prefix_path/vincent_driver
+-- Up-to-date: /home/yixin/ros2_ws/install/vincent_driver/share/vincent_driver/environment/ament_prefix_path.sh
+-- Up-to-date: /home/yixin/ros2_ws/install/vincent_driver/share/vincent_driver/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/yixin/ros2_ws/install/vincent_driver/share/vincent_driver/environment/path.sh
+-- Up-to-date: /home/yixin/ros2_ws/install/vincent_driver/share/vincent_driver/environment/path.dsv
+-- Up-to-date: /home/yixin/ros2_ws/install/vincent_driver/share/vincent_driver/local_setup.bash
+-- Up-to-date: /home/yixin/ros2_ws/install/vincent_driver/share/vincent_driver/local_setup.sh
+-- Up-to-date: /home/yixin/ros2_ws/install/vincent_driver/share/vincent_driver/local_setup.zsh
+-- Up-to-date: /home/yixin/ros2_ws/install/vincent_driver/share/vincent_driver/local_setup.dsv
+-- Installing: /home/yixin/ros2_ws/install/vincent_driver/share/vincent_driver/package.dsv
+-- Up-to-date: /home/yixin/ros2_ws/install/vincent_driver/share/ament_index/resource_index/packages/vincent_driver
+-- Up-to-date: /home/yixin/ros2_ws/install/vincent_driver/share/ament_index/resource_index/rclcpp_components/vincent_driver
+-- Up-to-date: /home/yixin/ros2_ws/install/vincent_driver/share/vincent_driver/cmake/vincent_driverConfig.cmake
+-- Up-to-date: /home/yixin/ros2_ws/install/vincent_driver/share/vincent_driver/cmake/vincent_driverConfig-version.cmake
+-- Up-to-date: /home/yixin/ros2_ws/install/vincent_driver/share/vincent_driver/package.xml

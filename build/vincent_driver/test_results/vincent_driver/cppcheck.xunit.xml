@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite
+  name="vincent_driver.cppcheck"
+  tests="2"
+  errors="0"
+  failures="0"
+  time="0.000"
+  skipped="2"
+>
+  <testcase
+    name="include/vincent_driver/vincent_driver.hpp"
+    classname="vincent_driver.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.13.0 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="src/vincent_driver.cpp"
+    classname="vincent_driver.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.13.0 performance issues]]
+    </skipped>
+  </testcase>
+  <system-err>Tests Skipped due to cppcheck 2.13.0 performance issues</system-err>
+</testsuite>

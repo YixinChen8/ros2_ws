@@ -1,18 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite
-  name="examples_rclcpp_minimal_action_server.copyright"
-  tests="2"
-  errors="0"
-  failures="0"
-  time="0.351"
->
-  <testcase
-    name="member_functions.cpp"
-    classname="examples_rclcpp_minimal_action_server.copyright"/>
-  <testcase
-    name="not_composable.cpp"
-    classname="examples_rclcpp_minimal_action_server.copyright"/>
-  <system-out>Checked files:
-* member_functions.cpp
-* not_composable.cpp</system-out>
+<testsuite name="examples_rclcpp_minimal_action_server" tests="1" failures="0" time="0.000" errors="1" skipped="0">
+  <testcase classname="examples_rclcpp_minimal_action_server" name="copyright.xunit.missing_result" time="0.000">
+    <error message="The test did not generate a result file."/>
+  </testcase>
 </testsuite>

@@ -4,7 +4,7 @@
   tests="2"
   failures="0"
   errors="0"
-  time="0.071"
+  time="0.031"
 >
   <testcase
     name="/home/yixin/ros2_ws/src/examples/rclcpp/timers/minimal_timer/lambda.cpp"

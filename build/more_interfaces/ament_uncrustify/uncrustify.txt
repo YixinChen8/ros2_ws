@@ -1,0 +1,22 @@
+-- run_test.py: invoking following command in '/home/yixin/ros2_ws/src/more_interfaces':
+ - /opt/ros/jazzy/bin/ament_uncrustify --xunit-file /home/yixin/ros2_ws/build/more_interfaces/test_results/more_interfaces/uncrustify.xunit.xml
+
+Code style divergence in file 'src/publish_address_book.cpp':
+
+--- src/publish_address_book.cpp
++++ src/publish_address_book.cpp.uncrustify
+@@ -20 +20 @@
+-    // Create a callback "putoblish_msg" to publish the messages periodically  
++    // Create a callback "putoblish_msg" to publish the messages periodically
+@@ -37 +37 @@
+-    // Create a 1 second timer to call "publish_msg" function every second  
++    // Create a 1 second timer to call "publish_msg" function every second
+@@ -54 +54 @@
+-}
++}
+
+1 files with code style divergence
+
+
+-- run_test.py: return code 1
+-- run_test.py: verify result file '/home/yixin/ros2_ws/build/more_interfaces/test_results/more_interfaces/uncrustify.xunit.xml'

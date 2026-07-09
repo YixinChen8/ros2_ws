@@ -1,0 +1,209 @@
+[0.042s] Invoking command in '/home/yixin/ros2_ws/build/tutorial_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yixin/ros2_ws/install/py_srvcli:/home/yixin/ros2_ws/install/py_pubsub:/home/yixin/ros2_ws/install/python_parameters:/home/yixin/ros2_ws/install/my_python_package:/home/yixin/ros2_ws/install/launch_testing_examples:/home/yixin/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/yixin/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/yixin/ros2_ws/install/examples_rclpy_minimal_service:/home/yixin/ros2_ws/install/examples_rclpy_minimal_publisher:/home/yixin/ros2_ws/install/examples_rclpy_minimal_client:/home/yixin/ros2_ws/install/examples_rclpy_minimal_action_server:/home/yixin/ros2_ws/install/examples_rclpy_minimal_action_client:/home/yixin/ros2_ws/install/examples_rclpy_guard_conditions:/home/yixin/ros2_ws/install/examples_rclpy_executors:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/yixin/ros2_ws/build/tutorial_interfaces -- -j8 -l8
+[0.249s] [  1%] Built target tutorial_interfaces__rosidl_generator_type_description
+[0.288s] [  1%] Built target ament_cmake_python_copy_tutorial_interfaces
+[0.331s] [  3%] Built target tutorial_interfaces__cpp
+[0.348s] [ 24%] Built target tutorial_interfaces__rosidl_generator_c
+[0.454s] [ 33%] Built target tutorial_interfaces__rosidl_typesupport_cpp
+[0.460s] [ 55%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.460s] [ 62%] Built target tutorial_interfaces__rosidl_typesupport_introspection_c
+[0.462s] [ 70%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_c
+[0.463s] [ 70%] Built target tutorial_interfaces__rosidl_typesupport_c
+[0.471s] [ 79%] Built target tutorial_interfaces__rosidl_typesupport_introspection_cpp
+[0.553s] [ 79%] Built target tutorial_interfaces
+[0.635s] [ 81%] Built target tutorial_interfaces__py
+[0.722s] [ 88%] Built target tutorial_interfaces__rosidl_generator_py
+[0.817s] [ 92%] Built target tutorial_interfaces_s__rosidl_typesupport_introspection_c
+[0.818s] [ 96%] Built target tutorial_interfaces_s__rosidl_typesupport_c
+[0.825s] [100%] Built target tutorial_interfaces_s__rosidl_typesupport_fastrtps_c
+[1.055s] running egg_info
+[1.116s] writing tutorial_interfaces.egg-info/PKG-INFO
+[1.117s] writing dependency_links to tutorial_interfaces.egg-info/dependency_links.txt
+[1.117s] writing top-level names to tutorial_interfaces.egg-info/top_level.txt
+[1.299s] reading manifest file 'tutorial_interfaces.egg-info/SOURCES.txt'
+[1.301s] writing manifest file 'tutorial_interfaces.egg-info/SOURCES.txt'
+[1.396s] [100%] Built target ament_cmake_python_build_tutorial_interfaces_egg
+[1.446s] Invoked command in '/home/yixin/ros2_ws/build/tutorial_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yixin/ros2_ws/install/py_srvcli:/home/yixin/ros2_ws/install/py_pubsub:/home/yixin/ros2_ws/install/python_parameters:/home/yixin/ros2_ws/install/my_python_package:/home/yixin/ros2_ws/install/launch_testing_examples:/home/yixin/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/yixin/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/yixin/ros2_ws/install/examples_rclpy_minimal_service:/home/yixin/ros2_ws/install/examples_rclpy_minimal_publisher:/home/yixin/ros2_ws/install/examples_rclpy_minimal_client:/home/yixin/ros2_ws/install/examples_rclpy_minimal_action_server:/home/yixin/ros2_ws/install/examples_rclpy_minimal_action_client:/home/yixin/ros2_ws/install/examples_rclpy_guard_conditions:/home/yixin/ros2_ws/install/examples_rclpy_executors:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/yixin/ros2_ws/build/tutorial_interfaces -- -j8 -l8
+[1.478s] Invoking command in '/home/yixin/ros2_ws/build/tutorial_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yixin/ros2_ws/install/py_srvcli:/home/yixin/ros2_ws/install/py_pubsub:/home/yixin/ros2_ws/install/python_parameters:/home/yixin/ros2_ws/install/my_python_package:/home/yixin/ros2_ws/install/launch_testing_examples:/home/yixin/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/yixin/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/yixin/ros2_ws/install/examples_rclpy_minimal_service:/home/yixin/ros2_ws/install/examples_rclpy_minimal_publisher:/home/yixin/ros2_ws/install/examples_rclpy_minimal_client:/home/yixin/ros2_ws/install/examples_rclpy_minimal_action_server:/home/yixin/ros2_ws/install/examples_rclpy_minimal_action_client:/home/yixin/ros2_ws/install/examples_rclpy_guard_conditions:/home/yixin/ros2_ws/install/examples_rclpy_executors:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/yixin/ros2_ws/build/tutorial_interfaces
+[1.506s] -- Install configuration: ""
+[1.506s] -- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/share/ament_index/resource_index/rosidl_interfaces/tutorial_interfaces
+[1.506s] -- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/msg/Num.json
+[1.507s] -- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/msg/Sphere.json
+[1.507s] -- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/srv/AddThreeInts.json
+[1.508s] -- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces
+[1.508s] -- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg
+[1.508s] -- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/rosidl_generator_c__visibility_control.h
+[1.509s] -- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail
+[1.509s] -- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__struct.h
+[1.509s] -- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__functions.h
+[1.510s] -- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__description.c
+[1.510s] -- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__functions.h
+[1.510s] -- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__type_support.h
+[1.511s] -- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__type_support.h
+[1.511s] -- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__description.c
+[1.511s] -- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__type_support.c
+[1.511s] -- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__struct.h
+[1.512s] -- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__functions.c
+[1.512s] -- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__functions.c
+[1.513s] -- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__type_support.c
+[1.513s] -- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/num.h
+[1.513s] -- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/sphere.h
+[1.514s] -- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv
+[1.514s] -- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/add_three_ints.h
+[1.514s] -- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail
+[1.515s] -- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__type_support.h
+[1.516s] -- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__description.c
+[1.516s] -- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__type_support.c
+[1.516s] -- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__functions.h
+[1.517s] -- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__functions.c
+[1.517s] -- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__struct.h
+[1.517s] -- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/library_path.sh
+[1.517s] -- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/library_path.dsv
+[1.518s] -- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_generator_c.so
+[1.518s] -- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces
+[1.518s] -- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg
+[1.518s] -- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail
+[1.518s] -- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__rosidl_typesupport_fastrtps_c.h
+[1.518s] -- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__rosidl_typesupport_fastrtps_c.h
+[1.519s] -- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.519s] -- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv
+[1.520s] -- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail
+[1.520s] -- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_c.h
+[1.521s] -- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_c.so
+[1.521s] -- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces
+[1.521s] -- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg
+[1.522s] -- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail
+[1.522s] -- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__traits.hpp
+[1.522s] -- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__struct.hpp
+[1.522s] -- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__type_support.hpp
+[1.523s] -- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__struct.hpp
+[1.523s] -- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__builder.hpp
+[1.523s] -- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__type_support.hpp
+[1.523s] -- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__builder.hpp
+[1.524s] -- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__traits.hpp
+[1.524s] -- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[1.524s] -- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/sphere.hpp
+[1.525s] -- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/num.hpp
+[1.525s] -- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv
+[1.525s] -- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail
+[1.525s] -- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__struct.hpp
+[1.526s] -- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__traits.hpp
+[1.526s] -- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__builder.hpp
+[1.526s] -- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__type_support.hpp
+[1.526s] -- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/add_three_ints.hpp
+[1.527s] -- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces
+[1.527s] -- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg
+[1.527s] -- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail
+[1.528s] -- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__rosidl_typesupport_fastrtps_cpp.hpp
+[1.528s] -- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/dds_fastrtps
+[1.528s] -- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__rosidl_typesupport_fastrtps_cpp.hpp
+[1.529s] -- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.529s] -- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv
+[1.529s] -- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail
+[1.529s] -- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/dds_fastrtps
+[1.530s] -- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_cpp.hpp
+[1.530s] -- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[1.530s] -- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces
+[1.531s] -- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg
+[1.531s] -- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail
+[1.531s] -- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__type_support.c
+[1.531s] -- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__rosidl_typesupport_introspection_c.h
+[1.532s] -- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__rosidl_typesupport_introspection_c.h
+[1.532s] -- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__type_support.c
+[1.533s] -- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.533s] -- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv
+[1.533s] -- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail
+[1.533s] -- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__type_support.c
+[1.534s] -- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__rosidl_typesupport_introspection_c.h
+[1.534s] -- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_c.so
+[1.534s] -- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_c.so
+[1.535s] -- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces
+[1.535s] -- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg
+[1.535s] -- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail
+[1.536s] -- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__rosidl_typesupport_introspection_cpp.hpp
+[1.536s] -- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__type_support.cpp
+[1.536s] -- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__type_support.cpp
+[1.537s] -- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__rosidl_typesupport_introspection_cpp.hpp
+[1.537s] -- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv
+[1.537s] -- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail
+[1.538s] -- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__rosidl_typesupport_introspection_cpp.hpp
+[1.538s] -- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__type_support.cpp
+[1.538s] -- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_cpp.so
+[1.539s] -- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_cpp.so
+[1.539s] -- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/pythonpath.sh
+[1.539s] -- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/pythonpath.dsv
+[1.539s] -- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces-0.0.0-py3.12.egg-info
+[1.540s] -- Installing: /home/yixin/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces-0.0.0-py3.12.egg-info/top_level.txt
+[1.540s] -- Installing: /home/yixin/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces-0.0.0-py3.12.egg-info/dependency_links.txt
+[1.540s] -- Installing: /home/yixin/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces-0.0.0-py3.12.egg-info/PKG-INFO
+[1.541s] -- Installing: /home/yixin/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces-0.0.0-py3.12.egg-info/SOURCES.txt
+[1.541s] -- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces
+[1.541s] -- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[1.541s] -- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/__init__.py
+[1.542s] -- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[1.542s] -- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[1.542s] -- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_c.c
+[1.543s] -- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/msg
+[1.543s] -- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/msg/_sphere.py
+[1.543s] -- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/msg/_sphere_s.c
+[1.543s] -- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/msg/__init__.py
+[1.544s] -- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/msg/_num.py
+[1.544s] -- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/msg/_num_s.c
+[1.545s] -- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_c.so
+[1.545s] -- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_introspection_c.so
+[1.546s] -- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/srv
+[1.546s] -- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/srv/__init__.py
+[1.547s] -- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/srv/_add_three_ints_s.c
+[1.547s] -- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/srv/_add_three_ints.py
+[1.670s] Listing '/home/yixin/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces'...
+[1.670s] Listing '/home/yixin/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/msg'...
+[1.670s] Listing '/home/yixin/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/srv'...
+[1.687s] -- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[1.688s] -- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_introspection_c.so
+[1.689s] -- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_c.so
+[1.690s] -- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_generator_py.so
+[1.690s] -- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/msg/Num.idl
+[1.691s] -- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/msg/Sphere.idl
+[1.691s] -- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/srv/AddThreeInts.idl
+[1.691s] -- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/msg/Num.msg
+[1.692s] -- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/msg/Sphere.msg
+[1.692s] -- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/srv/AddThreeInts.srv
+[1.692s] -- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/share/ament_index/resource_index/package_run_dependencies/tutorial_interfaces
+[1.693s] -- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/share/ament_index/resource_index/parent_prefix_path/tutorial_interfaces
+[1.693s] -- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/ament_prefix_path.sh
+[1.693s] -- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/ament_prefix_path.dsv
+[1.694s] -- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/path.sh
+[1.694s] -- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/path.dsv
+[1.694s] -- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.bash
+[1.695s] -- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.sh
+[1.695s] -- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.zsh
+[1.695s] -- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.dsv
+[1.696s] -- Installing: /home/yixin/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/package.dsv
+[1.696s] -- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/share/ament_index/resource_index/packages/tutorial_interfaces
+[1.696s] -- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_cExport.cmake
+[1.697s] -- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_cExport-noconfig.cmake
+[1.697s] -- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[1.697s] -- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[1.698s] -- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_cppExport.cmake
+[1.698s] -- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[1.699s] -- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[1.699s] -- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[1.699s] -- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[1.700s] -- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cExport.cmake
+[1.701s] -- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[1.701s] -- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[1.701s] -- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[1.701s] -- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cppExport.cmake
+[1.702s] -- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[1.702s] -- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_pyExport.cmake
+[1.702s] -- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[1.702s] -- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/rosidl_cmake-extras.cmake
+[1.703s] -- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.703s] -- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.703s] -- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[1.703s] -- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[1.703s] -- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.703s] -- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.704s] -- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfacesConfig.cmake
+[1.704s] -- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfacesConfig-version.cmake
+[1.704s] -- Up-to-date: /home/yixin/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/package.xml
+[1.708s] Invoked command in '/home/yixin/ros2_ws/build/tutorial_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yixin/ros2_ws/install/py_srvcli:/home/yixin/ros2_ws/install/py_pubsub:/home/yixin/ros2_ws/install/python_parameters:/home/yixin/ros2_ws/install/my_python_package:/home/yixin/ros2_ws/install/launch_testing_examples:/home/yixin/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/yixin/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/yixin/ros2_ws/install/examples_rclpy_minimal_service:/home/yixin/ros2_ws/install/examples_rclpy_minimal_publisher:/home/yixin/ros2_ws/install/examples_rclpy_minimal_client:/home/yixin/ros2_ws/install/examples_rclpy_minimal_action_server:/home/yixin/ros2_ws/install/examples_rclpy_minimal_action_client:/home/yixin/ros2_ws/install/examples_rclpy_guard_conditions:/home/yixin/ros2_ws/install/examples_rclpy_executors:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/yixin/ros2_ws/build/tutorial_interfaces

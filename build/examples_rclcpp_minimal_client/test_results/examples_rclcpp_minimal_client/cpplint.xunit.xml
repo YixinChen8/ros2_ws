@@ -4,7 +4,7 @@
   tests="1"
   failures="0"
   errors="0"
-  time="0.077"
+  time="0.027"
 >
   <testcase
     name="/home/yixin/ros2_ws/src/examples/rclcpp/services/minimal_client/main.cpp"

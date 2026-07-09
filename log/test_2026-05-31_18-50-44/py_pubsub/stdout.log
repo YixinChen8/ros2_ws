@@ -1,0 +1,67 @@
+[1m============================= test session starts ==============================[0m
+platform linux -- Python 3.12.3, pytest-7.4.4, pluggy-1.4.0
+cachedir: /home/yixin/ros2_ws/build/py_pubsub/.pytest_cache
+rootdir: /home/yixin/ros2_ws/src/py_pubsub
+plugins: ament-flake8-0.17.4, ament-xmllint-0.17.4, launch-testing-ros-0.26.11, ament-pep257-0.17.4, ament-copyright-0.17.4, launch-testing-3.4.10, ament-lint-0.17.4, typeguard-4.1.5, cov-4.1.0, colcon-core-0.20.1
+[1mcollecting ... [0m[1m
+collected 3 items                                                              [0m
+
+test/test_copyright.py [33ms[0m[32m                                                 [ 33%][0m
+test/test_flake8.py [31mF[0m[31m                                                    [ 66%][0m
+test/test_pep257.py [32m.[0m[31m                                                    [100%][0m
+
+=================================== FAILURES ===================================
+[31m[1m_________________________________ test_flake8 __________________________________[0m
+[1m[31mtest/test_flake8.py[0m:23: in test_flake8
+    [94massert[39;49;00m rc == [94m0[39;49;00m, \
+[1m[31mE   AssertionError: Found 5 code style errors / warnings:[0m
+[1m[31mE     ./py_pubsub/publisher_member_function.py:41:76: W291 trailing whitespace[0m
+[1m[31mE     ./py_pubsub/subscriber_member_function.py:21:1: E302 expected 2 blank lines, found 1[0m
+[1m[31mE     ./py_pubsub/subscriber_member_function.py:27:72: W291 trailing whitespace[0m
+[1m[31mE     ./py_pubsub/subscriber_member_function.py:35:68: W291 trailing whitespace[0m
+[1m[31mE     ./setup.py:28:72: W291 trailing whitespace[0m
+[1m[31mE   assert 1 == 0[0m
+----------------------------- Captured stdout call -----------------------------
+
+./py_pubsub/publisher_member_function.py:41:76: W291 trailing whitespace
+        self.get_logger().info('Publishing: "%d"' % msg.num)       # CHANGE        
+                                                                           ^
+
+./py_pubsub/subscriber_member_function.py:21:1: E302 expected 2 blank lines, found 1
+class MinimalSubscriber(Node):
+^
+
+./py_pubsub/subscriber_member_function.py:27:72: W291 trailing whitespace
+            Num,                                               # CHANGE            
+                                                                       ^
+
+./py_pubsub/subscriber_member_function.py:35:68: W291 trailing whitespace
+        self.get_logger().info('I heard: "%d"' % msg.num)  # CHANGE        
+                                                                   ^
+
+./setup.py:28:72: W291 trailing whitespace
+                'listener = py_pubsub.subscriber_member_function:main',            
+                                                                       ^
+
+1     E302 expected 2 blank lines, found 1
+4     W291 trailing whitespace
+
+7 files checked
+5 errors
+
+'E'-type errors: 1
+'W'-type errors: 4
+
+Checked files:
+
+* ./setup.py
+* ./py_pubsub/publisher_member_function.py
+* ./py_pubsub/__init__.py
+* ./py_pubsub/subscriber_member_function.py
+* ./test/test_flake8.py
+* ./test/test_copyright.py
+* ./test/test_pep257.py
+------ generated xml file: /home/yixin/ros2_ws/build/py_pubsub/pytest.xml ------
+[36m[1m=========================== short test summary info ============================[0m
+[31mFAILED[0m test/test_flake8.py::[1mtest_flake8[0m - AssertionError: Found 5 code style errors / warnings:
+[31m==================== [31m[1m1 failed[0m, [32m1 passed[0m, [33m1 skipped[0m[31m in 0.46s[0m[31m ====================[0m

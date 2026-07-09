@@ -1,0 +1,9 @@
+-- run_test.py: invoking following command in '/home/yixin/ros2_ws/src/cpp_parameters':
+ - /opt/ros/jazzy/bin/ament_pep257 --xunit-file /home/yixin/ros2_ws/build/cpp_parameters/test_results/cpp_parameters/pep257.xunit.xml
+
+checking ./launch/cpp_parameters_launch.py
+No problems found
+
+
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/yixin/ros2_ws/build/cpp_parameters/test_results/cpp_parameters/pep257.xunit.xml'

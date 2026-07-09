@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite
+  name="polygon_plugins.cppcheck"
+  tests="3"
+  errors="0"
+  failures="0"
+  time="0.001"
+  skipped="3"
+>
+  <testcase
+    name="include/polygon_plugins/polygon_plugins.hpp"
+    classname="polygon_plugins.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.13.0 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="include/polygon_plugins/visibility_control.h"
+    classname="polygon_plugins.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.13.0 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="src/polygon_plugins.cpp"
+    classname="polygon_plugins.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.13.0 performance issues]]
+    </skipped>
+  </testcase>
+  <system-err>Tests Skipped due to cppcheck 2.13.0 performance issues</system-err>
+</testsuite>

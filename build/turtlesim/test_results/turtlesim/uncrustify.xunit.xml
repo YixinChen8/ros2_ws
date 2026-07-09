@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite
+  name="turtlesim.uncrustify"
+  tests="9"
+  failures="0"
+  errors="0"
+  time="0.047"
+>
+  <testcase
+    name="include/turtlesim/qos.hpp"
+    classname="turtlesim.uncrustify"/>
+  <testcase
+    name="include/turtlesim/turtle.hpp"
+    classname="turtlesim.uncrustify"/>
+  <testcase
+    name="include/turtlesim/turtle_frame.hpp"
+    classname="turtlesim.uncrustify"/>
+  <testcase
+    name="src/turtle.cpp"
+    classname="turtlesim.uncrustify"/>
+  <testcase
+    name="src/turtle_frame.cpp"
+    classname="turtlesim.uncrustify"/>
+  <testcase
+    name="src/turtlesim.cpp"
+    classname="turtlesim.uncrustify"/>
+  <testcase
+    name="tutorials/draw_square.cpp"
+    classname="turtlesim.uncrustify"/>
+  <testcase
+    name="tutorials/mimic.cpp"
+    classname="turtlesim.uncrustify"/>
+  <testcase
+    name="tutorials/teleop_turtle_key.cpp"
+    classname="turtlesim.uncrustify"/>
+  <system-out>Checked files:
+* include/turtlesim/qos.hpp
+* include/turtlesim/turtle.hpp
+* include/turtlesim/turtle_frame.hpp
+* src/turtle.cpp
+* src/turtle_frame.cpp
+* src/turtlesim.cpp
+* tutorials/draw_square.cpp
+* tutorials/mimic.cpp
+* tutorials/teleop_turtle_key.cpp</system-out>
+</testsuite>

@@ -1,0 +1,61 @@
+[0.244s] Invoking command in '/home/yixin/ros2_ws/build/tutorial_interfaces': AMENT_PREFIX_PATH=/home/yixin/ros2_ws/install/tutorial_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yixin/ros2_ws/install/tutorial_interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/yixin/ros2_ws/install/tutorial_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/yixin/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
+[0.366s] UpdateCTestConfiguration  from :/home/yixin/ros2_ws/build/tutorial_interfaces/CTestConfiguration.ini
+[0.367s] Parse Config file:/home/yixin/ros2_ws/build/tutorial_interfaces/CTestConfiguration.ini
+[0.367s]    Site: yixin-Aspire-A315-24PT
+[0.367s]    Build name: (empty)
+[0.368s]  Add coverage exclude regular expressions.
+[0.368s] Create new tag: 20260531-2250 - Experimental
+[0.368s] UpdateCTestConfiguration  from :/home/yixin/ros2_ws/build/tutorial_interfaces/CTestConfiguration.ini
+[0.369s] Parse Config file:/home/yixin/ros2_ws/build/tutorial_interfaces/CTestConfiguration.ini
+[0.369s] Test project /home/yixin/ros2_ws/build/tutorial_interfaces
+[0.369s] Constructing a list of tests
+[0.375s] Done constructing a list of tests
+[0.375s] Updating test list for fixtures
+[0.376s] Added 0 tests to meet fixture requirements
+[0.376s] Checking test dependency graph...
+[0.376s] Checking test dependency graph end
+[0.376s] test 1
+[0.377s]     Start 1: lint_cmake
+[0.377s] 
+[0.382s] 1: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/yixin/ros2_ws/build/tutorial_interfaces/test_results/tutorial_interfaces/lint_cmake.xunit.xml" "--package-name" "tutorial_interfaces" "--output-file" "/home/yixin/ros2_ws/build/tutorial_interfaces/ament_lint_cmake/lint_cmake.txt" "--command" "/opt/ros/jazzy/bin/ament_lint_cmake" "--xunit-file" "/home/yixin/ros2_ws/build/tutorial_interfaces/test_results/tutorial_interfaces/lint_cmake.xunit.xml"
+[0.383s] 1: Working Directory: /home/yixin/ros2_ws/src/tutorial_interfaces
+[0.383s] 1: Test timeout computed to be: 60
+[0.599s] 1: -- run_test.py: invoking following command in '/home/yixin/ros2_ws/src/tutorial_interfaces':
+[0.599s] 1:  - /opt/ros/jazzy/bin/ament_lint_cmake --xunit-file /home/yixin/ros2_ws/build/tutorial_interfaces/test_results/tutorial_interfaces/lint_cmake.xunit.xml
+[1.117s] 1: 
+[1.118s] 1: No problems found
+[1.216s] 1: -- run_test.py: return code 0
+[1.216s] 1: -- run_test.py: verify result file '/home/yixin/ros2_ws/build/tutorial_interfaces/test_results/tutorial_interfaces/lint_cmake.xunit.xml'
+[1.298s] 1/2 Test #1: lint_cmake .......................   Passed    1.01 sec
+[1.298s] test 2
+[1.299s]     Start 2: xmllint
+[1.299s] 
+[1.299s] 2: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/yixin/ros2_ws/build/tutorial_interfaces/test_results/tutorial_interfaces/xmllint.xunit.xml" "--package-name" "tutorial_interfaces" "--output-file" "/home/yixin/ros2_ws/build/tutorial_interfaces/ament_xmllint/xmllint.txt" "--command" "/opt/ros/jazzy/bin/ament_xmllint" "--xunit-file" "/home/yixin/ros2_ws/build/tutorial_interfaces/test_results/tutorial_interfaces/xmllint.xunit.xml"
+[1.300s] 2: Working Directory: /home/yixin/ros2_ws/src/tutorial_interfaces
+[1.300s] 2: Test timeout computed to be: 60
+[1.797s] 2: -- run_test.py: invoking following command in '/home/yixin/ros2_ws/src/tutorial_interfaces':
+[1.798s] 2:  - /opt/ros/jazzy/bin/ament_xmllint --xunit-file /home/yixin/ros2_ws/build/tutorial_interfaces/test_results/tutorial_interfaces/xmllint.xunit.xml
+[2.332s] 2: File 'package.xml' is invalid:
+[2.333s] 2: /home/yixin/ros2_ws/src/tutorial_interfaces/package.xml:16: element test_depend: Schemas validity error : Element 'test_depend': This element is not expected. Expected is one of ( member_of_group, export ).
+[2.333s] 2: /home/yixin/ros2_ws/src/tutorial_interfaces/package.xml fails to validate
+[2.333s] 2: 
+[2.334s] 2: 1 files are invalid
+[2.446s] 2: -- run_test.py: return code 1
+[2.446s] 2: -- run_test.py: verify result file '/home/yixin/ros2_ws/build/tutorial_interfaces/test_results/tutorial_interfaces/xmllint.xunit.xml'
+[2.502s] 2/2 Test #2: xmllint ..........................***Failed    1.20 sec
+[2.502s] 
+[2.502s] 50% tests passed[0;0m, [0;31m1 tests failed[0;0m out of 2
+[2.503s] 
+[2.503s] Label Time Summary:
+[2.503s] lint_cmake    =   1.01 sec*proc (1 test)
+[2.503s] linter        =   2.22 sec*proc (2 tests)
+[2.504s] xmllint       =   1.20 sec*proc (1 test)
+[2.504s] 
+[2.509s] Total Test time (real) =   2.22 sec
+[2.510s] 
+[2.510s] The following tests FAILED:
+[2.514s] 	[0;31m  2 - xmllint (Failed)[0;0m
+[2.523s] Errors while running CTest
+[2.523s] Output from these tests are in: /home/yixin/ros2_ws/build/tutorial_interfaces/Testing/Temporary/LastTest.log
+[2.524s] Use "--rerun-failed --output-on-failure" to re-run the failed cases verbosely.
+[2.568s] Invoked command in '/home/yixin/ros2_ws/build/tutorial_interfaces' returned '8': AMENT_PREFIX_PATH=/home/yixin/ros2_ws/install/tutorial_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yixin/ros2_ws/install/tutorial_interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/yixin/ros2_ws/install/tutorial_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/yixin/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process

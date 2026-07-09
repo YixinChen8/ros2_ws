@@ -1,26 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite
-  name="examples_rclcpp_minimal_action_client.cpplint"
-  tests="4"
-  failures="0"
-  errors="0"
-  time="0.305"
->
-  <testcase
-    name="/home/yixin/ros2_ws/src/examples/rclcpp/actions/minimal_action_client/member_functions.cpp"
-    classname="examples_rclcpp_minimal_action_client.cpplint"/>
-  <testcase
-    name="/home/yixin/ros2_ws/src/examples/rclcpp/actions/minimal_action_client/not_composable.cpp"
-    classname="examples_rclcpp_minimal_action_client.cpplint"/>
-  <testcase
-    name="/home/yixin/ros2_ws/src/examples/rclcpp/actions/minimal_action_client/not_composable_with_cancel.cpp"
-    classname="examples_rclcpp_minimal_action_client.cpplint"/>
-  <testcase
-    name="/home/yixin/ros2_ws/src/examples/rclcpp/actions/minimal_action_client/not_composable_with_feedback.cpp"
-    classname="examples_rclcpp_minimal_action_client.cpplint"/>
-  <system-out>Checked files:
-* /home/yixin/ros2_ws/src/examples/rclcpp/actions/minimal_action_client/member_functions.cpp
-* /home/yixin/ros2_ws/src/examples/rclcpp/actions/minimal_action_client/not_composable.cpp
-* /home/yixin/ros2_ws/src/examples/rclcpp/actions/minimal_action_client/not_composable_with_cancel.cpp
-* /home/yixin/ros2_ws/src/examples/rclcpp/actions/minimal_action_client/not_composable_with_feedback.cpp</system-out>
+<testsuite name="examples_rclcpp_minimal_action_client" tests="1" failures="0" time="0.000" errors="1" skipped="0">
+  <testcase classname="examples_rclcpp_minimal_action_client" name="cpplint.xunit.missing_result" time="0.000">
+    <error message="The test did not generate a result file."/>
+  </testcase>
 </testsuite>

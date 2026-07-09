@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite
+  name="turtlesim.copyright"
+  tests="11"
+  errors="0"
+  failures="0"
+  time="0.762"
+>
+  <testcase
+    name="include/turtlesim/qos.hpp"
+    classname="turtlesim.copyright"/>
+  <testcase
+    name="include/turtlesim/turtle.hpp"
+    classname="turtlesim.copyright"/>
+  <testcase
+    name="include/turtlesim/turtle_frame.hpp"
+    classname="turtlesim.copyright"/>
+  <testcase
+    name="launch/multisim.launch.py"
+    classname="turtlesim.copyright"/>
+  <testcase
+    name="src/turtle.cpp"
+    classname="turtlesim.copyright"/>
+  <testcase
+    name="src/turtle_frame.cpp"
+    classname="turtlesim.copyright"/>
+  <testcase
+    name="src/turtlesim.cpp"
+    classname="turtlesim.copyright"/>
+  <testcase
+    name="src/turtlesim/__init__.py"
+    classname="turtlesim.copyright"/>
+  <testcase
+    name="tutorials/draw_square.cpp"
+    classname="turtlesim.copyright"/>
+  <testcase
+    name="tutorials/mimic.cpp"
+    classname="turtlesim.copyright"/>
+  <testcase
+    name="tutorials/teleop_turtle_key.cpp"
+    classname="turtlesim.copyright"/>
+  <system-out>Checked files:
+* include/turtlesim/qos.hpp
+* include/turtlesim/turtle.hpp
+* include/turtlesim/turtle_frame.hpp
+* launch/multisim.launch.py
+* src/turtle.cpp
+* src/turtle_frame.cpp
+* src/turtlesim.cpp
+* src/turtlesim/__init__.py
+* tutorials/draw_square.cpp
+* tutorials/mimic.cpp
+* tutorials/teleop_turtle_key.cpp</system-out>
+</testsuite>

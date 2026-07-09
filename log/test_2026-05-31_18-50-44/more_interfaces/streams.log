@@ -1,0 +1,105 @@
+[0.771s] Invoking command in '/home/yixin/ros2_ws/build/more_interfaces': AMENT_PREFIX_PATH=/home/yixin/ros2_ws/install/more_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yixin/ros2_ws/install/more_interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/yixin/ros2_ws/install/more_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/yixin/ros2_ws/install/more_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
+[0.804s] UpdateCTestConfiguration  from :/home/yixin/ros2_ws/build/more_interfaces/CTestConfiguration.ini
+[0.804s] Parse Config file:/home/yixin/ros2_ws/build/more_interfaces/CTestConfiguration.ini
+[0.804s]    Site: yixin-Aspire-A315-24PT
+[0.804s]    Build name: (empty)
+[0.804s]  Add coverage exclude regular expressions.
+[0.804s] Create new tag: 20260531-2250 - Experimental
+[0.804s] UpdateCTestConfiguration  from :/home/yixin/ros2_ws/build/more_interfaces/CTestConfiguration.ini
+[0.805s] Parse Config file:/home/yixin/ros2_ws/build/more_interfaces/CTestConfiguration.ini
+[0.805s] Test project /home/yixin/ros2_ws/build/more_interfaces
+[0.805s] Constructing a list of tests
+[0.805s] Done constructing a list of tests
+[0.805s] Updating test list for fixtures
+[0.805s] Added 0 tests to meet fixture requirements
+[0.805s] Checking test dependency graph...
+[0.805s] Checking test dependency graph end
+[0.805s] test 1
+[0.805s]     Start 1: cppcheck
+[0.805s] 
+[0.806s] 1: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/yixin/ros2_ws/build/more_interfaces/test_results/more_interfaces/cppcheck.xunit.xml" "--package-name" "more_interfaces" "--output-file" "/home/yixin/ros2_ws/build/more_interfaces/ament_cppcheck/cppcheck.txt" "--command" "/opt/ros/jazzy/bin/ament_cppcheck" "--xunit-file" "/home/yixin/ros2_ws/build/more_interfaces/test_results/more_interfaces/cppcheck.xunit.xml"
+[0.806s] 1: Working Directory: /home/yixin/ros2_ws/src/more_interfaces
+[0.806s] 1: Test timeout computed to be: 300
+[0.914s] 1: -- run_test.py: invoking following command in '/home/yixin/ros2_ws/src/more_interfaces':
+[0.914s] 1:  - /opt/ros/jazzy/bin/ament_cppcheck --xunit-file /home/yixin/ros2_ws/build/more_interfaces/test_results/more_interfaces/cppcheck.xunit.xml
+[1.117s] 1: cppcheck 2.13.0 has known performance issues and therefore will not be used, set the AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS environment variable to override this.
+[1.176s] 1: -- run_test.py: return code 0
+[1.177s] 1: -- run_test.py: verify result file '/home/yixin/ros2_ws/build/more_interfaces/test_results/more_interfaces/cppcheck.xunit.xml'
+[1.232s] 1/4 Test #1: cppcheck .........................   Passed    0.44 sec
+[1.233s] test 2
+[1.234s]     Start 2: lint_cmake
+[1.234s] 
+[1.239s] 2: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/yixin/ros2_ws/build/more_interfaces/test_results/more_interfaces/lint_cmake.xunit.xml" "--package-name" "more_interfaces" "--output-file" "/home/yixin/ros2_ws/build/more_interfaces/ament_lint_cmake/lint_cmake.txt" "--command" "/opt/ros/jazzy/bin/ament_lint_cmake" "--xunit-file" "/home/yixin/ros2_ws/build/more_interfaces/test_results/more_interfaces/lint_cmake.xunit.xml"
+[1.239s] 2: Working Directory: /home/yixin/ros2_ws/src/more_interfaces
+[1.239s] 2: Test timeout computed to be: 60
+[1.412s] 2: -- run_test.py: invoking following command in '/home/yixin/ros2_ws/src/more_interfaces':
+[1.413s] 2:  - /opt/ros/jazzy/bin/ament_lint_cmake --xunit-file /home/yixin/ros2_ws/build/more_interfaces/test_results/more_interfaces/lint_cmake.xunit.xml
+[1.571s] 2: CMakeLists.txt:41: Line ends in whitespace [whitespace/eol]
+[1.571s] 2: 
+[1.571s] 2: 
+[1.571s] 2: 1 errors
+[1.642s] 2: -- run_test.py: return code 1
+[1.642s] 2: -- run_test.py: verify result file '/home/yixin/ros2_ws/build/more_interfaces/test_results/more_interfaces/lint_cmake.xunit.xml'
+[1.689s] 2/4 Test #2: lint_cmake .......................***Failed    0.45 sec
+[1.690s] test 3
+[1.690s]     Start 3: uncrustify
+[1.690s] 
+[1.690s] 3: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/yixin/ros2_ws/build/more_interfaces/test_results/more_interfaces/uncrustify.xunit.xml" "--package-name" "more_interfaces" "--output-file" "/home/yixin/ros2_ws/build/more_interfaces/ament_uncrustify/uncrustify.txt" "--command" "/opt/ros/jazzy/bin/ament_uncrustify" "--xunit-file" "/home/yixin/ros2_ws/build/more_interfaces/test_results/more_interfaces/uncrustify.xunit.xml"
+[1.690s] 3: Working Directory: /home/yixin/ros2_ws/src/more_interfaces
+[1.690s] 3: Test timeout computed to be: 60
+[1.835s] 3: -- run_test.py: invoking following command in '/home/yixin/ros2_ws/src/more_interfaces':
+[1.835s] 3:  - /opt/ros/jazzy/bin/ament_uncrustify --xunit-file /home/yixin/ros2_ws/build/more_interfaces/test_results/more_interfaces/uncrustify.xunit.xml
+[2.018s] 3: Code style divergence in file 'src/publish_address_book.cpp':
+[2.018s] 3: 
+[2.019s] 3: --- src/publish_address_book.cpp
+[2.019s] 3: +++ src/publish_address_book.cpp.uncrustify
+[2.019s] 3: @@ -20 +20 @@
+[2.019s] 3: -    // Create a callback "putoblish_msg" to publish the messages periodically  
+[2.019s] 3: +    // Create a callback "putoblish_msg" to publish the messages periodically
+[2.019s] 3: @@ -37 +37 @@
+[2.019s] 3: -    // Create a 1 second timer to call "publish_msg" function every second  
+[2.019s] 3: +    // Create a 1 second timer to call "publish_msg" function every second
+[2.019s] 3: @@ -54 +54 @@
+[2.020s] 3: -}
+[2.020s] 3: +}
+[2.020s] 3: 
+[2.020s] 3: 1 files with code style divergence
+[2.086s] 3: -- run_test.py: return code 1
+[2.086s] 3: -- run_test.py: verify result file '/home/yixin/ros2_ws/build/more_interfaces/test_results/more_interfaces/uncrustify.xunit.xml'
+[2.129s] 3/4 Test #3: uncrustify .......................***Failed    0.44 sec
+[2.130s] test 4
+[2.130s]     Start 4: xmllint
+[2.131s] 
+[2.132s] 4: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/yixin/ros2_ws/build/more_interfaces/test_results/more_interfaces/xmllint.xunit.xml" "--package-name" "more_interfaces" "--output-file" "/home/yixin/ros2_ws/build/more_interfaces/ament_xmllint/xmllint.txt" "--command" "/opt/ros/jazzy/bin/ament_xmllint" "--xunit-file" "/home/yixin/ros2_ws/build/more_interfaces/test_results/more_interfaces/xmllint.xunit.xml"
+[2.132s] 4: Working Directory: /home/yixin/ros2_ws/src/more_interfaces
+[2.133s] 4: Test timeout computed to be: 60
+[2.349s] 4: -- run_test.py: invoking following command in '/home/yixin/ros2_ws/src/more_interfaces':
+[2.352s] 4:  - /opt/ros/jazzy/bin/ament_xmllint --xunit-file /home/yixin/ros2_ws/build/more_interfaces/test_results/more_interfaces/xmllint.xunit.xml
+[2.724s] 4: File 'package.xml' is invalid:
+[2.728s] 4: /home/yixin/ros2_ws/src/more_interfaces/package.xml:20: element test_depend: Schemas validity error : Element 'test_depend': This element is not expected. Expected is one of ( member_of_group, export ).
+[2.728s] 4: /home/yixin/ros2_ws/src/more_interfaces/package.xml fails to validate
+[2.728s] 4: 
+[2.728s] 4: 1 files are invalid
+[2.786s] 4: -- run_test.py: return code 1
+[2.786s] 4: -- run_test.py: verify result file '/home/yixin/ros2_ws/build/more_interfaces/test_results/more_interfaces/xmllint.xunit.xml'
+[2.824s] 4/4 Test #4: xmllint ..........................***Failed    0.69 sec
+[2.824s] 
+[2.824s] 25% tests passed[0;0m, [0;31m3 tests failed[0;0m out of 4
+[2.824s] 
+[2.824s] Label Time Summary:
+[2.824s] cppcheck      =   0.44 sec*proc (1 test)
+[2.824s] lint_cmake    =   0.45 sec*proc (1 test)
+[2.825s] linter        =   2.02 sec*proc (4 tests)
+[2.825s] uncrustify    =   0.44 sec*proc (1 test)
+[2.825s] xmllint       =   0.69 sec*proc (1 test)
+[2.825s] 
+[2.825s] Total Test time (real) =   2.03 sec
+[2.825s] 
+[2.825s] The following tests FAILED:
+[2.825s] 	[0;31m  2 - lint_cmake (Failed)[0;0m
+[2.825s] 	[0;31m  3 - uncrustify (Failed)[0;0m
+[2.825s] 	[0;31m  4 - xmllint (Failed)[0;0m
+[2.826s] Errors while running CTest
+[2.826s] Output from these tests are in: /home/yixin/ros2_ws/build/more_interfaces/Testing/Temporary/LastTest.log
+[2.826s] Use "--rerun-failed --output-on-failure" to re-run the failed cases verbosely.
+[2.857s] Invoked command in '/home/yixin/ros2_ws/build/more_interfaces' returned '8': AMENT_PREFIX_PATH=/home/yixin/ros2_ws/install/more_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yixin/ros2_ws/install/more_interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/yixin/ros2_ws/install/more_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/yixin/ros2_ws/install/more_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process

@@ -1,0 +1,182 @@
+[0.571s] Invoking command in '/home/yixin/ros2_ws/build/turtlesim': AMENT_PREFIX_PATH=/home/yixin/ros2_ws/install/turtlesim:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yixin/ros2_ws/install/turtlesim:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/yixin/ros2_ws/install/turtlesim/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/yixin/ros2_ws/install/turtlesim/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
+[0.751s] UpdateCTestConfiguration  from :/home/yixin/ros2_ws/build/turtlesim/CTestConfiguration.ini
+[0.751s] Parse Config file:/home/yixin/ros2_ws/build/turtlesim/CTestConfiguration.ini
+[0.751s]    Site: yixin-Aspire-A315-24PT
+[0.751s]    Build name: (empty)
+[0.751s]  Add coverage exclude regular expressions.
+[0.751s] Create new tag: 20260531-2250 - Experimental
+[0.751s] UpdateCTestConfiguration  from :/home/yixin/ros2_ws/build/turtlesim/CTestConfiguration.ini
+[0.751s] Parse Config file:/home/yixin/ros2_ws/build/turtlesim/CTestConfiguration.ini
+[0.751s] Test project /home/yixin/ros2_ws/build/turtlesim
+[0.751s] Constructing a list of tests
+[0.752s] Done constructing a list of tests
+[0.752s] Updating test list for fixtures
+[0.752s] Added 0 tests to meet fixture requirements
+[0.752s] Checking test dependency graph...
+[0.752s] Checking test dependency graph end
+[0.752s] test 1
+[0.752s]     Start 1: copyright
+[0.752s] 
+[0.752s] 1: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/yixin/ros2_ws/build/turtlesim/test_results/turtlesim/copyright.xunit.xml" "--package-name" "turtlesim" "--output-file" "/home/yixin/ros2_ws/build/turtlesim/ament_copyright/copyright.txt" "--command" "/opt/ros/jazzy/bin/ament_copyright" "--xunit-file" "/home/yixin/ros2_ws/build/turtlesim/test_results/turtlesim/copyright.xunit.xml"
+[0.752s] 1: Working Directory: /home/yixin/ros2_ws/src/ros_tutorials/turtlesim
+[0.752s] 1: Test timeout computed to be: 200
+[0.755s] 1: -- run_test.py: invoking following command in '/home/yixin/ros2_ws/src/ros_tutorials/turtlesim':
+[0.755s] 1:  - /opt/ros/jazzy/bin/ament_copyright --xunit-file /home/yixin/ros2_ws/build/turtlesim/test_results/turtlesim/copyright.xunit.xml
+[1.824s] 1: No problems found, checked 11 files
+[1.889s] 1: -- run_test.py: return code 0
+[1.890s] 1: -- run_test.py: verify result file '/home/yixin/ros2_ws/build/turtlesim/test_results/turtlesim/copyright.xunit.xml'
+[1.926s] 1/8 Test #1: copyright ........................   Passed    1.32 sec
+[1.926s] test 2
+[1.927s]     Start 2: cppcheck
+[1.927s] 
+[1.927s] 2: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/yixin/ros2_ws/build/turtlesim/test_results/turtlesim/cppcheck.xunit.xml" "--package-name" "turtlesim" "--output-file" "/home/yixin/ros2_ws/build/turtlesim/ament_cppcheck/cppcheck.txt" "--command" "/opt/ros/jazzy/bin/ament_cppcheck" "--xunit-file" "/home/yixin/ros2_ws/build/turtlesim/test_results/turtlesim/cppcheck.xunit.xml" "--include_dirs" "/home/yixin/ros2_ws/src/ros_tutorials/turtlesim/include"
+[1.927s] 2: Working Directory: /home/yixin/ros2_ws/src/ros_tutorials/turtlesim
+[1.927s] 2: Test timeout computed to be: 300
+[2.072s] 2: -- run_test.py: invoking following command in '/home/yixin/ros2_ws/src/ros_tutorials/turtlesim':
+[2.073s] 2:  - /opt/ros/jazzy/bin/ament_cppcheck --xunit-file /home/yixin/ros2_ws/build/turtlesim/test_results/turtlesim/cppcheck.xunit.xml --include_dirs /home/yixin/ros2_ws/src/ros_tutorials/turtlesim/include
+[2.276s] 2: cppcheck 2.13.0 has known performance issues and therefore will not be used, set the AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS environment variable to override this.
+[2.340s] 2: -- run_test.py: return code 0
+[2.340s] 2: -- run_test.py: verify result file '/home/yixin/ros2_ws/build/turtlesim/test_results/turtlesim/cppcheck.xunit.xml'
+[2.383s] 2/8 Test #2: cppcheck .........................   Passed    0.46 sec
+[2.384s] test 3
+[2.384s]     Start 3: cpplint
+[2.385s] 
+[2.385s] 3: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/yixin/ros2_ws/build/turtlesim/test_results/turtlesim/cpplint.xunit.xml" "--package-name" "turtlesim" "--output-file" "/home/yixin/ros2_ws/build/turtlesim/ament_cpplint/cpplint.txt" "--command" "/opt/ros/jazzy/bin/ament_cpplint" "--xunit-file" "/home/yixin/ros2_ws/build/turtlesim/test_results/turtlesim/cpplint.xunit.xml"
+[2.385s] 3: Working Directory: /home/yixin/ros2_ws/src/ros_tutorials/turtlesim
+[2.385s] 3: Test timeout computed to be: 120
+[2.518s] 3: -- run_test.py: invoking following command in '/home/yixin/ros2_ws/src/ros_tutorials/turtlesim':
+[2.521s] 3:  - /opt/ros/jazzy/bin/ament_cpplint --xunit-file /home/yixin/ros2_ws/build/turtlesim/test_results/turtlesim/cpplint.xunit.xml
+[3.103s] 3: Using '--root=/home/yixin/ros2_ws/src' argument
+[3.104s] 3: 
+[3.105s] 3: Done processing /home/yixin/ros2_ws/src/ros_tutorials/turtlesim/tutorials/draw_square.cpp
+[3.105s] 3: 
+[3.106s] 3: Done processing /home/yixin/ros2_ws/src/ros_tutorials/turtlesim/tutorials/mimic.cpp
+[3.106s] 3: 
+[3.107s] 3: Done processing /home/yixin/ros2_ws/src/ros_tutorials/turtlesim/tutorials/teleop_turtle_key.cpp
+[3.107s] 3: 
+[3.107s] 3: Using '--root=/home/yixin/ros2_ws/src/ros_tutorials/turtlesim/include' argument
+[3.107s] 3: 
+[3.107s] 3: Done processing /home/yixin/ros2_ws/src/ros_tutorials/turtlesim/include/turtlesim/qos.hpp
+[3.108s] 3: 
+[3.108s] 3: Done processing /home/yixin/ros2_ws/src/ros_tutorials/turtlesim/include/turtlesim/turtle.hpp
+[3.108s] 3: 
+[3.108s] 3: Done processing /home/yixin/ros2_ws/src/ros_tutorials/turtlesim/include/turtlesim/turtle_frame.hpp
+[3.108s] 3: 
+[3.108s] 3: Using '--root=/home/yixin/ros2_ws/src/ros_tutorials/turtlesim/src' argument
+[3.108s] 3: 
+[3.109s] 3: Done processing /home/yixin/ros2_ws/src/ros_tutorials/turtlesim/src/turtle.cpp
+[3.110s] 3: 
+[3.110s] 3: Done processing /home/yixin/ros2_ws/src/ros_tutorials/turtlesim/src/turtle_frame.cpp
+[3.110s] 3: 
+[3.110s] 3: Done processing /home/yixin/ros2_ws/src/ros_tutorials/turtlesim/src/turtlesim.cpp
+[3.111s] 3: 
+[3.111s] 3: No problems found
+[3.154s] 3: -- run_test.py: return code 0
+[3.155s] 3: -- run_test.py: verify result file '/home/yixin/ros2_ws/build/turtlesim/test_results/turtlesim/cpplint.xunit.xml'
+[3.192s] 3/8 Test #3: cpplint ..........................   Passed    0.81 sec
+[3.194s] test 4
+[3.195s]     Start 4: flake8
+[3.197s] 
+[3.197s] 4: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/yixin/ros2_ws/build/turtlesim/test_results/turtlesim/flake8.xunit.xml" "--package-name" "turtlesim" "--output-file" "/home/yixin/ros2_ws/build/turtlesim/ament_flake8/flake8.txt" "--command" "/opt/ros/jazzy/bin/ament_flake8" "--xunit-file" "/home/yixin/ros2_ws/build/turtlesim/test_results/turtlesim/flake8.xunit.xml"
+[3.197s] 4: Working Directory: /home/yixin/ros2_ws/src/ros_tutorials/turtlesim
+[3.197s] 4: Test timeout computed to be: 60
+[3.305s] 4: -- run_test.py: invoking following command in '/home/yixin/ros2_ws/src/ros_tutorials/turtlesim':
+[3.305s] 4:  - /opt/ros/jazzy/bin/ament_flake8 --xunit-file /home/yixin/ros2_ws/build/turtlesim/test_results/turtlesim/flake8.xunit.xml
+[3.711s] 4: 
+[3.711s] 4: 2 files checked
+[3.711s] 4: No problems found
+[3.711s] 4: 
+[3.711s] 4: Checked files:
+[3.711s] 4: 
+[3.711s] 4: * ./launch/multisim.launch.py
+[3.711s] 4: * ./src/turtlesim/__init__.py
+[3.797s] 4: -- run_test.py: return code 0
+[3.798s] 4: -- run_test.py: verify result file '/home/yixin/ros2_ws/build/turtlesim/test_results/turtlesim/flake8.xunit.xml'
+[3.826s] 4/8 Test #4: flake8 ...........................   Passed    0.63 sec
+[3.826s] test 5
+[3.827s]     Start 5: lint_cmake
+[3.827s] 
+[3.827s] 5: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/yixin/ros2_ws/build/turtlesim/test_results/turtlesim/lint_cmake.xunit.xml" "--package-name" "turtlesim" "--output-file" "/home/yixin/ros2_ws/build/turtlesim/ament_lint_cmake/lint_cmake.txt" "--command" "/opt/ros/jazzy/bin/ament_lint_cmake" "--xunit-file" "/home/yixin/ros2_ws/build/turtlesim/test_results/turtlesim/lint_cmake.xunit.xml"
+[3.827s] 5: Working Directory: /home/yixin/ros2_ws/src/ros_tutorials/turtlesim
+[3.827s] 5: Test timeout computed to be: 60
+[3.926s] 5: -- run_test.py: invoking following command in '/home/yixin/ros2_ws/src/ros_tutorials/turtlesim':
+[3.926s] 5:  - /opt/ros/jazzy/bin/ament_lint_cmake --xunit-file /home/yixin/ros2_ws/build/turtlesim/test_results/turtlesim/lint_cmake.xunit.xml
+[4.053s] 5: 
+[4.053s] 5: No problems found
+[4.093s] 5: -- run_test.py: return code 0
+[4.093s] 5: -- run_test.py: verify result file '/home/yixin/ros2_ws/build/turtlesim/test_results/turtlesim/lint_cmake.xunit.xml'
+[4.123s] 5/8 Test #5: lint_cmake .......................   Passed    0.30 sec
+[4.123s] test 6
+[4.123s]     Start 6: pep257
+[4.124s] 
+[4.124s] 6: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/yixin/ros2_ws/build/turtlesim/test_results/turtlesim/pep257.xunit.xml" "--package-name" "turtlesim" "--output-file" "/home/yixin/ros2_ws/build/turtlesim/ament_pep257/pep257.txt" "--command" "/opt/ros/jazzy/bin/ament_pep257" "--xunit-file" "/home/yixin/ros2_ws/build/turtlesim/test_results/turtlesim/pep257.xunit.xml"
+[4.124s] 6: Working Directory: /home/yixin/ros2_ws/src/ros_tutorials/turtlesim
+[4.124s] 6: Test timeout computed to be: 60
+[4.218s] 6: -- run_test.py: invoking following command in '/home/yixin/ros2_ws/src/ros_tutorials/turtlesim':
+[4.218s] 6:  - /opt/ros/jazzy/bin/ament_pep257 --xunit-file /home/yixin/ros2_ws/build/turtlesim/test_results/turtlesim/pep257.xunit.xml
+[4.355s] 6: checking ./launch/multisim.launch.py
+[4.355s] 6: checking ./src/turtlesim/__init__.py
+[4.355s] 6: No problems found
+[4.405s] 6: -- run_test.py: return code 0
+[4.406s] 6: -- run_test.py: verify result file '/home/yixin/ros2_ws/build/turtlesim/test_results/turtlesim/pep257.xunit.xml'
+[4.425s] 6/8 Test #6: pep257 ...........................   Passed    0.30 sec
+[4.425s] test 7
+[4.425s]     Start 7: uncrustify
+[4.425s] 
+[4.425s] 7: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/yixin/ros2_ws/build/turtlesim/test_results/turtlesim/uncrustify.xunit.xml" "--package-name" "turtlesim" "--output-file" "/home/yixin/ros2_ws/build/turtlesim/ament_uncrustify/uncrustify.txt" "--command" "/opt/ros/jazzy/bin/ament_uncrustify" "--xunit-file" "/home/yixin/ros2_ws/build/turtlesim/test_results/turtlesim/uncrustify.xunit.xml"
+[4.425s] 7: Working Directory: /home/yixin/ros2_ws/src/ros_tutorials/turtlesim
+[4.425s] 7: Test timeout computed to be: 60
+[4.498s] 7: -- run_test.py: invoking following command in '/home/yixin/ros2_ws/src/ros_tutorials/turtlesim':
+[4.498s] 7:  - /opt/ros/jazzy/bin/ament_uncrustify --xunit-file /home/yixin/ros2_ws/build/turtlesim/test_results/turtlesim/uncrustify.xunit.xml
+[4.634s] 7: No code style divergence in file 'include/turtlesim/qos.hpp'
+[4.634s] 7: 
+[4.634s] 7: No code style divergence in file 'include/turtlesim/turtle.hpp'
+[4.634s] 7: 
+[4.634s] 7: No code style divergence in file 'include/turtlesim/turtle_frame.hpp'
+[4.634s] 7: 
+[4.634s] 7: No code style divergence in file 'src/turtle.cpp'
+[4.634s] 7: 
+[4.634s] 7: No code style divergence in file 'src/turtle_frame.cpp'
+[4.634s] 7: 
+[4.634s] 7: No code style divergence in file 'src/turtlesim.cpp'
+[4.635s] 7: 
+[4.635s] 7: No code style divergence in file 'tutorials/draw_square.cpp'
+[4.635s] 7: 
+[4.635s] 7: No code style divergence in file 'tutorials/mimic.cpp'
+[4.635s] 7: 
+[4.635s] 7: No code style divergence in file 'tutorials/teleop_turtle_key.cpp'
+[4.635s] 7: 
+[4.635s] 7: No problems found
+[4.658s] 7: -- run_test.py: return code 0
+[4.658s] 7: -- run_test.py: verify result file '/home/yixin/ros2_ws/build/turtlesim/test_results/turtlesim/uncrustify.xunit.xml'
+[4.675s] 7/8 Test #7: uncrustify .......................   Passed    0.25 sec
+[4.675s] test 8
+[4.675s]     Start 8: xmllint
+[4.675s] 
+[4.675s] 8: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/yixin/ros2_ws/build/turtlesim/test_results/turtlesim/xmllint.xunit.xml" "--package-name" "turtlesim" "--output-file" "/home/yixin/ros2_ws/build/turtlesim/ament_xmllint/xmllint.txt" "--command" "/opt/ros/jazzy/bin/ament_xmllint" "--xunit-file" "/home/yixin/ros2_ws/build/turtlesim/test_results/turtlesim/xmllint.xunit.xml"
+[4.675s] 8: Working Directory: /home/yixin/ros2_ws/src/ros_tutorials/turtlesim
+[4.675s] 8: Test timeout computed to be: 60
+[4.741s] 8: -- run_test.py: invoking following command in '/home/yixin/ros2_ws/src/ros_tutorials/turtlesim':
+[4.741s] 8:  - /opt/ros/jazzy/bin/ament_xmllint --xunit-file /home/yixin/ros2_ws/build/turtlesim/test_results/turtlesim/xmllint.xunit.xml
+[4.962s] 8: File 'package.xml' is valid
+[4.962s] 8: 
+[4.962s] 8: No problems found
+[4.986s] 8: -- run_test.py: return code 0
+[4.986s] 8: -- run_test.py: verify result file '/home/yixin/ros2_ws/build/turtlesim/test_results/turtlesim/xmllint.xunit.xml'
+[5.004s] 8/8 Test #8: xmllint ..........................   Passed    0.33 sec
+[5.005s] 
+[5.005s] [0;32m100% tests passed[0;0m, 0 tests failed[0;0m out of 8
+[5.005s] 
+[5.005s] Label Time Summary:
+[5.005s] copyright     =   1.32 sec*proc (1 test)
+[5.005s] cppcheck      =   0.46 sec*proc (1 test)
+[5.005s] cpplint       =   0.81 sec*proc (1 test)
+[5.006s] flake8        =   0.63 sec*proc (1 test)
+[5.006s] lint_cmake    =   0.30 sec*proc (1 test)
+[5.006s] linter        =   4.40 sec*proc (8 tests)
+[5.006s] pep257        =   0.30 sec*proc (1 test)
+[5.006s] uncrustify    =   0.25 sec*proc (1 test)
+[5.006s] xmllint       =   0.33 sec*proc (1 test)
+[5.006s] 
+[5.006s] Total Test time (real) =   4.40 sec
+[5.010s] Invoked command in '/home/yixin/ros2_ws/build/turtlesim' returned '0': AMENT_PREFIX_PATH=/home/yixin/ros2_ws/install/turtlesim:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yixin/ros2_ws/install/turtlesim:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/yixin/ros2_ws/install/turtlesim/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/yixin/ros2_ws/install/turtlesim/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process

@@ -1,0 +1,147 @@
+UpdateCTestConfiguration  from :/home/yixin/ros2_ws/build/cpp_parameters/CTestConfiguration.ini
+Parse Config file:/home/yixin/ros2_ws/build/cpp_parameters/CTestConfiguration.ini
+   Site: yixin-Aspire-A315-24PT
+   Build name: (empty)
+ Add coverage exclude regular expressions.
+Create new tag: 20260531-2250 - Experimental
+UpdateCTestConfiguration  from :/home/yixin/ros2_ws/build/cpp_parameters/CTestConfiguration.ini
+Parse Config file:/home/yixin/ros2_ws/build/cpp_parameters/CTestConfiguration.ini
+Test project /home/yixin/ros2_ws/build/cpp_parameters
+Constructing a list of tests
+Done constructing a list of tests
+Updating test list for fixtures
+Added 0 tests to meet fixture requirements
+Checking test dependency graph...
+Checking test dependency graph end
+test 1
+    Start 1: cppcheck
+
+1: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/yixin/ros2_ws/build/cpp_parameters/test_results/cpp_parameters/cppcheck.xunit.xml" "--package-name" "cpp_parameters" "--output-file" "/home/yixin/ros2_ws/build/cpp_parameters/ament_cppcheck/cppcheck.txt" "--command" "/opt/ros/jazzy/bin/ament_cppcheck" "--xunit-file" "/home/yixin/ros2_ws/build/cpp_parameters/test_results/cpp_parameters/cppcheck.xunit.xml"
+1: Working Directory: /home/yixin/ros2_ws/src/cpp_parameters
+1: Test timeout computed to be: 300
+1: -- run_test.py: invoking following command in '/home/yixin/ros2_ws/src/cpp_parameters':
+1:  - /opt/ros/jazzy/bin/ament_cppcheck --xunit-file /home/yixin/ros2_ws/build/cpp_parameters/test_results/cpp_parameters/cppcheck.xunit.xml
+1: cppcheck 2.13.0 has known performance issues and therefore will not be used, set the AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS environment variable to override this.
+1: -- run_test.py: return code 0
+1: -- run_test.py: verify result file '/home/yixin/ros2_ws/build/cpp_parameters/test_results/cpp_parameters/cppcheck.xunit.xml'
+1/6 Test #1: cppcheck .........................   Passed    0.91 sec
+test 2
+    Start 2: flake8
+
+2: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/yixin/ros2_ws/build/cpp_parameters/test_results/cpp_parameters/flake8.xunit.xml" "--package-name" "cpp_parameters" "--output-file" "/home/yixin/ros2_ws/build/cpp_parameters/ament_flake8/flake8.txt" "--command" "/opt/ros/jazzy/bin/ament_flake8" "--xunit-file" "/home/yixin/ros2_ws/build/cpp_parameters/test_results/cpp_parameters/flake8.xunit.xml"
+2: Working Directory: /home/yixin/ros2_ws/src/cpp_parameters
+2: Test timeout computed to be: 60
+2: -- run_test.py: invoking following command in '/home/yixin/ros2_ws/src/cpp_parameters':
+2:  - /opt/ros/jazzy/bin/ament_flake8 --xunit-file /home/yixin/ros2_ws/build/cpp_parameters/test_results/cpp_parameters/flake8.xunit.xml
+2:     ])      ^
+2: 1     W292 no newline at end of file
+2: 
+2: ./launch/cpp_parameters_launch.py:18:7: W292 no newline at end of file
+2: 
+2: 
+2: 1 files checked
+2: 1 errors
+2: 
+2: 'W'-type errors: 1
+2: 
+2: Checked files:
+2: 
+2: * ./launch/cpp_parameters_launch.py
+2: -- run_test.py: return code 1
+2: -- run_test.py: verify result file '/home/yixin/ros2_ws/build/cpp_parameters/test_results/cpp_parameters/flake8.xunit.xml'
+2/6 Test #2: flake8 ...........................***Failed    1.90 sec
+test 3
+    Start 3: lint_cmake
+
+3: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/yixin/ros2_ws/build/cpp_parameters/test_results/cpp_parameters/lint_cmake.xunit.xml" "--package-name" "cpp_parameters" "--output-file" "/home/yixin/ros2_ws/build/cpp_parameters/ament_lint_cmake/lint_cmake.txt" "--command" "/opt/ros/jazzy/bin/ament_lint_cmake" "--xunit-file" "/home/yixin/ros2_ws/build/cpp_parameters/test_results/cpp_parameters/lint_cmake.xunit.xml"
+3: Working Directory: /home/yixin/ros2_ws/src/cpp_parameters
+3: Test timeout computed to be: 60
+3: -- run_test.py: invoking following command in '/home/yixin/ros2_ws/src/cpp_parameters':
+3:  - /opt/ros/jazzy/bin/ament_lint_cmake --xunit-file /home/yixin/ros2_ws/build/cpp_parameters/test_results/cpp_parameters/lint_cmake.xunit.xml
+3: 
+3: No problems found
+3: -- run_test.py: return code 0
+3: -- run_test.py: verify result file '/home/yixin/ros2_ws/build/cpp_parameters/test_results/cpp_parameters/lint_cmake.xunit.xml'
+3/6 Test #3: lint_cmake .......................   Passed    0.67 sec
+test 4
+    Start 4: pep257
+
+4: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/yixin/ros2_ws/build/cpp_parameters/test_results/cpp_parameters/pep257.xunit.xml" "--package-name" "cpp_parameters" "--output-file" "/home/yixin/ros2_ws/build/cpp_parameters/ament_pep257/pep257.txt" "--command" "/opt/ros/jazzy/bin/ament_pep257" "--xunit-file" "/home/yixin/ros2_ws/build/cpp_parameters/test_results/cpp_parameters/pep257.xunit.xml"
+4: Working Directory: /home/yixin/ros2_ws/src/cpp_parameters
+4: Test timeout computed to be: 60
+4: -- run_test.py: invoking following command in '/home/yixin/ros2_ws/src/cpp_parameters':
+4:  - /opt/ros/jazzy/bin/ament_pep257 --xunit-file /home/yixin/ros2_ws/build/cpp_parameters/test_results/cpp_parameters/pep257.xunit.xml
+4: checking ./launch/cpp_parameters_launch.py
+4: No problems found
+4: -- run_test.py: return code 0
+4: -- run_test.py: verify result file '/home/yixin/ros2_ws/build/cpp_parameters/test_results/cpp_parameters/pep257.xunit.xml'
+4/6 Test #4: pep257 ...........................   Passed    0.66 sec
+test 5
+    Start 5: uncrustify
+
+5: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/yixin/ros2_ws/build/cpp_parameters/test_results/cpp_parameters/uncrustify.xunit.xml" "--package-name" "cpp_parameters" "--output-file" "/home/yixin/ros2_ws/build/cpp_parameters/ament_uncrustify/uncrustify.txt" "--command" "/opt/ros/jazzy/bin/ament_uncrustify" "--xunit-file" "/home/yixin/ros2_ws/build/cpp_parameters/test_results/cpp_parameters/uncrustify.xunit.xml"
+5: Working Directory: /home/yixin/ros2_ws/src/cpp_parameters
+5: Test timeout computed to be: 60
+5: -- run_test.py: invoking following command in '/home/yixin/ros2_ws/src/cpp_parameters':
+5:  - /opt/ros/jazzy/bin/ament_uncrustify --xunit-file /home/yixin/ros2_ws/build/cpp_parameters/test_results/cpp_parameters/uncrustify.xunit.xml
+5: Code style divergence in file 'src/cpp_parameters_node.cpp':
+5: 
+5: --- src/cpp_parameters_node.cpp
+5: +++ src/cpp_parameters_node.cpp.uncrustify
+5: @@ -22 +22 @@
+5: -    // a lambda function called "timer_callback" is declared. 
+5: +    // a lambda function called "timer_callback" is declared.
+5: @@ -26 +26 @@
+5: -      std::string my_param = this->get_parameter("my_parameter").as_string();
+5: +        std::string my_param = this->get_parameter("my_parameter").as_string();
+5: @@ -29 +29 @@
+5: -      RCLCPP_INFO(this->get_logger(), "Hello %s!", my_param.c_str());
+5: +        RCLCPP_INFO(this->get_logger(), "Hello %s!", my_param.c_str());
+5: @@ -31 +31,2 @@
+5: -      std::vector<rclcpp::Parameter> all_new_parameters{rclcpp::Parameter("my_parameter", "world")};
+5: +        std::vector<rclcpp::Parameter> all_new_parameters{rclcpp::Parameter("my_parameter",
+5: +          "world")};
+5: @@ -33,2 +34,2 @@
+5: -      this->set_parameters(all_new_parameters);
+5: -    };
+5: +        this->set_parameters(all_new_parameters);
+5: +      };
+5: @@ -52 +53 @@
+5: -}
+5: +}
+5: 
+5: 1 files with code style divergence
+5: -- run_test.py: return code 1
+5: -- run_test.py: verify result file '/home/yixin/ros2_ws/build/cpp_parameters/test_results/cpp_parameters/uncrustify.xunit.xml'
+5/6 Test #5: uncrustify .......................***Failed    0.56 sec
+test 6
+    Start 6: xmllint
+
+6: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/yixin/ros2_ws/build/cpp_parameters/test_results/cpp_parameters/xmllint.xunit.xml" "--package-name" "cpp_parameters" "--output-file" "/home/yixin/ros2_ws/build/cpp_parameters/ament_xmllint/xmllint.txt" "--command" "/opt/ros/jazzy/bin/ament_xmllint" "--xunit-file" "/home/yixin/ros2_ws/build/cpp_parameters/test_results/cpp_parameters/xmllint.xunit.xml"
+6: Working Directory: /home/yixin/ros2_ws/src/cpp_parameters
+6: Test timeout computed to be: 60
+6: -- run_test.py: invoking following command in '/home/yixin/ros2_ws/src/cpp_parameters':
+6:  - /opt/ros/jazzy/bin/ament_xmllint --xunit-file /home/yixin/ros2_ws/build/cpp_parameters/test_results/cpp_parameters/xmllint.xunit.xml
+6: File 'package.xml' is valid
+6: 
+6: No problems found
+6: -- run_test.py: return code 0
+6: -- run_test.py: verify result file '/home/yixin/ros2_ws/build/cpp_parameters/test_results/cpp_parameters/xmllint.xunit.xml'
+6/6 Test #6: xmllint ..........................   Passed    0.71 sec
+
+67% tests passed[0;0m, [0;31m2 tests failed[0;0m out of 6
+
+Label Time Summary:
+cppcheck      =   0.91 sec*proc (1 test)
+flake8        =   1.90 sec*proc (1 test)
+lint_cmake    =   0.67 sec*proc (1 test)
+linter        =   5.40 sec*proc (6 tests)
+pep257        =   0.66 sec*proc (1 test)
+uncrustify    =   0.56 sec*proc (1 test)
+xmllint       =   0.71 sec*proc (1 test)
+
+Total Test time (real) =   5.42 sec
+
+The following tests FAILED:
+	[0;31m  2 - flake8 (Failed)[0;0m
+	[0;31m  5 - uncrustify (Failed)[0;0m

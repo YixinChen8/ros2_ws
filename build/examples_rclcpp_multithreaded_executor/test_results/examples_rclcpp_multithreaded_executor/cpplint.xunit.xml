@@ -4,7 +4,7 @@
   tests="1"
   failures="0"
   errors="0"
-  time="0.114"
+  time="0.053"
 >
   <testcase
     name="/home/yixin/ros2_ws/src/examples/rclcpp/executors/multithreaded_executor/multithreaded_executor.cpp"

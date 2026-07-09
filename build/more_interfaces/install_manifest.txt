@@ -52,9 +52,16 @@
 /home/yixin/ros2_ws/install/more_interfaces/lib/python3.12/site-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_introspection_c.so
 /home/yixin/ros2_ws/install/more_interfaces/lib/python3.12/site-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_c.so
 /home/yixin/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_generator_py.so
+/home/yixin/ros2_ws/install/more_interfaces/share/ament_index/resource_index/rust_packages/more_interfaces
+/home/yixin/ros2_ws/install/more_interfaces/share/more_interfaces/rust/Cargo.toml
+/home/yixin/ros2_ws/install/more_interfaces/share/more_interfaces/rust/src/msg.rs
+/home/yixin/ros2_ws/install/more_interfaces/share/more_interfaces/rust/src/lib.rs
+/home/yixin/ros2_ws/install/more_interfaces/share/more_interfaces/rust/src/msg/rmw.rs
+/home/yixin/ros2_ws/install/more_interfaces/share/more_interfaces/rust/build.rs
 /home/yixin/ros2_ws/install/more_interfaces/share/more_interfaces/msg/AddressBook.idl
 /home/yixin/ros2_ws/install/more_interfaces/share/more_interfaces/msg/AddressBook.msg
 /home/yixin/ros2_ws/install/more_interfaces/lib/more_interfaces/publish_address_book
+/home/yixin/ros2_ws/install/more_interfaces/lib/more_interfaces/subscriber_address_book
 /home/yixin/ros2_ws/install/more_interfaces/share/ament_index/resource_index/package_run_dependencies/more_interfaces
 /home/yixin/ros2_ws/install/more_interfaces/share/ament_index/resource_index/parent_prefix_path/more_interfaces
 /home/yixin/ros2_ws/install/more_interfaces/share/more_interfaces/environment/ament_prefix_path.sh
@@ -91,6 +98,7 @@
 /home/yixin/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
 /home/yixin/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
 /home/yixin/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+/home/yixin/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/rosidl_cmake_aggregate_target-extras.cmake
 /home/yixin/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfacesConfig.cmake
 /home/yixin/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfacesConfig-version.cmake
 /home/yixin/ros2_ws/install/more_interfaces/share/more_interfaces/package.xml

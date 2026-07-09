@@ -4,7 +4,7 @@
   tests="4"
   failures="0"
   errors="0"
-  time="0.086"
+  time="0.037"
 >
   <testcase
     name="member_functions.cpp"

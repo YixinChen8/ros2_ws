@@ -77,11 +77,14 @@ all: CMakeFiles/more_interfaces_s__rosidl_typesupport_fastrtps_c.dir/all
 all: CMakeFiles/more_interfaces_s__rosidl_typesupport_introspection_c.dir/all
 all: CMakeFiles/more_interfaces_s__rosidl_typesupport_c.dir/all
 all: CMakeFiles/publish_address_book.dir/all
+all: CMakeFiles/subscriber_address_book.dir/all
 all: more_interfaces__py/all
+all: more_interfaces__rs/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
 preinstall: more_interfaces__py/preinstall
+preinstall: more_interfaces__rs/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
@@ -104,7 +107,9 @@ clean: CMakeFiles/more_interfaces_s__rosidl_typesupport_fastrtps_c.dir/clean
 clean: CMakeFiles/more_interfaces_s__rosidl_typesupport_introspection_c.dir/clean
 clean: CMakeFiles/more_interfaces_s__rosidl_typesupport_c.dir/clean
 clean: CMakeFiles/publish_address_book.dir/clean
+clean: CMakeFiles/subscriber_address_book.dir/clean
 clean: more_interfaces__py/clean
+clean: more_interfaces__rs/clean
 .PHONY : clean
 
 #=============================================================================
@@ -121,6 +126,21 @@ more_interfaces__py/preinstall:
 # Recursive "clean" directory target.
 more_interfaces__py/clean: more_interfaces__py/CMakeFiles/more_interfaces__py.dir/clean
 .PHONY : more_interfaces__py/clean
+
+#=============================================================================
+# Directory level rules for directory more_interfaces__rs
+
+# Recursive "all" directory target.
+more_interfaces__rs/all: more_interfaces__rs/CMakeFiles/more_interfaces__rs.dir/all
+.PHONY : more_interfaces__rs/all
+
+# Recursive "preinstall" directory target.
+more_interfaces__rs/preinstall:
+.PHONY : more_interfaces__rs/preinstall
+
+# Recursive "clean" directory target.
+more_interfaces__rs/clean: more_interfaces__rs/CMakeFiles/more_interfaces__rs.dir/clean
+.PHONY : more_interfaces__rs/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/uninstall.dir
@@ -187,6 +207,7 @@ CMakeFiles/more_interfaces.dir/all: CMakeFiles/more_interfaces__cpp.dir/all
 CMakeFiles/more_interfaces.dir/all: CMakeFiles/more_interfaces__rosidl_typesupport_fastrtps_cpp.dir/all
 CMakeFiles/more_interfaces.dir/all: CMakeFiles/more_interfaces__rosidl_typesupport_introspection_cpp.dir/all
 CMakeFiles/more_interfaces.dir/all: CMakeFiles/more_interfaces__rosidl_typesupport_cpp.dir/all
+CMakeFiles/more_interfaces.dir/all: more_interfaces__rs/CMakeFiles/more_interfaces__rs.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/more_interfaces.dir/build.make CMakeFiles/more_interfaces.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/more_interfaces.dir/build.make CMakeFiles/more_interfaces.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/yixin/ros2_ws/build/more_interfaces/CMakeFiles --progress-num= "Built target more_interfaces"
@@ -194,7 +215,7 @@ CMakeFiles/more_interfaces.dir/all: CMakeFiles/more_interfaces__rosidl_typesuppo
 
 # Build rule for subdir invocation for target.
 CMakeFiles/more_interfaces.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/yixin/ros2_ws/build/more_interfaces/CMakeFiles 25
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/yixin/ros2_ws/build/more_interfaces/CMakeFiles 26
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/more_interfaces.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/yixin/ros2_ws/build/more_interfaces/CMakeFiles 0
 .PHONY : CMakeFiles/more_interfaces.dir/rule
@@ -511,7 +532,7 @@ CMakeFiles/more_interfaces__rosidl_generator_py.dir/all: more_interfaces__py/CMa
 
 # Build rule for subdir invocation for target.
 CMakeFiles/more_interfaces__rosidl_generator_py.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/yixin/ros2_ws/build/more_interfaces/CMakeFiles 28
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/yixin/ros2_ws/build/more_interfaces/CMakeFiles 29
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/more_interfaces__rosidl_generator_py.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/yixin/ros2_ws/build/more_interfaces/CMakeFiles 0
 .PHONY : CMakeFiles/more_interfaces__rosidl_generator_py.dir/rule
@@ -536,12 +557,12 @@ CMakeFiles/more_interfaces_s__rosidl_typesupport_fastrtps_c.dir/all: CMakeFiles/
 CMakeFiles/more_interfaces_s__rosidl_typesupport_fastrtps_c.dir/all: more_interfaces__py/CMakeFiles/more_interfaces__py.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/more_interfaces_s__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/more_interfaces_s__rosidl_typesupport_fastrtps_c.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/more_interfaces_s__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/more_interfaces_s__rosidl_typesupport_fastrtps_c.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/yixin/ros2_ws/build/more_interfaces/CMakeFiles --progress-num=31,32 "Built target more_interfaces_s__rosidl_typesupport_fastrtps_c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/yixin/ros2_ws/build/more_interfaces/CMakeFiles --progress-num=32,33 "Built target more_interfaces_s__rosidl_typesupport_fastrtps_c"
 .PHONY : CMakeFiles/more_interfaces_s__rosidl_typesupport_fastrtps_c.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/more_interfaces_s__rosidl_typesupport_fastrtps_c.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/yixin/ros2_ws/build/more_interfaces/CMakeFiles 30
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/yixin/ros2_ws/build/more_interfaces/CMakeFiles 31
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/more_interfaces_s__rosidl_typesupport_fastrtps_c.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/yixin/ros2_ws/build/more_interfaces/CMakeFiles 0
 .PHONY : CMakeFiles/more_interfaces_s__rosidl_typesupport_fastrtps_c.dir/rule
@@ -566,12 +587,12 @@ CMakeFiles/more_interfaces_s__rosidl_typesupport_introspection_c.dir/all: CMakeF
 CMakeFiles/more_interfaces_s__rosidl_typesupport_introspection_c.dir/all: more_interfaces__py/CMakeFiles/more_interfaces__py.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/more_interfaces_s__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/more_interfaces_s__rosidl_typesupport_introspection_c.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/more_interfaces_s__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/more_interfaces_s__rosidl_typesupport_introspection_c.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/yixin/ros2_ws/build/more_interfaces/CMakeFiles --progress-num=33,34 "Built target more_interfaces_s__rosidl_typesupport_introspection_c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/yixin/ros2_ws/build/more_interfaces/CMakeFiles --progress-num=34,35 "Built target more_interfaces_s__rosidl_typesupport_introspection_c"
 .PHONY : CMakeFiles/more_interfaces_s__rosidl_typesupport_introspection_c.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/more_interfaces_s__rosidl_typesupport_introspection_c.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/yixin/ros2_ws/build/more_interfaces/CMakeFiles 30
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/yixin/ros2_ws/build/more_interfaces/CMakeFiles 31
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/more_interfaces_s__rosidl_typesupport_introspection_c.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/yixin/ros2_ws/build/more_interfaces/CMakeFiles 0
 .PHONY : CMakeFiles/more_interfaces_s__rosidl_typesupport_introspection_c.dir/rule
@@ -595,12 +616,12 @@ CMakeFiles/more_interfaces_s__rosidl_typesupport_c.dir/all: CMakeFiles/more_inte
 CMakeFiles/more_interfaces_s__rosidl_typesupport_c.dir/all: more_interfaces__py/CMakeFiles/more_interfaces__py.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/more_interfaces_s__rosidl_typesupport_c.dir/build.make CMakeFiles/more_interfaces_s__rosidl_typesupport_c.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/more_interfaces_s__rosidl_typesupport_c.dir/build.make CMakeFiles/more_interfaces_s__rosidl_typesupport_c.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/yixin/ros2_ws/build/more_interfaces/CMakeFiles --progress-num=29,30 "Built target more_interfaces_s__rosidl_typesupport_c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/yixin/ros2_ws/build/more_interfaces/CMakeFiles --progress-num=30,31 "Built target more_interfaces_s__rosidl_typesupport_c"
 .PHONY : CMakeFiles/more_interfaces_s__rosidl_typesupport_c.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/more_interfaces_s__rosidl_typesupport_c.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/yixin/ros2_ws/build/more_interfaces/CMakeFiles 30
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/yixin/ros2_ws/build/more_interfaces/CMakeFiles 31
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/more_interfaces_s__rosidl_typesupport_c.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/yixin/ros2_ws/build/more_interfaces/CMakeFiles 0
 .PHONY : CMakeFiles/more_interfaces_s__rosidl_typesupport_c.dir/rule
@@ -623,7 +644,7 @@ CMakeFiles/publish_address_book.dir/all: CMakeFiles/more_interfaces__cpp.dir/all
 CMakeFiles/publish_address_book.dir/all: CMakeFiles/more_interfaces__rosidl_typesupport_cpp.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/publish_address_book.dir/build.make CMakeFiles/publish_address_book.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/publish_address_book.dir/build.make CMakeFiles/publish_address_book.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/yixin/ros2_ws/build/more_interfaces/CMakeFiles --progress-num=35,36 "Built target publish_address_book"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/yixin/ros2_ws/build/more_interfaces/CMakeFiles --progress-num=36,37 "Built target publish_address_book"
 .PHONY : CMakeFiles/publish_address_book.dir/all
 
 # Build rule for subdir invocation for target.
@@ -643,6 +664,34 @@ CMakeFiles/publish_address_book.dir/clean:
 .PHONY : CMakeFiles/publish_address_book.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/subscriber_address_book.dir
+
+# All Build rule for target.
+CMakeFiles/subscriber_address_book.dir/all: CMakeFiles/more_interfaces__rosidl_generator_c.dir/all
+CMakeFiles/subscriber_address_book.dir/all: CMakeFiles/more_interfaces__cpp.dir/all
+CMakeFiles/subscriber_address_book.dir/all: CMakeFiles/more_interfaces__rosidl_typesupport_cpp.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/subscriber_address_book.dir/build.make CMakeFiles/subscriber_address_book.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/subscriber_address_book.dir/build.make CMakeFiles/subscriber_address_book.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/yixin/ros2_ws/build/more_interfaces/CMakeFiles --progress-num=38,39 "Built target subscriber_address_book"
+.PHONY : CMakeFiles/subscriber_address_book.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/subscriber_address_book.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/yixin/ros2_ws/build/more_interfaces/CMakeFiles 12
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/subscriber_address_book.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/yixin/ros2_ws/build/more_interfaces/CMakeFiles 0
+.PHONY : CMakeFiles/subscriber_address_book.dir/rule
+
+# Convenience name for target.
+subscriber_address_book: CMakeFiles/subscriber_address_book.dir/rule
+.PHONY : subscriber_address_book
+
+# clean rule for target.
+CMakeFiles/subscriber_address_book.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/subscriber_address_book.dir/build.make CMakeFiles/subscriber_address_book.dir/clean
+.PHONY : CMakeFiles/subscriber_address_book.dir/clean
+
+#=============================================================================
 # Target rules for target /home/yixin/ros2_ws/build/more_interfaces/more_interfaces__py/CMakeFiles/more_interfaces__py.dir
 
 # All Build rule for target.
@@ -654,7 +703,7 @@ more_interfaces__py/CMakeFiles/more_interfaces__py.dir/all: CMakeFiles/more_inte
 
 # Build rule for subdir invocation for target.
 more_interfaces__py/CMakeFiles/more_interfaces__py.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/yixin/ros2_ws/build/more_interfaces/CMakeFiles 26
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/yixin/ros2_ws/build/more_interfaces/CMakeFiles 27
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 /home/yixin/ros2_ws/build/more_interfaces/more_interfaces__py/CMakeFiles/more_interfaces__py.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/yixin/ros2_ws/build/more_interfaces/CMakeFiles 0
 .PHONY : more_interfaces__py/CMakeFiles/more_interfaces__py.dir/rule
@@ -667,6 +716,32 @@ more_interfaces__py: more_interfaces__py/CMakeFiles/more_interfaces__py.dir/rule
 more_interfaces__py/CMakeFiles/more_interfaces__py.dir/clean:
 	$(MAKE) $(MAKESILENT) -f /home/yixin/ros2_ws/build/more_interfaces/more_interfaces__py/CMakeFiles/more_interfaces__py.dir/build.make /home/yixin/ros2_ws/build/more_interfaces/more_interfaces__py/CMakeFiles/more_interfaces__py.dir/clean
 .PHONY : more_interfaces__py/CMakeFiles/more_interfaces__py.dir/clean
+
+#=============================================================================
+# Target rules for target /home/yixin/ros2_ws/build/more_interfaces/more_interfaces__rs/CMakeFiles/more_interfaces__rs.dir
+
+# All Build rule for target.
+more_interfaces__rs/CMakeFiles/more_interfaces__rs.dir/all:
+	$(MAKE) $(MAKESILENT) -f /home/yixin/ros2_ws/build/more_interfaces/more_interfaces__rs/CMakeFiles/more_interfaces__rs.dir/build.make /home/yixin/ros2_ws/build/more_interfaces/more_interfaces__rs/CMakeFiles/more_interfaces__rs.dir/depend
+	$(MAKE) $(MAKESILENT) -f /home/yixin/ros2_ws/build/more_interfaces/more_interfaces__rs/CMakeFiles/more_interfaces__rs.dir/build.make /home/yixin/ros2_ws/build/more_interfaces/more_interfaces__rs/CMakeFiles/more_interfaces__rs.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/yixin/ros2_ws/build/more_interfaces/CMakeFiles --progress-num=29 "Built target more_interfaces__rs"
+.PHONY : more_interfaces__rs/CMakeFiles/more_interfaces__rs.dir/all
+
+# Build rule for subdir invocation for target.
+more_interfaces__rs/CMakeFiles/more_interfaces__rs.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/yixin/ros2_ws/build/more_interfaces/CMakeFiles 1
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 /home/yixin/ros2_ws/build/more_interfaces/more_interfaces__rs/CMakeFiles/more_interfaces__rs.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/yixin/ros2_ws/build/more_interfaces/CMakeFiles 0
+.PHONY : more_interfaces__rs/CMakeFiles/more_interfaces__rs.dir/rule
+
+# Convenience name for target.
+more_interfaces__rs: more_interfaces__rs/CMakeFiles/more_interfaces__rs.dir/rule
+.PHONY : more_interfaces__rs
+
+# clean rule for target.
+more_interfaces__rs/CMakeFiles/more_interfaces__rs.dir/clean:
+	$(MAKE) $(MAKESILENT) -f /home/yixin/ros2_ws/build/more_interfaces/more_interfaces__rs/CMakeFiles/more_interfaces__rs.dir/build.make /home/yixin/ros2_ws/build/more_interfaces/more_interfaces__rs/CMakeFiles/more_interfaces__rs.dir/clean
+.PHONY : more_interfaces__rs/CMakeFiles/more_interfaces__rs.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

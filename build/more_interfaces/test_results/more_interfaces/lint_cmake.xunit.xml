@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite
+  name="more_interfaces.lint_cmake"
+  tests="1"
+  errors="0"
+  failures="1"
+  time="0.002"
+>
+  <testcase
+    name="whitespace/eol (CMakeLists.txt:41)"
+    classname="more_interfaces.lint_cmake"
+  >
+      <failure message="Line ends in whitespace"/>
+  </testcase>
+  <system-out>Checked files:
+* CMakeLists.txt</system-out>
+</testsuite>

@@ -1,0 +1,3 @@
+-- run_test.py: invoking following command in '/home/yixin/ros2_ws/src/polygon_base':
+ - /opt/ros/jazzy/bin/ament_xmllint --xunit-file /home/yixin/ros2_ws/build/polygon_base/test_results/polygon_base/xmllint.xunit.xml
+

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite
+  name="cpp_srvcli.uncrustify"
+  tests="2"
+  failures="2"
+  errors="0"
+  time="0.029"
+>
+  <testcase
+    name="src/add_two_ints_client.cpp"
+    classname="cpp_srvcli.uncrustify"
+  >
+      <failure message="Diff with 20 lines"><![CDATA[--- src/add_two_ints_client.cpp
++++ src/add_two_ints_client.cpp.uncrustify
+@@ -16 +16 @@
+-  if (argc != 4) { // CHANGE    
++  if (argc != 4) { // CHANGE
+@@ -18,2 +18,2 @@
+-      RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "usage: add_three_ints_client X Y Z");      // CHANGE      
+-      return 1;
++    RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "usage: add_three_ints_client X Y Z");        // CHANGE
++    return 1;
+@@ -30 +30 @@
+-    node->create_client<tutorial_interfaces::srv::AddThreeInts>("add_three_ints");          // CHANGE    
++    node->create_client<tutorial_interfaces::srv::AddThreeInts>("add_three_ints");          // CHANGE
+@@ -44 +44,2 @@
+-      RCLCPP_ERROR(rclcpp::get_logger("rclcpp"), "Interrupted while waiting for the service. Exiting.");
++      RCLCPP_ERROR(rclcpp::get_logger("rclcpp"),
++        "Interrupted while waiting for the service. Exiting.");
+@@ -64 +65 @@
+-}+}
+]]></failure>
+  </testcase>
+  <testcase
+    name="src/add_two_ints_server.cpp"
+    classname="cpp_srvcli.uncrustify"
+  >
+      <failure message="Diff with 21 lines"><![CDATA[--- src/add_two_ints_server.cpp
++++ src/add_two_ints_server.cpp.uncrustify
+@@ -17,2 +17,3 @@
+-void add(const std::shared_ptr<tutorial_interfaces::srv::AddThreeInts::Request> request,     // CHANGE
+-          std::shared_ptr<tutorial_interfaces::srv::AddThreeInts::Response>       response)  // CHANGE
++void add(
++  const std::shared_ptr<tutorial_interfaces::srv::AddThreeInts::Request> request,            // CHANGE
++  std::shared_ptr<tutorial_interfaces::srv::AddThreeInts::Response> response)                // CHANGE
+@@ -23 +24,2 @@
+-  RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "sending back response: [%ld]", (long int)response->sum);
++  RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "sending back response: [%ld]",
++    (long int)response->sum);
+@@ -38 +40 @@
+-//   // Prints a log message when it’s ready 
++//   // Prints a log message when it’s ready
+@@ -53 +55 @@
+-    node->create_service<tutorial_interfaces::srv::AddThreeInts>("add_three_ints",  &add);   // CHANGE
++    node->create_service<tutorial_interfaces::srv::AddThreeInts>("add_three_ints", &add);    // CHANGE
+@@ -59 +61 @@
+-}+}
+]]></failure>
+  </testcase>
+  <system-out>Checked files:
+* src/add_two_ints_client.cpp
+* src/add_two_ints_server.cpp</system-out>
+</testsuite>

@@ -1,0 +1,124 @@
+[0.558s] Invoking command in '/home/yixin/ros2_ws/src/python_parameters': AMENT_PREFIX_PATH=/home/yixin/ros2_ws/install/python_parameters:${AMENT_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTEST_ADDOPTS=--tb=short --junit-xml=/home/yixin/ros2_ws/build/python_parameters/pytest.xml --junit-prefix=python_parameters -o cache_dir=/home/yixin/ros2_ws/build/python_parameters/.pytest_cache PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=/home/yixin/ros2_ws/install/python_parameters/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -m pytest
+[1.284s] [1m============================= test session starts ==============================[0m
+[1.284s] platform linux -- Python 3.12.3, pytest-7.4.4, pluggy-1.4.0
+[1.290s] cachedir: /home/yixin/ros2_ws/build/python_parameters/.pytest_cache
+[1.291s] rootdir: /home/yixin/ros2_ws/src/python_parameters
+[1.292s] plugins: ament-flake8-0.17.4, ament-xmllint-0.17.4, launch-testing-ros-0.26.11, ament-pep257-0.17.4, ament-copyright-0.17.4, launch-testing-3.4.10, ament-lint-0.17.4, typeguard-4.1.5, cov-4.1.0, colcon-core-0.20.1
+[1.512s] [1mcollecting ... [0m[1m
+[1.512s] collected 3 items                                                              [0m
+[1.512s] 
+[1.523s] test/test_copyright.py [33ms[0m[32m                                                 [ 33%][0m
+[1.835s] test/test_flake8.py [31mF[0m[31m                                                    [ 66%][0m
+[1.866s] test/test_pep257.py [32m.[0m[31m                                                    [100%][0m
+[1.867s] 
+[1.867s] =================================== FAILURES ===================================
+[1.867s] [31m[1m_________________________________ test_flake8 __________________________________[0m
+[1.867s] [1m[31mtest/test_flake8.py[0m:23: in test_flake8
+[1.942s]     [94massert[39;49;00m rc == [94m0[39;49;00m, \
+[1.942s] [1m[31mE   AssertionError: Found 15 code style errors / warnings:[0m
+[1.942s] [1m[31mE     ./launch/python_parameters_launch.py:18:7: W292 no newline at end of file[0m
+[1.942s] [1m[31mE     ./python_parameters/python_parameters_node.py:5:1: E302 expected 2 blank lines, found 1[0m
+[1.942s] [1m[31mE     ./python_parameters/python_parameters_node.py:6:100: E501 line too long (122 > 99 characters)[0m
+[1.943s] [1m[31mE     ./python_parameters/python_parameters_node.py:11:93: W291 trailing whitespace[0m
+[1.943s] [1m[31mE     ./python_parameters/python_parameters_node.py:32:100: E501 line too long (117 > 99 characters)[0m
+[1.943s] [1m[31mE     ./python_parameters/python_parameters_node.py:33:100: E501 line too long (122 > 99 characters)[0m
+[1.943s] [1m[31mE     ./python_parameters/python_parameters_node.py:36:1: E302 expected 2 blank lines, found 1[0m
+[1.943s] [1m[31mE     ./python_parameters/python_parameters_node.py:44:1: E305 expected 2 blank lines after class or function definition, found 1[0m
+[1.943s] [1m[31mE     ./python_parameters/python_parameters_node.py:45:11: W292 no newline at end of file[0m
+[1.943s] [1m[31mE     ./setup.py:2:1: I100 Import statements are in the wrong order. 'from glob import glob' should be before 'import os'[0m
+[1.943s] [1m[31mE     ./setup.py:3:1: I201 Missing newline between import groups. 'from setuptools import find_packages, setup' is identified as Third Party and 'from glob import glob' is identified as Stdlib.[0m
+[1.943s] [1m[31mE     ./setup.py:15:75: W291 trailing whitespace[0m
+[1.943s] [1m[31mE     ./setup.py:22:45: W291 trailing whitespace[0m
+[1.943s] [1m[31mE     ./setup.py:31:9: E122 continuation line missing indentation or outdented[0m
+[1.943s] [1m[31mE     ./setup.py:31:78: W291 trailing whitespace[0m
+[1.943s] [1m[31mE   assert 1 == 0[0m
+[1.944s] ----------------------------- Captured stdout call -----------------------------
+[1.944s] 
+[1.944s] ./launch/python_parameters_launch.py:18:7: W292 no newline at end of file
+[1.944s]     ])      ^
+[1.944s] 
+[1.944s] ./python_parameters/python_parameters_node.py:5:1: E302 expected 2 blank lines, found 1
+[1.944s] class MinimalParam(Node):
+[1.944s] ^
+[1.944s] 
+[1.944s] ./python_parameters/python_parameters_node.py:6:100: E501 line too long (122 > 99 characters)
+[1.944s]     # create the constructor with: 1) the node name "minimal_param_node"; 2) the parameter value as "my_parameter = world"
+[1.944s]                                                                                                    ^
+[1.944s] 
+[1.945s] ./python_parameters/python_parameters_node.py:11:93: W291 trailing whitespace
+[1.945s]         my_parameter_descriptor = ParameterDescriptor(description='This parameter is mine!')        
+[1.945s]                                                                                             ^
+[1.945s] 
+[1.945s] ./python_parameters/python_parameters_node.py:32:100: E501 line too long (117 > 99 characters)
+[1.945s]         # The "set_parameters" function then sets the parameter my_parameter back to the default string value "world"
+[1.945s]                                                                                                    ^
+[1.945s] 
+[1.945s] ./python_parameters/python_parameters_node.py:33:100: E501 line too long (122 > 99 characters)
+[1.945s]         # In the case that the user changed the parameter externally, this ensures it is always reset back to the original
+[1.945s]                                                                                                    ^
+[1.945s] 
+[1.945s] ./python_parameters/python_parameters_node.py:36:1: E302 expected 2 blank lines, found 1
+[1.949s] def main():
+[1.949s] ^
+[1.949s] 
+[1.949s] ./python_parameters/python_parameters_node.py:44:1: E305 expected 2 blank lines after class or function definition, found 1
+[1.949s] if __name__ == '__main__':
+[1.949s] ^
+[1.949s] 
+[1.949s] ./python_parameters/python_parameters_node.py:45:11: W292 no newline at end of file
+[1.949s]     main()          ^
+[1.950s] 
+[1.950s] ./setup.py:2:1: I100 Import statements are in the wrong order. 'from glob import glob' should be before 'import os'
+[1.950s] from glob import glob
+[1.950s] ^
+[1.950s] 
+[1.950s] ./setup.py:3:1: I201 Missing newline between import groups. 'from setuptools import find_packages, setup' is identified as Third Party and 'from glob import glob' is identified as Stdlib.
+[1.950s] from setuptools import find_packages, setup
+[1.950s] ^
+[1.950s] 
+[1.950s] ./setup.py:15:75: W291 trailing whitespace
+[1.950s]         (os.path.join('share', package_name, 'launch'), glob('launch/*')),        
+[1.950s]                                                                           ^
+[1.950s] 
+[1.951s] ./setup.py:22:45: W291 trailing whitespace
+[1.951s]     description='Python parameter tutorial',    
+[1.951s]                                             ^
+[1.951s] 
+[1.951s] ./setup.py:31:9: E122 continuation line missing indentation or outdented
+[1.951s]         'minimal_param_node = python_parameters.python_parameters_node:main',            
+[1.951s]         ^
+[1.951s] 
+[1.951s] ./setup.py:31:78: W291 trailing whitespace
+[1.952s]         'minimal_param_node = python_parameters.python_parameters_node:main',            
+[1.952s]                                                                              ^
+[1.952s] 
+[1.952s] 1     E122 continuation line missing indentation or outdented
+[1.952s] 2     E302 expected 2 blank lines, found 1
+[1.952s] 1     E305 expected 2 blank lines after class or function definition, found 1
+[1.952s] 3     E501 line too long (122 > 99 characters)
+[1.952s] 1     I100 Import statements are in the wrong order. 'from glob import glob' should be before 'import os'
+[1.952s] 1     I201 Missing newline between import groups. 'from setuptools import find_packages, setup' is identified as Third Party and 'from glob import glob' is identified as Stdlib.
+[1.952s] 4     W291 trailing whitespace
+[1.952s] 2     W292 no newline at end of file
+[1.952s] 
+[1.952s] 7 files checked
+[1.952s] 15 errors
+[1.955s] 
+[1.955s] 'E'-type errors: 7
+[1.956s] 'I'-type errors: 2
+[1.956s] 'W'-type errors: 6
+[1.956s] 
+[1.956s] Checked files:
+[1.956s] 
+[1.956s] * ./setup.py
+[1.956s] * ./python_parameters/__init__.py
+[1.956s] * ./python_parameters/python_parameters_node.py
+[1.956s] * ./launch/python_parameters_launch.py
+[1.956s] * ./test/test_flake8.py
+[1.956s] * ./test/test_copyright.py
+[1.957s] * ./test/test_pep257.py
+[1.957s] -- generated xml file: /home/yixin/ros2_ws/build/python_parameters/pytest.xml --
+[1.957s] [36m[1m=========================== short test summary info ============================[0m
+[1.957s] [31mFAILED[0m test/test_flake8.py::[1mtest_flake8[0m - AssertionError: Found 15 code style errors / warnings:
+[1.957s] [31m==================== [31m[1m1 failed[0m, [32m1 passed[0m, [33m1 skipped[0m[31m in 0.65s[0m[31m ====================[0m
+[2.260s] Invoked command in '/home/yixin/ros2_ws/src/python_parameters' returned '1': AMENT_PREFIX_PATH=/home/yixin/ros2_ws/install/python_parameters:${AMENT_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTEST_ADDOPTS=--tb=short --junit-xml=/home/yixin/ros2_ws/build/python_parameters/pytest.xml --junit-prefix=python_parameters -o cache_dir=/home/yixin/ros2_ws/build/python_parameters/.pytest_cache PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=/home/yixin/ros2_ws/install/python_parameters/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -m pytest

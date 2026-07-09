@@ -1,0 +1,136 @@
+[0.159s] Invoking command in '/home/yixin/ros2_ws/build/polygon_base': AMENT_PREFIX_PATH=/home/yixin/ros2_ws/install/polygon_base:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yixin/ros2_ws/install/polygon_base:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
+[0.215s] UpdateCTestConfiguration  from :/home/yixin/ros2_ws/build/polygon_base/CTestConfiguration.ini
+[0.220s] Parse Config file:/home/yixin/ros2_ws/build/polygon_base/CTestConfiguration.ini
+[0.220s]    Site: yixin-Aspire-A315-24PT
+[0.220s]    Build name: (empty)
+[0.221s]  Add coverage exclude regular expressions.
+[0.221s] Create new tag: 20260531-2302 - Experimental
+[0.221s] UpdateCTestConfiguration  from :/home/yixin/ros2_ws/build/polygon_base/CTestConfiguration.ini
+[0.221s] Parse Config file:/home/yixin/ros2_ws/build/polygon_base/CTestConfiguration.ini
+[0.221s] Test project /home/yixin/ros2_ws/build/polygon_base
+[0.222s] Constructing a list of tests
+[0.222s] Done constructing a list of tests
+[0.227s] Updating test list for fixtures
+[0.228s] Added 0 tests to meet fixture requirements
+[0.228s] Checking test dependency graph...
+[0.228s] Checking test dependency graph end
+[0.244s] test 1
+[0.244s]     Start 1: cppcheck
+[0.245s] 
+[0.245s] 1: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/yixin/ros2_ws/build/polygon_base/test_results/polygon_base/cppcheck.xunit.xml" "--package-name" "polygon_base" "--output-file" "/home/yixin/ros2_ws/build/polygon_base/ament_cppcheck/cppcheck.txt" "--command" "/opt/ros/jazzy/bin/ament_cppcheck" "--xunit-file" "/home/yixin/ros2_ws/build/polygon_base/test_results/polygon_base/cppcheck.xunit.xml" "--include_dirs" "/home/yixin/ros2_ws/src/polygon_base/include"
+[0.251s] 1: Working Directory: /home/yixin/ros2_ws/src/polygon_base
+[0.252s] 1: Test timeout computed to be: 300
+[0.484s] 1: -- run_test.py: invoking following command in '/home/yixin/ros2_ws/src/polygon_base':
+[0.484s] 1:  - /opt/ros/jazzy/bin/ament_cppcheck --xunit-file /home/yixin/ros2_ws/build/polygon_base/test_results/polygon_base/cppcheck.xunit.xml --include_dirs /home/yixin/ros2_ws/src/polygon_base/include
+[0.880s] 1: cppcheck 2.13.0 has known performance issues and therefore will not be used, set the AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS environment variable to override this.
+[0.991s] 1: -- run_test.py: return code 0
+[0.994s] 1: -- run_test.py: verify result file '/home/yixin/ros2_ws/build/polygon_base/test_results/polygon_base/cppcheck.xunit.xml'
+[1.073s] 1/4 Test #1: cppcheck .........................   Passed    0.86 sec
+[1.079s] test 2
+[1.079s]     Start 2: lint_cmake
+[1.080s] 
+[1.080s] 2: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/yixin/ros2_ws/build/polygon_base/test_results/polygon_base/lint_cmake.xunit.xml" "--package-name" "polygon_base" "--output-file" "/home/yixin/ros2_ws/build/polygon_base/ament_lint_cmake/lint_cmake.txt" "--command" "/opt/ros/jazzy/bin/ament_lint_cmake" "--xunit-file" "/home/yixin/ros2_ws/build/polygon_base/test_results/polygon_base/lint_cmake.xunit.xml"
+[1.080s] 2: Working Directory: /home/yixin/ros2_ws/src/polygon_base
+[1.081s] 2: Test timeout computed to be: 60
+[1.551s] 2: -- run_test.py: invoking following command in '/home/yixin/ros2_ws/src/polygon_base':
+[1.552s] 2:  - /opt/ros/jazzy/bin/ament_lint_cmake --xunit-file /home/yixin/ros2_ws/build/polygon_base/test_results/polygon_base/lint_cmake.xunit.xml
+[1.932s] 2: 
+[1.933s] 2: No problems found
+[1.989s] 2: -- run_test.py: return code 0
+[1.991s] 2: -- run_test.py: verify result file '/home/yixin/ros2_ws/build/polygon_base/test_results/polygon_base/lint_cmake.xunit.xml'
+[2.039s] 2/4 Test #2: lint_cmake .......................   Passed    0.96 sec
+[2.041s] test 3
+[2.041s]     Start 3: uncrustify
+[2.042s] 
+[2.043s] 3: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/yixin/ros2_ws/build/polygon_base/test_results/polygon_base/uncrustify.xunit.xml" "--package-name" "polygon_base" "--output-file" "/home/yixin/ros2_ws/build/polygon_base/ament_uncrustify/uncrustify.txt" "--command" "/opt/ros/jazzy/bin/ament_uncrustify" "--xunit-file" "/home/yixin/ros2_ws/build/polygon_base/test_results/polygon_base/uncrustify.xunit.xml"
+[2.044s] 3: Working Directory: /home/yixin/ros2_ws/src/polygon_base
+[2.045s] 3: Test timeout computed to be: 60
+[2.287s] 3: -- run_test.py: invoking following command in '/home/yixin/ros2_ws/src/polygon_base':
+[2.289s] 3:  - /opt/ros/jazzy/bin/ament_uncrustify --xunit-file /home/yixin/ros2_ws/build/polygon_base/test_results/polygon_base/uncrustify.xunit.xml
+[2.712s] 3: Code style divergence in file 'include/polygon_base/regular_polygon.hpp':
+[2.713s] 3: 
+[2.713s] 3: --- include/polygon_base/regular_polygon.hpp
+[2.713s] 3: +++ include/polygon_base/regular_polygon.hpp.uncrustify
+[2.714s] 3: @@ -7,5 +7,5 @@
+[2.714s] 3: -  class RegularPolygon
+[2.714s] 3: -  {
+[2.714s] 3: -    public:
+[2.715s] 3: -    // One thing to notice is the presence of the initialize method. 
+[2.725s] 3: -    // With pluginlib, a constructor without parameters is required, 
+[2.726s] 3: +class RegularPolygon
+[2.726s] 3: +{
+[2.727s] 3: +public:
+[2.727s] 3: +    // One thing to notice is the presence of the initialize method.
+[2.727s] 3: +    // With pluginlib, a constructor without parameters is required,
+[2.727s] 3: @@ -13,3 +13,3 @@
+[2.728s] 3: -      virtual void initialize(double side_length) = 0;
+[2.728s] 3: -      virtual double area() = 0;
+[2.728s] 3: -      virtual ~RegularPolygon(){}
+[2.728s] 3: +  virtual void initialize(double side_length) = 0;
+[2.729s] 3: +  virtual double area() = 0;
+[2.729s] 3: +  virtual ~RegularPolygon() {}
+[2.729s] 3: @@ -17,3 +17,3 @@
+[2.735s] 3: -    protected:
+[2.736s] 3: -      RegularPolygon(){}
+[2.736s] 3: -  };
+[2.736s] 3: +protected:
+[2.736s] 3: +  RegularPolygon() {}
+[2.737s] 3: +};
+[2.737s] 3: @@ -22 +22 @@
+[2.737s] 3: -#endif  // POLYGON_BASE_REGULAR_POLYGON_HPP
+[2.738s] 3: +#endif  // POLYGON_BASE_REGULAR_POLYGON_HPP
+[2.738s] 3: 
+[2.741s] 3: Code style divergence in file 'src/area_node.cpp':
+[2.742s] 3: 
+[2.742s] 3: --- src/area_node.cpp
+[2.742s] 3: +++ src/area_node.cpp.uncrustify
+[2.742s] 3: @@ -16 +16 @@
+[2.743s] 3: -int main(int argc, char** argv)
+[2.743s] 3: +int main(int argc, char ** argv)
+[2.743s] 3: @@ -28 +28,2 @@
+[2.743s] 3: -  pluginlib::ClassLoader<polygon_base::RegularPolygon> poly_loader("polygon_base", "polygon_base::RegularPolygon");
+[2.744s] 3: +  pluginlib::ClassLoader<polygon_base::RegularPolygon> poly_loader("polygon_base",
+[2.744s] 3: +    "polygon_base::RegularPolygon");
+[2.747s] 3: @@ -30,2 +31 @@
+[2.748s] 3: -  try
+[2.748s] 3: -  {
+[2.748s] 3: +  try {
+[2.748s] 3: @@ -33,4 +33,4 @@
+[2.749s] 3: -    There are a number of ways to instantiate an instance of the class. In this example, we’re using shared pointers. 
+[2.749s] 3: -    We just need to call createSharedInstance with a reference to the plugin: 
+[2.749s] 3: -    This can be either the fully-qualified type of the plugin class (the type attribute of the declaration XML file, e.g. polygon_plugins::Square), 
+[2.750s] 3: -    or the optional magic name (the name attribute of the declaration XML file, e.g., awesome_triangle).    
+[2.750s] 3: +    There are a number of ways to instantiate an instance of the class. In this example, we’re using shared pointers.
+[2.753s] 3: +    We just need to call createSharedInstance with a reference to the plugin:
+[2.754s] 3: +    This can be either the fully-qualified type of the plugin class (the type attribute of the declaration XML file, e.g. polygon_plugins::Square),
+[2.754s] 3: +    or the optional magic name (the name attribute of the declaration XML file, e.g., awesome_triangle).
+[2.754s] 3: @@ -38 +38,2 @@
+[2.754s] 3: -    std::shared_ptr<polygon_base::RegularPolygon> triangle = poly_loader.createSharedInstance("awesome_triangle");
+[2.755s] 3: +    std::shared_ptr<polygon_base::RegularPolygon> triangle =
+[2.755s] 3: +      poly_loader.createSharedInstance("awesome_triangle");
+[2.755s] 3: @@ -41 +42,2 @@
+[2.755s] 3: -    std::shared_ptr<polygon_base::RegularPolygon> square = poly_loader.createSharedInstance("polygon_plugins::Square");
+[2.756s] 3: +    std::shared_ptr<polygon_base::RegularPolygon> square =
+[2.756s] 3: +      poly_loader.createSharedInstance("polygon_plugins::Square");
+[2.759s] 3: @@ -46,3 +48 @@
+[2.760s] 3: -  }
+[2.760s] 3: -  catch(pluginlib::PluginlibException& ex)
+[2.760s] 3: -  {
+[2.761s] 3: +  } catch(pluginlib::PluginlibException & ex) {
+[2.761s] 3: @@ -53 +53 @@
+[2.761s] 3: -}
+[2.761s] 3: +}
+[2.761s] 3: 
+[2.762s] 3: 2 files with code style divergence
+[2.818s] 3: -- run_test.py: return code 1
+[2.818s] 3: -- run_test.py: verify result file '/home/yixin/ros2_ws/build/polygon_base/test_results/polygon_base/uncrustify.xunit.xml'
+[2.926s] 3/4 Test #3: uncrustify .......................***Failed    0.88 sec
+[2.931s] test 4
+[2.931s]     Start 4: xmllint
+[2.931s] 
+[2.932s] 4: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/yixin/ros2_ws/build/polygon_base/test_results/polygon_base/xmllint.xunit.xml" "--package-name" "polygon_base" "--output-file" "/home/yixin/ros2_ws/build/polygon_base/ament_xmllint/xmllint.txt" "--command" "/opt/ros/jazzy/bin/ament_xmllint" "--xunit-file" "/home/yixin/ros2_ws/build/polygon_base/test_results/polygon_base/xmllint.xunit.xml"
+[2.932s] 4: Working Directory: /home/yixin/ros2_ws/src/polygon_base
+[2.939s] 4: Test timeout computed to be: 60
+[3.252s] 4: -- run_test.py: invoking following command in '/home/yixin/ros2_ws/src/polygon_base':
+[3.252s] 4:  - /opt/ros/jazzy/bin/ament_xmllint --xunit-file /home/yixin/ros2_ws/build/polygon_base/test_results/polygon_base/xmllint.xunit.xml
+[3.510s] Invoked command in '/home/yixin/ros2_ws/build/polygon_base' returned '-2': AMENT_PREFIX_PATH=/home/yixin/ros2_ws/install/polygon_base:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yixin/ros2_ws/install/polygon_base:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process

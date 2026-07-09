@@ -1,0 +1,81 @@
+[0.778s] Invoking command in '/home/yixin/ros2_ws/build/my_package': AMENT_PREFIX_PATH=/home/yixin/ros2_ws/install/my_package:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yixin/ros2_ws/install/my_package:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
+[0.795s] UpdateCTestConfiguration  from :/home/yixin/ros2_ws/build/my_package/CTestConfiguration.ini
+[0.795s] Parse Config file:/home/yixin/ros2_ws/build/my_package/CTestConfiguration.ini
+[0.795s]    Site: yixin-Aspire-A315-24PT
+[0.795s]    Build name: (empty)
+[0.795s]  Add coverage exclude regular expressions.
+[0.795s] Create new tag: 20260531-2250 - Experimental
+[0.795s] UpdateCTestConfiguration  from :/home/yixin/ros2_ws/build/my_package/CTestConfiguration.ini
+[0.795s] Parse Config file:/home/yixin/ros2_ws/build/my_package/CTestConfiguration.ini
+[0.795s] Test project /home/yixin/ros2_ws/build/my_package
+[0.795s] Constructing a list of tests
+[0.796s] Done constructing a list of tests
+[0.796s] Updating test list for fixtures
+[0.796s] Added 0 tests to meet fixture requirements
+[0.796s] Checking test dependency graph...
+[0.796s] Checking test dependency graph end
+[0.802s] test 1
+[0.802s]     Start 1: cppcheck
+[0.803s] 
+[0.803s] 1: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/yixin/ros2_ws/build/my_package/test_results/my_package/cppcheck.xunit.xml" "--package-name" "my_package" "--output-file" "/home/yixin/ros2_ws/build/my_package/ament_cppcheck/cppcheck.txt" "--command" "/opt/ros/jazzy/bin/ament_cppcheck" "--xunit-file" "/home/yixin/ros2_ws/build/my_package/test_results/my_package/cppcheck.xunit.xml" "--include_dirs" "/home/yixin/ros2_ws/src/my_package/include"
+[0.803s] 1: Working Directory: /home/yixin/ros2_ws/src/my_package
+[0.803s] 1: Test timeout computed to be: 300
+[0.944s] 1: -- run_test.py: invoking following command in '/home/yixin/ros2_ws/src/my_package':
+[0.945s] 1:  - /opt/ros/jazzy/bin/ament_cppcheck --xunit-file /home/yixin/ros2_ws/build/my_package/test_results/my_package/cppcheck.xunit.xml --include_dirs /home/yixin/ros2_ws/src/my_package/include
+[1.145s] 1: cppcheck 2.13.0 has known performance issues and therefore will not be used, set the AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS environment variable to override this.
+[1.200s] 1: -- run_test.py: return code 0
+[1.202s] 1: -- run_test.py: verify result file '/home/yixin/ros2_ws/build/my_package/test_results/my_package/cppcheck.xunit.xml'
+[1.271s] 1/4 Test #1: cppcheck .........................   Passed    0.48 sec
+[1.272s] test 2
+[1.272s]     Start 2: lint_cmake
+[1.273s] 
+[1.273s] 2: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/yixin/ros2_ws/build/my_package/test_results/my_package/lint_cmake.xunit.xml" "--package-name" "my_package" "--output-file" "/home/yixin/ros2_ws/build/my_package/ament_lint_cmake/lint_cmake.txt" "--command" "/opt/ros/jazzy/bin/ament_lint_cmake" "--xunit-file" "/home/yixin/ros2_ws/build/my_package/test_results/my_package/lint_cmake.xunit.xml"
+[1.273s] 2: Working Directory: /home/yixin/ros2_ws/src/my_package
+[1.273s] 2: Test timeout computed to be: 60
+[1.388s] 2: -- run_test.py: invoking following command in '/home/yixin/ros2_ws/src/my_package':
+[1.388s] 2:  - /opt/ros/jazzy/bin/ament_lint_cmake --xunit-file /home/yixin/ros2_ws/build/my_package/test_results/my_package/lint_cmake.xunit.xml
+[1.642s] 2: 
+[1.643s] 2: No problems found
+[1.730s] 2: -- run_test.py: return code 0
+[1.731s] 2: -- run_test.py: verify result file '/home/yixin/ros2_ws/build/my_package/test_results/my_package/lint_cmake.xunit.xml'
+[1.810s] 2/4 Test #2: lint_cmake .......................   Passed    0.53 sec
+[1.810s] test 3
+[1.810s]     Start 3: uncrustify
+[1.810s] 
+[1.811s] 3: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/yixin/ros2_ws/build/my_package/test_results/my_package/uncrustify.xunit.xml" "--package-name" "my_package" "--output-file" "/home/yixin/ros2_ws/build/my_package/ament_uncrustify/uncrustify.txt" "--command" "/opt/ros/jazzy/bin/ament_uncrustify" "--xunit-file" "/home/yixin/ros2_ws/build/my_package/test_results/my_package/uncrustify.xunit.xml"
+[1.811s] 3: Working Directory: /home/yixin/ros2_ws/src/my_package
+[1.811s] 3: Test timeout computed to be: 60
+[2.015s] 3: -- run_test.py: invoking following command in '/home/yixin/ros2_ws/src/my_package':
+[2.015s] 3:  - /opt/ros/jazzy/bin/ament_uncrustify --xunit-file /home/yixin/ros2_ws/build/my_package/test_results/my_package/uncrustify.xunit.xml
+[2.191s] 3: No code style divergence in file 'src/my_node.cpp'
+[2.191s] 3: 
+[2.191s] 3: No problems found
+[2.249s] 3: -- run_test.py: return code 0
+[2.250s] 3: -- run_test.py: verify result file '/home/yixin/ros2_ws/build/my_package/test_results/my_package/uncrustify.xunit.xml'
+[2.283s] 3/4 Test #3: uncrustify .......................   Passed    0.48 sec
+[2.283s] test 4
+[2.284s]     Start 4: xmllint
+[2.284s] 
+[2.285s] 4: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/yixin/ros2_ws/build/my_package/test_results/my_package/xmllint.xunit.xml" "--package-name" "my_package" "--output-file" "/home/yixin/ros2_ws/build/my_package/ament_xmllint/xmllint.txt" "--command" "/opt/ros/jazzy/bin/ament_xmllint" "--xunit-file" "/home/yixin/ros2_ws/build/my_package/test_results/my_package/xmllint.xunit.xml"
+[2.285s] 4: Working Directory: /home/yixin/ros2_ws/src/my_package
+[2.285s] 4: Test timeout computed to be: 60
+[2.469s] 4: -- run_test.py: invoking following command in '/home/yixin/ros2_ws/src/my_package':
+[2.469s] 4:  - /opt/ros/jazzy/bin/ament_xmllint --xunit-file /home/yixin/ros2_ws/build/my_package/test_results/my_package/xmllint.xunit.xml
+[2.809s] 4: File 'package.xml' is valid
+[2.809s] 4: 
+[2.809s] 4: No problems found
+[2.881s] 4: -- run_test.py: return code 0
+[2.881s] 4: -- run_test.py: verify result file '/home/yixin/ros2_ws/build/my_package/test_results/my_package/xmllint.xunit.xml'
+[2.953s] 4/4 Test #4: xmllint ..........................   Passed    0.67 sec
+[2.955s] 
+[2.955s] [0;32m100% tests passed[0;0m, 0 tests failed[0;0m out of 4
+[2.955s] 
+[2.956s] Label Time Summary:
+[2.956s] cppcheck      =   0.48 sec*proc (1 test)
+[2.959s] lint_cmake    =   0.53 sec*proc (1 test)
+[2.959s] linter        =   2.15 sec*proc (4 tests)
+[2.959s] uncrustify    =   0.48 sec*proc (1 test)
+[2.959s] xmllint       =   0.67 sec*proc (1 test)
+[2.959s] 
+[2.959s] Total Test time (real) =   2.16 sec
+[2.975s] Invoked command in '/home/yixin/ros2_ws/build/my_package' returned '0': AMENT_PREFIX_PATH=/home/yixin/ros2_ws/install/my_package:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yixin/ros2_ws/install/my_package:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process

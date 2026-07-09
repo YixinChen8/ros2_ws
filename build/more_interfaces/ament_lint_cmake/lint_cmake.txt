@@ -1,0 +1,11 @@
+-- run_test.py: invoking following command in '/home/yixin/ros2_ws/src/more_interfaces':
+ - /opt/ros/jazzy/bin/ament_lint_cmake --xunit-file /home/yixin/ros2_ws/build/more_interfaces/test_results/more_interfaces/lint_cmake.xunit.xml
+
+CMakeLists.txt:41: Line ends in whitespace [whitespace/eol]
+
+
+1 errors
+
+
+-- run_test.py: return code 1
+-- run_test.py: verify result file '/home/yixin/ros2_ws/build/more_interfaces/test_results/more_interfaces/lint_cmake.xunit.xml'

@@ -4,7 +4,7 @@
   tests="8"
   errors="0"
   failures="0"
-  time="1.358"
+  time="0.495"
 >
   <testcase
     name="include/minimal_composition/publisher_node.hpp"

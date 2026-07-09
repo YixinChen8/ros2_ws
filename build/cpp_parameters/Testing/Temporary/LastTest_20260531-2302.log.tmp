@@ -1,0 +1,76 @@
+Start testing: May 31 19:02 EDT
+----------------------------------------------------------
+1/6 Testing: cppcheck
+1/6 Test: cppcheck
+Command: "/usr/bin/python3" "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/yixin/ros2_ws/build/cpp_parameters/test_results/cpp_parameters/cppcheck.xunit.xml" "--package-name" "cpp_parameters" "--output-file" "/home/yixin/ros2_ws/build/cpp_parameters/ament_cppcheck/cppcheck.txt" "--command" "/opt/ros/jazzy/bin/ament_cppcheck" "--xunit-file" "/home/yixin/ros2_ws/build/cpp_parameters/test_results/cpp_parameters/cppcheck.xunit.xml"
+Directory: /home/yixin/ros2_ws/src/cpp_parameters
+"cppcheck" start time: May 31 19:02 EDT
+Output:
+----------------------------------------------------------
+-- run_test.py: invoking following command in '/home/yixin/ros2_ws/src/cpp_parameters':
+ - /opt/ros/jazzy/bin/ament_cppcheck --xunit-file /home/yixin/ros2_ws/build/cpp_parameters/test_results/cpp_parameters/cppcheck.xunit.xml
+cppcheck 2.13.0 has known performance issues and therefore will not be used, set the AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS environment variable to override this.
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/yixin/ros2_ws/build/cpp_parameters/test_results/cpp_parameters/cppcheck.xunit.xml'
+<end of output>
+Test time =   0.88 sec
+----------------------------------------------------------
+Test Passed.
+"cppcheck" end time: May 31 19:02 EDT
+"cppcheck" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/6 Testing: flake8
+2/6 Test: flake8
+Command: "/usr/bin/python3" "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/yixin/ros2_ws/build/cpp_parameters/test_results/cpp_parameters/flake8.xunit.xml" "--package-name" "cpp_parameters" "--output-file" "/home/yixin/ros2_ws/build/cpp_parameters/ament_flake8/flake8.txt" "--command" "/opt/ros/jazzy/bin/ament_flake8" "--xunit-file" "/home/yixin/ros2_ws/build/cpp_parameters/test_results/cpp_parameters/flake8.xunit.xml"
+Directory: /home/yixin/ros2_ws/src/cpp_parameters
+"flake8" start time: May 31 19:02 EDT
+Output:
+----------------------------------------------------------
+-- run_test.py: invoking following command in '/home/yixin/ros2_ws/src/cpp_parameters':
+ - /opt/ros/jazzy/bin/ament_flake8 --xunit-file /home/yixin/ros2_ws/build/cpp_parameters/test_results/cpp_parameters/flake8.xunit.xml
+    ])      ^
+1     W292 no newline at end of file
+
+./launch/cpp_parameters_launch.py:18:7: W292 no newline at end of file
+
+
+1 files checked
+1 errors
+
+'W'-type errors: 1
+
+Checked files:
+
+* ./launch/cpp_parameters_launch.py
+-- run_test.py: return code 1
+-- run_test.py: verify result file '/home/yixin/ros2_ws/build/cpp_parameters/test_results/cpp_parameters/flake8.xunit.xml'
+<end of output>
+Test time =   1.47 sec
+----------------------------------------------------------
+Test Failed.
+"flake8" end time: May 31 19:02 EDT
+"flake8" time elapsed: 00:00:01
+----------------------------------------------------------
+
+3/6 Testing: lint_cmake
+3/6 Test: lint_cmake
+Command: "/usr/bin/python3" "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/yixin/ros2_ws/build/cpp_parameters/test_results/cpp_parameters/lint_cmake.xunit.xml" "--package-name" "cpp_parameters" "--output-file" "/home/yixin/ros2_ws/build/cpp_parameters/ament_lint_cmake/lint_cmake.txt" "--command" "/opt/ros/jazzy/bin/ament_lint_cmake" "--xunit-file" "/home/yixin/ros2_ws/build/cpp_parameters/test_results/cpp_parameters/lint_cmake.xunit.xml"
+Directory: /home/yixin/ros2_ws/src/cpp_parameters
+"lint_cmake" start time: May 31 19:02 EDT
+Output:
+----------------------------------------------------------
+-- run_test.py: invoking following command in '/home/yixin/ros2_ws/src/cpp_parameters':
+ - /opt/ros/jazzy/bin/ament_lint_cmake --xunit-file /home/yixin/ros2_ws/build/cpp_parameters/test_results/cpp_parameters/lint_cmake.xunit.xml
+
+No problems found
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/yixin/ros2_ws/build/cpp_parameters/test_results/cpp_parameters/lint_cmake.xunit.xml'
+<end of output>
+Test time =   0.73 sec
+----------------------------------------------------------
+Test Passed.
+"lint_cmake" end time: May 31 19:02 EDT
+"lint_cmake" time elapsed: 00:00:00
+----------------------------------------------------------
+

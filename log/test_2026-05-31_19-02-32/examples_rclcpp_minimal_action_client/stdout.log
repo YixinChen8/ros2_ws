@@ -1,0 +1,47 @@
+UpdateCTestConfiguration  from :/home/yixin/ros2_ws/build/examples_rclcpp_minimal_action_client/CTestConfiguration.ini
+Parse Config file:/home/yixin/ros2_ws/build/examples_rclcpp_minimal_action_client/CTestConfiguration.ini
+   Site: yixin-Aspire-A315-24PT
+   Build name: (empty)
+ Add coverage exclude regular expressions.
+Create new tag: 20260531-2302 - Experimental
+UpdateCTestConfiguration  from :/home/yixin/ros2_ws/build/examples_rclcpp_minimal_action_client/CTestConfiguration.ini
+Parse Config file:/home/yixin/ros2_ws/build/examples_rclcpp_minimal_action_client/CTestConfiguration.ini
+Test project /home/yixin/ros2_ws/build/examples_rclcpp_minimal_action_client
+Constructing a list of tests
+Done constructing a list of tests
+Updating test list for fixtures
+Added 0 tests to meet fixture requirements
+Checking test dependency graph...
+Checking test dependency graph end
+test 1
+    Start 1: copyright
+
+1: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/yixin/ros2_ws/build/examples_rclcpp_minimal_action_client/test_results/examples_rclcpp_minimal_action_client/copyright.xunit.xml" "--package-name" "examples_rclcpp_minimal_action_client" "--output-file" "/home/yixin/ros2_ws/build/examples_rclcpp_minimal_action_client/ament_copyright/copyright.txt" "--command" "/opt/ros/jazzy/bin/ament_copyright" "--xunit-file" "/home/yixin/ros2_ws/build/examples_rclcpp_minimal_action_client/test_results/examples_rclcpp_minimal_action_client/copyright.xunit.xml"
+1: Working Directory: /home/yixin/ros2_ws/src/examples/rclcpp/actions/minimal_action_client
+1: Test timeout computed to be: 200
+1: -- run_test.py: invoking following command in '/home/yixin/ros2_ws/src/examples/rclcpp/actions/minimal_action_client':
+1:  - /opt/ros/jazzy/bin/ament_copyright --xunit-file /home/yixin/ros2_ws/build/examples_rclcpp_minimal_action_client/test_results/examples_rclcpp_minimal_action_client/copyright.xunit.xml
+1: No problems found, checked 4 files
+1: -- run_test.py: return code 0
+1: -- run_test.py: verify result file '/home/yixin/ros2_ws/build/examples_rclcpp_minimal_action_client/test_results/examples_rclcpp_minimal_action_client/copyright.xunit.xml'
+1/6 Test #1: copyright ........................   Passed    1.70 sec
+test 2
+    Start 2: cppcheck
+
+2: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/yixin/ros2_ws/build/examples_rclcpp_minimal_action_client/test_results/examples_rclcpp_minimal_action_client/cppcheck.xunit.xml" "--package-name" "examples_rclcpp_minimal_action_client" "--output-file" "/home/yixin/ros2_ws/build/examples_rclcpp_minimal_action_client/ament_cppcheck/cppcheck.txt" "--command" "/opt/ros/jazzy/bin/ament_cppcheck" "--xunit-file" "/home/yixin/ros2_ws/build/examples_rclcpp_minimal_action_client/test_results/examples_rclcpp_minimal_action_client/cppcheck.xunit.xml"
+2: Working Directory: /home/yixin/ros2_ws/src/examples/rclcpp/actions/minimal_action_client
+2: Test timeout computed to be: 300
+2: -- run_test.py: invoking following command in '/home/yixin/ros2_ws/src/examples/rclcpp/actions/minimal_action_client':
+2:  - /opt/ros/jazzy/bin/ament_cppcheck --xunit-file /home/yixin/ros2_ws/build/examples_rclcpp_minimal_action_client/test_results/examples_rclcpp_minimal_action_client/cppcheck.xunit.xml
+2: cppcheck 2.13.0 has known performance issues and therefore will not be used, set the AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS environment variable to override this.
+2: -- run_test.py: return code 0
+2: -- run_test.py: verify result file '/home/yixin/ros2_ws/build/examples_rclcpp_minimal_action_client/test_results/examples_rclcpp_minimal_action_client/cppcheck.xunit.xml'
+2/6 Test #2: cppcheck .........................   Passed    0.69 sec
+test 3
+    Start 3: cpplint
+
+3: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/yixin/ros2_ws/build/examples_rclcpp_minimal_action_client/test_results/examples_rclcpp_minimal_action_client/cpplint.xunit.xml" "--package-name" "examples_rclcpp_minimal_action_client" "--output-file" "/home/yixin/ros2_ws/build/examples_rclcpp_minimal_action_client/ament_cpplint/cpplint.txt" "--command" "/opt/ros/jazzy/bin/ament_cpplint" "--xunit-file" "/home/yixin/ros2_ws/build/examples_rclcpp_minimal_action_client/test_results/examples_rclcpp_minimal_action_client/cpplint.xunit.xml"
+3: Working Directory: /home/yixin/ros2_ws/src/examples/rclcpp/actions/minimal_action_client
+3: Test timeout computed to be: 120
+3: -- run_test.py: invoking following command in '/home/yixin/ros2_ws/src/examples/rclcpp/actions/minimal_action_client':
+3:  - /opt/ros/jazzy/bin/ament_cpplint --xunit-file /home/yixin/ros2_ws/build/examples_rclcpp_minimal_action_client/test_results/examples_rclcpp_minimal_action_client/cpplint.xunit.xml

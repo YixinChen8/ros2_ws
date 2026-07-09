@@ -4,7 +4,7 @@
   tests="10"
   failures="0"
   errors="0"
-  time="0.024"
+  time="0.069"
 >
   <testcase
     name="content_filtering.cpp"

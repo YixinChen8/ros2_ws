@@ -1,0 +1,34 @@
+-- run_test.py: invoking following command in '/home/yixin/ros2_ws/src/cpp_parameters':
+ - /opt/ros/jazzy/bin/ament_uncrustify --xunit-file /home/yixin/ros2_ws/build/cpp_parameters/test_results/cpp_parameters/uncrustify.xunit.xml
+
+Code style divergence in file 'src/cpp_parameters_node.cpp':
+
+--- src/cpp_parameters_node.cpp
++++ src/cpp_parameters_node.cpp.uncrustify
+@@ -22 +22 @@
+-    // a lambda function called "timer_callback" is declared. 
++    // a lambda function called "timer_callback" is declared.
+@@ -26 +26 @@
+-      std::string my_param = this->get_parameter("my_parameter").as_string();
++        std::string my_param = this->get_parameter("my_parameter").as_string();
+@@ -29 +29 @@
+-      RCLCPP_INFO(this->get_logger(), "Hello %s!", my_param.c_str());
++        RCLCPP_INFO(this->get_logger(), "Hello %s!", my_param.c_str());
+@@ -31 +31,2 @@
+-      std::vector<rclcpp::Parameter> all_new_parameters{rclcpp::Parameter("my_parameter", "world")};
++        std::vector<rclcpp::Parameter> all_new_parameters{rclcpp::Parameter("my_parameter",
++          "world")};
+@@ -33,2 +34,2 @@
+-      this->set_parameters(all_new_parameters);
+-    };
++        this->set_parameters(all_new_parameters);
++      };
+@@ -52 +53 @@
+-}
++}
+
+1 files with code style divergence
+
+
+-- run_test.py: return code 1
+-- run_test.py: verify result file '/home/yixin/ros2_ws/build/cpp_parameters/test_results/cpp_parameters/uncrustify.xunit.xml'

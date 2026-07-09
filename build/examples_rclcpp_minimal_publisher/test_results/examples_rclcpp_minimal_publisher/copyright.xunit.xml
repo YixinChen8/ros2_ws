@@ -4,7 +4,7 @@
   tests="6"
   errors="0"
   failures="0"
-  time="1.078"
+  time="0.822"
 >
   <testcase
     name="lambda.cpp"

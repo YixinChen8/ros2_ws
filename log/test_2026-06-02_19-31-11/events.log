@@ -1,0 +1,190 @@
+[0.000000] (-) TimerEvent: {}
+[0.000537] (examples_rclcpp_minimal_publisher) JobQueued: {'identifier': 'examples_rclcpp_minimal_publisher', 'dependencies': OrderedDict({'examples_rclcpp_minimal_publisher': '/home/yixin/ros2_ws/install/examples_rclcpp_minimal_publisher'})}
+[0.001127] (examples_rclcpp_minimal_publisher) JobStarted: {'identifier': 'examples_rclcpp_minimal_publisher'}
+[0.094062] (examples_rclcpp_minimal_publisher) Command: {'cmd': ['/usr/bin/ctest', '-C', 'Debug', '-D', 'ExperimentalTest', '--no-compress-output', '-V', '--force-new-ctest-process'], 'cwd': '/home/yixin/ros2_ws/build/examples_rclcpp_minimal_publisher', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'yixin', 'FONTCONFIG_PATH': '/etc/fonts', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/share/gz', 'GIO_MODULE_DIR': '/home/yixin/snap/code/common/.cache/gio-modules', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/snap/code/233/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'GTK_EXE_PREFIX_VSCODE_SNAP_ORIG': '', 'GDK_BACKEND_VSCODE_SNAP_ORIG': '', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/yixin/ros2_ws/install/vincent_driver/lib:/home/yixin/ros2_ws/install/tutorial_interfaces/lib:/home/yixin/ros2_ws/install/turtlesim/lib:/home/yixin/ros2_ws/install/polygon_plugins/lib:/home/yixin/ros2_ws/install/more_interfaces/lib:/home/yixin/ros2_ws/install/examples_rclcpp_wait_set/lib:/home/yixin/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib:/home/yixin/ros2_ws/install/examples_rclcpp_minimal_composition/lib:/home/yixin/ros2_ws/install/custom_action_cpp/lib:/home/yixin/ros2_ws/install/custom_action_interfaces/lib:/home/yixin/ros2_ws/install/composition_cpp/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/yixin', 'CHROME_DESKTOP': 'code.desktop', 'LOCPATH_VSCODE_SNAP_ORIG': '', 'TERM_PROGRAM_VERSION': '1.115.0', 'DESKTOP_SESSION': 'ubuntu', 'GTK_PATH': '/snap/code/233/usr/lib/x86_64-linux-gnu/gtk-3.0', 'XDG_DATA_HOME_VSCODE_SNAP_ORIG': '', 'GTK_IM_MODULE_FILE': '/home/yixin/snap/code/common/.cache/immodules/immodules.cache', 'GIO_LAUNCHED_DESKTOP_FILE': '/var/lib/snapd/desktop/applications/code_code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SDL_IM_MODULE': 'fcitx', 'GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG': '', 'VSCODE_GIT_ASKPASS_MAIN': '/snap/code/233/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/snap/code/233/usr/share/code/code', 'MANAGERPID': '2127', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '2339', 'IM_CONFIG_CHECK_ENV': '1', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=8bef8cbe13eaacab0c2ca7df6a1b40a0', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '13405', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/yixin/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'GTK_IM_MODULE': 'fcitx', 'LOGNAME': 'yixin', 'JOURNAL_STREAM': '8:20892', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/app-gnome\\x2dsession\\x2dmanager.slice/gnome-session-manager@ubuntu.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'XDG_DATA_DIRS_VSCODE_SNAP_ORIG': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'USERNAME': 'yixin', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'FC_FONTATIONS': '1', 'PATH': '/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/yixin-Aspire-A315-24PT:@/tmp/.ICE-unix/2339,unix/yixin-Aspire-A315-24PT:/tmp/.ICE-unix/2339', 'GTK_EXE_PREFIX': '/snap/code/233/usr', 'INVOCATION_ID': '6096fa7182e34c21830a5d5dffcf8b8b', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LOCPATH': '/snap/code/233/usr/lib/locale', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'GIO_MODULE_DIR_VSCODE_SNAP_ORIG': '', 'XDG_DATA_HOME': '/home/yixin/snap/code/233/.local/share', 'XMODIFIERS': '@im=fcitx', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.J6Y2P3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-e32af5f84d.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'GSETTINGS_SCHEMA_DIR': '/home/yixin/snap/code/233/.local/share/glib-2.0/schemas', 'ROS_DOMAIN_ID': '1', 'AMENT_PREFIX_PATH': '/home/yixin/ros2_ws/install/vincent_driver:/home/yixin/ros2_ws/install/py_srvcli:/home/yixin/ros2_ws/install/py_pubsub:/home/yixin/ros2_ws/install/cpp_srvcli:/home/yixin/ros2_ws/install/cpp_pubsub:/home/yixin/ros2_ws/install/tutorial_interfaces:/home/yixin/ros2_ws/install/turtlesim:/home/yixin/ros2_ws/install/python_parameters:/home/yixin/ros2_ws/install/polygon_plugins:/home/yixin/ros2_ws/install/polygon_base:/home/yixin/ros2_ws/install/my_python_package:/home/yixin/ros2_ws/install/my_package:/home/yixin/ros2_ws/install/more_interfaces:/home/yixin/ros2_ws/install/launch_testing_examples:/home/yixin/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/yixin/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/yixin/ros2_ws/install/examples_rclpy_minimal_service:/home/yixin/ros2_ws/install/examples_rclpy_minimal_publisher:/home/yixin/ros2_ws/install/examples_rclpy_minimal_client:/home/yixin/ros2_ws/install/examples_rclpy_minimal_action_server:/home/yixin/ros2_ws/install/examples_rclpy_minimal_action_client:/home/yixin/ros2_ws/install/examples_rclpy_guard_conditions:/home/yixin/ros2_ws/install/examples_rclpy_executors:/home/yixin/ros2_ws/install/examples_rclcpp_wait_set:/home/yixin/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/yixin/ros2_ws/install/examples_rclcpp_minimal_timer:/home/yixin/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/yixin/ros2_ws/install/examples_rclcpp_minimal_service:/home/yixin/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/yixin/ros2_ws/install/examples_rclcpp_minimal_composition:/home/yixin/ros2_ws/install/examples_rclcpp_minimal_client:/home/yixin/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/yixin/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/yixin/ros2_ws/install/examples_rclcpp_cbg_executor:/home/yixin/ros2_ws/install/examples_rclcpp_async_client:/home/yixin/ros2_ws/install/custom_action_cpp:/home/yixin/ros2_ws/install/custom_action_interfaces:/home/yixin/ros2_ws/install/cpp_parameters:/home/yixin/ros2_ws/install/composition_cpp:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GTK_PATH_VSCODE_SNAP_ORIG': '', 'FONTCONFIG_FILE': '/etc/fonts/fonts.conf', 'GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG': '', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'fcitx', 'PWD': '/home/yixin/ros2_ws/build/examples_rclcpp_minimal_publisher', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CLUTTER_IM_MODULE': 'xim', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=8bef8cbe13eaacab0c2ca7df6a1b40a0', 'XDG_DATA_DIRS': '/home/yixin/snap/code/233/.local/share:/home/yixin/snap/code/233:/snap/code/233/usr/share:/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'QTWEBENGINE_DICTIONARIES_PATH': '/usr/share/hunspell-bdic/', 'PYTHONPATH': '/home/yixin/ros2_ws/install/py_srvcli/lib/python3.12/site-packages:/home/yixin/ros2_ws/install/py_pubsub/lib/python3.12/site-packages:/home/yixin/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages:/home/yixin/ros2_ws/install/turtlesim/lib/python3.12/site-packages:/home/yixin/ros2_ws/install/python_parameters/lib/python3.12/site-packages:/home/yixin/ros2_ws/install/my_python_package/lib/python3.12/site-packages:/home/yixin/ros2_ws/install/more_interfaces/lib/python3.12/site-packages:/home/yixin/ros2_ws/install/launch_testing_examples/lib/python3.12/site-packages:/home/yixin/ros2_ws/install/examples_rclpy_pointcloud_publisher/lib/python3.12/site-packages:/home/yixin/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.12/site-packages:/home/yixin/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.12/site-packages:/home/yixin/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.12/site-packages:/home/yixin/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.12/site-packages:/home/yixin/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.12/site-packages:/home/yixin/ros2_ws/install/examples_rclpy_minimal_action_client/lib/python3.12/site-packages:/home/yixin/ros2_ws/install/examples_rclpy_guard_conditions/lib/python3.12/site-packages:/home/yixin/ros2_ws/install/examples_rclpy_executors/lib/python3.12/site-packages:/home/yixin/ros2_ws/install/custom_action_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/home/yixin/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/yixin/ros2_ws/install/vincent_driver:/home/yixin/ros2_ws/install/cpp_srvcli:/home/yixin/ros2_ws/install/cpp_pubsub:/home/yixin/ros2_ws/install/tutorial_interfaces:/home/yixin/ros2_ws/install/turtlesim:/home/yixin/ros2_ws/install/polygon_plugins:/home/yixin/ros2_ws/install/polygon_base:/home/yixin/ros2_ws/install/my_package:/home/yixin/ros2_ws/install/more_interfaces:/home/yixin/ros2_ws/install/examples_rclcpp_wait_set:/home/yixin/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/yixin/ros2_ws/install/examples_rclcpp_minimal_timer:/home/yixin/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/yixin/ros2_ws/install/examples_rclcpp_minimal_service:/home/yixin/ros2_ws/install/examples_rclcpp_minimal_composition:/home/yixin/ros2_ws/install/examples_rclcpp_minimal_client:/home/yixin/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/yixin/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/yixin/ros2_ws/install/examples_rclcpp_cbg_executor:/home/yixin/ros2_ws/install/examples_rclcpp_async_client:/home/yixin/ros2_ws/install/custom_action_cpp:/home/yixin/ros2_ws/install/custom_action_interfaces:/home/yixin/ros2_ws/install/cpp_parameters:/home/yixin/ros2_ws/install/composition_cpp:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}), 'shell': False}
+[0.099504] (-) TimerEvent: {}
+[0.125681] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'UpdateCTestConfiguration  from :/home/yixin/ros2_ws/build/examples_rclcpp_minimal_publisher/CTestConfiguration.ini\n'}
+[0.126293] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'Parse Config file:/home/yixin/ros2_ws/build/examples_rclcpp_minimal_publisher/CTestConfiguration.ini\n'}
+[0.126599] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'   Site: yixin-Aspire-A315-24PT\n'}
+[0.127072] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'   Build name: (empty)\n'}
+[0.127357] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b' Add coverage exclude regular expressions.\n'}
+[0.127610] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'Create new tag: 20260602-2331 - Experimental\n'}
+[0.127936] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'UpdateCTestConfiguration  from :/home/yixin/ros2_ws/build/examples_rclcpp_minimal_publisher/CTestConfiguration.ini\n'}
+[0.128291] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'Parse Config file:/home/yixin/ros2_ws/build/examples_rclcpp_minimal_publisher/CTestConfiguration.ini\n'}
+[0.128541] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'Test project /home/yixin/ros2_ws/build/examples_rclcpp_minimal_publisher\n'}
+[0.128768] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'Constructing a list of tests\n'}
+[0.129136] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'Done constructing a list of tests\n'}
+[0.129361] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'Updating test list for fixtures\n'}
+[0.129580] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'Added 0 tests to meet fixture requirements\n'}
+[0.129907] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'Checking test dependency graph...\n'}
+[0.130171] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'Checking test dependency graph end\n'}
+[0.130481] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'test 1\n'}
+[0.130780] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'    Start 1: copyright\n'}
+[0.131018] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'\n'}
+[0.131216] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'1: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/yixin/ros2_ws/build/examples_rclcpp_minimal_publisher/test_results/examples_rclcpp_minimal_publisher/copyright.xunit.xml" "--package-name" "examples_rclcpp_minimal_publisher" "--output-file" "/home/yixin/ros2_ws/build/examples_rclcpp_minimal_publisher/ament_copyright/copyright.txt" "--command" "/opt/ros/jazzy/bin/ament_copyright" "--xunit-file" "/home/yixin/ros2_ws/build/examples_rclcpp_minimal_publisher/test_results/examples_rclcpp_minimal_publisher/copyright.xunit.xml"\n'}
+[0.131427] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'1: Working Directory: /home/yixin/ros2_ws/src/examples/rclcpp/topics/minimal_publisher\n'}
+[0.131629] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'1: Test timeout computed to be: 200\n'}
+[0.199657] (-) TimerEvent: {}
+[0.300172] (-) TimerEvent: {}
+[0.352076] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b"1: -- run_test.py: invoking following command in '/home/yixin/ros2_ws/src/examples/rclcpp/topics/minimal_publisher':\n"}
+[0.352430] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'1:  - /opt/ros/jazzy/bin/ament_copyright --xunit-file /home/yixin/ros2_ws/build/examples_rclcpp_minimal_publisher/test_results/examples_rclcpp_minimal_publisher/copyright.xunit.xml\n'}
+[0.402932] (-) TimerEvent: {}
+[0.503569] (-) TimerEvent: {}
+[0.604151] (-) TimerEvent: {}
+[0.704941] (-) TimerEvent: {}
+[0.805412] (-) TimerEvent: {}
+[0.905887] (-) TimerEvent: {}
+[1.006318] (-) TimerEvent: {}
+[1.106745] (-) TimerEvent: {}
+[1.207181] (-) TimerEvent: {}
+[1.307615] (-) TimerEvent: {}
+[1.408081] (-) TimerEvent: {}
+[1.508649] (-) TimerEvent: {}
+[1.609045] (-) TimerEvent: {}
+[1.612949] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'1: No problems found, checked 6 files\n'}
+[1.658078] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'1: -- run_test.py: return code 0\n'}
+[1.658884] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b"1: -- run_test.py: verify result file '/home/yixin/ros2_ws/build/examples_rclcpp_minimal_publisher/test_results/examples_rclcpp_minimal_publisher/copyright.xunit.xml'\n"}
+[1.694971] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'1/6 Test #1: copyright ........................   Passed    1.56 sec\n'}
+[1.695633] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'test 2\n'}
+[1.695925] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'    Start 2: cppcheck\n'}
+[1.696181] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'\n'}
+[1.696412] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'2: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/yixin/ros2_ws/build/examples_rclcpp_minimal_publisher/test_results/examples_rclcpp_minimal_publisher/cppcheck.xunit.xml" "--package-name" "examples_rclcpp_minimal_publisher" "--output-file" "/home/yixin/ros2_ws/build/examples_rclcpp_minimal_publisher/ament_cppcheck/cppcheck.txt" "--command" "/opt/ros/jazzy/bin/ament_cppcheck" "--xunit-file" "/home/yixin/ros2_ws/build/examples_rclcpp_minimal_publisher/test_results/examples_rclcpp_minimal_publisher/cppcheck.xunit.xml"\n'}
+[1.696666] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'2: Working Directory: /home/yixin/ros2_ws/src/examples/rclcpp/topics/minimal_publisher\n'}
+[1.696945] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'2: Test timeout computed to be: 300\n'}
+[1.709196] (-) TimerEvent: {}
+[1.809606] (-) TimerEvent: {}
+[1.908472] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b"2: -- run_test.py: invoking following command in '/home/yixin/ros2_ws/src/examples/rclcpp/topics/minimal_publisher':\n"}
+[1.908854] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'2:  - /opt/ros/jazzy/bin/ament_cppcheck --xunit-file /home/yixin/ros2_ws/build/examples_rclcpp_minimal_publisher/test_results/examples_rclcpp_minimal_publisher/cppcheck.xunit.xml\n'}
+[1.909686] (-) TimerEvent: {}
+[2.010007] (-) TimerEvent: {}
+[2.110416] (-) TimerEvent: {}
+[2.208184] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'2: cppcheck 2.13.0 has known performance issues and therefore will not be used, set the AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS environment variable to override this.\n'}
+[2.210553] (-) TimerEvent: {}
+[2.254217] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'2: -- run_test.py: return code 0\n'}
+[2.254991] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b"2: -- run_test.py: verify result file '/home/yixin/ros2_ws/build/examples_rclcpp_minimal_publisher/test_results/examples_rclcpp_minimal_publisher/cppcheck.xunit.xml'\n"}
+[2.288149] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'2/6 Test #2: cppcheck .........................   Passed    0.59 sec\n'}
+[2.288805] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'test 3\n'}
+[2.289072] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'    Start 3: cpplint\n'}
+[2.289267] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'\n'}
+[2.289466] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'3: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/yixin/ros2_ws/build/examples_rclcpp_minimal_publisher/test_results/examples_rclcpp_minimal_publisher/cpplint.xunit.xml" "--package-name" "examples_rclcpp_minimal_publisher" "--output-file" "/home/yixin/ros2_ws/build/examples_rclcpp_minimal_publisher/ament_cpplint/cpplint.txt" "--command" "/opt/ros/jazzy/bin/ament_cpplint" "--xunit-file" "/home/yixin/ros2_ws/build/examples_rclcpp_minimal_publisher/test_results/examples_rclcpp_minimal_publisher/cpplint.xunit.xml"\n'}
+[2.289745] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'3: Working Directory: /home/yixin/ros2_ws/src/examples/rclcpp/topics/minimal_publisher\n'}
+[2.290131] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'3: Test timeout computed to be: 120\n'}
+[2.310680] (-) TimerEvent: {}
+[2.411110] (-) TimerEvent: {}
+[2.506107] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b"3: -- run_test.py: invoking following command in '/home/yixin/ros2_ws/src/examples/rclcpp/topics/minimal_publisher':\n"}
+[2.506491] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'3:  - /opt/ros/jazzy/bin/ament_cpplint --xunit-file /home/yixin/ros2_ws/build/examples_rclcpp_minimal_publisher/test_results/examples_rclcpp_minimal_publisher/cpplint.xunit.xml\n'}
+[2.511241] (-) TimerEvent: {}
+[2.611637] (-) TimerEvent: {}
+[2.712067] (-) TimerEvent: {}
+[2.812475] (-) TimerEvent: {}
+[2.912896] (-) TimerEvent: {}
+[3.013292] (-) TimerEvent: {}
+[3.086863] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b"3: Using '--root=/home/yixin/ros2_ws/src' argument\n"}
+[3.087321] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'3: \n'}
+[3.087550] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'3: Done processing /home/yixin/ros2_ws/src/examples/rclcpp/topics/minimal_publisher/lambda.cpp\n'}
+[3.087945] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'3: \n'}
+[3.088264] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'3: Done processing /home/yixin/ros2_ws/src/examples/rclcpp/topics/minimal_publisher/member_function.cpp\n'}
+[3.088521] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'3: \n'}
+[3.088781] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'3: Done processing /home/yixin/ros2_ws/src/examples/rclcpp/topics/minimal_publisher/member_function_with_type_adapter.cpp\n'}
+[3.089084] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'3: \n'}
+[3.089341] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'3: Done processing /home/yixin/ros2_ws/src/examples/rclcpp/topics/minimal_publisher/member_function_with_unique_network_flow_endpoints.cpp\n'}
+[3.089627] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'3: \n'}
+[3.089907] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'3: Done processing /home/yixin/ros2_ws/src/examples/rclcpp/topics/minimal_publisher/member_function_with_wait_for_all_acked.cpp\n'}
+[3.090165] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'3: \n'}
+[3.090406] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'3: Done processing /home/yixin/ros2_ws/src/examples/rclcpp/topics/minimal_publisher/not_composable.cpp\n'}
+[3.090638] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'3: \n'}
+[3.090896] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'3: No problems found\n'}
+[3.113439] (-) TimerEvent: {}
+[3.128193] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'3: -- run_test.py: return code 0\n'}
+[3.128771] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b"3: -- run_test.py: verify result file '/home/yixin/ros2_ws/build/examples_rclcpp_minimal_publisher/test_results/examples_rclcpp_minimal_publisher/cpplint.xunit.xml'\n"}
+[3.167217] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'3/6 Test #3: cpplint ..........................   Passed    0.88 sec\n'}
+[3.167764] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'test 4\n'}
+[3.168052] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'    Start 4: lint_cmake\n'}
+[3.168286] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'\n'}
+[3.168530] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'4: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/yixin/ros2_ws/build/examples_rclcpp_minimal_publisher/test_results/examples_rclcpp_minimal_publisher/lint_cmake.xunit.xml" "--package-name" "examples_rclcpp_minimal_publisher" "--output-file" "/home/yixin/ros2_ws/build/examples_rclcpp_minimal_publisher/ament_lint_cmake/lint_cmake.txt" "--command" "/opt/ros/jazzy/bin/ament_lint_cmake" "--xunit-file" "/home/yixin/ros2_ws/build/examples_rclcpp_minimal_publisher/test_results/examples_rclcpp_minimal_publisher/lint_cmake.xunit.xml"\n'}
+[3.168806] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'4: Working Directory: /home/yixin/ros2_ws/src/examples/rclcpp/topics/minimal_publisher\n'}
+[3.169075] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'4: Test timeout computed to be: 60\n'}
+[3.213582] (-) TimerEvent: {}
+[3.314077] (-) TimerEvent: {}
+[3.388874] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b"4: -- run_test.py: invoking following command in '/home/yixin/ros2_ws/src/examples/rclcpp/topics/minimal_publisher':\n"}
+[3.389265] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'4:  - /opt/ros/jazzy/bin/ament_lint_cmake --xunit-file /home/yixin/ros2_ws/build/examples_rclcpp_minimal_publisher/test_results/examples_rclcpp_minimal_publisher/lint_cmake.xunit.xml\n'}
+[3.414204] (-) TimerEvent: {}
+[3.514605] (-) TimerEvent: {}
+[3.615025] (-) TimerEvent: {}
+[3.661644] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'4: \n'}
+[3.662193] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'4: No problems found\n'}
+[3.713276] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'4: -- run_test.py: return code 0\n'}
+[3.713721] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b"4: -- run_test.py: verify result file '/home/yixin/ros2_ws/build/examples_rclcpp_minimal_publisher/test_results/examples_rclcpp_minimal_publisher/lint_cmake.xunit.xml'\n"}
+[3.715116] (-) TimerEvent: {}
+[3.741619] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'4/6 Test #4: lint_cmake .......................   Passed    0.57 sec\n'}
+[3.742987] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'test 5\n'}
+[3.743611] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'    Start 5: uncrustify\n'}
+[3.743908] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'\n'}
+[3.744178] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'5: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/yixin/ros2_ws/build/examples_rclcpp_minimal_publisher/test_results/examples_rclcpp_minimal_publisher/uncrustify.xunit.xml" "--package-name" "examples_rclcpp_minimal_publisher" "--output-file" "/home/yixin/ros2_ws/build/examples_rclcpp_minimal_publisher/ament_uncrustify/uncrustify.txt" "--command" "/opt/ros/jazzy/bin/ament_uncrustify" "--xunit-file" "/home/yixin/ros2_ws/build/examples_rclcpp_minimal_publisher/test_results/examples_rclcpp_minimal_publisher/uncrustify.xunit.xml"\n'}
+[3.744416] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'5: Working Directory: /home/yixin/ros2_ws/src/examples/rclcpp/topics/minimal_publisher\n'}
+[3.744646] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'5: Test timeout computed to be: 60\n'}
+[3.815269] (-) TimerEvent: {}
+[3.915686] (-) TimerEvent: {}
+[3.966044] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b"5: -- run_test.py: invoking following command in '/home/yixin/ros2_ws/src/examples/rclcpp/topics/minimal_publisher':\n"}
+[3.966565] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'5:  - /opt/ros/jazzy/bin/ament_uncrustify --xunit-file /home/yixin/ros2_ws/build/examples_rclcpp_minimal_publisher/test_results/examples_rclcpp_minimal_publisher/uncrustify.xunit.xml\n'}
+[4.015811] (-) TimerEvent: {}
+[4.116233] (-) TimerEvent: {}
+[4.216650] (-) TimerEvent: {}
+[4.307319] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b"5: No code style divergence in file 'lambda.cpp'\n"}
+[4.307767] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'5: \n'}
+[4.308072] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b"5: No code style divergence in file 'member_function.cpp'\n"}
+[4.308416] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'5: \n'}
+[4.308675] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b"5: No code style divergence in file 'member_function_with_type_adapter.cpp'\n"}
+[4.308962] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'5: \n'}
+[4.309225] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b"5: No code style divergence in file 'member_function_with_unique_network_flow_endpoints.cpp'\n"}
+[4.309464] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'5: \n'}
+[4.309709] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b"5: No code style divergence in file 'member_function_with_wait_for_all_acked.cpp'\n"}
+[4.310006] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'5: \n'}
+[4.310270] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b"5: No code style divergence in file 'not_composable.cpp'\n"}
+[4.310518] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'5: \n'}
+[4.310754] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'5: No problems found\n'}
+[4.316798] (-) TimerEvent: {}
+[4.346977] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'5: -- run_test.py: return code 0\n'}
+[4.347978] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b"5: -- run_test.py: verify result file '/home/yixin/ros2_ws/build/examples_rclcpp_minimal_publisher/test_results/examples_rclcpp_minimal_publisher/uncrustify.xunit.xml'\n"}
+[4.383739] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'5/6 Test #5: uncrustify .......................   Passed    0.64 sec\n'}
+[4.384548] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'test 6\n'}
+[4.384793] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'    Start 6: xmllint\n'}
+[4.385036] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'\n'}
+[4.385239] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'6: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/yixin/ros2_ws/build/examples_rclcpp_minimal_publisher/test_results/examples_rclcpp_minimal_publisher/xmllint.xunit.xml" "--package-name" "examples_rclcpp_minimal_publisher" "--output-file" "/home/yixin/ros2_ws/build/examples_rclcpp_minimal_publisher/ament_xmllint/xmllint.txt" "--command" "/opt/ros/jazzy/bin/ament_xmllint" "--xunit-file" "/home/yixin/ros2_ws/build/examples_rclcpp_minimal_publisher/test_results/examples_rclcpp_minimal_publisher/xmllint.xunit.xml"\n'}
+[4.385458] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'6: Working Directory: /home/yixin/ros2_ws/src/examples/rclcpp/topics/minimal_publisher\n'}
+[4.385665] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'6: Test timeout computed to be: 60\n'}
+[4.416946] (-) TimerEvent: {}
+[4.517347] (-) TimerEvent: {}
+[4.597180] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b"6: -- run_test.py: invoking following command in '/home/yixin/ros2_ws/src/examples/rclcpp/topics/minimal_publisher':\n"}
+[4.597560] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'6:  - /opt/ros/jazzy/bin/ament_xmllint --xunit-file /home/yixin/ros2_ws/build/examples_rclcpp_minimal_publisher/test_results/examples_rclcpp_minimal_publisher/xmllint.xunit.xml\n'}
+[4.617474] (-) TimerEvent: {}
+[4.717885] (-) TimerEvent: {}
+[4.818274] (-) TimerEvent: {}
+[4.918688] (-) TimerEvent: {}
+[5.019159] (-) TimerEvent: {}
+[5.119608] (-) TimerEvent: {}
+[5.220162] (-) TimerEvent: {}
+[5.320793] (-) TimerEvent: {}
+[5.364419] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b"6: File 'package.xml' is valid\n"}
+[5.365019] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'6: \n'}
+[5.365308] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'6: No problems found\n'}
+[5.418132] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'6: -- run_test.py: return code 0\n'}
+[5.418671] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b"6: -- run_test.py: verify result file '/home/yixin/ros2_ws/build/examples_rclcpp_minimal_publisher/test_results/examples_rclcpp_minimal_publisher/xmllint.xunit.xml'\n"}
+[5.420946] (-) TimerEvent: {}
+[5.456136] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'6/6 Test #6: xmllint ..........................   Passed    1.07 sec\n'}
+[5.460012] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'\n'}
+[5.460421] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'\x1b[0;32m100% tests passed\x1b[0;0m, 0 tests failed\x1b[0;0m out of 6\n'}
+[5.460653] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'\n'}
+[5.460849] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'Label Time Summary:\n'}
+[5.461110] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'copyright     =   1.56 sec*proc (1 test)\n'}
+[5.461357] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'cppcheck      =   0.59 sec*proc (1 test)\n'}
+[5.461739] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'cpplint       =   0.88 sec*proc (1 test)\n'}
+[5.461981] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'lint_cmake    =   0.57 sec*proc (1 test)\n'}
+[5.462160] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'linter        =   5.32 sec*proc (6 tests)\n'}
+[5.462328] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'uncrustify    =   0.64 sec*proc (1 test)\n'}
+[5.462495] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'xmllint       =   1.07 sec*proc (1 test)\n'}
+[5.462661] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'\n'}
+[5.462845] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'Total Test time (real) =   5.33 sec\n'}
+[5.477865] (examples_rclcpp_minimal_publisher) CommandEnded: {'returncode': 0}
+[5.480267] (examples_rclcpp_minimal_publisher) JobEnded: {'identifier': 'examples_rclcpp_minimal_publisher', 'rc': 0}
+[5.481687] (-) EventReactorShutdown: {}

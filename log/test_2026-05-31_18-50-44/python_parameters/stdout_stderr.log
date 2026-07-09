@@ -1,0 +1,122 @@
+[1m============================= test session starts ==============================[0m
+platform linux -- Python 3.12.3, pytest-7.4.4, pluggy-1.4.0
+cachedir: /home/yixin/ros2_ws/build/python_parameters/.pytest_cache
+rootdir: /home/yixin/ros2_ws/src/python_parameters
+plugins: ament-flake8-0.17.4, ament-xmllint-0.17.4, launch-testing-ros-0.26.11, ament-pep257-0.17.4, ament-copyright-0.17.4, launch-testing-3.4.10, ament-lint-0.17.4, typeguard-4.1.5, cov-4.1.0, colcon-core-0.20.1
+[1mcollecting ... [0m[1m
+collected 3 items                                                              [0m
+
+test/test_copyright.py [33ms[0m[32m                                                 [ 33%][0m
+test/test_flake8.py [31mF[0m[31m                                                    [ 66%][0m
+test/test_pep257.py [32m.[0m[31m                                                    [100%][0m
+
+=================================== FAILURES ===================================
+[31m[1m_________________________________ test_flake8 __________________________________[0m
+[1m[31mtest/test_flake8.py[0m:23: in test_flake8
+    [94massert[39;49;00m rc == [94m0[39;49;00m, \
+[1m[31mE   AssertionError: Found 15 code style errors / warnings:[0m
+[1m[31mE     ./launch/python_parameters_launch.py:18:7: W292 no newline at end of file[0m
+[1m[31mE     ./python_parameters/python_parameters_node.py:5:1: E302 expected 2 blank lines, found 1[0m
+[1m[31mE     ./python_parameters/python_parameters_node.py:6:100: E501 line too long (122 > 99 characters)[0m
+[1m[31mE     ./python_parameters/python_parameters_node.py:11:93: W291 trailing whitespace[0m
+[1m[31mE     ./python_parameters/python_parameters_node.py:32:100: E501 line too long (117 > 99 characters)[0m
+[1m[31mE     ./python_parameters/python_parameters_node.py:33:100: E501 line too long (122 > 99 characters)[0m
+[1m[31mE     ./python_parameters/python_parameters_node.py:36:1: E302 expected 2 blank lines, found 1[0m
+[1m[31mE     ./python_parameters/python_parameters_node.py:44:1: E305 expected 2 blank lines after class or function definition, found 1[0m
+[1m[31mE     ./python_parameters/python_parameters_node.py:45:11: W292 no newline at end of file[0m
+[1m[31mE     ./setup.py:2:1: I100 Import statements are in the wrong order. 'from glob import glob' should be before 'import os'[0m
+[1m[31mE     ./setup.py:3:1: I201 Missing newline between import groups. 'from setuptools import find_packages, setup' is identified as Third Party and 'from glob import glob' is identified as Stdlib.[0m
+[1m[31mE     ./setup.py:15:75: W291 trailing whitespace[0m
+[1m[31mE     ./setup.py:22:45: W291 trailing whitespace[0m
+[1m[31mE     ./setup.py:31:9: E122 continuation line missing indentation or outdented[0m
+[1m[31mE     ./setup.py:31:78: W291 trailing whitespace[0m
+[1m[31mE   assert 1 == 0[0m
+----------------------------- Captured stdout call -----------------------------
+
+./launch/python_parameters_launch.py:18:7: W292 no newline at end of file
+    ])      ^
+
+./python_parameters/python_parameters_node.py:5:1: E302 expected 2 blank lines, found 1
+class MinimalParam(Node):
+^
+
+./python_parameters/python_parameters_node.py:6:100: E501 line too long (122 > 99 characters)
+    # create the constructor with: 1) the node name "minimal_param_node"; 2) the parameter value as "my_parameter = world"
+                                                                                                   ^
+
+./python_parameters/python_parameters_node.py:11:93: W291 trailing whitespace
+        my_parameter_descriptor = ParameterDescriptor(description='This parameter is mine!')        
+                                                                                            ^
+
+./python_parameters/python_parameters_node.py:32:100: E501 line too long (117 > 99 characters)
+        # The "set_parameters" function then sets the parameter my_parameter back to the default string value "world"
+                                                                                                   ^
+
+./python_parameters/python_parameters_node.py:33:100: E501 line too long (122 > 99 characters)
+        # In the case that the user changed the parameter externally, this ensures it is always reset back to the original
+                                                                                                   ^
+
+./python_parameters/python_parameters_node.py:36:1: E302 expected 2 blank lines, found 1
+def main():
+^
+
+./python_parameters/python_parameters_node.py:44:1: E305 expected 2 blank lines after class or function definition, found 1
+if __name__ == '__main__':
+^
+
+./python_parameters/python_parameters_node.py:45:11: W292 no newline at end of file
+    main()          ^
+
+./setup.py:2:1: I100 Import statements are in the wrong order. 'from glob import glob' should be before 'import os'
+from glob import glob
+^
+
+./setup.py:3:1: I201 Missing newline between import groups. 'from setuptools import find_packages, setup' is identified as Third Party and 'from glob import glob' is identified as Stdlib.
+from setuptools import find_packages, setup
+^
+
+./setup.py:15:75: W291 trailing whitespace
+        (os.path.join('share', package_name, 'launch'), glob('launch/*')),        
+                                                                          ^
+
+./setup.py:22:45: W291 trailing whitespace
+    description='Python parameter tutorial',    
+                                            ^
+
+./setup.py:31:9: E122 continuation line missing indentation or outdented
+        'minimal_param_node = python_parameters.python_parameters_node:main',            
+        ^
+
+./setup.py:31:78: W291 trailing whitespace
+        'minimal_param_node = python_parameters.python_parameters_node:main',            
+                                                                             ^
+
+1     E122 continuation line missing indentation or outdented
+2     E302 expected 2 blank lines, found 1
+1     E305 expected 2 blank lines after class or function definition, found 1
+3     E501 line too long (122 > 99 characters)
+1     I100 Import statements are in the wrong order. 'from glob import glob' should be before 'import os'
+1     I201 Missing newline between import groups. 'from setuptools import find_packages, setup' is identified as Third Party and 'from glob import glob' is identified as Stdlib.
+4     W291 trailing whitespace
+2     W292 no newline at end of file
+
+7 files checked
+15 errors
+
+'E'-type errors: 7
+'I'-type errors: 2
+'W'-type errors: 6
+
+Checked files:
+
+* ./setup.py
+* ./python_parameters/__init__.py
+* ./python_parameters/python_parameters_node.py
+* ./launch/python_parameters_launch.py
+* ./test/test_flake8.py
+* ./test/test_copyright.py
+* ./test/test_pep257.py
+-- generated xml file: /home/yixin/ros2_ws/build/python_parameters/pytest.xml --
+[36m[1m=========================== short test summary info ============================[0m
+[31mFAILED[0m test/test_flake8.py::[1mtest_flake8[0m - AssertionError: Found 15 code style errors / warnings:
+[31m==================== [31m[1m1 failed[0m, [32m1 passed[0m, [33m1 skipped[0m[31m in 0.65s[0m[31m ====================[0m

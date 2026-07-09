@@ -39,6 +39,8 @@ public:
     };
     subscription_ = this->create_subscription<tutorial_interfaces::msg::Num>(    // CHANGE
       "topic", 10, topic_callback);      
+    // subscription_ = this->create_subscription<tutorial_interfaces::msg::Num>(    // CHANGE
+    //   "YixinTopic", 10, topic_callback);          
   }
 
 private:

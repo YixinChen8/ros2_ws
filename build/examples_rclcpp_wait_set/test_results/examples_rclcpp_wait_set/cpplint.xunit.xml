@@ -4,7 +4,7 @@
   tests="15"
   failures="0"
   errors="0"
-  time="0.275"
+  time="0.460"
 >
   <testcase
     name="/home/yixin/ros2_ws/src/examples/rclcpp/wait_set/include/wait_set/listener.hpp"

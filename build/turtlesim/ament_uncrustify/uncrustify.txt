@@ -1,0 +1,26 @@
+-- run_test.py: invoking following command in '/home/yixin/ros2_ws/src/ros_tutorials/turtlesim':
+ - /opt/ros/jazzy/bin/ament_uncrustify --xunit-file /home/yixin/ros2_ws/build/turtlesim/test_results/turtlesim/uncrustify.xunit.xml
+
+No code style divergence in file 'include/turtlesim/qos.hpp'
+
+No code style divergence in file 'include/turtlesim/turtle.hpp'
+
+No code style divergence in file 'include/turtlesim/turtle_frame.hpp'
+
+No code style divergence in file 'src/turtle.cpp'
+
+No code style divergence in file 'src/turtle_frame.cpp'
+
+No code style divergence in file 'src/turtlesim.cpp'
+
+No code style divergence in file 'tutorials/draw_square.cpp'
+
+No code style divergence in file 'tutorials/mimic.cpp'
+
+No code style divergence in file 'tutorials/teleop_turtle_key.cpp'
+
+No problems found
+
+
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/yixin/ros2_ws/build/turtlesim/test_results/turtlesim/uncrustify.xunit.xml'

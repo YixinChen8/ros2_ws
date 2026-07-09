@@ -5,9 +5,9 @@
 #include <string.h>
 
 #include "more_interfaces/msg/detail/address_book__type_support.h"
-#include "rosidl_typesupport_interface/macros.h"
-#include "more_interfaces/msg/detail/address_book__functions.h"
 #include "more_interfaces/msg/detail/address_book__struct.h"
+#include "more_interfaces/msg/detail/address_book__functions.h"
+#include "rosidl_typesupport_interface/macros.h"
 
 #ifdef __cplusplus
 extern "C"

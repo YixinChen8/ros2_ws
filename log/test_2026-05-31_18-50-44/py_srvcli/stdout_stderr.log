@@ -1,0 +1,129 @@
+[1m============================= test session starts ==============================[0m
+platform linux -- Python 3.12.3, pytest-7.4.4, pluggy-1.4.0
+cachedir: /home/yixin/ros2_ws/build/py_srvcli/.pytest_cache
+rootdir: /home/yixin/ros2_ws/src/py_srvcli
+plugins: ament-flake8-0.17.4, ament-xmllint-0.17.4, launch-testing-ros-0.26.11, ament-pep257-0.17.4, ament-copyright-0.17.4, launch-testing-3.4.10, ament-lint-0.17.4, typeguard-4.1.5, cov-4.1.0, colcon-core-0.20.1
+[1mcollecting ... [0m[1m
+collected 3 items                                                              [0m
+
+test/test_copyright.py [33ms[0m[32m                                                 [ 33%][0m
+test/test_flake8.py [31mF[0m[31m                                                    [ 66%][0m
+test/test_pep257.py [32m.[0m[31m                                                    [100%][0m
+
+=================================== FAILURES ===================================
+[31m[1m_________________________________ test_flake8 __________________________________[0m
+[1m[31mtest/test_flake8.py[0m:23: in test_flake8
+    [94massert[39;49;00m rc == [94m0[39;49;00m, \
+[1m[31mE   AssertionError: Found 17 code style errors / warnings:[0m
+[1m[31mE     ./py_srvcli/client_member_function.py:5:1: I100 Import statements are in the wrong order. 'import rclpy' should be before 'from tutorial_interfaces.srv import AddThreeInts'[0m
+[1m[31mE     ./py_srvcli/client_member_function.py:14:85: W291 trailing whitespace[0m
+[1m[31mE     ./py_srvcli/client_member_function.py:18:85: W291 trailing whitespace[0m
+[1m[31mE     ./py_srvcli/client_member_function.py:29:52: W291 trailing whitespace[0m
+[1m[31mE     ./py_srvcli/client_member_function.py:62:100: E501 line too long (111 > 99 characters)[0m
+[1m[31mE     ./py_srvcli/client_member_function.py:63:100: E501 line too long (111 > 99 characters)[0m
+[1m[31mE     ./py_srvcli/client_member_function.py:69:1: E305 expected 2 blank lines after class or function definition, found 1[0m
+[1m[31mE     ./py_srvcli/client_member_function.py:70:11: W292 no newline at end of file[0m
+[1m[31mE     ./py_srvcli/service_member_function.py:2:100: E501 line too long (115 > 99 characters)[0m
+[1m[31mE     ./py_srvcli/service_member_function.py:4:1: I100 Import statements are in the wrong order. 'import rclpy' should be before 'from tutorial_interfaces.srv import AddThreeInts'[0m
+[1m[31mE     ./py_srvcli/service_member_function.py:13:100: E501 line too long (115 > 99 characters)[0m
+[1m[31mE     ./py_srvcli/service_member_function.py:13:116: W291 trailing whitespace[0m
+[1m[31mE     ./py_srvcli/service_member_function.py:16:58: W291 trailing whitespace[0m
+[1m[31mE     ./py_srvcli/service_member_function.py:19:100: E501 line too long (115 > 99 characters)[0m
+[1m[31mE     ./py_srvcli/service_member_function.py:20:100: E501 line too long (115 > 99 characters)[0m
+[1m[31mE     ./py_srvcli/service_member_function.py:42:1: E305 expected 2 blank lines after class or function definition, found 1[0m
+[1m[31mE     ./py_srvcli/service_member_function.py:43:11: W292 no newline at end of file[0m
+[1m[31mE   assert 1 == 0[0m
+----------------------------- Captured stdout call -----------------------------
+
+./py_srvcli/client_member_function.py:5:1: I100 Import statements are in the wrong order. 'import rclpy' should be before 'from tutorial_interfaces.srv import AddThreeInts'
+import rclpy
+^
+
+./py_srvcli/client_member_function.py:14:85: W291 trailing whitespace
+        self.cli = self.create_client(AddThreeInts, 'add_three_ints')       # CHANGE        
+                                                                                    ^
+
+./py_srvcli/client_member_function.py:18:85: W291 trailing whitespace
+        self.req = AddThreeInts.Request()                                   # CHANGE        
+                                                                                    ^
+
+./py_srvcli/client_member_function.py:29:52: W291 trailing whitespace
+        self.future = self.cli.call_async(self.req)        
+                                                   ^
+
+./py_srvcli/client_member_function.py:62:100: E501 line too long (111 > 99 characters)
+                    'Result of add_three_ints: for %d + %d + %d = %d' %                                # CHANGE
+                                                                                                   ^
+
+./py_srvcli/client_member_function.py:63:100: E501 line too long (111 > 99 characters)
+                    (minimal_client.req.a, minimal_client.req.b, minimal_client.req.c, response.sum))  # CHANGE
+                                                                                                   ^
+
+./py_srvcli/client_member_function.py:69:1: E305 expected 2 blank lines after class or function definition, found 1
+if __name__ == '__main__':
+^
+
+./py_srvcli/client_member_function.py:70:11: W292 no newline at end of file
+    main()          ^
+
+./py_srvcli/service_member_function.py:2:100: E501 line too long (115 > 99 characters)
+from tutorial_interfaces.srv import AddThreeInts                                                           # CHANGE
+                                                                                                   ^
+
+./py_srvcli/service_member_function.py:4:1: I100 Import statements are in the wrong order. 'import rclpy' should be before 'from tutorial_interfaces.srv import AddThreeInts'
+import rclpy
+^
+
+./py_srvcli/service_member_function.py:13:100: E501 line too long (115 > 99 characters)
+        self.srv = self.create_service(AddThreeInts, 'add_three_ints', self.add_three_ints_callback)       # CHANGE        
+                                                                                                   ^
+
+./py_srvcli/service_member_function.py:13:116: W291 trailing whitespace
+        self.srv = self.create_service(AddThreeInts, 'add_three_ints', self.add_three_ints_callback)       # CHANGE        
+                                                                                                                   ^
+
+./py_srvcli/service_member_function.py:16:58: W291 trailing whitespace
+    def add_three_ints_callback(self, request, response):        
+                                                         ^
+
+./py_srvcli/service_member_function.py:19:100: E501 line too long (115 > 99 characters)
+        response.sum = request.a + request.b + request.c                                                   # CHANGE
+                                                                                                   ^
+
+./py_srvcli/service_member_function.py:20:100: E501 line too long (115 > 99 characters)
+        self.get_logger().info('Incoming request\na: %d b: %d c: %d' % (request.a, request.b, request.c))  # CHANGE
+                                                                                                   ^
+
+./py_srvcli/service_member_function.py:42:1: E305 expected 2 blank lines after class or function definition, found 1
+if __name__ == '__main__':
+^
+
+./py_srvcli/service_member_function.py:43:11: W292 no newline at end of file
+    main()          ^
+
+2     E305 expected 2 blank lines after class or function definition, found 1
+6     E501 line too long (111 > 99 characters)
+2     I100 Import statements are in the wrong order. 'import rclpy' should be before 'from tutorial_interfaces.srv import AddThreeInts'
+5     W291 trailing whitespace
+2     W292 no newline at end of file
+
+7 files checked
+17 errors
+
+'E'-type errors: 8
+'I'-type errors: 2
+'W'-type errors: 7
+
+Checked files:
+
+* ./setup.py
+* ./py_srvcli/client_member_function.py
+* ./py_srvcli/__init__.py
+* ./py_srvcli/service_member_function.py
+* ./test/test_flake8.py
+* ./test/test_copyright.py
+* ./test/test_pep257.py
+------ generated xml file: /home/yixin/ros2_ws/build/py_srvcli/pytest.xml ------
+[36m[1m=========================== short test summary info ============================[0m
+[31mFAILED[0m test/test_flake8.py::[1mtest_flake8[0m - AssertionError: Found 17 code style errors / warnings:
+[31m==================== [31m[1m1 failed[0m, [32m1 passed[0m, [33m1 skipped[0m[31m in 0.43s[0m[31m ====================[0m

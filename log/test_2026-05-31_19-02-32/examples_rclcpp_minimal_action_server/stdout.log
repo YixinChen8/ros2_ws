@@ -1,0 +1,23 @@
+UpdateCTestConfiguration  from :/home/yixin/ros2_ws/build/examples_rclcpp_minimal_action_server/CTestConfiguration.ini
+Parse Config file:/home/yixin/ros2_ws/build/examples_rclcpp_minimal_action_server/CTestConfiguration.ini
+   Site: yixin-Aspire-A315-24PT
+   Build name: (empty)
+ Add coverage exclude regular expressions.
+Create new tag: 20260531-2302 - Experimental
+UpdateCTestConfiguration  from :/home/yixin/ros2_ws/build/examples_rclcpp_minimal_action_server/CTestConfiguration.ini
+Parse Config file:/home/yixin/ros2_ws/build/examples_rclcpp_minimal_action_server/CTestConfiguration.ini
+Test project /home/yixin/ros2_ws/build/examples_rclcpp_minimal_action_server
+Constructing a list of tests
+Done constructing a list of tests
+Updating test list for fixtures
+Added 0 tests to meet fixture requirements
+Checking test dependency graph...
+Checking test dependency graph end
+test 1
+    Start 1: copyright
+
+1: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/yixin/ros2_ws/build/examples_rclcpp_minimal_action_server/test_results/examples_rclcpp_minimal_action_server/copyright.xunit.xml" "--package-name" "examples_rclcpp_minimal_action_server" "--output-file" "/home/yixin/ros2_ws/build/examples_rclcpp_minimal_action_server/ament_copyright/copyright.txt" "--command" "/opt/ros/jazzy/bin/ament_copyright" "--xunit-file" "/home/yixin/ros2_ws/build/examples_rclcpp_minimal_action_server/test_results/examples_rclcpp_minimal_action_server/copyright.xunit.xml"
+1: Working Directory: /home/yixin/ros2_ws/src/examples/rclcpp/actions/minimal_action_server
+1: Test timeout computed to be: 200
+1: -- run_test.py: invoking following command in '/home/yixin/ros2_ws/src/examples/rclcpp/actions/minimal_action_server':
+1:  - /opt/ros/jazzy/bin/ament_copyright --xunit-file /home/yixin/ros2_ws/build/examples_rclcpp_minimal_action_server/test_results/examples_rclcpp_minimal_action_server/copyright.xunit.xml

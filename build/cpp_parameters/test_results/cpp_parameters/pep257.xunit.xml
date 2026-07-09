@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite
+  name="cpp_parameters.pep257"
+  tests="1"
+  errors="0"
+  failures="0"
+  time="0.013"
+>
+  <testcase
+    name="./launch/cpp_parameters_launch.py"
+    classname="cpp_parameters.pep257"/>
+  <system-out>Checked files:
+* ./launch/cpp_parameters_launch.py</system-out>
+</testsuite>

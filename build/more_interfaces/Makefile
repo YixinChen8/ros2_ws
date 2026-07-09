@@ -419,6 +419,19 @@ publish_address_book/fast:
 .PHONY : publish_address_book/fast
 
 #=============================================================================
+# Target rules for targets named subscriber_address_book
+
+# Build rule for target.
+subscriber_address_book: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 subscriber_address_book
+.PHONY : subscriber_address_book
+
+# fast build rule for target.
+subscriber_address_book/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/subscriber_address_book.dir/build.make CMakeFiles/subscriber_address_book.dir/build
+.PHONY : subscriber_address_book/fast
+
+#=============================================================================
 # Target rules for targets named more_interfaces__py
 
 # Build rule for target.
@@ -430,6 +443,19 @@ more_interfaces__py: cmake_check_build_system
 more_interfaces__py/fast:
 	$(MAKE) $(MAKESILENT) -f /home/yixin/ros2_ws/build/more_interfaces/more_interfaces__py/CMakeFiles/more_interfaces__py.dir/build.make /home/yixin/ros2_ws/build/more_interfaces/more_interfaces__py/CMakeFiles/more_interfaces__py.dir/build
 .PHONY : more_interfaces__py/fast
+
+#=============================================================================
+# Target rules for targets named more_interfaces__rs
+
+# Build rule for target.
+more_interfaces__rs: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 more_interfaces__rs
+.PHONY : more_interfaces__rs
+
+# fast build rule for target.
+more_interfaces__rs/fast:
+	$(MAKE) $(MAKESILENT) -f /home/yixin/ros2_ws/build/more_interfaces/more_interfaces__rs/CMakeFiles/more_interfaces__rs.dir/build.make /home/yixin/ros2_ws/build/more_interfaces/more_interfaces__rs/CMakeFiles/more_interfaces__rs.dir/build
+.PHONY : more_interfaces__rs/fast
 
 rosidl_generator_c/more_interfaces/msg/detail/address_book__description.o: rosidl_generator_c/more_interfaces/msg/detail/address_book__description.c.o
 .PHONY : rosidl_generator_c/more_interfaces/msg/detail/address_book__description.o
@@ -767,6 +793,30 @@ src/publish_address_book.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/publish_address_book.dir/build.make CMakeFiles/publish_address_book.dir/src/publish_address_book.cpp.s
 .PHONY : src/publish_address_book.cpp.s
 
+src/subscriber_address_book.o: src/subscriber_address_book.cpp.o
+.PHONY : src/subscriber_address_book.o
+
+# target to build an object file
+src/subscriber_address_book.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/subscriber_address_book.dir/build.make CMakeFiles/subscriber_address_book.dir/src/subscriber_address_book.cpp.o
+.PHONY : src/subscriber_address_book.cpp.o
+
+src/subscriber_address_book.i: src/subscriber_address_book.cpp.i
+.PHONY : src/subscriber_address_book.i
+
+# target to preprocess a source file
+src/subscriber_address_book.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/subscriber_address_book.dir/build.make CMakeFiles/subscriber_address_book.dir/src/subscriber_address_book.cpp.i
+.PHONY : src/subscriber_address_book.cpp.i
+
+src/subscriber_address_book.s: src/subscriber_address_book.cpp.s
+.PHONY : src/subscriber_address_book.s
+
+# target to generate assembly for a file
+src/subscriber_address_book.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/subscriber_address_book.dir/build.make CMakeFiles/subscriber_address_book.dir/src/subscriber_address_book.cpp.s
+.PHONY : src/subscriber_address_book.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -786,6 +836,7 @@ help:
 	@echo "... more_interfaces__cpp"
 	@echo "... more_interfaces__py"
 	@echo "... more_interfaces__rosidl_generator_type_description"
+	@echo "... more_interfaces__rs"
 	@echo "... more_interfaces_uninstall"
 	@echo "... uninstall"
 	@echo "... more_interfaces__rosidl_generator_c"
@@ -800,6 +851,7 @@ help:
 	@echo "... more_interfaces_s__rosidl_typesupport_fastrtps_c"
 	@echo "... more_interfaces_s__rosidl_typesupport_introspection_c"
 	@echo "... publish_address_book"
+	@echo "... subscriber_address_book"
 	@echo "... rosidl_generator_c/more_interfaces/msg/detail/address_book__description.o"
 	@echo "... rosidl_generator_c/more_interfaces/msg/detail/address_book__description.i"
 	@echo "... rosidl_generator_c/more_interfaces/msg/detail/address_book__description.s"
@@ -842,6 +894,9 @@ help:
 	@echo "... src/publish_address_book.o"
 	@echo "... src/publish_address_book.i"
 	@echo "... src/publish_address_book.s"
+	@echo "... src/subscriber_address_book.o"
+	@echo "... src/subscriber_address_book.i"
+	@echo "... src/subscriber_address_book.s"
 .PHONY : help
 
 

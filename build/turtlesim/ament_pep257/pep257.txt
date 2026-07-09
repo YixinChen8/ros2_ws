@@ -1,0 +1,10 @@
+-- run_test.py: invoking following command in '/home/yixin/ros2_ws/src/ros_tutorials/turtlesim':
+ - /opt/ros/jazzy/bin/ament_pep257 --xunit-file /home/yixin/ros2_ws/build/turtlesim/test_results/turtlesim/pep257.xunit.xml
+
+checking ./launch/multisim.launch.py
+checking ./src/turtlesim/__init__.py
+No problems found
+
+
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/yixin/ros2_ws/build/turtlesim/test_results/turtlesim/pep257.xunit.xml'

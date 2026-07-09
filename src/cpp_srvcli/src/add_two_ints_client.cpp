@@ -25,11 +25,15 @@ int main(int argc, char **argv)
   // rclcpp::Client<example_interfaces::srv::AddTwoInts>::SharedPtr client =
   //   node->create_client<example_interfaces::srv::AddTwoInts>("add_two_ints");
 
+  // create the node "add_three_ints_client"
   std::shared_ptr<rclcpp::Node> node = rclcpp::Node::make_shared("add_three_ints_client");  // CHANGE
+
+  // create the client "add_three_ints" for the node "add_three_ints_client"
   rclcpp::Client<tutorial_interfaces::srv::AddThreeInts>::SharedPtr client =                // CHANGE
     node->create_client<tutorial_interfaces::srv::AddThreeInts>("add_three_ints");          // CHANGE    
 
-  // the request is created. Its structure is defined by the .srv file mentioned earlierhe request is created. Its structure is defined by the .srv file
+  // the request is created. Its structure is defined by the .srv file mentioned earlierhe request is created. 
+  // Its structure is defined by the .srv file
   // auto request = std::make_shared<example_interfaces::srv::AddTwoInts::Request>();
   auto request = std::make_shared<tutorial_interfaces::srv::AddThreeInts::Request>();       // CHANGE
   request->a = atoll(argv[1]);

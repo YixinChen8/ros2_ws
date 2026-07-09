@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite
+  name="cpp_parameters.uncrustify"
+  tests="1"
+  failures="1"
+  errors="0"
+  time="0.029"
+>
+  <testcase
+    name="src/cpp_parameters_node.cpp"
+    classname="cpp_parameters.uncrustify"
+  >
+      <failure message="Diff with 23 lines"><![CDATA[--- src/cpp_parameters_node.cpp
++++ src/cpp_parameters_node.cpp.uncrustify
+@@ -22 +22 @@
+-    // a lambda function called "timer_callback" is declared. 
++    // a lambda function called "timer_callback" is declared.
+@@ -26 +26 @@
+-      std::string my_param = this->get_parameter("my_parameter").as_string();
++        std::string my_param = this->get_parameter("my_parameter").as_string();
+@@ -29 +29 @@
+-      RCLCPP_INFO(this->get_logger(), "Hello %s!", my_param.c_str());
++        RCLCPP_INFO(this->get_logger(), "Hello %s!", my_param.c_str());
+@@ -31 +31,2 @@
+-      std::vector<rclcpp::Parameter> all_new_parameters{rclcpp::Parameter("my_parameter", "world")};
++        std::vector<rclcpp::Parameter> all_new_parameters{rclcpp::Parameter("my_parameter",
++          "world")};
+@@ -33,2 +34,2 @@
+-      this->set_parameters(all_new_parameters);
+-    };
++        this->set_parameters(all_new_parameters);
++      };
+@@ -52 +53 @@
+-}+}
+]]></failure>
+  </testcase>
+  <system-out>Checked files:
+* src/cpp_parameters_node.cpp</system-out>
+</testsuite>

@@ -1,0 +1,218 @@
+[0.000000] (-) TimerEvent: {}
+[0.000708] (-) JobUnselected: {'identifier': 'composition_cpp'}
+[0.000780] (-) JobUnselected: {'identifier': 'cpp_parameters'}
+[0.000822] (-) JobUnselected: {'identifier': 'cpp_pubsub'}
+[0.000856] (-) JobUnselected: {'identifier': 'cpp_srvcli'}
+[0.000888] (-) JobUnselected: {'identifier': 'custom_action_cpp'}
+[0.000919] (-) JobUnselected: {'identifier': 'custom_action_interfaces'}
+[0.000948] (-) JobUnselected: {'identifier': 'examples_rclcpp_async_client'}
+[0.000978] (-) JobUnselected: {'identifier': 'examples_rclcpp_cbg_executor'}
+[0.001008] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_client'}
+[0.001060] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_server'}
+[0.001538] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_client'}
+[0.001589] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_composition'}
+[0.001636] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_publisher'}
+[0.001679] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_service'}
+[0.001723] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_subscriber'}
+[0.002127] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_timer'}
+[0.002181] (-) JobUnselected: {'identifier': 'examples_rclcpp_multithreaded_executor'}
+[0.002211] (-) JobUnselected: {'identifier': 'examples_rclcpp_wait_set'}
+[0.002238] (-) JobUnselected: {'identifier': 'examples_rclpy_executors'}
+[0.002280] (-) JobUnselected: {'identifier': 'examples_rclpy_guard_conditions'}
+[0.002700] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_client'}
+[0.002734] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_server'}
+[0.002764] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_client'}
+[0.002795] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_publisher'}
+[0.002824] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_service'}
+[0.002854] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_subscriber'}
+[0.002925] (-) JobUnselected: {'identifier': 'examples_rclpy_pointcloud_publisher'}
+[0.002957] (-) JobUnselected: {'identifier': 'launch_testing_examples'}
+[0.002987] (-) JobUnselected: {'identifier': 'my_package'}
+[0.003016] (-) JobUnselected: {'identifier': 'my_python_package'}
+[0.003055] (-) JobUnselected: {'identifier': 'polygon_base'}
+[0.003154] (-) JobUnselected: {'identifier': 'polygon_plugins'}
+[0.003187] (-) JobUnselected: {'identifier': 'py_pubsub'}
+[0.003217] (-) JobUnselected: {'identifier': 'py_srvcli'}
+[0.003246] (-) JobUnselected: {'identifier': 'python_parameters'}
+[0.003275] (-) JobUnselected: {'identifier': 'turtlesim'}
+[0.003305] (-) JobUnselected: {'identifier': 'tutorial_interfaces'}
+[0.003334] (-) JobUnselected: {'identifier': 'vincent_driver'}
+[0.003371] (more_interfaces) JobQueued: {'identifier': 'more_interfaces', 'dependencies': OrderedDict()}
+[0.003415] (more_interfaces) JobStarted: {'identifier': 'more_interfaces'}
+[0.037706] (more_interfaces) JobProgress: {'identifier': 'more_interfaces', 'progress': 'cmake'}
+[0.039315] (more_interfaces) JobProgress: {'identifier': 'more_interfaces', 'progress': 'build'}
+[0.040740] (more_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/yixin/ros2_ws/build/more_interfaces', '--', '-j8', '-l8'], 'cwd': '/home/yixin/ros2_ws/build/more_interfaces', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'yixin', 'FONTCONFIG_PATH': '/etc/fonts', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/share/gz', 'GIO_MODULE_DIR': '/home/yixin/snap/code/common/.cache/gio-modules', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/snap/code/233/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'GTK_EXE_PREFIX_VSCODE_SNAP_ORIG': '', 'GDK_BACKEND_VSCODE_SNAP_ORIG': '', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/yixin/ros2_ws/install/vincent_driver/lib:/home/yixin/ros2_ws/install/tutorial_interfaces/lib:/home/yixin/ros2_ws/install/turtlesim/lib:/home/yixin/ros2_ws/install/polygon_plugins/lib:/home/yixin/ros2_ws/install/more_interfaces/lib:/home/yixin/ros2_ws/install/examples_rclcpp_wait_set/lib:/home/yixin/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib:/home/yixin/ros2_ws/install/examples_rclcpp_minimal_composition/lib:/home/yixin/ros2_ws/install/custom_action_cpp/lib:/home/yixin/ros2_ws/install/custom_action_interfaces/lib:/home/yixin/ros2_ws/install/composition_cpp/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/yixin', 'CHROME_DESKTOP': 'code.desktop', 'LOCPATH_VSCODE_SNAP_ORIG': '', 'TERM_PROGRAM_VERSION': '1.115.0', 'DESKTOP_SESSION': 'ubuntu', 'GTK_PATH': '/snap/code/233/usr/lib/x86_64-linux-gnu/gtk-3.0', 'XDG_DATA_HOME_VSCODE_SNAP_ORIG': '', 'GTK_IM_MODULE_FILE': '/home/yixin/snap/code/common/.cache/immodules/immodules.cache', 'GIO_LAUNCHED_DESKTOP_FILE': '/var/lib/snapd/desktop/applications/code_code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SDL_IM_MODULE': 'fcitx', 'GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG': '', 'VSCODE_GIT_ASKPASS_MAIN': '/snap/code/233/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/snap/code/233/usr/share/code/code', 'MANAGERPID': '5603', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '5804', 'IM_CONFIG_CHECK_ENV': '1', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=2206e4cbb38ab712952f4db66a4da5d3', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '8121', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/yixin/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'GTK_IM_MODULE': 'fcitx', 'LOGNAME': 'yixin', 'JOURNAL_STREAM': '8:32187', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/app-gnome\\x2dsession\\x2dmanager.slice/gnome-session-manager@ubuntu.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'XDG_DATA_DIRS_VSCODE_SNAP_ORIG': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'USERNAME': 'yixin', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'FC_FONTATIONS': '1', 'PATH': '/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/yixin-Aspire-A315-24PT:@/tmp/.ICE-unix/5804,unix/yixin-Aspire-A315-24PT:/tmp/.ICE-unix/5804', 'GTK_EXE_PREFIX': '/snap/code/233/usr', 'INVOCATION_ID': '3cc507faa58b42a88bb75fc00ad38325', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LOCPATH': '/snap/code/233/usr/lib/locale', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'GIO_MODULE_DIR_VSCODE_SNAP_ORIG': '', 'XDG_DATA_HOME': '/home/yixin/snap/code/233/.local/share', 'XMODIFIERS': '@im=fcitx', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.JHBUR3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-e32af5f84d.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'GSETTINGS_SCHEMA_DIR': '/home/yixin/snap/code/233/.local/share/glib-2.0/schemas', 'ROS_DOMAIN_ID': '1', 'AMENT_PREFIX_PATH': '/home/yixin/ros2_ws/install/vincent_driver:/home/yixin/ros2_ws/install/py_srvcli:/home/yixin/ros2_ws/install/py_pubsub:/home/yixin/ros2_ws/install/cpp_srvcli:/home/yixin/ros2_ws/install/cpp_pubsub:/home/yixin/ros2_ws/install/tutorial_interfaces:/home/yixin/ros2_ws/install/turtlesim:/home/yixin/ros2_ws/install/python_parameters:/home/yixin/ros2_ws/install/polygon_plugins:/home/yixin/ros2_ws/install/polygon_base:/home/yixin/ros2_ws/install/my_python_package:/home/yixin/ros2_ws/install/my_package:/home/yixin/ros2_ws/install/more_interfaces:/home/yixin/ros2_ws/install/launch_testing_examples:/home/yixin/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/yixin/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/yixin/ros2_ws/install/examples_rclpy_minimal_service:/home/yixin/ros2_ws/install/examples_rclpy_minimal_publisher:/home/yixin/ros2_ws/install/examples_rclpy_minimal_client:/home/yixin/ros2_ws/install/examples_rclpy_minimal_action_server:/home/yixin/ros2_ws/install/examples_rclpy_minimal_action_client:/home/yixin/ros2_ws/install/examples_rclpy_guard_conditions:/home/yixin/ros2_ws/install/examples_rclpy_executors:/home/yixin/ros2_ws/install/examples_rclcpp_wait_set:/home/yixin/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/yixin/ros2_ws/install/examples_rclcpp_minimal_timer:/home/yixin/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/yixin/ros2_ws/install/examples_rclcpp_minimal_service:/home/yixin/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/yixin/ros2_ws/install/examples_rclcpp_minimal_composition:/home/yixin/ros2_ws/install/examples_rclcpp_minimal_client:/home/yixin/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/yixin/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/yixin/ros2_ws/install/examples_rclcpp_cbg_executor:/home/yixin/ros2_ws/install/examples_rclcpp_async_client:/home/yixin/ros2_ws/install/custom_action_cpp:/home/yixin/ros2_ws/install/custom_action_interfaces:/home/yixin/ros2_ws/install/cpp_parameters:/home/yixin/ros2_ws/install/composition_cpp:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GTK_PATH_VSCODE_SNAP_ORIG': '', 'FONTCONFIG_FILE': '/etc/fonts/fonts.conf', 'GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG': '', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'fcitx', 'PWD': '/home/yixin/ros2_ws/build/more_interfaces', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CLUTTER_IM_MODULE': 'xim', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=2206e4cbb38ab712952f4db66a4da5d3', 'XDG_DATA_DIRS': '/home/yixin/snap/code/233/.local/share:/home/yixin/snap/code/233:/snap/code/233/usr/share:/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'QTWEBENGINE_DICTIONARIES_PATH': '/usr/share/hunspell-bdic/', 'PYTHONPATH': '/home/yixin/ros2_ws/install/py_srvcli/lib/python3.12/site-packages:/home/yixin/ros2_ws/install/py_pubsub/lib/python3.12/site-packages:/home/yixin/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages:/home/yixin/ros2_ws/install/turtlesim/lib/python3.12/site-packages:/home/yixin/ros2_ws/install/python_parameters/lib/python3.12/site-packages:/home/yixin/ros2_ws/install/my_python_package/lib/python3.12/site-packages:/home/yixin/ros2_ws/install/more_interfaces/lib/python3.12/site-packages:/home/yixin/ros2_ws/install/launch_testing_examples/lib/python3.12/site-packages:/home/yixin/ros2_ws/install/examples_rclpy_pointcloud_publisher/lib/python3.12/site-packages:/home/yixin/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.12/site-packages:/home/yixin/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.12/site-packages:/home/yixin/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.12/site-packages:/home/yixin/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.12/site-packages:/home/yixin/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.12/site-packages:/home/yixin/ros2_ws/install/examples_rclpy_minimal_action_client/lib/python3.12/site-packages:/home/yixin/ros2_ws/install/examples_rclpy_guard_conditions/lib/python3.12/site-packages:/home/yixin/ros2_ws/install/examples_rclpy_executors/lib/python3.12/site-packages:/home/yixin/ros2_ws/install/custom_action_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/home/yixin/ros2_ws/install/vincent_driver:/home/yixin/ros2_ws/install/cpp_srvcli:/home/yixin/ros2_ws/install/cpp_pubsub:/home/yixin/ros2_ws/install/tutorial_interfaces:/home/yixin/ros2_ws/install/turtlesim:/home/yixin/ros2_ws/install/polygon_plugins:/home/yixin/ros2_ws/install/polygon_base:/home/yixin/ros2_ws/install/my_package:/home/yixin/ros2_ws/install/more_interfaces:/home/yixin/ros2_ws/install/examples_rclcpp_wait_set:/home/yixin/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/yixin/ros2_ws/install/examples_rclcpp_minimal_timer:/home/yixin/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/yixin/ros2_ws/install/examples_rclcpp_minimal_service:/home/yixin/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/yixin/ros2_ws/install/examples_rclcpp_minimal_composition:/home/yixin/ros2_ws/install/examples_rclcpp_minimal_client:/home/yixin/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/yixin/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/yixin/ros2_ws/install/examples_rclcpp_cbg_executor:/home/yixin/ros2_ws/install/examples_rclcpp_async_client:/home/yixin/ros2_ws/install/custom_action_cpp:/home/yixin/ros2_ws/install/custom_action_interfaces:/home/yixin/ros2_ws/install/cpp_parameters:/home/yixin/ros2_ws/install/composition_cpp:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/yixin/ros2_ws/install/py_srvcli:/home/yixin/ros2_ws/install/py_pubsub:/home/yixin/ros2_ws/install/python_parameters:/home/yixin/ros2_ws/install/my_python_package:/home/yixin/ros2_ws/install/launch_testing_examples:/home/yixin/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/yixin/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/yixin/ros2_ws/install/examples_rclpy_minimal_service:/home/yixin/ros2_ws/install/examples_rclpy_minimal_publisher:/home/yixin/ros2_ws/install/examples_rclpy_minimal_client:/home/yixin/ros2_ws/install/examples_rclpy_minimal_action_server:/home/yixin/ros2_ws/install/examples_rclpy_minimal_action_client:/home/yixin/ros2_ws/install/examples_rclpy_guard_conditions:/home/yixin/ros2_ws/install/examples_rclpy_executors:/opt/ros/jazzy'}), 'shell': False}
+[0.099344] (-) TimerEvent: {}
+[0.202182] (-) TimerEvent: {}
+[0.263150] (more_interfaces) StdoutLine: {'line': b'[  5%] Built target more_interfaces__rs\n'}
+[0.263682] (more_interfaces) StdoutLine: {'line': b'[  5%] Built target more_interfaces__rosidl_generator_type_description\n'}
+[0.302973] (-) TimerEvent: {}
+[0.307152] (more_interfaces) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_copy_more_interfaces\n'}
+[0.352181] (more_interfaces) StdoutLine: {'line': b'[  7%] Built target more_interfaces__cpp\n'}
+[0.359944] (more_interfaces) StdoutLine: {'line': b'[ 20%] Built target more_interfaces__rosidl_generator_c\n'}
+[0.404617] (-) TimerEvent: {}
+[0.460069] (more_interfaces) StdoutLine: {'line': b'[ 28%] Built target more_interfaces__rosidl_typesupport_c\n'}
+[0.472630] (more_interfaces) StdoutLine: {'line': b'[ 35%] Built target more_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[0.479888] (more_interfaces) StdoutLine: {'line': b'[ 43%] Built target more_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[0.505612] (more_interfaces) StdoutLine: {'line': b'[ 58%] Built target more_interfaces__rosidl_typesupport_cpp\n'}
+[0.506167] (-) TimerEvent: {}
+[0.507249] (more_interfaces) StdoutLine: {'line': b'[ 58%] Built target more_interfaces__rosidl_typesupport_introspection_c\n'}
+[0.516275] (more_interfaces) StdoutLine: {'line': b'[ 66%] Built target more_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[0.607776] (-) TimerEvent: {}
+[0.617149] (more_interfaces) StdoutLine: {'line': b'[ 66%] Built target more_interfaces\n'}
+[0.623171] (more_interfaces) StdoutLine: {'line': b'[ 71%] Built target publish_address_book\n'}
+[0.649433] (more_interfaces) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/subscriber_address_book.dir/src/subscriber_address_book.cpp.o\x1b[0m\n'}
+[0.703817] (more_interfaces) StdoutLine: {'line': b'[ 76%] Built target more_interfaces__py\n'}
+[0.707914] (-) TimerEvent: {}
+[0.791051] (more_interfaces) StdoutLine: {'line': b'[ 82%] Built target more_interfaces__rosidl_generator_py\n'}
+[0.808132] (-) TimerEvent: {}
+[0.887711] (more_interfaces) StdoutLine: {'line': b'[ 87%] Built target more_interfaces_s__rosidl_typesupport_fastrtps_c\n'}
+[0.896449] (more_interfaces) StdoutLine: {'line': b'[ 92%] Built target more_interfaces_s__rosidl_typesupport_c\n'}
+[0.897683] (more_interfaces) StdoutLine: {'line': b'[ 97%] Built target more_interfaces_s__rosidl_typesupport_introspection_c\n'}
+[0.908269] (-) TimerEvent: {}
+[1.008777] (-) TimerEvent: {}
+[1.107176] (more_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[1.108899] (-) TimerEvent: {}
+[1.175436] (more_interfaces) StdoutLine: {'line': b'writing more_interfaces.egg-info/PKG-INFO\n'}
+[1.176246] (more_interfaces) StdoutLine: {'line': b'writing dependency_links to more_interfaces.egg-info/dependency_links.txt\n'}
+[1.176874] (more_interfaces) StdoutLine: {'line': b'writing top-level names to more_interfaces.egg-info/top_level.txt\n'}
+[1.209079] (-) TimerEvent: {}
+[1.309574] (-) TimerEvent: {}
+[1.366246] (more_interfaces) StdoutLine: {'line': b"reading manifest file 'more_interfaces.egg-info/SOURCES.txt'\n"}
+[1.367898] (more_interfaces) StdoutLine: {'line': b"writing manifest file 'more_interfaces.egg-info/SOURCES.txt'\n"}
+[1.409755] (-) TimerEvent: {}
+[1.462179] (more_interfaces) StdoutLine: {'line': b'[ 97%] Built target ament_cmake_python_build_more_interfaces_egg\n'}
+[1.509931] (-) TimerEvent: {}
+[1.610510] (-) TimerEvent: {}
+[1.711093] (-) TimerEvent: {}
+[1.811579] (-) TimerEvent: {}
+[1.912270] (-) TimerEvent: {}
+[2.012784] (-) TimerEvent: {}
+[2.113322] (-) TimerEvent: {}
+[2.213847] (-) TimerEvent: {}
+[2.314378] (-) TimerEvent: {}
+[2.414904] (-) TimerEvent: {}
+[2.515464] (-) TimerEvent: {}
+[2.615957] (-) TimerEvent: {}
+[2.716505] (-) TimerEvent: {}
+[2.817268] (-) TimerEvent: {}
+[2.917750] (-) TimerEvent: {}
+[3.018357] (-) TimerEvent: {}
+[3.118884] (-) TimerEvent: {}
+[3.219435] (-) TimerEvent: {}
+[3.320008] (-) TimerEvent: {}
+[3.420559] (-) TimerEvent: {}
+[3.521100] (-) TimerEvent: {}
+[3.621654] (-) TimerEvent: {}
+[3.722148] (-) TimerEvent: {}
+[3.822628] (-) TimerEvent: {}
+[3.923116] (-) TimerEvent: {}
+[4.023645] (-) TimerEvent: {}
+[4.124132] (-) TimerEvent: {}
+[4.224607] (-) TimerEvent: {}
+[4.325101] (-) TimerEvent: {}
+[4.425618] (-) TimerEvent: {}
+[4.526123] (-) TimerEvent: {}
+[4.626628] (-) TimerEvent: {}
+[4.727147] (-) TimerEvent: {}
+[4.827617] (-) TimerEvent: {}
+[4.928110] (-) TimerEvent: {}
+[5.028694] (-) TimerEvent: {}
+[5.129175] (-) TimerEvent: {}
+[5.229733] (-) TimerEvent: {}
+[5.330233] (-) TimerEvent: {}
+[5.430747] (-) TimerEvent: {}
+[5.531231] (-) TimerEvent: {}
+[5.631711] (-) TimerEvent: {}
+[5.732303] (-) TimerEvent: {}
+[5.832761] (-) TimerEvent: {}
+[5.933279] (-) TimerEvent: {}
+[6.033750] (-) TimerEvent: {}
+[6.134267] (-) TimerEvent: {}
+[6.234768] (-) TimerEvent: {}
+[6.335271] (-) TimerEvent: {}
+[6.435761] (-) TimerEvent: {}
+[6.527526] (more_interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yixin/ros2_ws/src/more_interfaces/src/subscriber_address_book.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KAddressBookSubscriber::\x1b[01;32m\x1b[KAddressBookSubscriber\x1b[m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.527981] (more_interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yixin/ros2_ws/src/more_interfaces/src/subscriber_address_book.cpp:41:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksubscription_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krmw_subscription_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[6.528244] (more_interfaces) StderrLine: {'line': b'   41 |     \x1b[01;31m\x1b[Ksubscription_\x1b[m\x1b[K = this->create_subscription<more_interfaces::msg::AddressBook>(    // CHANGE\n'}
+[6.528469] (more_interfaces) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.528709] (more_interfaces) StderrLine: {'line': b'      |     \x1b[32m\x1b[Krmw_subscription_t\x1b[m\x1b[K\n'}
+[6.535924] (-) TimerEvent: {}
+[6.590459] (more_interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yixin/ros2_ws/src/more_interfaces/src/subscriber_address_book.cpp:\x1b[m\x1b[K At global scope:\n'}
+[6.590874] (more_interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yixin/ros2_ws/src/more_interfaces/src/subscriber_address_book.cpp:49:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before \xe2\x80\x98\x1b[01m\x1b[Kprivate\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.591122] (more_interfaces) StderrLine: {'line': b'   49 | \x1b[01;31m\x1b[Kprivate\x1b[m\x1b[K:\n'}
+[6.591360] (more_interfaces) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[6.591580] (more_interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yixin/ros2_ws/src/more_interfaces/src/subscriber_address_book.cpp:52:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected declaration before \xe2\x80\x98\x1b[01m\x1b[K}\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[6.591818] (more_interfaces) StderrLine: {'line': b'   52 | \x1b[01;31m\x1b[K}\x1b[m\x1b[K;\n'}
+[6.592147] (more_interfaces) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[6.595314] (more_interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yixin/ros2_ws/src/more_interfaces/src/subscriber_address_book.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[01;32m\x1b[K main\x1b[m\x1b[K(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.595718] (more_interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yixin/ros2_ws/src/more_interfaces/src/subscriber_address_book.cpp:57:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kspin(std::shared_ptr<AddressBookSubscriber()>)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.595896] (more_interfaces) StderrLine: {'line': b'   57 |   \x1b[01;31m\x1b[Krclcpp::spin(std::make_shared<AddressBookSubscriber()>())\x1b[m\x1b[K;\n'}
+[6.596132] (more_interfaces) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.596361] (more_interfaces) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:176\x1b[m\x1b[K,\n'}
+[6.596558] (more_interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/yixin/ros2_ws/src/more_interfaces/src/subscriber_address_book.cpp:17\x1b[m\x1b[K:\n'}
+[6.596728] (more_interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors.hpp:59:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kvoid rclcpp::\x1b[01;32m\x1b[Kspin\x1b[m\x1b[K(node_interfaces::NodeBaseInterface::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.596900] (more_interfaces) StderrLine: {'line': b'   59 | \x1b[01;36m\x1b[Kspin\x1b[m\x1b[K(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr node_ptr);\n'}
+[6.597106] (more_interfaces) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[6.597284] (more_interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors.hpp:59:60:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kshared_ptr<\x1b[01;32m\x1b[KAddressBookSubscriber()\x1b[m\x1b[K>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kshared_ptr<\x1b[01;32m\x1b[Krclcpp::node_interfaces::NodeBaseInterface\x1b[m\x1b[K>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.597485] (more_interfaces) StderrLine: {'line': b'   59 | spin(\x1b[01;36m\x1b[Krclcpp::node_interfaces::NodeBaseInterface::SharedPtr node_ptr\x1b[m\x1b[K);\n'}
+[6.597645] (more_interfaces) StderrLine: {'line': b'      |      \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~\x1b[m\x1b[K\n'}
+[6.597811] (more_interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors.hpp:63:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kvoid rclcpp::\x1b[01;32m\x1b[Kspin\x1b[m\x1b[K(Node::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.597974] (more_interfaces) StderrLine: {'line': b'   63 | \x1b[01;36m\x1b[Kspin\x1b[m\x1b[K(rclcpp::Node::SharedPtr node_ptr);\n'}
+[6.598177] (more_interfaces) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[6.598353] (more_interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors.hpp:63:30:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kshared_ptr<\x1b[01;32m\x1b[KAddressBookSubscriber()\x1b[m\x1b[K>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kshared_ptr<\x1b[01;32m\x1b[Krclcpp::Node\x1b[m\x1b[K>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.598530] (more_interfaces) StderrLine: {'line': b'   63 | spin(\x1b[01;36m\x1b[Krclcpp::Node::SharedPtr node_ptr\x1b[m\x1b[K);\n'}
+[6.598699] (more_interfaces) StderrLine: {'line': b'      |      \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~\x1b[m\x1b[K\n'}
+[6.636296] (-) TimerEvent: {}
+[6.736780] (-) TimerEvent: {}
+[6.837287] (-) TimerEvent: {}
+[6.937770] (-) TimerEvent: {}
+[7.038305] (-) TimerEvent: {}
+[7.138805] (-) TimerEvent: {}
+[7.239326] (-) TimerEvent: {}
+[7.339799] (-) TimerEvent: {}
+[7.440297] (-) TimerEvent: {}
+[7.540762] (-) TimerEvent: {}
+[7.584081] (more_interfaces) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/13/bits/shared_ptr_base.h:60\x1b[m\x1b[K,\n'}
+[7.584441] (more_interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/13/bits/shared_ptr.h:53\x1b[m\x1b[K,\n'}
+[7.584636] (more_interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/13/memory:80\x1b[m\x1b[K,\n'}
+[7.584799] (more_interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/yixin/ros2_ws/src/more_interfaces/src/subscriber_address_book.cpp:15\x1b[m\x1b[K:\n'}
+[7.584956] (more_interfaces) StderrLine: {'line': b'/usr/include/c++/13/ext/aligned_buffer.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kstruct __gnu_cxx::__aligned_buffer<AddressBookSubscriber()>\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[7.585180] (more_interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/shared_ptr_base.h:591:35:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kclass std::_Sp_counted_ptr_inplace<AddressBookSubscriber(), std::allocator<void>, __gnu_cxx::_S_atomic>::_Impl\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.585426] (more_interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/shared_ptr_base.h:652:13:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kclass std::_Sp_counted_ptr_inplace<AddressBookSubscriber(), std::allocator<void>, __gnu_cxx::_S_atomic>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.585600] (more_interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/shared_ptr_base.h:968:43:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::__shared_count<_Lp>::\x1b[01;32m\x1b[K__shared_count\x1b[m\x1b[K(_Tp*&, std::_Sp_alloc_shared_tag<_Alloc>, _Args&& ...) \x1b[35m\x1b[K[with _Tp = AddressBookSubscriber(); _Alloc = std::allocator<void>; _Args = {}; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.585780] (more_interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/shared_ptr_base.h:1712:14:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::__shared_ptr<_Tp, _Lp>::\x1b[01;32m\x1b[K__shared_ptr\x1b[m\x1b[K(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) \x1b[35m\x1b[K[with _Alloc = std::allocator<void>; _Args = {}; _Tp = AddressBookSubscriber(); __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.585967] (more_interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/shared_ptr.h:464:59:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp>::\x1b[01;32m\x1b[Kshared_ptr\x1b[m\x1b[K(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) \x1b[35m\x1b[K[with _Alloc = std::allocator<void>; _Args = {}; _Tp = AddressBookSubscriber()]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.586179] (more_interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/shared_ptr.h:1009:14:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<typename std::enable_if<(! std::is_array< <template-parameter-1-1> >::value), _Tp>::type> std::\x1b[01;32m\x1b[Kmake_shared\x1b[m\x1b[K(_Args&& ...) \x1b[35m\x1b[K[with _Tp = AddressBookSubscriber(); _Args = {}; typename enable_if<(! is_array< <template-parameter-1-1> >::value), _Tp>::type = AddressBookSubscriber()]\x1b[m\x1b[K\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.586347] (more_interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yixin/ros2_ws/src/more_interfaces/src/subscriber_address_book.cpp:57:57:\x1b[m\x1b[K   required from here\n'}
+[7.586517] (more_interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/ext/aligned_buffer.h:93:28:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kcould not convert template argument \xe2\x80\x98\x1b[01m\x1b[Ksizeof (AddressBookSubscriber())\x1b[m\x1b[K\xe2\x80\x99 from \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.586688] (more_interfaces) StderrLine: {'line': b'   93 |     : std::aligned_storage<\x1b[01;31m\x1b[Ksizeof(_Tp)\x1b[m\x1b[K, __alignof__(_Tp)>\n'}
+[7.586856] (more_interfaces) StderrLine: {'line': b'      |                            \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.587038] (more_interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/ext/aligned_buffer.h:93:28:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kcould not convert template argument \xe2\x80\x98\x1b[01m\x1b[Ksizeof (AddressBookSubscriber())\x1b[m\x1b[K\xe2\x80\x99 from \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.640932] (-) TimerEvent: {}
+[7.741433] (-) TimerEvent: {}
+[7.842063] (-) TimerEvent: {}
+[7.942732] (-) TimerEvent: {}
+[8.043212] (-) TimerEvent: {}
+[8.143655] (-) TimerEvent: {}
+[8.244120] (-) TimerEvent: {}
+[8.344540] (-) TimerEvent: {}
+[8.445018] (-) TimerEvent: {}
+[8.545510] (-) TimerEvent: {}
+[8.645960] (-) TimerEvent: {}
+[8.746461] (-) TimerEvent: {}
+[8.846946] (-) TimerEvent: {}
+[8.947420] (-) TimerEvent: {}
+[9.047871] (-) TimerEvent: {}
+[9.148347] (-) TimerEvent: {}
+[9.248799] (-) TimerEvent: {}
+[9.349241] (-) TimerEvent: {}
+[9.449652] (-) TimerEvent: {}
+[9.550090] (-) TimerEvent: {}
+[9.625079] (more_interfaces) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/subscriber_address_book.dir/build.make:76: CMakeFiles/subscriber_address_book.dir/src/subscriber_address_book.cpp.o] Error 1\n'}
+[9.625466] (more_interfaces) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:674: CMakeFiles/subscriber_address_book.dir/all] Error 2\n'}
+[9.625793] (more_interfaces) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[9.628709] (more_interfaces) CommandEnded: {'returncode': 2}
+[9.640901] (more_interfaces) JobEnded: {'identifier': 'more_interfaces', 'rc': 2}
+[9.650199] (-) TimerEvent: {}
+[9.651530] (-) EventReactorShutdown: {}

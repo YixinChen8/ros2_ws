@@ -1,0 +1,25 @@
+[0.078s] Invoking command in '/home/yixin/ros2_ws/build/examples_rclcpp_minimal_client': AMENT_PREFIX_PATH=/home/yixin/ros2_ws/install/examples_rclcpp_minimal_client:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yixin/ros2_ws/install/examples_rclcpp_minimal_client:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/ctest -C Debug -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
+[0.899s] UpdateCTestConfiguration  from :/home/yixin/ros2_ws/build/examples_rclcpp_minimal_client/CTestConfiguration.ini
+[0.899s] Parse Config file:/home/yixin/ros2_ws/build/examples_rclcpp_minimal_client/CTestConfiguration.ini
+[0.899s]    Site: yixin-Aspire-A315-24PT
+[0.900s]    Build name: (empty)
+[0.900s]  Add coverage exclude regular expressions.
+[0.900s] Create new tag: 20260531-2302 - Experimental
+[0.901s] UpdateCTestConfiguration  from :/home/yixin/ros2_ws/build/examples_rclcpp_minimal_client/CTestConfiguration.ini
+[0.901s] Parse Config file:/home/yixin/ros2_ws/build/examples_rclcpp_minimal_client/CTestConfiguration.ini
+[0.901s] Test project /home/yixin/ros2_ws/build/examples_rclcpp_minimal_client
+[0.901s] Constructing a list of tests
+[0.902s] Done constructing a list of tests
+[0.902s] Updating test list for fixtures
+[0.902s] Added 0 tests to meet fixture requirements
+[0.902s] Checking test dependency graph...
+[0.903s] Checking test dependency graph end
+[0.903s] test 1
+[0.903s]     Start 1: copyright
+[0.904s] 
+[0.904s] 1: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/yixin/ros2_ws/build/examples_rclcpp_minimal_client/test_results/examples_rclcpp_minimal_client/copyright.xunit.xml" "--package-name" "examples_rclcpp_minimal_client" "--output-file" "/home/yixin/ros2_ws/build/examples_rclcpp_minimal_client/ament_copyright/copyright.txt" "--command" "/opt/ros/jazzy/bin/ament_copyright" "--xunit-file" "/home/yixin/ros2_ws/build/examples_rclcpp_minimal_client/test_results/examples_rclcpp_minimal_client/copyright.xunit.xml"
+[0.904s] 1: Working Directory: /home/yixin/ros2_ws/src/examples/rclcpp/services/minimal_client
+[0.904s] 1: Test timeout computed to be: 200
+[0.905s] 1: -- run_test.py: invoking following command in '/home/yixin/ros2_ws/src/examples/rclcpp/services/minimal_client':
+[0.905s] 1:  - /opt/ros/jazzy/bin/ament_copyright --xunit-file /home/yixin/ros2_ws/build/examples_rclcpp_minimal_client/test_results/examples_rclcpp_minimal_client/copyright.xunit.xml
+[0.925s] Invoked command in '/home/yixin/ros2_ws/build/examples_rclcpp_minimal_client' returned '-2': AMENT_PREFIX_PATH=/home/yixin/ros2_ws/install/examples_rclcpp_minimal_client:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yixin/ros2_ws/install/examples_rclcpp_minimal_client:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/ctest -C Debug -D ExperimentalTest --no-compress-output -V --force-new-ctest-process

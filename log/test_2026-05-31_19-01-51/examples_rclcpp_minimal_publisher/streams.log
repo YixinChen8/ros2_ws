@@ -1,0 +1,131 @@
+[0.072s] Invoking command in '/home/yixin/ros2_ws/build/examples_rclcpp_minimal_publisher': AMENT_PREFIX_PATH=/home/yixin/ros2_ws/install/examples_rclcpp_minimal_publisher:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yixin/ros2_ws/install/examples_rclcpp_minimal_publisher:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/ctest -C Debug -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
+[0.102s] UpdateCTestConfiguration  from :/home/yixin/ros2_ws/build/examples_rclcpp_minimal_publisher/CTestConfiguration.ini
+[0.102s] Parse Config file:/home/yixin/ros2_ws/build/examples_rclcpp_minimal_publisher/CTestConfiguration.ini
+[0.102s]    Site: yixin-Aspire-A315-24PT
+[0.103s]    Build name: (empty)
+[0.103s]  Add coverage exclude regular expressions.
+[0.103s] Create new tag: 20260531-2301 - Experimental
+[0.103s] UpdateCTestConfiguration  from :/home/yixin/ros2_ws/build/examples_rclcpp_minimal_publisher/CTestConfiguration.ini
+[0.104s] Parse Config file:/home/yixin/ros2_ws/build/examples_rclcpp_minimal_publisher/CTestConfiguration.ini
+[0.104s] Test project /home/yixin/ros2_ws/build/examples_rclcpp_minimal_publisher
+[0.104s] Constructing a list of tests
+[0.105s] Done constructing a list of tests
+[0.106s] Updating test list for fixtures
+[0.106s] Added 0 tests to meet fixture requirements
+[0.107s] Checking test dependency graph...
+[0.107s] Checking test dependency graph end
+[0.107s] test 1
+[0.107s]     Start 1: copyright
+[0.108s] 
+[0.108s] 1: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/yixin/ros2_ws/build/examples_rclcpp_minimal_publisher/test_results/examples_rclcpp_minimal_publisher/copyright.xunit.xml" "--package-name" "examples_rclcpp_minimal_publisher" "--output-file" "/home/yixin/ros2_ws/build/examples_rclcpp_minimal_publisher/ament_copyright/copyright.txt" "--command" "/opt/ros/jazzy/bin/ament_copyright" "--xunit-file" "/home/yixin/ros2_ws/build/examples_rclcpp_minimal_publisher/test_results/examples_rclcpp_minimal_publisher/copyright.xunit.xml"
+[0.108s] 1: Working Directory: /home/yixin/ros2_ws/src/examples/rclcpp/topics/minimal_publisher
+[0.108s] 1: Test timeout computed to be: 200
+[0.286s] 1: -- run_test.py: invoking following command in '/home/yixin/ros2_ws/src/examples/rclcpp/topics/minimal_publisher':
+[0.287s] 1:  - /opt/ros/jazzy/bin/ament_copyright --xunit-file /home/yixin/ros2_ws/build/examples_rclcpp_minimal_publisher/test_results/examples_rclcpp_minimal_publisher/copyright.xunit.xml
+[1.486s] 1: No problems found, checked 6 files
+[1.529s] 1: -- run_test.py: return code 0
+[1.529s] 1: -- run_test.py: verify result file '/home/yixin/ros2_ws/build/examples_rclcpp_minimal_publisher/test_results/examples_rclcpp_minimal_publisher/copyright.xunit.xml'
+[1.567s] 1/6 Test #1: copyright ........................   Passed    1.46 sec
+[1.571s] test 2
+[1.571s]     Start 2: cppcheck
+[1.571s] 
+[1.572s] 2: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/yixin/ros2_ws/build/examples_rclcpp_minimal_publisher/test_results/examples_rclcpp_minimal_publisher/cppcheck.xunit.xml" "--package-name" "examples_rclcpp_minimal_publisher" "--output-file" "/home/yixin/ros2_ws/build/examples_rclcpp_minimal_publisher/ament_cppcheck/cppcheck.txt" "--command" "/opt/ros/jazzy/bin/ament_cppcheck" "--xunit-file" "/home/yixin/ros2_ws/build/examples_rclcpp_minimal_publisher/test_results/examples_rclcpp_minimal_publisher/cppcheck.xunit.xml"
+[1.572s] 2: Working Directory: /home/yixin/ros2_ws/src/examples/rclcpp/topics/minimal_publisher
+[1.572s] 2: Test timeout computed to be: 300
+[1.753s] 2: -- run_test.py: invoking following command in '/home/yixin/ros2_ws/src/examples/rclcpp/topics/minimal_publisher':
+[1.754s] 2:  - /opt/ros/jazzy/bin/ament_cppcheck --xunit-file /home/yixin/ros2_ws/build/examples_rclcpp_minimal_publisher/test_results/examples_rclcpp_minimal_publisher/cppcheck.xunit.xml
+[2.006s] 2: cppcheck 2.13.0 has known performance issues and therefore will not be used, set the AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS environment variable to override this.
+[2.054s] 2: -- run_test.py: return code 0
+[2.054s] 2: -- run_test.py: verify result file '/home/yixin/ros2_ws/build/examples_rclcpp_minimal_publisher/test_results/examples_rclcpp_minimal_publisher/cppcheck.xunit.xml'
+[2.096s] 2/6 Test #2: cppcheck .........................   Passed    0.53 sec
+[2.096s] test 3
+[2.097s]     Start 3: cpplint
+[2.098s] 
+[2.098s] 3: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/yixin/ros2_ws/build/examples_rclcpp_minimal_publisher/test_results/examples_rclcpp_minimal_publisher/cpplint.xunit.xml" "--package-name" "examples_rclcpp_minimal_publisher" "--output-file" "/home/yixin/ros2_ws/build/examples_rclcpp_minimal_publisher/ament_cpplint/cpplint.txt" "--command" "/opt/ros/jazzy/bin/ament_cpplint" "--xunit-file" "/home/yixin/ros2_ws/build/examples_rclcpp_minimal_publisher/test_results/examples_rclcpp_minimal_publisher/cpplint.xunit.xml"
+[2.098s] 3: Working Directory: /home/yixin/ros2_ws/src/examples/rclcpp/topics/minimal_publisher
+[2.099s] 3: Test timeout computed to be: 120
+[2.285s] 3: -- run_test.py: invoking following command in '/home/yixin/ros2_ws/src/examples/rclcpp/topics/minimal_publisher':
+[2.285s] 3:  - /opt/ros/jazzy/bin/ament_cpplint --xunit-file /home/yixin/ros2_ws/build/examples_rclcpp_minimal_publisher/test_results/examples_rclcpp_minimal_publisher/cpplint.xunit.xml
+[2.818s] 3: Using '--root=/home/yixin/ros2_ws/src' argument
+[2.818s] 3: 
+[2.819s] 3: Done processing /home/yixin/ros2_ws/src/examples/rclcpp/topics/minimal_publisher/lambda.cpp
+[2.819s] 3: 
+[2.819s] 3: Done processing /home/yixin/ros2_ws/src/examples/rclcpp/topics/minimal_publisher/member_function.cpp
+[2.819s] 3: 
+[2.820s] 3: Done processing /home/yixin/ros2_ws/src/examples/rclcpp/topics/minimal_publisher/member_function_with_type_adapter.cpp
+[2.820s] 3: 
+[2.820s] 3: Done processing /home/yixin/ros2_ws/src/examples/rclcpp/topics/minimal_publisher/member_function_with_unique_network_flow_endpoints.cpp
+[2.820s] 3: 
+[2.821s] 3: Done processing /home/yixin/ros2_ws/src/examples/rclcpp/topics/minimal_publisher/member_function_with_wait_for_all_acked.cpp
+[2.821s] 3: 
+[2.821s] 3: Done processing /home/yixin/ros2_ws/src/examples/rclcpp/topics/minimal_publisher/not_composable.cpp
+[2.821s] 3: 
+[2.822s] 3: No problems found
+[2.868s] 3: -- run_test.py: return code 0
+[2.869s] 3: -- run_test.py: verify result file '/home/yixin/ros2_ws/build/examples_rclcpp_minimal_publisher/test_results/examples_rclcpp_minimal_publisher/cpplint.xunit.xml'
+[2.905s] 3/6 Test #3: cpplint ..........................   Passed    0.81 sec
+[2.906s] test 4
+[2.906s]     Start 4: lint_cmake
+[2.906s] 
+[2.906s] 4: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/yixin/ros2_ws/build/examples_rclcpp_minimal_publisher/test_results/examples_rclcpp_minimal_publisher/lint_cmake.xunit.xml" "--package-name" "examples_rclcpp_minimal_publisher" "--output-file" "/home/yixin/ros2_ws/build/examples_rclcpp_minimal_publisher/ament_lint_cmake/lint_cmake.txt" "--command" "/opt/ros/jazzy/bin/ament_lint_cmake" "--xunit-file" "/home/yixin/ros2_ws/build/examples_rclcpp_minimal_publisher/test_results/examples_rclcpp_minimal_publisher/lint_cmake.xunit.xml"
+[2.906s] 4: Working Directory: /home/yixin/ros2_ws/src/examples/rclcpp/topics/minimal_publisher
+[2.907s] 4: Test timeout computed to be: 60
+[3.093s] 4: -- run_test.py: invoking following command in '/home/yixin/ros2_ws/src/examples/rclcpp/topics/minimal_publisher':
+[3.094s] 4:  - /opt/ros/jazzy/bin/ament_lint_cmake --xunit-file /home/yixin/ros2_ws/build/examples_rclcpp_minimal_publisher/test_results/examples_rclcpp_minimal_publisher/lint_cmake.xunit.xml
+[3.319s] 4: 
+[3.319s] 4: No problems found
+[3.363s] 4: -- run_test.py: return code 0
+[3.364s] 4: -- run_test.py: verify result file '/home/yixin/ros2_ws/build/examples_rclcpp_minimal_publisher/test_results/examples_rclcpp_minimal_publisher/lint_cmake.xunit.xml'
+[3.400s] 4/6 Test #4: lint_cmake .......................   Passed    0.49 sec
+[3.400s] test 5
+[3.401s]     Start 5: uncrustify
+[3.401s] 
+[3.401s] 5: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/yixin/ros2_ws/build/examples_rclcpp_minimal_publisher/test_results/examples_rclcpp_minimal_publisher/uncrustify.xunit.xml" "--package-name" "examples_rclcpp_minimal_publisher" "--output-file" "/home/yixin/ros2_ws/build/examples_rclcpp_minimal_publisher/ament_uncrustify/uncrustify.txt" "--command" "/opt/ros/jazzy/bin/ament_uncrustify" "--xunit-file" "/home/yixin/ros2_ws/build/examples_rclcpp_minimal_publisher/test_results/examples_rclcpp_minimal_publisher/uncrustify.xunit.xml"
+[3.401s] 5: Working Directory: /home/yixin/ros2_ws/src/examples/rclcpp/topics/minimal_publisher
+[3.402s] 5: Test timeout computed to be: 60
+[3.596s] 5: -- run_test.py: invoking following command in '/home/yixin/ros2_ws/src/examples/rclcpp/topics/minimal_publisher':
+[3.597s] 5:  - /opt/ros/jazzy/bin/ament_uncrustify --xunit-file /home/yixin/ros2_ws/build/examples_rclcpp_minimal_publisher/test_results/examples_rclcpp_minimal_publisher/uncrustify.xunit.xml
+[3.888s] 5: No code style divergence in file 'lambda.cpp'
+[3.889s] 5: 
+[3.889s] 5: No code style divergence in file 'member_function.cpp'
+[3.890s] 5: 
+[3.890s] 5: No code style divergence in file 'member_function_with_type_adapter.cpp'
+[3.891s] 5: 
+[3.891s] 5: No code style divergence in file 'member_function_with_unique_network_flow_endpoints.cpp'
+[3.891s] 5: 
+[3.891s] 5: No code style divergence in file 'member_function_with_wait_for_all_acked.cpp'
+[3.892s] 5: 
+[3.892s] 5: No code style divergence in file 'not_composable.cpp'
+[3.893s] 5: 
+[3.894s] 5: No problems found
+[3.939s] 5: -- run_test.py: return code 0
+[3.939s] 5: -- run_test.py: verify result file '/home/yixin/ros2_ws/build/examples_rclcpp_minimal_publisher/test_results/examples_rclcpp_minimal_publisher/uncrustify.xunit.xml'
+[3.980s] 5/6 Test #5: uncrustify .......................   Passed    0.58 sec
+[3.983s] test 6
+[3.983s]     Start 6: xmllint
+[3.983s] 
+[3.983s] 6: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/yixin/ros2_ws/build/examples_rclcpp_minimal_publisher/test_results/examples_rclcpp_minimal_publisher/xmllint.xunit.xml" "--package-name" "examples_rclcpp_minimal_publisher" "--output-file" "/home/yixin/ros2_ws/build/examples_rclcpp_minimal_publisher/ament_xmllint/xmllint.txt" "--command" "/opt/ros/jazzy/bin/ament_xmllint" "--xunit-file" "/home/yixin/ros2_ws/build/examples_rclcpp_minimal_publisher/test_results/examples_rclcpp_minimal_publisher/xmllint.xunit.xml"
+[3.984s] 6: Working Directory: /home/yixin/ros2_ws/src/examples/rclcpp/topics/minimal_publisher
+[3.984s] 6: Test timeout computed to be: 60
+[4.164s] 6: -- run_test.py: invoking following command in '/home/yixin/ros2_ws/src/examples/rclcpp/topics/minimal_publisher':
+[4.164s] 6:  - /opt/ros/jazzy/bin/ament_xmllint --xunit-file /home/yixin/ros2_ws/build/examples_rclcpp_minimal_publisher/test_results/examples_rclcpp_minimal_publisher/xmllint.xunit.xml
+[4.719s] 6: File 'package.xml' is valid
+[4.719s] 6: 
+[4.719s] 6: No problems found
+[4.764s] 6: -- run_test.py: return code 0
+[4.765s] 6: -- run_test.py: verify result file '/home/yixin/ros2_ws/build/examples_rclcpp_minimal_publisher/test_results/examples_rclcpp_minimal_publisher/xmllint.xunit.xml'
+[4.807s] 6/6 Test #6: xmllint ..........................   Passed    0.83 sec
+[4.810s] 
+[4.810s] [0;32m100% tests passed[0;0m, 0 tests failed[0;0m out of 6
+[4.810s] 
+[4.811s] Label Time Summary:
+[4.811s] copyright     =   1.46 sec*proc (1 test)
+[4.811s] cppcheck      =   0.53 sec*proc (1 test)
+[4.811s] cpplint       =   0.81 sec*proc (1 test)
+[4.811s] lint_cmake    =   0.49 sec*proc (1 test)
+[4.812s] linter        =   4.69 sec*proc (6 tests)
+[4.812s] uncrustify    =   0.58 sec*proc (1 test)
+[4.812s] xmllint       =   0.83 sec*proc (1 test)
+[4.812s] 
+[4.813s] Total Test time (real) =   4.70 sec
+[4.819s] Invoked command in '/home/yixin/ros2_ws/build/examples_rclcpp_minimal_publisher' returned '0': AMENT_PREFIX_PATH=/home/yixin/ros2_ws/install/examples_rclcpp_minimal_publisher:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yixin/ros2_ws/install/examples_rclcpp_minimal_publisher:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/ctest -C Debug -D ExperimentalTest --no-compress-output -V --force-new-ctest-process

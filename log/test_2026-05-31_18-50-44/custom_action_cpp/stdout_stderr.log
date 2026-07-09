@@ -1,0 +1,234 @@
+UpdateCTestConfiguration  from :/home/yixin/ros2_ws/build/custom_action_cpp/CTestConfiguration.ini
+Parse Config file:/home/yixin/ros2_ws/build/custom_action_cpp/CTestConfiguration.ini
+   Site: yixin-Aspire-A315-24PT
+   Build name: (empty)
+ Add coverage exclude regular expressions.
+Create new tag: 20260531-2250 - Experimental
+UpdateCTestConfiguration  from :/home/yixin/ros2_ws/build/custom_action_cpp/CTestConfiguration.ini
+Parse Config file:/home/yixin/ros2_ws/build/custom_action_cpp/CTestConfiguration.ini
+Test project /home/yixin/ros2_ws/build/custom_action_cpp
+Constructing a list of tests
+Done constructing a list of tests
+Updating test list for fixtures
+Added 0 tests to meet fixture requirements
+Checking test dependency graph...
+Checking test dependency graph end
+test 1
+    Start 1: cppcheck
+
+1: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/yixin/ros2_ws/build/custom_action_cpp/test_results/custom_action_cpp/cppcheck.xunit.xml" "--package-name" "custom_action_cpp" "--output-file" "/home/yixin/ros2_ws/build/custom_action_cpp/ament_cppcheck/cppcheck.txt" "--command" "/opt/ros/jazzy/bin/ament_cppcheck" "--xunit-file" "/home/yixin/ros2_ws/build/custom_action_cpp/test_results/custom_action_cpp/cppcheck.xunit.xml" "--include_dirs" "/home/yixin/ros2_ws/src/custom_action_cpp/include"
+1: Working Directory: /home/yixin/ros2_ws/src/custom_action_cpp
+1: Test timeout computed to be: 300
+1: -- run_test.py: invoking following command in '/home/yixin/ros2_ws/src/custom_action_cpp':
+1:  - /opt/ros/jazzy/bin/ament_cppcheck --xunit-file /home/yixin/ros2_ws/build/custom_action_cpp/test_results/custom_action_cpp/cppcheck.xunit.xml --include_dirs /home/yixin/ros2_ws/src/custom_action_cpp/include
+1: cppcheck 2.13.0 has known performance issues and therefore will not be used, set the AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS environment variable to override this.
+1: -- run_test.py: return code 0
+1: -- run_test.py: verify result file '/home/yixin/ros2_ws/build/custom_action_cpp/test_results/custom_action_cpp/cppcheck.xunit.xml'
+1/4 Test #1: cppcheck .........................   Passed    0.42 sec
+test 2
+    Start 2: lint_cmake
+
+2: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/yixin/ros2_ws/build/custom_action_cpp/test_results/custom_action_cpp/lint_cmake.xunit.xml" "--package-name" "custom_action_cpp" "--output-file" "/home/yixin/ros2_ws/build/custom_action_cpp/ament_lint_cmake/lint_cmake.txt" "--command" "/opt/ros/jazzy/bin/ament_lint_cmake" "--xunit-file" "/home/yixin/ros2_ws/build/custom_action_cpp/test_results/custom_action_cpp/lint_cmake.xunit.xml"
+2: Working Directory: /home/yixin/ros2_ws/src/custom_action_cpp
+2: Test timeout computed to be: 60
+2: -- run_test.py: invoking following command in '/home/yixin/ros2_ws/src/custom_action_cpp':
+2:  - /opt/ros/jazzy/bin/ament_lint_cmake --xunit-file /home/yixin/ros2_ws/build/custom_action_cpp/test_results/custom_action_cpp/lint_cmake.xunit.xml
+2: 
+2: No problems found
+2: -- run_test.py: return code 0
+2: -- run_test.py: verify result file '/home/yixin/ros2_ws/build/custom_action_cpp/test_results/custom_action_cpp/lint_cmake.xunit.xml'
+2/4 Test #2: lint_cmake .......................   Passed    0.42 sec
+test 3
+    Start 3: uncrustify
+
+3: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/yixin/ros2_ws/build/custom_action_cpp/test_results/custom_action_cpp/uncrustify.xunit.xml" "--package-name" "custom_action_cpp" "--output-file" "/home/yixin/ros2_ws/build/custom_action_cpp/ament_uncrustify/uncrustify.txt" "--command" "/opt/ros/jazzy/bin/ament_uncrustify" "--xunit-file" "/home/yixin/ros2_ws/build/custom_action_cpp/test_results/custom_action_cpp/uncrustify.xunit.xml"
+3: Working Directory: /home/yixin/ros2_ws/src/custom_action_cpp
+3: Test timeout computed to be: 60
+3: -- run_test.py: invoking following command in '/home/yixin/ros2_ws/src/custom_action_cpp':
+3:  - /opt/ros/jazzy/bin/ament_uncrustify --xunit-file /home/yixin/ros2_ws/build/custom_action_cpp/test_results/custom_action_cpp/uncrustify.xunit.xml
+3: Code style divergence in file 'include/custom_action_cpp/visibility_control.hpp':
+3: 
+3: --- include/custom_action_cpp/visibility_control.hpp
+3: +++ include/custom_action_cpp/visibility_control.hpp.uncrustify
+3: @@ -44 +44 @@
+3: -#endif  // CUSTOM_ACTION_CPP__VISIBILITY_CONTROL_H_
+3: +#endif  // CUSTOM_ACTION_CPP__VISIBILITY_CONTROL_H_
+3: 
+3: Code style divergence in file 'src/fibonacci_action_client.cpp':
+3: 
+3: --- src/fibonacci_action_client.cpp
+3: +++ src/fibonacci_action_client.cpp.uncrustify
+3: @@ -38,2 +38,2 @@
+3: -    // We also instantiate a ROS timer that will kick off the one and only call to send_goal  
+3: -    auto timer_callback_lambda = [this](){ return this->send_goal(); };
+3: +    // We also instantiate a ROS timer that will kick off the one and only call to send_goal
+3: +    auto timer_callback_lambda = [this](){return this->send_goal();};
+3: @@ -73,8 +73,9 @@
+3: -    send_goal_options.goal_response_callback = [this](const GoalHandleFibonacci::SharedPtr & goal_handle)
+3: -    {
+3: -      if (!goal_handle) {
+3: -        RCLCPP_ERROR(this->get_logger(), "Goal was rejected by server");
+3: -      } else {
+3: -        RCLCPP_INFO(this->get_logger(), "Goal accepted by server, waiting for result");
+3: -      }
+3: -    };
+3: +    send_goal_options.goal_response_callback =
+3: +      [this](const GoalHandleFibonacci::SharedPtr & goal_handle)
+3: +      {
+3: +        if (!goal_handle) {
+3: +          RCLCPP_ERROR(this->get_logger(), "Goal was rejected by server");
+3: +        } else {
+3: +          RCLCPP_INFO(this->get_logger(), "Goal accepted by server, waiting for result");
+3: +        }
+3: +      };
+3: @@ -86,8 +87,8 @@
+3: -    {
+3: -      std::stringstream ss;
+3: -      ss << "Next number in sequence received: ";
+3: -      for (auto number : feedback->partial_sequence) {
+3: -        ss << number << " ";
+3: -      }
+3: -      RCLCPP_INFO(this->get_logger(), ss.str().c_str());
+3: -    };
+3: +      {
+3: +        std::stringstream ss;
+3: +        ss << "Next number in sequence received: ";
+3: +        for (auto number : feedback->partial_sequence) {
+3: +          ss << number << " ";
+3: +        }
+3: +        RCLCPP_INFO(this->get_logger(), ss.str().c_str());
+3: +      };
+3: @@ -97,22 +98,22 @@
+3: -    {
+3: -      switch (result.code) {
+3: -        case rclcpp_action::ResultCode::SUCCEEDED:
+3: -          break;
+3: -        case rclcpp_action::ResultCode::ABORTED:
+3: -          RCLCPP_ERROR(this->get_logger(), "Goal was aborted");
+3: -          return;
+3: -        case rclcpp_action::ResultCode::CANCELED:
+3: -          RCLCPP_ERROR(this->get_logger(), "Goal was canceled");
+3: -          return;
+3: -        default:
+3: -          RCLCPP_ERROR(this->get_logger(), "Unknown result code");
+3: -          return;
+3: -      }
+3: -      std::stringstream ss;
+3: -      ss << "Result received: ";
+3: -      for (auto number : result.result->sequence) {
+3: -        ss << number << " ";
+3: -      }
+3: -      RCLCPP_INFO(this->get_logger(), ss.str().c_str());
+3: -      rclcpp::shutdown();
+3: -    };
+3: +      {
+3: +        switch (result.code) {
+3: +          case rclcpp_action::ResultCode::SUCCEEDED:
+3: +            break;
+3: +          case rclcpp_action::ResultCode::ABORTED:
+3: +            RCLCPP_ERROR(this->get_logger(), "Goal was aborted");
+3: +            return;
+3: +          case rclcpp_action::ResultCode::CANCELED:
+3: +            RCLCPP_ERROR(this->get_logger(), "Goal was canceled");
+3: +            return;
+3: +          default:
+3: +            RCLCPP_ERROR(this->get_logger(), "Unknown result code");
+3: +            return;
+3: +        }
+3: +        std::stringstream ss;
+3: +        ss << "Result received: ";
+3: +        for (auto number : result.result->sequence) {
+3: +          ss << number << " ";
+3: +        }
+3: +        RCLCPP_INFO(this->get_logger(), ss.str().c_str());
+3: +        rclcpp::shutdown();
+3: +      };
+3: @@ -129 +130 @@
+3: -RCLCPP_COMPONENTS_REGISTER_NODE(custom_action_cpp::FibonacciActionClient)
+3: +RCLCPP_COMPONENTS_REGISTER_NODE(custom_action_cpp::FibonacciActionClient)
+3: 
+3: Code style divergence in file 'src/fibonacci_action_server.cpp':
+3: 
+3: --- src/fibonacci_action_server.cpp
+3: +++ src/fibonacci_action_server.cpp.uncrustify
+3: @@ -24 +24 @@
+3: -// derived the class "FibonacciActionServer" from the class "rclcpp::Node"    
+3: +// derived the class "FibonacciActionServer" from the class "rclcpp::Node"
+3: @@ -42,5 +42,5 @@
+3: -    {
+3: -      RCLCPP_INFO(this->get_logger(), "Received goal request with order %d", goal->order);
+3: -      (void)uuid;
+3: -      return rclcpp_action::GoalResponse::ACCEPT_AND_EXECUTE;
+3: -    };
+3: +      {
+3: +        RCLCPP_INFO(this->get_logger(), "Received goal request with order %d", goal->order);
+3: +        (void)uuid;
+3: +        return rclcpp_action::GoalResponse::ACCEPT_AND_EXECUTE;
+3: +      };
+3: @@ -51,5 +51,5 @@
+3: -    {
+3: -      RCLCPP_INFO(this->get_logger(), "Received request to cancel goal");
+3: -      (void)goal_handle;
+3: -      return rclcpp_action::CancelResponse::ACCEPT;
+3: -    };
+3: +      {
+3: +        RCLCPP_INFO(this->get_logger(), "Received request to cancel goal");
+3: +        (void)goal_handle;
+3: +        return rclcpp_action::CancelResponse::ACCEPT;
+3: +      };
+3: @@ -60 +60 @@
+3: -    {
+3: +      {
+3: @@ -63,3 +63,3 @@
+3: -      auto execute_in_thread = [this, goal_handle](){return this->execute(goal_handle);};
+3: -      std::thread{execute_in_thread}.detach();
+3: -    };
+3: +        auto execute_in_thread = [this, goal_handle](){return this->execute(goal_handle);};
+3: +        std::thread{execute_in_thread}.detach();
+3: +      };
+3: @@ -80 +80,2 @@
+3: -  void execute(const std::shared_ptr<GoalHandleFibonacci> goal_handle) {
+3: +  void execute(const std::shared_ptr<GoalHandleFibonacci> goal_handle)
+3: +  {
+3: @@ -113 +114 @@
+3: -  };
+3: +  }
+3: @@ -119 +120 @@
+3: -RCLCPP_COMPONENTS_REGISTER_NODE(custom_action_cpp::FibonacciActionServer)
+3: +RCLCPP_COMPONENTS_REGISTER_NODE(custom_action_cpp::FibonacciActionServer)
+3: 
+3: 3 files with code style divergence
+3: -- run_test.py: return code 1
+3: -- run_test.py: verify result file '/home/yixin/ros2_ws/build/custom_action_cpp/test_results/custom_action_cpp/uncrustify.xunit.xml'
+3/4 Test #3: uncrustify .......................***Failed    0.40 sec
+test 4
+    Start 4: xmllint
+
+4: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/yixin/ros2_ws/build/custom_action_cpp/test_results/custom_action_cpp/xmllint.xunit.xml" "--package-name" "custom_action_cpp" "--output-file" "/home/yixin/ros2_ws/build/custom_action_cpp/ament_xmllint/xmllint.txt" "--command" "/opt/ros/jazzy/bin/ament_xmllint" "--xunit-file" "/home/yixin/ros2_ws/build/custom_action_cpp/test_results/custom_action_cpp/xmllint.xunit.xml"
+4: Working Directory: /home/yixin/ros2_ws/src/custom_action_cpp
+4: Test timeout computed to be: 60
+4: -- run_test.py: invoking following command in '/home/yixin/ros2_ws/src/custom_action_cpp':
+4:  - /opt/ros/jazzy/bin/ament_xmllint --xunit-file /home/yixin/ros2_ws/build/custom_action_cpp/test_results/custom_action_cpp/xmllint.xunit.xml
+4: File 'package.xml' is valid
+4: 
+4: No problems found
+4: -- run_test.py: return code 0
+4: -- run_test.py: verify result file '/home/yixin/ros2_ws/build/custom_action_cpp/test_results/custom_action_cpp/xmllint.xunit.xml'
+4/4 Test #4: xmllint ..........................   Passed    0.48 sec
+
+75% tests passed[0;0m, [0;31m1 tests failed[0;0m out of 4
+
+Label Time Summary:
+cppcheck      =   0.42 sec*proc (1 test)
+lint_cmake    =   0.42 sec*proc (1 test)
+linter        =   1.71 sec*proc (4 tests)
+uncrustify    =   0.40 sec*proc (1 test)
+xmllint       =   0.48 sec*proc (1 test)
+
+Total Test time (real) =   1.72 sec
+
+The following tests FAILED:
+	[0;31m  3 - uncrustify (Failed)[0;0m
+Errors while running CTest
+Output from these tests are in: /home/yixin/ros2_ws/build/custom_action_cpp/Testing/Temporary/LastTest.log
+Use "--rerun-failed --output-on-failure" to re-run the failed cases verbosely.

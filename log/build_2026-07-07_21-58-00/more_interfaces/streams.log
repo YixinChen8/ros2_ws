@@ -1,0 +1,236 @@
+[0.043s] Invoking command in '/home/yixin/ros2_ws/build/more_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yixin/ros2_ws/install/py_srvcli:/home/yixin/ros2_ws/install/py_pubsub:/home/yixin/ros2_ws/install/python_parameters:/home/yixin/ros2_ws/install/my_python_package:/home/yixin/ros2_ws/install/launch_testing_examples:/home/yixin/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/yixin/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/yixin/ros2_ws/install/examples_rclpy_minimal_service:/home/yixin/ros2_ws/install/examples_rclpy_minimal_publisher:/home/yixin/ros2_ws/install/examples_rclpy_minimal_client:/home/yixin/ros2_ws/install/examples_rclpy_minimal_action_server:/home/yixin/ros2_ws/install/examples_rclpy_minimal_action_client:/home/yixin/ros2_ws/install/examples_rclpy_guard_conditions:/home/yixin/ros2_ws/install/examples_rclpy_executors:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/yixin/ros2_ws/build/more_interfaces -- -j8 -l8
+[0.165s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.260s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.546s] -- Found rosidl_default_generators: 1.6.1 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.573s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.703s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.840s] -- Found rosidl_adapter: 4.6.9 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.848s] -- Found rclcpp: 28.1.21 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.080s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.089s] -- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.307s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.296s] -- Found ament_cmake_ros: 0.12.1 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[2.586s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.953s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.958s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[3.810s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[3.945s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[3.954s] -- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[3.999s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.000s] -- Configured cppcheck include dirs: 
+[4.000s] -- Configured cppcheck exclude dirs and/or files: 
+[4.002s] -- Added test 'lint_cmake' to check CMake code style
+[4.007s] -- Added test 'uncrustify' to check C / C++ code style
+[4.007s] -- Configured uncrustify additional arguments: 
+[4.008s] -- Added test 'xmllint' to check XML markup files
+[4.017s] -- Configuring done (3.9s)
+[4.167s] -- Generating done (0.1s)
+[4.211s] -- Build files have been written to: /home/yixin/ros2_ws/build/more_interfaces
+[4.338s] [  5%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[4.338s] [  5%] [34m[1mGenerating Rust code for ROS interfaces[0m
+[4.406s] [  5%] Built target ament_cmake_python_copy_more_interfaces
+[5.062s] [  5%] Built target more_interfaces__rosidl_generator_type_description
+[5.107s] [  8%] [34m[1mGenerating C code for ROS interfaces[0m
+[5.156s] [ 10%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[5.193s] running egg_info
+[5.243s] [ 10%] Built target more_interfaces__rs
+[5.262s] writing more_interfaces.egg-info/PKG-INFO
+[5.262s] writing dependency_links to more_interfaces.egg-info/dependency_links.txt
+[5.263s] writing top-level names to more_interfaces.egg-info/top_level.txt
+[5.469s] reading manifest file 'more_interfaces.egg-info/SOURCES.txt'
+[5.470s] writing manifest file 'more_interfaces.egg-info/SOURCES.txt'
+[5.569s] [ 10%] Built target ament_cmake_python_build_more_interfaces_egg
+[5.971s] [ 10%] Built target more_interfaces__cpp
+[6.050s] [ 18%] [32mBuilding C object CMakeFiles/more_interfaces__rosidl_generator_c.dir/rosidl_generator_c/more_interfaces/msg/detail/address_book__functions.c.o[0m
+[6.051s] [ 18%] [32mBuilding C object CMakeFiles/more_interfaces__rosidl_generator_c.dir/rosidl_generator_c/more_interfaces/msg/detail/address_book__description.c.o[0m
+[6.051s] [ 18%] [32mBuilding C object CMakeFiles/more_interfaces__rosidl_generator_c.dir/rosidl_generator_c/more_interfaces/msg/detail/address_book__type_support.c.o[0m
+[6.226s] [ 21%] [32m[1mLinking C shared library libmore_interfaces__rosidl_generator_c.so[0m
+[6.361s] [ 21%] Built target more_interfaces__rosidl_generator_c
+[6.410s] [ 24%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[6.411s] [ 27%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[6.412s] [ 29%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[6.415s] [ 35%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[6.416s] [ 35%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[6.423s] [ 37%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[7.467s] [ 40%] [32mBuilding CXX object CMakeFiles/more_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/more_interfaces/msg/address_book__type_support.cpp.o[0m
+[7.517s] [ 43%] [32mBuilding CXX object CMakeFiles/more_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/more_interfaces/msg/address_book__type_support.cpp.o[0m
+[7.548s] [ 45%] [32mBuilding CXX object CMakeFiles/more_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/more_interfaces/msg/detail/dds_fastrtps/address_book__type_support.cpp.o[0m
+[7.550s] [ 48%] [32mBuilding C object CMakeFiles/more_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/more_interfaces/msg/detail/address_book__type_support.c.o[0m
+[7.612s] [ 51%] [32mBuilding CXX object CMakeFiles/more_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/more_interfaces/msg/detail/address_book__type_support.cpp.o[0m
+[7.625s] [ 54%] [32mBuilding CXX object CMakeFiles/more_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/more_interfaces/msg/detail/address_book__type_support_c.cpp.o[0m
+[7.692s] [ 56%] [32m[1mLinking C shared library libmore_interfaces__rosidl_typesupport_introspection_c.so[0m
+[7.781s] [ 59%] [32m[1mLinking CXX shared library libmore_interfaces__rosidl_typesupport_c.so[0m
+[7.826s] [ 59%] Built target more_interfaces__rosidl_typesupport_introspection_c
+[7.936s] [ 59%] Built target more_interfaces__rosidl_typesupport_c
+[8.409s] [ 62%] [32m[1mLinking CXX shared library libmore_interfaces__rosidl_typesupport_cpp.so[0m
+[8.524s] [ 62%] Built target more_interfaces__rosidl_typesupport_cpp
+[8.564s] [ 64%] [32m[1mLinking CXX shared library libmore_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[8.613s] [ 67%] [32mBuilding CXX object CMakeFiles/publish_address_book.dir/src/publish_address_book.cpp.o[0m
+[8.758s] [ 67%] Built target more_interfaces__rosidl_typesupport_introspection_cpp
+[8.811s] [ 70%] [32m[1mLinking CXX shared library libmore_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[8.884s] [ 72%] [32m[1mLinking CXX shared library libmore_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[9.030s] [ 72%] Built target more_interfaces__rosidl_typesupport_fastrtps_c
+[9.077s] [ 72%] Built target more_interfaces__rosidl_typesupport_fastrtps_cpp
+[9.118s] [ 72%] Built target more_interfaces
+[9.157s] [ 75%] Built target more_interfaces__py
+[9.204s] [ 78%] [32mBuilding C object CMakeFiles/more_interfaces__rosidl_generator_py.dir/rosidl_generator_py/more_interfaces/msg/_address_book_s.c.o[0m
+[9.392s] [ 81%] [32m[1mLinking C shared library libmore_interfaces__rosidl_generator_py.so[0m
+[9.458s] [ 81%] Built target more_interfaces__rosidl_generator_py
+[9.533s] [ 83%] [32mBuilding C object CMakeFiles/more_interfaces_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/more_interfaces/_more_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[9.533s] [ 86%] [32mBuilding C object CMakeFiles/more_interfaces_s__rosidl_typesupport_c.dir/rosidl_generator_py/more_interfaces/_more_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[9.533s] [ 89%] [32mBuilding C object CMakeFiles/more_interfaces_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/more_interfaces/_more_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[9.707s] [ 91%] [32m[1mLinking C shared module rosidl_generator_py/more_interfaces/more_interfaces_s__rosidl_typesupport_fastrtps_c.so[0m
+[9.711s] [ 94%] [32m[1mLinking C shared module rosidl_generator_py/more_interfaces/more_interfaces_s__rosidl_typesupport_introspection_c.so[0m
+[9.716s] [ 97%] [32m[1mLinking C shared module rosidl_generator_py/more_interfaces/more_interfaces_s__rosidl_typesupport_c.so[0m
+[9.759s] [ 97%] Built target more_interfaces_s__rosidl_typesupport_introspection_c
+[9.763s] [ 97%] Built target more_interfaces_s__rosidl_typesupport_fastrtps_c
+[9.768s] [ 97%] Built target more_interfaces_s__rosidl_typesupport_c
+[13.841s] [100%] [32m[1mLinking CXX executable publish_address_book[0m
+[14.093s] [100%] Built target publish_address_book
+[14.111s] Invoked command in '/home/yixin/ros2_ws/build/more_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yixin/ros2_ws/install/py_srvcli:/home/yixin/ros2_ws/install/py_pubsub:/home/yixin/ros2_ws/install/python_parameters:/home/yixin/ros2_ws/install/my_python_package:/home/yixin/ros2_ws/install/launch_testing_examples:/home/yixin/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/yixin/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/yixin/ros2_ws/install/examples_rclpy_minimal_service:/home/yixin/ros2_ws/install/examples_rclpy_minimal_publisher:/home/yixin/ros2_ws/install/examples_rclpy_minimal_client:/home/yixin/ros2_ws/install/examples_rclpy_minimal_action_server:/home/yixin/ros2_ws/install/examples_rclpy_minimal_action_client:/home/yixin/ros2_ws/install/examples_rclpy_guard_conditions:/home/yixin/ros2_ws/install/examples_rclpy_executors:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/yixin/ros2_ws/build/more_interfaces -- -j8 -l8
+[14.125s] Invoking command in '/home/yixin/ros2_ws/build/more_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yixin/ros2_ws/install/py_srvcli:/home/yixin/ros2_ws/install/py_pubsub:/home/yixin/ros2_ws/install/python_parameters:/home/yixin/ros2_ws/install/my_python_package:/home/yixin/ros2_ws/install/launch_testing_examples:/home/yixin/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/yixin/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/yixin/ros2_ws/install/examples_rclpy_minimal_service:/home/yixin/ros2_ws/install/examples_rclpy_minimal_publisher:/home/yixin/ros2_ws/install/examples_rclpy_minimal_client:/home/yixin/ros2_ws/install/examples_rclpy_minimal_action_server:/home/yixin/ros2_ws/install/examples_rclpy_minimal_action_client:/home/yixin/ros2_ws/install/examples_rclpy_guard_conditions:/home/yixin/ros2_ws/install/examples_rclpy_executors:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/yixin/ros2_ws/build/more_interfaces
+[14.136s] -- Install configuration: ""
+[14.136s] -- Up-to-date: /home/yixin/ros2_ws/install/more_interfaces/share/ament_index/resource_index/rosidl_interfaces/more_interfaces
+[14.137s] -- Installing: /home/yixin/ros2_ws/install/more_interfaces/share/more_interfaces/msg/AddressBook.json
+[14.137s] -- Up-to-date: /home/yixin/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces
+[14.137s] -- Up-to-date: /home/yixin/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg
+[14.137s] -- Up-to-date: /home/yixin/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/rosidl_generator_c__visibility_control.h
+[14.137s] -- Up-to-date: /home/yixin/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail
+[14.137s] -- Installing: /home/yixin/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__functions.c
+[14.137s] -- Installing: /home/yixin/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__type_support.h
+[14.137s] -- Installing: /home/yixin/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__description.c
+[14.137s] -- Installing: /home/yixin/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__struct.h
+[14.137s] -- Installing: /home/yixin/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__functions.h
+[14.137s] -- Installing: /home/yixin/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__type_support.c
+[14.138s] -- Installing: /home/yixin/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/address_book.h
+[14.138s] -- Up-to-date: /home/yixin/ros2_ws/install/more_interfaces/share/more_interfaces/environment/library_path.sh
+[14.138s] -- Up-to-date: /home/yixin/ros2_ws/install/more_interfaces/share/more_interfaces/environment/library_path.dsv
+[14.138s] -- Installing: /home/yixin/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_generator_c.so
+[14.139s] -- Set non-toolchain portion of runtime path of "/home/yixin/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_generator_c.so" to ""
+[14.139s] -- Up-to-date: /home/yixin/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces
+[14.139s] -- Up-to-date: /home/yixin/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg
+[14.139s] -- Up-to-date: /home/yixin/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail
+[14.139s] -- Installing: /home/yixin/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__rosidl_typesupport_fastrtps_c.h
+[14.140s] -- Up-to-date: /home/yixin/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[14.140s] -- Installing: /home/yixin/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_fastrtps_c.so
+[14.140s] -- Set non-toolchain portion of runtime path of "/home/yixin/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[14.140s] -- Up-to-date: /home/yixin/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces
+[14.140s] -- Up-to-date: /home/yixin/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg
+[14.140s] -- Up-to-date: /home/yixin/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail
+[14.141s] -- Installing: /home/yixin/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__rosidl_typesupport_introspection_c.h
+[14.141s] -- Installing: /home/yixin/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__type_support.c
+[14.141s] -- Up-to-date: /home/yixin/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[14.142s] -- Installing: /home/yixin/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_introspection_c.so
+[14.143s] -- Set non-toolchain portion of runtime path of "/home/yixin/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[14.143s] -- Installing: /home/yixin/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_c.so
+[14.143s] -- Set non-toolchain portion of runtime path of "/home/yixin/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_c.so" to ""
+[14.143s] -- Up-to-date: /home/yixin/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces
+[14.144s] -- Up-to-date: /home/yixin/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg
+[14.144s] -- Up-to-date: /home/yixin/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail
+[14.144s] -- Installing: /home/yixin/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__builder.hpp
+[14.144s] -- Installing: /home/yixin/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__struct.hpp
+[14.144s] -- Installing: /home/yixin/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__type_support.hpp
+[14.144s] -- Installing: /home/yixin/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__traits.hpp
+[14.145s] -- Installing: /home/yixin/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[14.145s] -- Installing: /home/yixin/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/address_book.hpp
+[14.145s] -- Up-to-date: /home/yixin/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces
+[14.145s] -- Up-to-date: /home/yixin/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg
+[14.145s] -- Up-to-date: /home/yixin/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail
+[14.145s] -- Up-to-date: /home/yixin/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/dds_fastrtps
+[14.145s] -- Installing: /home/yixin/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__rosidl_typesupport_fastrtps_cpp.hpp
+[14.146s] -- Up-to-date: /home/yixin/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[14.146s] -- Installing: /home/yixin/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[14.147s] -- Set non-toolchain portion of runtime path of "/home/yixin/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[14.147s] -- Up-to-date: /home/yixin/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces
+[14.147s] -- Up-to-date: /home/yixin/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg
+[14.147s] -- Up-to-date: /home/yixin/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail
+[14.148s] -- Installing: /home/yixin/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__rosidl_typesupport_introspection_cpp.hpp
+[14.148s] -- Installing: /home/yixin/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__type_support.cpp
+[14.148s] -- Installing: /home/yixin/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_introspection_cpp.so
+[14.149s] -- Set non-toolchain portion of runtime path of "/home/yixin/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[14.149s] -- Installing: /home/yixin/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_cpp.so
+[14.150s] -- Set non-toolchain portion of runtime path of "/home/yixin/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_cpp.so" to ""
+[14.150s] -- Up-to-date: /home/yixin/ros2_ws/install/more_interfaces/share/more_interfaces/environment/pythonpath.sh
+[14.150s] -- Up-to-date: /home/yixin/ros2_ws/install/more_interfaces/share/more_interfaces/environment/pythonpath.dsv
+[14.150s] -- Up-to-date: /home/yixin/ros2_ws/install/more_interfaces/lib/python3.12/site-packages/more_interfaces-0.0.0-py3.12.egg-info
+[14.150s] -- Installing: /home/yixin/ros2_ws/install/more_interfaces/lib/python3.12/site-packages/more_interfaces-0.0.0-py3.12.egg-info/top_level.txt
+[14.150s] -- Installing: /home/yixin/ros2_ws/install/more_interfaces/lib/python3.12/site-packages/more_interfaces-0.0.0-py3.12.egg-info/dependency_links.txt
+[14.151s] -- Installing: /home/yixin/ros2_ws/install/more_interfaces/lib/python3.12/site-packages/more_interfaces-0.0.0-py3.12.egg-info/PKG-INFO
+[14.151s] -- Installing: /home/yixin/ros2_ws/install/more_interfaces/lib/python3.12/site-packages/more_interfaces-0.0.0-py3.12.egg-info/SOURCES.txt
+[14.151s] -- Up-to-date: /home/yixin/ros2_ws/install/more_interfaces/lib/python3.12/site-packages/more_interfaces
+[14.151s] -- Up-to-date: /home/yixin/ros2_ws/install/more_interfaces/lib/python3.12/site-packages/more_interfaces/_more_interfaces_s.ep.rosidl_typesupport_c.c
+[14.151s] -- Installing: /home/yixin/ros2_ws/install/more_interfaces/lib/python3.12/site-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_c.so
+[14.152s] -- Installing: /home/yixin/ros2_ws/install/more_interfaces/lib/python3.12/site-packages/more_interfaces/__init__.py
+[14.152s] -- Up-to-date: /home/yixin/ros2_ws/install/more_interfaces/lib/python3.12/site-packages/more_interfaces/_more_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[14.152s] -- Up-to-date: /home/yixin/ros2_ws/install/more_interfaces/lib/python3.12/site-packages/more_interfaces/_more_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[14.152s] -- Installing: /home/yixin/ros2_ws/install/more_interfaces/lib/python3.12/site-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[14.152s] -- Up-to-date: /home/yixin/ros2_ws/install/more_interfaces/lib/python3.12/site-packages/more_interfaces/msg
+[14.153s] -- Up-to-date: /home/yixin/ros2_ws/install/more_interfaces/lib/python3.12/site-packages/more_interfaces/msg/__init__.py
+[14.153s] -- Up-to-date: /home/yixin/ros2_ws/install/more_interfaces/lib/python3.12/site-packages/more_interfaces/msg/_address_book_s.c
+[14.153s] -- Up-to-date: /home/yixin/ros2_ws/install/more_interfaces/lib/python3.12/site-packages/more_interfaces/msg/_address_book.py
+[14.153s] -- Installing: /home/yixin/ros2_ws/install/more_interfaces/lib/python3.12/site-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_introspection_c.so
+[14.212s] Listing '/home/yixin/ros2_ws/install/more_interfaces/lib/python3.12/site-packages/more_interfaces'...
+[14.213s] Compiling '/home/yixin/ros2_ws/install/more_interfaces/lib/python3.12/site-packages/more_interfaces/__init__.py'...
+[14.213s] Listing '/home/yixin/ros2_ws/install/more_interfaces/lib/python3.12/site-packages/more_interfaces/msg'...
+[14.221s] -- Installing: /home/yixin/ros2_ws/install/more_interfaces/lib/python3.12/site-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[14.221s] -- Set non-toolchain portion of runtime path of "/home/yixin/ros2_ws/install/more_interfaces/lib/python3.12/site-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_fastrtps_c.so" to ""
+[14.222s] -- Installing: /home/yixin/ros2_ws/install/more_interfaces/lib/python3.12/site-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_introspection_c.so
+[14.222s] -- Set non-toolchain portion of runtime path of "/home/yixin/ros2_ws/install/more_interfaces/lib/python3.12/site-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_introspection_c.so" to ""
+[14.222s] -- Installing: /home/yixin/ros2_ws/install/more_interfaces/lib/python3.12/site-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_c.so
+[14.223s] -- Set non-toolchain portion of runtime path of "/home/yixin/ros2_ws/install/more_interfaces/lib/python3.12/site-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_c.so" to ""
+[14.223s] -- Installing: /home/yixin/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_generator_py.so
+[14.224s] -- Set non-toolchain portion of runtime path of "/home/yixin/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_generator_py.so" to ""
+[14.224s] -- Installing: /home/yixin/ros2_ws/install/more_interfaces/share/ament_index/resource_index/rust_packages/more_interfaces
+[14.224s] -- Installing: /home/yixin/ros2_ws/install/more_interfaces/share/more_interfaces/rust
+[14.224s] -- Installing: /home/yixin/ros2_ws/install/more_interfaces/share/more_interfaces/rust/Cargo.toml
+[14.224s] -- Installing: /home/yixin/ros2_ws/install/more_interfaces/share/more_interfaces/rust/src
+[14.224s] -- Installing: /home/yixin/ros2_ws/install/more_interfaces/share/more_interfaces/rust/src/msg.rs
+[14.224s] -- Installing: /home/yixin/ros2_ws/install/more_interfaces/share/more_interfaces/rust/src/lib.rs
+[14.225s] -- Installing: /home/yixin/ros2_ws/install/more_interfaces/share/more_interfaces/rust/src/msg
+[14.225s] -- Installing: /home/yixin/ros2_ws/install/more_interfaces/share/more_interfaces/rust/src/msg/rmw.rs
+[14.225s] -- Installing: /home/yixin/ros2_ws/install/more_interfaces/share/more_interfaces/rust/build.rs
+[14.225s] -- Up-to-date: /home/yixin/ros2_ws/install/more_interfaces/share/more_interfaces/msg/AddressBook.idl
+[14.225s] -- Up-to-date: /home/yixin/ros2_ws/install/more_interfaces/share/more_interfaces/msg/AddressBook.msg
+[14.226s] -- Installing: /home/yixin/ros2_ws/install/more_interfaces/lib/more_interfaces/publish_address_book
+[14.228s] -- Set non-toolchain portion of runtime path of "/home/yixin/ros2_ws/install/more_interfaces/lib/more_interfaces/publish_address_book" to ""
+[14.228s] -- Up-to-date: /home/yixin/ros2_ws/install/more_interfaces/share/ament_index/resource_index/package_run_dependencies/more_interfaces
+[14.228s] -- Installing: /home/yixin/ros2_ws/install/more_interfaces/share/ament_index/resource_index/parent_prefix_path/more_interfaces
+[14.228s] -- Installing: /home/yixin/ros2_ws/install/more_interfaces/share/more_interfaces/environment/ament_prefix_path.sh
+[14.229s] -- Up-to-date: /home/yixin/ros2_ws/install/more_interfaces/share/more_interfaces/environment/ament_prefix_path.dsv
+[14.229s] -- Installing: /home/yixin/ros2_ws/install/more_interfaces/share/more_interfaces/environment/path.sh
+[14.229s] -- Up-to-date: /home/yixin/ros2_ws/install/more_interfaces/share/more_interfaces/environment/path.dsv
+[14.229s] -- Up-to-date: /home/yixin/ros2_ws/install/more_interfaces/share/more_interfaces/local_setup.bash
+[14.229s] -- Up-to-date: /home/yixin/ros2_ws/install/more_interfaces/share/more_interfaces/local_setup.sh
+[14.229s] -- Up-to-date: /home/yixin/ros2_ws/install/more_interfaces/share/more_interfaces/local_setup.zsh
+[14.229s] -- Up-to-date: /home/yixin/ros2_ws/install/more_interfaces/share/more_interfaces/local_setup.dsv
+[14.229s] -- Installing: /home/yixin/ros2_ws/install/more_interfaces/share/more_interfaces/package.dsv
+[14.229s] -- Up-to-date: /home/yixin/ros2_ws/install/more_interfaces/share/ament_index/resource_index/packages/more_interfaces
+[14.230s] -- Up-to-date: /home/yixin/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_generator_cExport.cmake
+[14.230s] -- Up-to-date: /home/yixin/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_generator_cExport-noconfig.cmake
+[14.230s] -- Up-to-date: /home/yixin/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[14.230s] -- Up-to-date: /home/yixin/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[14.230s] -- Up-to-date: /home/yixin/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[14.230s] -- Up-to-date: /home/yixin/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[14.230s] -- Up-to-date: /home/yixin/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_cExport.cmake
+[14.230s] -- Up-to-date: /home/yixin/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[14.230s] -- Up-to-date: /home/yixin/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_generator_cppExport.cmake
+[14.231s] -- Up-to-date: /home/yixin/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[14.231s] -- Up-to-date: /home/yixin/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[14.231s] -- Up-to-date: /home/yixin/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[14.231s] -- Up-to-date: /home/yixin/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[14.231s] -- Up-to-date: /home/yixin/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_cppExport.cmake
+[14.231s] -- Up-to-date: /home/yixin/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[14.231s] -- Up-to-date: /home/yixin/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_generator_pyExport.cmake
+[14.231s] -- Up-to-date: /home/yixin/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[14.231s] -- Up-to-date: /home/yixin/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/rosidl_cmake-extras.cmake
+[14.232s] -- Up-to-date: /home/yixin/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[14.232s] -- Up-to-date: /home/yixin/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[14.232s] -- Up-to-date: /home/yixin/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[14.232s] -- Up-to-date: /home/yixin/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[14.232s] -- Up-to-date: /home/yixin/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[14.232s] -- Up-to-date: /home/yixin/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[14.232s] -- Installing: /home/yixin/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/rosidl_cmake_aggregate_target-extras.cmake
+[14.232s] -- Installing: /home/yixin/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfacesConfig.cmake
+[14.232s] -- Up-to-date: /home/yixin/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfacesConfig-version.cmake
+[14.232s] -- Up-to-date: /home/yixin/ros2_ws/install/more_interfaces/share/more_interfaces/package.xml
+[14.236s] Invoked command in '/home/yixin/ros2_ws/build/more_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yixin/ros2_ws/install/py_srvcli:/home/yixin/ros2_ws/install/py_pubsub:/home/yixin/ros2_ws/install/python_parameters:/home/yixin/ros2_ws/install/my_python_package:/home/yixin/ros2_ws/install/launch_testing_examples:/home/yixin/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/yixin/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/yixin/ros2_ws/install/examples_rclpy_minimal_service:/home/yixin/ros2_ws/install/examples_rclpy_minimal_publisher:/home/yixin/ros2_ws/install/examples_rclpy_minimal_client:/home/yixin/ros2_ws/install/examples_rclpy_minimal_action_server:/home/yixin/ros2_ws/install/examples_rclpy_minimal_action_client:/home/yixin/ros2_ws/install/examples_rclpy_guard_conditions:/home/yixin/ros2_ws/install/examples_rclpy_executors:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/yixin/ros2_ws/build/more_interfaces

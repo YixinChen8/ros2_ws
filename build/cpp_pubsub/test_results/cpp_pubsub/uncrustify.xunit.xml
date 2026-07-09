@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite
+  name="cpp_pubsub.uncrustify"
+  tests="2"
+  failures="2"
+  errors="0"
+  time="0.027"
+>
+  <testcase
+    name="src/publisher_lambda_function.cpp"
+    classname="cpp_pubsub.uncrustify"
+  >
+      <failure message="Diff with 16 lines"><![CDATA[--- src/publisher_lambda_function.cpp
++++ src/publisher_lambda_function.cpp.uncrustify
+@@ -47,5 +47,5 @@
+-      auto message = tutorial_interfaces::msg::Num();                                   // CHANGE
+-      message.num = this->count_++;                                                     // CHANGE
+-      RCLCPP_INFO_STREAM(this->get_logger(), "Publishing: '" << message.num << "'");    // CHANGE
+-      publisher_->publish(message);
+-    };      
++        auto message = tutorial_interfaces::msg::Num();                                 // CHANGE
++        message.num = this->count_++;                                                   // CHANGE
++        RCLCPP_INFO_STREAM(this->get_logger(), "Publishing: '" << message.num << "'");  // CHANGE
++        publisher_->publish(message);
++      };
+@@ -58 +58 @@
+-  rclcpp::Publisher<tutorial_interfaces::msg::Num>::SharedPtr publisher_;             // CHANGE  
++  rclcpp::Publisher<tutorial_interfaces::msg::Num>::SharedPtr publisher_;             // CHANGE
+]]></failure>
+  </testcase>
+  <testcase
+    name="src/subscriber_lambda_function.cpp"
+    classname="cpp_pubsub.uncrustify"
+  >
+      <failure message="Diff with 13 lines"><![CDATA[--- src/subscriber_lambda_function.cpp
++++ src/subscriber_lambda_function.cpp.uncrustify
+@@ -38,2 +38,2 @@
+-      RCLCPP_INFO_STREAM(this->get_logger(), "I heard: '" << msg.num << "'");    // CHANGE
+-    };
++        RCLCPP_INFO_STREAM(this->get_logger(), "I heard: '" << msg.num << "'");  // CHANGE
++      };
+@@ -41 +41 @@
+-      "topic", 10, topic_callback);      
++      "topic", 10, topic_callback);
+@@ -46 +46 @@
+-  rclcpp::Subscription<tutorial_interfaces::msg::Num>::SharedPtr subscription_;  // CHANGE  
++  rclcpp::Subscription<tutorial_interfaces::msg::Num>::SharedPtr subscription_;  // CHANGE
+]]></failure>
+  </testcase>
+  <system-out>Checked files:
+* src/publisher_lambda_function.cpp
+* src/subscriber_lambda_function.cpp</system-out>
+</testsuite>

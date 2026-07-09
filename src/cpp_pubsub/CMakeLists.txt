@@ -14,6 +14,8 @@ endif()
 find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
 # find_package(std_msgs REQUIRED)
+
+# use the package "tutorial_interfaces" created myself
 find_package(tutorial_interfaces REQUIRED)                      # CHANGE
 
 add_executable(talker src/publisher_lambda_function.cpp)

@@ -4,7 +4,7 @@
   tests="8"
   failures="0"
   errors="0"
-  time="0.801"
+  time="0.383"
 >
   <testcase
     name="/home/yixin/ros2_ws/src/examples/rclcpp/executors/cbg_executor/include/examples_rclcpp_cbg_executor/ping_node.hpp"

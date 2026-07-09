@@ -4,7 +4,7 @@
   tests="1"
   errors="0"
   failures="0"
-  time="0.157"
+  time="0.058"
 >
   <testcase
     name="multithreaded_executor.cpp"

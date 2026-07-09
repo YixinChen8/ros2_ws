@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="(empty)"
+	BuildStamp="20260531-2250-Experimental"
+	Name="yixin-Aspire-A315-24PT"
+	Generator="ctest-3.28.3"
+	CompilerName="/usr/bin/c++"
+	CompilerVersion="13.3.0"
+	OSName="Linux"
+	Hostname="yixin-Aspire-A315-24PT"
+	OSRelease="6.8.0-117-generic"
+	OSVersion="#117-Ubuntu SMP PREEMPT_DYNAMIC Tue May  5 19:26:24 UTC 2026"
+	OSPlatform="x86_64"
+	Is64Bits="1"
+	VendorString="AuthenticAMD"
+	VendorID="Advanced Micro Devices"
+	FamilyID="23"
+	ModelID="160"
+	ProcessorCacheSize="512"
+	NumberOfLogicalCPU="8"
+	NumberOfPhysicalCPU="4"
+	TotalVirtualMemory="2047"
+	TotalPhysicalMemory="15217"
+	LogicalProcessorsPerPhysical="2"
+	ProcessorClockFrequency="4115.77"
+	>
+	<Testing>
+		<StartDateTime>May 31 18:50 EDT</StartDateTime>
+		<StartTestTime>1780267859</StartTestTime>
+		<TestList>
+			<Test>./cppcheck</Test>
+			<Test>./lint_cmake</Test>
+			<Test>./uncrustify</Test>
+			<Test>./xmllint</Test>
+		</TestList>
+		<Test Status="passed">
+			<Name>cppcheck</Name>
+			<Path>.</Path>
+			<FullName>./cppcheck</FullName>
+			<FullCommandLine>/usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/yixin/ros2_ws/build/custom_action_cpp/test_results/custom_action_cpp/cppcheck.xunit.xml" "--package-name" "custom_action_cpp" "--output-file" "/home/yixin/ros2_ws/build/custom_action_cpp/ament_cppcheck/cppcheck.txt" "--command" "/opt/ros/jazzy/bin/ament_cppcheck" "--xunit-file" "/home/yixin/ros2_ws/build/custom_action_cpp/test_results/custom_action_cpp/cppcheck.xunit.xml" "--include_dirs" "/home/yixin/ros2_ws/src/custom_action_cpp/include"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.416159</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/yixin/ros2_ws/build/custom_action_cpp/test_results/custom_action_cpp/cppcheck.xunit.xml" "--package-name" "custom_action_cpp" "--output-file" "/home/yixin/ros2_ws/build/custom_action_cpp/ament_cppcheck/cppcheck.txt" "--command" "/opt/ros/jazzy/bin/ament_cppcheck" "--xunit-file" "/home/yixin/ros2_ws/build/custom_action_cpp/test_results/custom_action_cpp/cppcheck.xunit.xml" "--include_dirs" "/home/yixin/ros2_ws/src/custom_action_cpp/include"</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>-- run_test.py: invoking following command in '/home/yixin/ros2_ws/src/custom_action_cpp':
+ - /opt/ros/jazzy/bin/ament_cppcheck --xunit-file /home/yixin/ros2_ws/build/custom_action_cpp/test_results/custom_action_cpp/cppcheck.xunit.xml --include_dirs /home/yixin/ros2_ws/src/custom_action_cpp/include
+cppcheck 2.13.0 has known performance issues and therefore will not be used, set the AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS environment variable to override this.
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/yixin/ros2_ws/build/custom_action_cpp/test_results/custom_action_cpp/cppcheck.xunit.xml'
+</Value>
+				</Measurement>
+			</Results>
+			<Labels>
+				<Label>cppcheck</Label>
+				<Label>linter</Label>
+			</Labels>
+		</Test>
+		<Test Status="passed">
+			<Name>lint_cmake</Name>
+			<Path>.</Path>
+			<FullName>./lint_cmake</FullName>
+			<FullCommandLine>/usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/yixin/ros2_ws/build/custom_action_cpp/test_results/custom_action_cpp/lint_cmake.xunit.xml" "--package-name" "custom_action_cpp" "--output-file" "/home/yixin/ros2_ws/build/custom_action_cpp/ament_lint_cmake/lint_cmake.txt" "--command" "/opt/ros/jazzy/bin/ament_lint_cmake" "--xunit-file" "/home/yixin/ros2_ws/build/custom_action_cpp/test_results/custom_action_cpp/lint_cmake.xunit.xml"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.415406</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/yixin/ros2_ws/build/custom_action_cpp/test_results/custom_action_cpp/lint_cmake.xunit.xml" "--package-name" "custom_action_cpp" "--output-file" "/home/yixin/ros2_ws/build/custom_action_cpp/ament_lint_cmake/lint_cmake.txt" "--command" "/opt/ros/jazzy/bin/ament_lint_cmake" "--xunit-file" "/home/yixin/ros2_ws/build/custom_action_cpp/test_results/custom_action_cpp/lint_cmake.xunit.xml"</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>-- run_test.py: invoking following command in '/home/yixin/ros2_ws/src/custom_action_cpp':
+ - /opt/ros/jazzy/bin/ament_lint_cmake --xunit-file /home/yixin/ros2_ws/build/custom_action_cpp/test_results/custom_action_cpp/lint_cmake.xunit.xml
+
+No problems found
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/yixin/ros2_ws/build/custom_action_cpp/test_results/custom_action_cpp/lint_cmake.xunit.xml'
+</Value>
+				</Measurement>
+			</Results>
+			<Labels>
+				<Label>lint_cmake</Label>
+				<Label>linter</Label>
+			</Labels>
+		</Test>
+		<Test Status="failed">
+			<Name>uncrustify</Name>
+			<Path>.</Path>
+			<FullName>./uncrustify</FullName>
+			<FullCommandLine>/usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/yixin/ros2_ws/build/custom_action_cpp/test_results/custom_action_cpp/uncrustify.xunit.xml" "--package-name" "custom_action_cpp" "--output-file" "/home/yixin/ros2_ws/build/custom_action_cpp/ament_uncrustify/uncrustify.txt" "--command" "/opt/ros/jazzy/bin/ament_uncrustify" "--xunit-file" "/home/yixin/ros2_ws/build/custom_action_cpp/test_results/custom_action_cpp/uncrustify.xunit.xml"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="text/string" name="Exit Code">
+					<Value>Failed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Exit Value">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.40112</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/yixin/ros2_ws/build/custom_action_cpp/test_results/custom_action_cpp/uncrustify.xunit.xml" "--package-name" "custom_action_cpp" "--output-file" "/home/yixin/ros2_ws/build/custom_action_cpp/ament_uncrustify/uncrustify.txt" "--command" "/opt/ros/jazzy/bin/ament_uncrustify" "--xunit-file" "/home/yixin/ros2_ws/build/custom_action_cpp/test_results/custom_action_cpp/uncrustify.xunit.xml"</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>-- run_test.py: invoking following command in '/home/yixin/ros2_ws/src/custom_action_cpp':
+ - /opt/ros/jazzy/bin/ament_uncrustify --xunit-file /home/yixin/ros2_ws/build/custom_action_cpp/test_results/custom_action_cpp/uncrustify.xunit.xml
+Code style divergence in file 'include/custom_action_cpp/visibility_control.hpp':
+
+--- include/custom_action_cpp/visibility_control.hpp
++++ include/custom_action_cpp/visibility_control.hpp.uncrustify
+@@ -44 +44 @@
+-#endif  // CUSTOM_ACTION_CPP__VISIBILITY_CONTROL_H_
++#endif  // CUSTOM_ACTION_CPP__VISIBILITY_CONTROL_H_
+
+Code style divergence in file 'src/fibonacci_action_client.cpp':
+
+--- src/fibonacci_action_client.cpp
++++ src/fibonacci_action_client.cpp.uncrustify
+@@ -38,2 +38,2 @@
+-    // We also instantiate a ROS timer that will kick off the one and only call to send_goal  
+-    auto timer_callback_lambda = [this](){ return this-&gt;send_goal(); };
++    // We also instantiate a ROS timer that will kick off the one and only call to send_goal
++    auto timer_callback_lambda = [this](){return this-&gt;send_goal();};
+@@ -73,8 +73,9 @@
+-    send_goal_options.goal_response_callback = [this](const GoalHandleFibonacci::SharedPtr &amp; goal_handle)
+-    {
+-      if (!goal_handle) {
+-        RCLCPP_ERROR(this-&gt;get_logger(), "Goal was rejected by server");
+-      } else {
+-        RCLCPP_INFO(this-&gt;get_logger(), "Goal accepted by server, waiting for result");
+-      }
+-    };
++    send_goal_options.goal_response_callback =
++      [this](const GoalHandleFibonacci::SharedPtr &amp; goal_handle)
++      {
++        if (!goal_handle) {
++          RCLCPP_ERROR(this-&gt;get_logger(), "Goal was rejected by server");
++        } else {
++          RCLCPP_INFO(this-&gt;get_logger(), "Goal accepted by server, waiting for result");
++        }
++      };
+@@ -86,8 +87,8 @@
+-    {
+-      std::stringstream ss;
+-      ss &lt;&lt; "Next number in sequence received: ";
+-      for (auto number : feedback-&gt;partial_sequence) {
+-        ss &lt;&lt; number &lt;&lt; " ";
+-      }
+-      RCLCPP_INFO(this-&gt;get_logger(), ss.str().c_str());
+-    };
++      {
++        std::stringstream ss;
++        ss &lt;&lt; "Next number in sequence received: ";
++        for (auto number : feedback-&gt;partial_sequence) {
++          ss &lt;&lt; number &lt;&lt; " ";
++        }
++        RCLCPP_INFO(this-&gt;get_logger(), ss.str().c_str());
++      };
+@@ -97,22 +98,22 @@
+-    {
+-      switch (result.code) {
+-        case rclcpp_action::ResultCode::SUCCEEDED:
+-          break;
+-        case rclcpp_action::ResultCode::ABORTED:
+-          RCLCPP_ERROR(this-&gt;get_logger(), "Goal was aborted");
+-          return;
+-        case rclcpp_action::ResultCode::CANCELED:
+-          RCLCPP_ERROR(this-&gt;get_logger(), "Goal was canceled");
+-          return;
+-        default:
+-          RCLCPP_ERROR(this-&gt;get_logger(), "Unknown result code");
+-          return;
+-      }
+-      std::stringstream ss;
+-      ss &lt;&lt; "Result received: ";
+-      for (auto number : result.result-&gt;sequence) {
+-        ss &lt;&lt; number &lt;&lt; " ";
+-      }
+-      RCLCPP_INFO(this-&gt;get_logger(), ss.str().c_str());
+-      rclcpp::shutdown();
+-    };
++      {
++        switch (result.code) {
++          case rclcpp_action::ResultCode::SUCCEEDED:
++            break;
++          case rclcpp_action::ResultCode::ABORTED:
++            RCLCPP_ERROR(this-&gt;get_logger(), "Goal was aborted");
++            return;
++          case rclcpp_action::ResultCode::CANCELED:
++            RCLCPP_ERROR(this-&gt;get_logger(), "Goal was canceled");
++            return;
++          default:
++            RCLCPP_ERROR(this-&gt;get_logger(), "Unknown result code");
++            return;
++        }
++        std::stringstream ss;
++        ss &lt;&lt; "Result received: ";
++        for (auto number : result.result-&gt;sequence) {
++          ss &lt;&lt; number &lt;&lt; " ";
++        }
++        RCLCPP_INFO(this-&gt;get_logger(), ss.str().c_str());
++        rclcpp::shutdown();
++      };
+@@ -129 +130 @@
+-RCLCPP_COMPONENTS_REGISTER_NODE(custom_action_cpp::FibonacciActionClient)
++RCLCPP_COMPONENTS_REGISTER_NODE(custom_action_cpp::FibonacciActionClient)
+
+Code style divergence in file 'src/fibonacci_action_server.cpp':
+
+--- src/fibonacci_action_server.cpp
++++ src/fibonacci_action_server.cpp.uncrustify
+@@ -24 +24 @@
+-// derived the class "FibonacciActionServer" from the class "rclcpp::Node"    
++// derived the class "FibonacciActionServer" from the class "rclcpp::Node"
+@@ -42,5 +42,5 @@
+-    {
+-      RCLCPP_INFO(this-&gt;get_logger(), "Received goal request with order %d", goal-&gt;order);
+-      (void)uuid;
+-      return rclcpp_action::GoalResponse::ACCEPT_AND_EXECUTE;
+-    };
++      {
++        RCLCPP_INFO(this-&gt;get_logger(), "Received goal request with order %d", goal-&gt;order);
++        (void)uuid;
++        return rclcpp_action::GoalResponse::ACCEPT_AND_EXECUTE;
++      };
+@@ -51,5 +51,5 @@
+-    {
+-      RCLCPP_INFO(this-&gt;get_logger(), "Received request to cancel goal");
+-      (void)goal_handle;
+-      return rclcpp_action::CancelResponse::ACCEPT;
+-    };
++      {
++        RCLCPP_INFO(this-&gt;get_logger(), "Received request to cancel goal");
++        (void)goal_handle;
++        return rclcpp_action::CancelResponse::ACCEPT;
++      };
+@@ -60 +60 @@
+-    {
++      {
+@@ -63,3 +63,3 @@
+-      auto execute_in_thread = [this, goal_handle](){return this-&gt;execute(goal_handle);};
+-      std::thread{execute_in_thread}.detach();
+-    };
++        auto execute_in_thread = [this, goal_handle](){return this-&gt;execute(goal_handle);};
++        std::thread{execute_in_thread}.detach();
++      };
+@@ -80 +80,2 @@
+-  void execute(const std::shared_ptr&lt;GoalHandleFibonacci&gt; goal_handle) {
++  void execute(const std::shared_ptr&lt;GoalHandleFibonacci&gt; goal_handle)
++  {
+@@ -113 +114 @@
+-  };
++  }
+@@ -119 +120 @@
+-RCLCPP_COMPONENTS_REGISTER_NODE(custom_action_cpp::FibonacciActionServer)
++RCLCPP_COMPONENTS_REGISTER_NODE(custom_action_cpp::FibonacciActionServer)
+
+3 files with code style divergence
+-- run_test.py: return code 1
+-- run_test.py: verify result file '/home/yixin/ros2_ws/build/custom_action_cpp/test_results/custom_action_cpp/uncrustify.xunit.xml'
+</Value>
+				</Measurement>
+			</Results>
+			<Labels>
+				<Label>linter</Label>
+				<Label>uncrustify</Label>
+			</Labels>
+		</Test>
+		<Test Status="passed">
+			<Name>xmllint</Name>
+			<Path>.</Path>
+			<FullName>./xmllint</FullName>
+			<FullCommandLine>/usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/yixin/ros2_ws/build/custom_action_cpp/test_results/custom_action_cpp/xmllint.xunit.xml" "--package-name" "custom_action_cpp" "--output-file" "/home/yixin/ros2_ws/build/custom_action_cpp/ament_xmllint/xmllint.txt" "--command" "/opt/ros/jazzy/bin/ament_xmllint" "--xunit-file" "/home/yixin/ros2_ws/build/custom_action_cpp/test_results/custom_action_cpp/xmllint.xunit.xml"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.476301</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/yixin/ros2_ws/build/custom_action_cpp/test_results/custom_action_cpp/xmllint.xunit.xml" "--package-name" "custom_action_cpp" "--output-file" "/home/yixin/ros2_ws/build/custom_action_cpp/ament_xmllint/xmllint.txt" "--command" "/opt/ros/jazzy/bin/ament_xmllint" "--xunit-file" "/home/yixin/ros2_ws/build/custom_action_cpp/test_results/custom_action_cpp/xmllint.xunit.xml"</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>-- run_test.py: invoking following command in '/home/yixin/ros2_ws/src/custom_action_cpp':
+ - /opt/ros/jazzy/bin/ament_xmllint --xunit-file /home/yixin/ros2_ws/build/custom_action_cpp/test_results/custom_action_cpp/xmllint.xunit.xml
+File 'package.xml' is valid
+
+No problems found
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/yixin/ros2_ws/build/custom_action_cpp/test_results/custom_action_cpp/xmllint.xunit.xml'
+</Value>
+				</Measurement>
+			</Results>
+			<Labels>
+				<Label>linter</Label>
+				<Label>xmllint</Label>
+			</Labels>
+		</Test>
+		<EndDateTime>May 31 18:51 EDT</EndDateTime>
+		<EndTestTime>1780267861</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite
+  name="composition_cpp.uncrustify"
+  tests="1"
+  failures="1"
+  errors="0"
+  time="0.045"
+>
+  <testcase
+    name="src/talker_component.cpp"
+    classname="composition_cpp.uncrustify"
+  >
+      <failure message="Diff with 5 lines"><![CDATA[--- src/talker_component.cpp
++++ src/talker_component.cpp.uncrustify
+@@ -35 +35 @@
+-RCLCPP_COMPONENTS_REGISTER_NODE(composition_cpp::Talker)+RCLCPP_COMPONENTS_REGISTER_NODE(composition_cpp::Talker)
+]]></failure>
+  </testcase>
+  <system-out>Checked files:
+* src/talker_component.cpp</system-out>
+</testsuite>

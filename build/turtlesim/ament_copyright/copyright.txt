@@ -1,0 +1,8 @@
+-- run_test.py: invoking following command in '/home/yixin/ros2_ws/src/ros_tutorials/turtlesim':
+ - /opt/ros/jazzy/bin/ament_copyright --xunit-file /home/yixin/ros2_ws/build/turtlesim/test_results/turtlesim/copyright.xunit.xml
+
+No problems found, checked 11 files
+
+
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/yixin/ros2_ws/build/turtlesim/test_results/turtlesim/copyright.xunit.xml'

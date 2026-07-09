@@ -1,0 +1,395 @@
+[0.000000] (-) TimerEvent: {}
+[0.000495] (-) JobUnselected: {'identifier': 'composition_cpp'}
+[0.000924] (-) JobUnselected: {'identifier': 'cpp_parameters'}
+[0.000976] (-) JobUnselected: {'identifier': 'cpp_pubsub'}
+[0.001021] (-) JobUnselected: {'identifier': 'cpp_srvcli'}
+[0.001064] (-) JobUnselected: {'identifier': 'custom_action_cpp'}
+[0.001106] (-) JobUnselected: {'identifier': 'custom_action_interfaces'}
+[0.001144] (-) JobUnselected: {'identifier': 'examples_rclcpp_async_client'}
+[0.001175] (-) JobUnselected: {'identifier': 'examples_rclcpp_cbg_executor'}
+[0.001214] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_client'}
+[0.001254] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_server'}
+[0.001291] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_client'}
+[0.001322] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_composition'}
+[0.001360] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_publisher'}
+[0.001398] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_service'}
+[0.001436] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_subscriber'}
+[0.001710] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_timer'}
+[0.001752] (-) JobUnselected: {'identifier': 'examples_rclcpp_multithreaded_executor'}
+[0.002096] (-) JobUnselected: {'identifier': 'examples_rclcpp_wait_set'}
+[0.002132] (-) JobUnselected: {'identifier': 'examples_rclpy_executors'}
+[0.002180] (-) JobUnselected: {'identifier': 'examples_rclpy_guard_conditions'}
+[0.002219] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_client'}
+[0.002251] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_server'}
+[0.002290] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_client'}
+[0.002328] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_publisher'}
+[0.002367] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_service'}
+[0.002406] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_subscriber'}
+[0.002461] (-) JobUnselected: {'identifier': 'examples_rclpy_pointcloud_publisher'}
+[0.002508] (-) JobUnselected: {'identifier': 'launch_testing_examples'}
+[0.002547] (-) JobUnselected: {'identifier': 'my_package'}
+[0.002585] (-) JobUnselected: {'identifier': 'my_python_package'}
+[0.002615] (-) JobUnselected: {'identifier': 'polygon_base'}
+[0.002652] (-) JobUnselected: {'identifier': 'polygon_plugins'}
+[0.002690] (-) JobUnselected: {'identifier': 'py_pubsub'}
+[0.002728] (-) JobUnselected: {'identifier': 'py_srvcli'}
+[0.002766] (-) JobUnselected: {'identifier': 'python_parameters'}
+[0.002804] (-) JobUnselected: {'identifier': 'turtlesim'}
+[0.002842] (-) JobUnselected: {'identifier': 'tutorial_interfaces'}
+[0.002961] (-) JobUnselected: {'identifier': 'vincent_driver'}
+[0.003003] (more_interfaces) JobQueued: {'identifier': 'more_interfaces', 'dependencies': OrderedDict()}
+[0.003055] (more_interfaces) JobStarted: {'identifier': 'more_interfaces'}
+[0.035628] (more_interfaces) JobProgress: {'identifier': 'more_interfaces', 'progress': 'cmake'}
+[0.036994] (more_interfaces) JobProgress: {'identifier': 'more_interfaces', 'progress': 'build'}
+[0.038394] (more_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/yixin/ros2_ws/build/more_interfaces', '--', '-j8', '-l8'], 'cwd': '/home/yixin/ros2_ws/build/more_interfaces', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'yixin', 'FONTCONFIG_PATH': '/etc/fonts', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/share/gz', 'GIO_MODULE_DIR': '/home/yixin/snap/code/common/.cache/gio-modules', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/snap/code/233/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'GTK_EXE_PREFIX_VSCODE_SNAP_ORIG': '', 'GDK_BACKEND_VSCODE_SNAP_ORIG': '', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/yixin/ros2_ws/install/vincent_driver/lib:/home/yixin/ros2_ws/install/tutorial_interfaces/lib:/home/yixin/ros2_ws/install/turtlesim/lib:/home/yixin/ros2_ws/install/polygon_plugins/lib:/home/yixin/ros2_ws/install/more_interfaces/lib:/home/yixin/ros2_ws/install/examples_rclcpp_wait_set/lib:/home/yixin/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib:/home/yixin/ros2_ws/install/examples_rclcpp_minimal_composition/lib:/home/yixin/ros2_ws/install/custom_action_cpp/lib:/home/yixin/ros2_ws/install/custom_action_interfaces/lib:/home/yixin/ros2_ws/install/composition_cpp/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/yixin', 'CHROME_DESKTOP': 'code.desktop', 'LOCPATH_VSCODE_SNAP_ORIG': '', 'TERM_PROGRAM_VERSION': '1.115.0', 'DESKTOP_SESSION': 'ubuntu', 'GTK_PATH': '/snap/code/233/usr/lib/x86_64-linux-gnu/gtk-3.0', 'XDG_DATA_HOME_VSCODE_SNAP_ORIG': '', 'GTK_IM_MODULE_FILE': '/home/yixin/snap/code/common/.cache/immodules/immodules.cache', 'GIO_LAUNCHED_DESKTOP_FILE': '/var/lib/snapd/desktop/applications/code_code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SDL_IM_MODULE': 'fcitx', 'GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG': '', 'VSCODE_GIT_ASKPASS_MAIN': '/snap/code/233/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/snap/code/233/usr/share/code/code', 'MANAGERPID': '5603', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '5804', 'IM_CONFIG_CHECK_ENV': '1', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=2206e4cbb38ab712952f4db66a4da5d3', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '8121', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/yixin/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'GTK_IM_MODULE': 'fcitx', 'LOGNAME': 'yixin', 'JOURNAL_STREAM': '8:32187', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/app-gnome\\x2dsession\\x2dmanager.slice/gnome-session-manager@ubuntu.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'XDG_DATA_DIRS_VSCODE_SNAP_ORIG': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'USERNAME': 'yixin', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'FC_FONTATIONS': '1', 'PATH': '/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/yixin-Aspire-A315-24PT:@/tmp/.ICE-unix/5804,unix/yixin-Aspire-A315-24PT:/tmp/.ICE-unix/5804', 'GTK_EXE_PREFIX': '/snap/code/233/usr', 'INVOCATION_ID': '3cc507faa58b42a88bb75fc00ad38325', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LOCPATH': '/snap/code/233/usr/lib/locale', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'GIO_MODULE_DIR_VSCODE_SNAP_ORIG': '', 'XDG_DATA_HOME': '/home/yixin/snap/code/233/.local/share', 'XMODIFIERS': '@im=fcitx', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.JHBUR3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-e32af5f84d.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'GSETTINGS_SCHEMA_DIR': '/home/yixin/snap/code/233/.local/share/glib-2.0/schemas', 'ROS_DOMAIN_ID': '1', 'AMENT_PREFIX_PATH': '/home/yixin/ros2_ws/install/vincent_driver:/home/yixin/ros2_ws/install/py_srvcli:/home/yixin/ros2_ws/install/py_pubsub:/home/yixin/ros2_ws/install/cpp_srvcli:/home/yixin/ros2_ws/install/cpp_pubsub:/home/yixin/ros2_ws/install/tutorial_interfaces:/home/yixin/ros2_ws/install/turtlesim:/home/yixin/ros2_ws/install/python_parameters:/home/yixin/ros2_ws/install/polygon_plugins:/home/yixin/ros2_ws/install/polygon_base:/home/yixin/ros2_ws/install/my_python_package:/home/yixin/ros2_ws/install/my_package:/home/yixin/ros2_ws/install/more_interfaces:/home/yixin/ros2_ws/install/launch_testing_examples:/home/yixin/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/yixin/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/yixin/ros2_ws/install/examples_rclpy_minimal_service:/home/yixin/ros2_ws/install/examples_rclpy_minimal_publisher:/home/yixin/ros2_ws/install/examples_rclpy_minimal_client:/home/yixin/ros2_ws/install/examples_rclpy_minimal_action_server:/home/yixin/ros2_ws/install/examples_rclpy_minimal_action_client:/home/yixin/ros2_ws/install/examples_rclpy_guard_conditions:/home/yixin/ros2_ws/install/examples_rclpy_executors:/home/yixin/ros2_ws/install/examples_rclcpp_wait_set:/home/yixin/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/yixin/ros2_ws/install/examples_rclcpp_minimal_timer:/home/yixin/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/yixin/ros2_ws/install/examples_rclcpp_minimal_service:/home/yixin/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/yixin/ros2_ws/install/examples_rclcpp_minimal_composition:/home/yixin/ros2_ws/install/examples_rclcpp_minimal_client:/home/yixin/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/yixin/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/yixin/ros2_ws/install/examples_rclcpp_cbg_executor:/home/yixin/ros2_ws/install/examples_rclcpp_async_client:/home/yixin/ros2_ws/install/custom_action_cpp:/home/yixin/ros2_ws/install/custom_action_interfaces:/home/yixin/ros2_ws/install/cpp_parameters:/home/yixin/ros2_ws/install/composition_cpp:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GTK_PATH_VSCODE_SNAP_ORIG': '', 'FONTCONFIG_FILE': '/etc/fonts/fonts.conf', 'GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG': '', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'fcitx', 'PWD': '/home/yixin/ros2_ws/build/more_interfaces', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CLUTTER_IM_MODULE': 'xim', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=2206e4cbb38ab712952f4db66a4da5d3', 'XDG_DATA_DIRS': '/home/yixin/snap/code/233/.local/share:/home/yixin/snap/code/233:/snap/code/233/usr/share:/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'QTWEBENGINE_DICTIONARIES_PATH': '/usr/share/hunspell-bdic/', 'PYTHONPATH': '/home/yixin/ros2_ws/install/py_srvcli/lib/python3.12/site-packages:/home/yixin/ros2_ws/install/py_pubsub/lib/python3.12/site-packages:/home/yixin/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages:/home/yixin/ros2_ws/install/turtlesim/lib/python3.12/site-packages:/home/yixin/ros2_ws/install/python_parameters/lib/python3.12/site-packages:/home/yixin/ros2_ws/install/my_python_package/lib/python3.12/site-packages:/home/yixin/ros2_ws/install/more_interfaces/lib/python3.12/site-packages:/home/yixin/ros2_ws/install/launch_testing_examples/lib/python3.12/site-packages:/home/yixin/ros2_ws/install/examples_rclpy_pointcloud_publisher/lib/python3.12/site-packages:/home/yixin/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.12/site-packages:/home/yixin/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.12/site-packages:/home/yixin/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.12/site-packages:/home/yixin/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.12/site-packages:/home/yixin/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.12/site-packages:/home/yixin/ros2_ws/install/examples_rclpy_minimal_action_client/lib/python3.12/site-packages:/home/yixin/ros2_ws/install/examples_rclpy_guard_conditions/lib/python3.12/site-packages:/home/yixin/ros2_ws/install/examples_rclpy_executors/lib/python3.12/site-packages:/home/yixin/ros2_ws/install/custom_action_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/home/yixin/ros2_ws/install/vincent_driver:/home/yixin/ros2_ws/install/cpp_srvcli:/home/yixin/ros2_ws/install/cpp_pubsub:/home/yixin/ros2_ws/install/tutorial_interfaces:/home/yixin/ros2_ws/install/turtlesim:/home/yixin/ros2_ws/install/polygon_plugins:/home/yixin/ros2_ws/install/polygon_base:/home/yixin/ros2_ws/install/my_package:/home/yixin/ros2_ws/install/more_interfaces:/home/yixin/ros2_ws/install/examples_rclcpp_wait_set:/home/yixin/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/yixin/ros2_ws/install/examples_rclcpp_minimal_timer:/home/yixin/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/yixin/ros2_ws/install/examples_rclcpp_minimal_service:/home/yixin/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/yixin/ros2_ws/install/examples_rclcpp_minimal_composition:/home/yixin/ros2_ws/install/examples_rclcpp_minimal_client:/home/yixin/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/yixin/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/yixin/ros2_ws/install/examples_rclcpp_cbg_executor:/home/yixin/ros2_ws/install/examples_rclcpp_async_client:/home/yixin/ros2_ws/install/custom_action_cpp:/home/yixin/ros2_ws/install/custom_action_interfaces:/home/yixin/ros2_ws/install/cpp_parameters:/home/yixin/ros2_ws/install/composition_cpp:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/yixin/ros2_ws/install/py_srvcli:/home/yixin/ros2_ws/install/py_pubsub:/home/yixin/ros2_ws/install/python_parameters:/home/yixin/ros2_ws/install/my_python_package:/home/yixin/ros2_ws/install/launch_testing_examples:/home/yixin/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/yixin/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/yixin/ros2_ws/install/examples_rclpy_minimal_service:/home/yixin/ros2_ws/install/examples_rclpy_minimal_publisher:/home/yixin/ros2_ws/install/examples_rclpy_minimal_client:/home/yixin/ros2_ws/install/examples_rclpy_minimal_action_server:/home/yixin/ros2_ws/install/examples_rclpy_minimal_action_client:/home/yixin/ros2_ws/install/examples_rclpy_guard_conditions:/home/yixin/ros2_ws/install/examples_rclpy_executors:/opt/ros/jazzy'}), 'shell': False}
+[0.099517] (-) TimerEvent: {}
+[0.149477] (more_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.199700] (-) TimerEvent: {}
+[0.300284] (-) TimerEvent: {}
+[0.401590] (-) TimerEvent: {}
+[0.502118] (-) TimerEvent: {}
+[0.581248] (more_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.1 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)\n'}
+[0.602321] (-) TimerEvent: {}
+[0.615762] (more_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.702842] (-) TimerEvent: {}
+[0.752878] (more_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.803039] (-) TimerEvent: {}
+[0.871617] (more_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.9 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[0.877040] (more_interfaces) StdoutLine: {'line': b'-- Found rclcpp: 28.1.21 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[0.903195] (-) TimerEvent: {}
+[1.003747] (-) TimerEvent: {}
+[1.104198] (-) TimerEvent: {}
+[1.106847] (more_interfaces) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[1.115483] (more_interfaces) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.204340] (-) TimerEvent: {}
+[1.304786] (-) TimerEvent: {}
+[1.351654] (more_interfaces) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.404926] (-) TimerEvent: {}
+[1.505393] (-) TimerEvent: {}
+[1.605869] (-) TimerEvent: {}
+[1.706299] (-) TimerEvent: {}
+[1.806768] (-) TimerEvent: {}
+[1.907177] (-) TimerEvent: {}
+[2.007645] (-) TimerEvent: {}
+[2.108129] (-) TimerEvent: {}
+[2.208960] (-) TimerEvent: {}
+[2.309387] (-) TimerEvent: {}
+[2.409874] (-) TimerEvent: {}
+[2.432757] (more_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.12.1 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)\n'}
+[2.510014] (-) TimerEvent: {}
+[2.610474] (-) TimerEvent: {}
+[2.710909] (-) TimerEvent: {}
+[2.748710] (more_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.811070] (-) TimerEvent: {}
+[2.911526] (-) TimerEvent: {}
+[3.011961] (-) TimerEvent: {}
+[3.112398] (-) TimerEvent: {}
+[3.158940] (more_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.163394] (more_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)\n'}
+[3.212523] (-) TimerEvent: {}
+[3.312934] (-) TimerEvent: {}
+[3.413414] (-) TimerEvent: {}
+[3.513918] (-) TimerEvent: {}
+[3.614395] (-) TimerEvent: {}
+[3.714928] (-) TimerEvent: {}
+[3.815388] (-) TimerEvent: {}
+[3.915849] (-) TimerEvent: {}
+[4.016307] (-) TimerEvent: {}
+[4.116777] (-) TimerEvent: {}
+[4.125138] (more_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed \n'}
+[4.216896] (-) TimerEvent: {}
+[4.281410] (more_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[4.294973] (more_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[4.317061] (-) TimerEvent: {}
+[4.328073] (more_interfaces) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[4.330054] (more_interfaces) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[4.330487] (more_interfaces) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[4.333195] (more_interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[4.338561] (more_interfaces) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[4.339327] (more_interfaces) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[4.340250] (more_interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[4.349527] (more_interfaces) StdoutLine: {'line': b'-- Configuring done (4.2s)\n'}
+[4.417225] (-) TimerEvent: {}
+[4.510077] (more_interfaces) StdoutLine: {'line': b'-- Generating done (0.1s)\n'}
+[4.517380] (-) TimerEvent: {}
+[4.571829] (more_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/yixin/ros2_ws/build/more_interfaces\n'}
+[4.617561] (-) TimerEvent: {}
+[4.718042] (-) TimerEvent: {}
+[4.729021] (more_interfaces) StdoutLine: {'line': b'[  2%] Built target more_interfaces__rs\n'}
+[4.745645] (more_interfaces) StdoutLine: {'line': b'[  5%] Built target more_interfaces__rosidl_generator_type_description\n'}
+[4.787513] (more_interfaces) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_copy_more_interfaces\n'}
+[4.818219] (-) TimerEvent: {}
+[4.826485] (more_interfaces) StdoutLine: {'line': b'[  7%] Built target more_interfaces__cpp\n'}
+[4.844804] (more_interfaces) StdoutLine: {'line': b'[ 20%] Built target more_interfaces__rosidl_generator_c\n'}
+[4.918758] (-) TimerEvent: {}
+[4.986738] (more_interfaces) StdoutLine: {'line': b'[ 35%] Built target more_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[4.987221] (more_interfaces) StdoutLine: {'line': b'[ 35%] Built target more_interfaces__rosidl_typesupport_c\n'}
+[4.991590] (more_interfaces) StdoutLine: {'line': b'[ 43%] Built target more_interfaces__rosidl_typesupport_introspection_c\n'}
+[4.995572] (more_interfaces) StdoutLine: {'line': b'[ 51%] Built target more_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[5.015933] (more_interfaces) StdoutLine: {'line': b'[ 58%] Built target more_interfaces__rosidl_typesupport_cpp\n'}
+[5.018777] (more_interfaces) StdoutLine: {'line': b'[ 66%] Built target more_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[5.019259] (-) TimerEvent: {}
+[5.111786] (more_interfaces) StdoutLine: {'line': b'[ 66%] Built target more_interfaces\n'}
+[5.119418] (-) TimerEvent: {}
+[5.167142] (more_interfaces) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/subscriber_address_book.dir/src/subscriber_address_book.cpp.o\x1b[0m\n'}
+[5.174134] (more_interfaces) StdoutLine: {'line': b'[ 74%] Built target publish_address_book\n'}
+[5.204151] (more_interfaces) StdoutLine: {'line': b'[ 76%] Built target more_interfaces__py\n'}
+[5.221383] (-) TimerEvent: {}
+[5.316334] (more_interfaces) StdoutLine: {'line': b'[ 82%] Built target more_interfaces__rosidl_generator_py\n'}
+[5.321559] (-) TimerEvent: {}
+[5.422546] (-) TimerEvent: {}
+[5.450666] (more_interfaces) StdoutLine: {'line': b'[ 87%] Built target more_interfaces_s__rosidl_typesupport_introspection_c\n'}
+[5.486341] (more_interfaces) StdoutLine: {'line': b'[ 92%] Built target more_interfaces_s__rosidl_typesupport_fastrtps_c\n'}
+[5.487399] (more_interfaces) StdoutLine: {'line': b'[ 97%] Built target more_interfaces_s__rosidl_typesupport_c\n'}
+[5.522700] (-) TimerEvent: {}
+[5.623350] (-) TimerEvent: {}
+[5.685376] (more_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[5.723502] (-) TimerEvent: {}
+[5.758116] (more_interfaces) StdoutLine: {'line': b'writing more_interfaces.egg-info/PKG-INFO\n'}
+[5.759312] (more_interfaces) StdoutLine: {'line': b'writing dependency_links to more_interfaces.egg-info/dependency_links.txt\n'}
+[5.760333] (more_interfaces) StdoutLine: {'line': b'writing top-level names to more_interfaces.egg-info/top_level.txt\n'}
+[5.823655] (-) TimerEvent: {}
+[5.924156] (-) TimerEvent: {}
+[5.979851] (more_interfaces) StdoutLine: {'line': b"reading manifest file 'more_interfaces.egg-info/SOURCES.txt'\n"}
+[5.982228] (more_interfaces) StdoutLine: {'line': b"writing manifest file 'more_interfaces.egg-info/SOURCES.txt'\n"}
+[6.024317] (-) TimerEvent: {}
+[6.099509] (more_interfaces) StdoutLine: {'line': b'[ 97%] Built target ament_cmake_python_build_more_interfaces_egg\n'}
+[6.124561] (-) TimerEvent: {}
+[6.225398] (-) TimerEvent: {}
+[6.326622] (-) TimerEvent: {}
+[6.427365] (-) TimerEvent: {}
+[6.527864] (-) TimerEvent: {}
+[6.628352] (-) TimerEvent: {}
+[6.728908] (-) TimerEvent: {}
+[6.829361] (-) TimerEvent: {}
+[6.934573] (-) TimerEvent: {}
+[7.035130] (-) TimerEvent: {}
+[7.135671] (-) TimerEvent: {}
+[7.236170] (-) TimerEvent: {}
+[7.336679] (-) TimerEvent: {}
+[7.437108] (-) TimerEvent: {}
+[7.537558] (-) TimerEvent: {}
+[7.637997] (-) TimerEvent: {}
+[7.738400] (-) TimerEvent: {}
+[7.838855] (-) TimerEvent: {}
+[7.939309] (-) TimerEvent: {}
+[8.039808] (-) TimerEvent: {}
+[8.140270] (-) TimerEvent: {}
+[8.240737] (-) TimerEvent: {}
+[8.341175] (-) TimerEvent: {}
+[8.441700] (-) TimerEvent: {}
+[8.542130] (-) TimerEvent: {}
+[8.642568] (-) TimerEvent: {}
+[8.743028] (-) TimerEvent: {}
+[8.843476] (-) TimerEvent: {}
+[8.943861] (-) TimerEvent: {}
+[9.044290] (-) TimerEvent: {}
+[9.144719] (-) TimerEvent: {}
+[9.245073] (-) TimerEvent: {}
+[9.345529] (-) TimerEvent: {}
+[9.445874] (-) TimerEvent: {}
+[9.546203] (-) TimerEvent: {}
+[9.646513] (-) TimerEvent: {}
+[9.746828] (-) TimerEvent: {}
+[9.847191] (-) TimerEvent: {}
+[9.947516] (-) TimerEvent: {}
+[10.047845] (-) TimerEvent: {}
+[10.148179] (-) TimerEvent: {}
+[10.248536] (-) TimerEvent: {}
+[10.348947] (-) TimerEvent: {}
+[10.449363] (-) TimerEvent: {}
+[10.549796] (-) TimerEvent: {}
+[10.650200] (-) TimerEvent: {}
+[10.750630] (-) TimerEvent: {}
+[10.851052] (-) TimerEvent: {}
+[10.951501] (-) TimerEvent: {}
+[11.051933] (-) TimerEvent: {}
+[11.152364] (-) TimerEvent: {}
+[11.252821] (-) TimerEvent: {}
+[11.353253] (-) TimerEvent: {}
+[11.453719] (-) TimerEvent: {}
+[11.554143] (-) TimerEvent: {}
+[11.654543] (-) TimerEvent: {}
+[11.754929] (-) TimerEvent: {}
+[11.855290] (-) TimerEvent: {}
+[11.955706] (-) TimerEvent: {}
+[12.056075] (-) TimerEvent: {}
+[12.156465] (-) TimerEvent: {}
+[12.256843] (-) TimerEvent: {}
+[12.357251] (-) TimerEvent: {}
+[12.457676] (-) TimerEvent: {}
+[12.558088] (-) TimerEvent: {}
+[12.658485] (-) TimerEvent: {}
+[12.758886] (-) TimerEvent: {}
+[12.859319] (-) TimerEvent: {}
+[12.959890] (-) TimerEvent: {}
+[13.060306] (-) TimerEvent: {}
+[13.160878] (-) TimerEvent: {}
+[13.261308] (-) TimerEvent: {}
+[13.361806] (-) TimerEvent: {}
+[13.462163] (-) TimerEvent: {}
+[13.562471] (-) TimerEvent: {}
+[13.662787] (-) TimerEvent: {}
+[13.763190] (-) TimerEvent: {}
+[13.863719] (-) TimerEvent: {}
+[13.964153] (-) TimerEvent: {}
+[14.064539] (-) TimerEvent: {}
+[14.164927] (-) TimerEvent: {}
+[14.265318] (-) TimerEvent: {}
+[14.365731] (-) TimerEvent: {}
+[14.466112] (-) TimerEvent: {}
+[14.566507] (-) TimerEvent: {}
+[14.667070] (-) TimerEvent: {}
+[14.767536] (-) TimerEvent: {}
+[14.867925] (-) TimerEvent: {}
+[14.968301] (-) TimerEvent: {}
+[15.068686] (-) TimerEvent: {}
+[15.169076] (-) TimerEvent: {}
+[15.248473] (more_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable subscriber_address_book\x1b[0m\n'}
+[15.269196] (-) TimerEvent: {}
+[15.369566] (-) TimerEvent: {}
+[15.469959] (-) TimerEvent: {}
+[15.570273] (-) TimerEvent: {}
+[15.670638] (-) TimerEvent: {}
+[15.699002] (more_interfaces) StdoutLine: {'line': b'[100%] Built target subscriber_address_book\n'}
+[15.716788] (more_interfaces) CommandEnded: {'returncode': 0}
+[15.717431] (more_interfaces) JobProgress: {'identifier': 'more_interfaces', 'progress': 'install'}
+[15.729841] (more_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/yixin/ros2_ws/build/more_interfaces'], 'cwd': '/home/yixin/ros2_ws/build/more_interfaces', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'yixin', 'FONTCONFIG_PATH': '/etc/fonts', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/share/gz', 'GIO_MODULE_DIR': '/home/yixin/snap/code/common/.cache/gio-modules', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/snap/code/233/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'GTK_EXE_PREFIX_VSCODE_SNAP_ORIG': '', 'GDK_BACKEND_VSCODE_SNAP_ORIG': '', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/yixin/ros2_ws/install/vincent_driver/lib:/home/yixin/ros2_ws/install/tutorial_interfaces/lib:/home/yixin/ros2_ws/install/turtlesim/lib:/home/yixin/ros2_ws/install/polygon_plugins/lib:/home/yixin/ros2_ws/install/more_interfaces/lib:/home/yixin/ros2_ws/install/examples_rclcpp_wait_set/lib:/home/yixin/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib:/home/yixin/ros2_ws/install/examples_rclcpp_minimal_composition/lib:/home/yixin/ros2_ws/install/custom_action_cpp/lib:/home/yixin/ros2_ws/install/custom_action_interfaces/lib:/home/yixin/ros2_ws/install/composition_cpp/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/yixin', 'CHROME_DESKTOP': 'code.desktop', 'LOCPATH_VSCODE_SNAP_ORIG': '', 'TERM_PROGRAM_VERSION': '1.115.0', 'DESKTOP_SESSION': 'ubuntu', 'GTK_PATH': '/snap/code/233/usr/lib/x86_64-linux-gnu/gtk-3.0', 'XDG_DATA_HOME_VSCODE_SNAP_ORIG': '', 'GTK_IM_MODULE_FILE': '/home/yixin/snap/code/common/.cache/immodules/immodules.cache', 'GIO_LAUNCHED_DESKTOP_FILE': '/var/lib/snapd/desktop/applications/code_code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SDL_IM_MODULE': 'fcitx', 'GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG': '', 'VSCODE_GIT_ASKPASS_MAIN': '/snap/code/233/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/snap/code/233/usr/share/code/code', 'MANAGERPID': '5603', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '5804', 'IM_CONFIG_CHECK_ENV': '1', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=2206e4cbb38ab712952f4db66a4da5d3', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '8121', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/yixin/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'GTK_IM_MODULE': 'fcitx', 'LOGNAME': 'yixin', 'JOURNAL_STREAM': '8:32187', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/app-gnome\\x2dsession\\x2dmanager.slice/gnome-session-manager@ubuntu.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'XDG_DATA_DIRS_VSCODE_SNAP_ORIG': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'USERNAME': 'yixin', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'FC_FONTATIONS': '1', 'PATH': '/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/yixin-Aspire-A315-24PT:@/tmp/.ICE-unix/5804,unix/yixin-Aspire-A315-24PT:/tmp/.ICE-unix/5804', 'GTK_EXE_PREFIX': '/snap/code/233/usr', 'INVOCATION_ID': '3cc507faa58b42a88bb75fc00ad38325', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LOCPATH': '/snap/code/233/usr/lib/locale', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'GIO_MODULE_DIR_VSCODE_SNAP_ORIG': '', 'XDG_DATA_HOME': '/home/yixin/snap/code/233/.local/share', 'XMODIFIERS': '@im=fcitx', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.JHBUR3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-e32af5f84d.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'GSETTINGS_SCHEMA_DIR': '/home/yixin/snap/code/233/.local/share/glib-2.0/schemas', 'ROS_DOMAIN_ID': '1', 'AMENT_PREFIX_PATH': '/home/yixin/ros2_ws/install/vincent_driver:/home/yixin/ros2_ws/install/py_srvcli:/home/yixin/ros2_ws/install/py_pubsub:/home/yixin/ros2_ws/install/cpp_srvcli:/home/yixin/ros2_ws/install/cpp_pubsub:/home/yixin/ros2_ws/install/tutorial_interfaces:/home/yixin/ros2_ws/install/turtlesim:/home/yixin/ros2_ws/install/python_parameters:/home/yixin/ros2_ws/install/polygon_plugins:/home/yixin/ros2_ws/install/polygon_base:/home/yixin/ros2_ws/install/my_python_package:/home/yixin/ros2_ws/install/my_package:/home/yixin/ros2_ws/install/more_interfaces:/home/yixin/ros2_ws/install/launch_testing_examples:/home/yixin/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/yixin/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/yixin/ros2_ws/install/examples_rclpy_minimal_service:/home/yixin/ros2_ws/install/examples_rclpy_minimal_publisher:/home/yixin/ros2_ws/install/examples_rclpy_minimal_client:/home/yixin/ros2_ws/install/examples_rclpy_minimal_action_server:/home/yixin/ros2_ws/install/examples_rclpy_minimal_action_client:/home/yixin/ros2_ws/install/examples_rclpy_guard_conditions:/home/yixin/ros2_ws/install/examples_rclpy_executors:/home/yixin/ros2_ws/install/examples_rclcpp_wait_set:/home/yixin/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/yixin/ros2_ws/install/examples_rclcpp_minimal_timer:/home/yixin/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/yixin/ros2_ws/install/examples_rclcpp_minimal_service:/home/yixin/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/yixin/ros2_ws/install/examples_rclcpp_minimal_composition:/home/yixin/ros2_ws/install/examples_rclcpp_minimal_client:/home/yixin/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/yixin/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/yixin/ros2_ws/install/examples_rclcpp_cbg_executor:/home/yixin/ros2_ws/install/examples_rclcpp_async_client:/home/yixin/ros2_ws/install/custom_action_cpp:/home/yixin/ros2_ws/install/custom_action_interfaces:/home/yixin/ros2_ws/install/cpp_parameters:/home/yixin/ros2_ws/install/composition_cpp:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GTK_PATH_VSCODE_SNAP_ORIG': '', 'FONTCONFIG_FILE': '/etc/fonts/fonts.conf', 'GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG': '', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'fcitx', 'PWD': '/home/yixin/ros2_ws/build/more_interfaces', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CLUTTER_IM_MODULE': 'xim', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=2206e4cbb38ab712952f4db66a4da5d3', 'XDG_DATA_DIRS': '/home/yixin/snap/code/233/.local/share:/home/yixin/snap/code/233:/snap/code/233/usr/share:/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'QTWEBENGINE_DICTIONARIES_PATH': '/usr/share/hunspell-bdic/', 'PYTHONPATH': '/home/yixin/ros2_ws/install/py_srvcli/lib/python3.12/site-packages:/home/yixin/ros2_ws/install/py_pubsub/lib/python3.12/site-packages:/home/yixin/ros2_ws/install/tutorial_interfaces/lib/python3.12/site-packages:/home/yixin/ros2_ws/install/turtlesim/lib/python3.12/site-packages:/home/yixin/ros2_ws/install/python_parameters/lib/python3.12/site-packages:/home/yixin/ros2_ws/install/my_python_package/lib/python3.12/site-packages:/home/yixin/ros2_ws/install/more_interfaces/lib/python3.12/site-packages:/home/yixin/ros2_ws/install/launch_testing_examples/lib/python3.12/site-packages:/home/yixin/ros2_ws/install/examples_rclpy_pointcloud_publisher/lib/python3.12/site-packages:/home/yixin/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.12/site-packages:/home/yixin/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.12/site-packages:/home/yixin/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.12/site-packages:/home/yixin/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.12/site-packages:/home/yixin/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.12/site-packages:/home/yixin/ros2_ws/install/examples_rclpy_minimal_action_client/lib/python3.12/site-packages:/home/yixin/ros2_ws/install/examples_rclpy_guard_conditions/lib/python3.12/site-packages:/home/yixin/ros2_ws/install/examples_rclpy_executors/lib/python3.12/site-packages:/home/yixin/ros2_ws/install/custom_action_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/home/yixin/ros2_ws/install/vincent_driver:/home/yixin/ros2_ws/install/cpp_srvcli:/home/yixin/ros2_ws/install/cpp_pubsub:/home/yixin/ros2_ws/install/tutorial_interfaces:/home/yixin/ros2_ws/install/turtlesim:/home/yixin/ros2_ws/install/polygon_plugins:/home/yixin/ros2_ws/install/polygon_base:/home/yixin/ros2_ws/install/my_package:/home/yixin/ros2_ws/install/more_interfaces:/home/yixin/ros2_ws/install/examples_rclcpp_wait_set:/home/yixin/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/yixin/ros2_ws/install/examples_rclcpp_minimal_timer:/home/yixin/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/yixin/ros2_ws/install/examples_rclcpp_minimal_service:/home/yixin/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/yixin/ros2_ws/install/examples_rclcpp_minimal_composition:/home/yixin/ros2_ws/install/examples_rclcpp_minimal_client:/home/yixin/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/yixin/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/yixin/ros2_ws/install/examples_rclcpp_cbg_executor:/home/yixin/ros2_ws/install/examples_rclcpp_async_client:/home/yixin/ros2_ws/install/custom_action_cpp:/home/yixin/ros2_ws/install/custom_action_interfaces:/home/yixin/ros2_ws/install/cpp_parameters:/home/yixin/ros2_ws/install/composition_cpp:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/yixin/ros2_ws/install/py_srvcli:/home/yixin/ros2_ws/install/py_pubsub:/home/yixin/ros2_ws/install/python_parameters:/home/yixin/ros2_ws/install/my_python_package:/home/yixin/ros2_ws/install/launch_testing_examples:/home/yixin/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/yixin/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/yixin/ros2_ws/install/examples_rclpy_minimal_service:/home/yixin/ros2_ws/install/examples_rclpy_minimal_publisher:/home/yixin/ros2_ws/install/examples_rclpy_minimal_client:/home/yixin/ros2_ws/install/examples_rclpy_minimal_action_server:/home/yixin/ros2_ws/install/examples_rclpy_minimal_action_client:/home/yixin/ros2_ws/install/examples_rclpy_guard_conditions:/home/yixin/ros2_ws/install/examples_rclpy_executors:/opt/ros/jazzy'}), 'shell': False}
+[15.741341] (more_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[15.741694] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/more_interfaces/share/ament_index/resource_index/rosidl_interfaces/more_interfaces\n'}
+[15.741895] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/more_interfaces/share/more_interfaces/msg/AddressBook.json\n'}
+[15.742102] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces\n'}
+[15.742168] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg\n'}
+[15.742237] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[15.742309] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail\n'}
+[15.742415] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__functions.c\n'}
+[15.742519] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__type_support.h\n'}
+[15.742600] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__description.c\n'}
+[15.742666] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__struct.h\n'}
+[15.742730] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__functions.h\n'}
+[15.742800] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/yixin/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__type_support.c\n'}
+[15.742870] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/address_book.h\n'}
+[15.742938] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/more_interfaces/share/more_interfaces/environment/library_path.sh\n'}
+[15.743004] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/more_interfaces/share/more_interfaces/environment/library_path.dsv\n'}
+[15.743111] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_generator_c.so\n'}
+[15.743207] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces\n'}
+[15.743272] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg\n'}
+[15.743337] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail\n'}
+[15.743400] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__rosidl_typesupport_fastrtps_c.h\n'}
+[15.743517] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[15.743599] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[15.743701] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces\n'}
+[15.743779] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg\n'}
+[15.743847] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail\n'}
+[15.743933] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__rosidl_typesupport_introspection_c.h\n'}
+[15.744020] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/yixin/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__type_support.c\n'}
+[15.744132] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[15.744370] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[15.744697] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_c.so\n'}
+[15.744872] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces\n'}
+[15.744956] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg\n'}
+[15.745031] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail\n'}
+[15.745136] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__builder.hpp\n'}
+[15.745215] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__struct.hpp\n'}
+[15.745287] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__type_support.hpp\n'}
+[15.745388] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__traits.hpp\n'}
+[15.745480] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[15.745580] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/address_book.hpp\n'}
+[15.745664] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces\n'}
+[15.745733] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg\n'}
+[15.745802] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail\n'}
+[15.745871] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/dds_fastrtps\n'}
+[15.745933] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[15.746022] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[15.746085] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[15.746169] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces\n'}
+[15.746252] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg\n'}
+[15.746314] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail\n'}
+[15.746410] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__rosidl_typesupport_introspection_cpp.hpp\n'}
+[15.746493] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__type_support.cpp\n'}
+[15.746581] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[15.746879] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_cpp.so\n'}
+[15.747074] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/more_interfaces/share/more_interfaces/environment/pythonpath.sh\n'}
+[15.747155] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/more_interfaces/share/more_interfaces/environment/pythonpath.dsv\n'}
+[15.747238] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/more_interfaces/lib/python3.12/site-packages/more_interfaces-0.0.0-py3.12.egg-info\n'}
+[15.747323] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/yixin/ros2_ws/install/more_interfaces/lib/python3.12/site-packages/more_interfaces-0.0.0-py3.12.egg-info/top_level.txt\n'}
+[15.747756] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/yixin/ros2_ws/install/more_interfaces/lib/python3.12/site-packages/more_interfaces-0.0.0-py3.12.egg-info/dependency_links.txt\n'}
+[15.747963] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/yixin/ros2_ws/install/more_interfaces/lib/python3.12/site-packages/more_interfaces-0.0.0-py3.12.egg-info/PKG-INFO\n'}
+[15.748156] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/yixin/ros2_ws/install/more_interfaces/lib/python3.12/site-packages/more_interfaces-0.0.0-py3.12.egg-info/SOURCES.txt\n'}
+[15.748416] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/more_interfaces/lib/python3.12/site-packages/more_interfaces\n'}
+[15.748605] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/more_interfaces/lib/python3.12/site-packages/more_interfaces/_more_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[15.748699] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/more_interfaces/lib/python3.12/site-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_c.so\n'}
+[15.748777] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/yixin/ros2_ws/install/more_interfaces/lib/python3.12/site-packages/more_interfaces/__init__.py\n'}
+[15.748900] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/more_interfaces/lib/python3.12/site-packages/more_interfaces/_more_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[15.748982] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/more_interfaces/lib/python3.12/site-packages/more_interfaces/_more_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[15.749087] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/more_interfaces/lib/python3.12/site-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_fastrtps_c.so\n'}
+[15.749191] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/more_interfaces/lib/python3.12/site-packages/more_interfaces/msg\n'}
+[15.749288] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/more_interfaces/lib/python3.12/site-packages/more_interfaces/msg/__init__.py\n'}
+[15.749355] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/more_interfaces/lib/python3.12/site-packages/more_interfaces/msg/_address_book_s.c\n'}
+[15.749413] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/more_interfaces/lib/python3.12/site-packages/more_interfaces/msg/_address_book.py\n'}
+[15.749487] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/more_interfaces/lib/python3.12/site-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_introspection_c.so\n'}
+[15.770718] (-) TimerEvent: {}
+[15.795420] (more_interfaces) StdoutLine: {'line': b"Listing '/home/yixin/ros2_ws/install/more_interfaces/lib/python3.12/site-packages/more_interfaces'...\n"}
+[15.795682] (more_interfaces) StdoutLine: {'line': b"Compiling '/home/yixin/ros2_ws/install/more_interfaces/lib/python3.12/site-packages/more_interfaces/__init__.py'...\n"}
+[15.795780] (more_interfaces) StdoutLine: {'line': b"Listing '/home/yixin/ros2_ws/install/more_interfaces/lib/python3.12/site-packages/more_interfaces/msg'...\n"}
+[15.806521] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/more_interfaces/lib/python3.12/site-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_fastrtps_c.so\n'}
+[15.806993] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/more_interfaces/lib/python3.12/site-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_introspection_c.so\n'}
+[15.807427] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/more_interfaces/lib/python3.12/site-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_c.so\n'}
+[15.807794] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_generator_py.so\n'}
+[15.808054] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/more_interfaces/share/ament_index/resource_index/rust_packages/more_interfaces\n'}
+[15.808291] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/more_interfaces/share/more_interfaces/rust\n'}
+[15.808417] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/more_interfaces/share/more_interfaces/rust/Cargo.toml\n'}
+[15.808536] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/more_interfaces/share/more_interfaces/rust/src\n'}
+[15.808604] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/more_interfaces/share/more_interfaces/rust/src/msg.rs\n'}
+[15.808661] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/more_interfaces/share/more_interfaces/rust/src/lib.rs\n'}
+[15.808718] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/more_interfaces/share/more_interfaces/rust/src/msg\n'}
+[15.808818] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/more_interfaces/share/more_interfaces/rust/src/msg/rmw.rs\n'}
+[15.808873] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/more_interfaces/share/more_interfaces/rust/build.rs\n'}
+[15.808928] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/more_interfaces/share/more_interfaces/msg/AddressBook.idl\n'}
+[15.809001] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/more_interfaces/share/more_interfaces/msg/AddressBook.msg\n'}
+[15.809054] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/more_interfaces/lib/more_interfaces/publish_address_book\n'}
+[15.809156] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/yixin/ros2_ws/install/more_interfaces/lib/more_interfaces/subscriber_address_book\n'}
+[15.814962] (more_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/yixin/ros2_ws/install/more_interfaces/lib/more_interfaces/subscriber_address_book" to ""\n'}
+[15.815222] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/more_interfaces/share/ament_index/resource_index/package_run_dependencies/more_interfaces\n'}
+[15.815341] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/more_interfaces/share/ament_index/resource_index/parent_prefix_path/more_interfaces\n'}
+[15.815423] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/more_interfaces/share/more_interfaces/environment/ament_prefix_path.sh\n'}
+[15.817967] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/more_interfaces/share/more_interfaces/environment/ament_prefix_path.dsv\n'}
+[15.818096] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/more_interfaces/share/more_interfaces/environment/path.sh\n'}
+[15.818188] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/more_interfaces/share/more_interfaces/environment/path.dsv\n'}
+[15.818277] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/more_interfaces/share/more_interfaces/local_setup.bash\n'}
+[15.818365] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/more_interfaces/share/more_interfaces/local_setup.sh\n'}
+[15.818494] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/more_interfaces/share/more_interfaces/local_setup.zsh\n'}
+[15.818582] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/more_interfaces/share/more_interfaces/local_setup.dsv\n'}
+[15.818645] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/yixin/ros2_ws/install/more_interfaces/share/more_interfaces/package.dsv\n'}
+[15.818708] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/more_interfaces/share/ament_index/resource_index/packages/more_interfaces\n'}
+[15.818839] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_generator_cExport.cmake\n'}
+[15.818906] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[15.818960] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[15.819035] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[15.819110] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[15.819167] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[15.819222] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[15.819281] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[15.819336] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_generator_cppExport.cmake\n'}
+[15.819390] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[15.819460] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[15.819532] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[15.819588] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[15.819643] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[15.819697] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[15.819752] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_generator_pyExport.cmake\n'}
+[15.819807] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[15.819861] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[15.819915] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[15.819969] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[15.820024] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[15.820079] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[15.820135] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[15.820190] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[15.820255] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/rosidl_cmake_aggregate_target-extras.cmake\n'}
+[15.820311] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfacesConfig.cmake\n'}
+[15.820368] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfacesConfig-version.cmake\n'}
+[15.820423] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yixin/ros2_ws/install/more_interfaces/share/more_interfaces/package.xml\n'}
+[15.821823] (more_interfaces) CommandEnded: {'returncode': 0}
+[15.846354] (more_interfaces) JobEnded: {'identifier': 'more_interfaces', 'rc': 0}
+[15.847316] (-) EventReactorShutdown: {}

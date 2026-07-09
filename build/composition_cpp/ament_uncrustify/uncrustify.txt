@@ -1,0 +1,16 @@
+-- run_test.py: invoking following command in '/home/yixin/ros2_ws/src/composition_cpp':
+ - /opt/ros/jazzy/bin/ament_uncrustify --xunit-file /home/yixin/ros2_ws/build/composition_cpp/test_results/composition_cpp/uncrustify.xunit.xml
+
+Code style divergence in file 'src/talker_component.cpp':
+
+--- src/talker_component.cpp
++++ src/talker_component.cpp.uncrustify
+@@ -35 +35 @@
+-RCLCPP_COMPONENTS_REGISTER_NODE(composition_cpp::Talker)
++RCLCPP_COMPONENTS_REGISTER_NODE(composition_cpp::Talker)
+
+1 files with code style divergence
+
+
+-- run_test.py: return code 1
+-- run_test.py: verify result file '/home/yixin/ros2_ws/build/composition_cpp/test_results/composition_cpp/uncrustify.xunit.xml'

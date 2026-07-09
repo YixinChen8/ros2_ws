@@ -1,0 +1,55 @@
+Start testing: May 31 19:02 EDT
+----------------------------------------------------------
+1/2 Testing: lint_cmake
+1/2 Test: lint_cmake
+Command: "/usr/bin/python3" "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/yixin/ros2_ws/build/custom_action_interfaces/test_results/custom_action_interfaces/lint_cmake.xunit.xml" "--package-name" "custom_action_interfaces" "--output-file" "/home/yixin/ros2_ws/build/custom_action_interfaces/ament_lint_cmake/lint_cmake.txt" "--command" "/opt/ros/jazzy/bin/ament_lint_cmake" "--xunit-file" "/home/yixin/ros2_ws/build/custom_action_interfaces/test_results/custom_action_interfaces/lint_cmake.xunit.xml"
+Directory: /home/yixin/ros2_ws/src/custom_action_interfaces
+"lint_cmake" start time: May 31 19:02 EDT
+Output:
+----------------------------------------------------------
+-- run_test.py: invoking following command in '/home/yixin/ros2_ws/src/custom_action_interfaces':
+ - /opt/ros/jazzy/bin/ament_lint_cmake --xunit-file /home/yixin/ros2_ws/build/custom_action_interfaces/test_results/custom_action_interfaces/lint_cmake.xunit.xml
+
+No problems found
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/yixin/ros2_ws/build/custom_action_interfaces/test_results/custom_action_interfaces/lint_cmake.xunit.xml'
+<end of output>
+Test time =   0.87 sec
+----------------------------------------------------------
+Test Passed.
+"lint_cmake" end time: May 31 19:02 EDT
+"lint_cmake" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/2 Testing: xmllint
+2/2 Test: xmllint
+Command: "/usr/bin/python3" "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/yixin/ros2_ws/build/custom_action_interfaces/test_results/custom_action_interfaces/xmllint.xunit.xml" "--package-name" "custom_action_interfaces" "--output-file" "/home/yixin/ros2_ws/build/custom_action_interfaces/ament_xmllint/xmllint.txt" "--command" "/opt/ros/jazzy/bin/ament_xmllint" "--xunit-file" "/home/yixin/ros2_ws/build/custom_action_interfaces/test_results/custom_action_interfaces/xmllint.xunit.xml"
+Directory: /home/yixin/ros2_ws/src/custom_action_interfaces
+"xmllint" start time: May 31 19:02 EDT
+Output:
+----------------------------------------------------------
+-- run_test.py: invoking following command in '/home/yixin/ros2_ws/src/custom_action_interfaces':
+ - /opt/ros/jazzy/bin/ament_xmllint --xunit-file /home/yixin/ros2_ws/build/custom_action_interfaces/test_results/custom_action_interfaces/xmllint.xunit.xml
+File 'package.xml' is invalid:
+/home/yixin/ros2_ws/src/custom_action_interfaces/package.xml:15: element test_depend: Schemas validity error : Element 'test_depend': This element is not expected. Expected is one of ( member_of_group, export ).
+/home/yixin/ros2_ws/src/custom_action_interfaces/package.xml fails to validate
+
+1 files are invalid
+-- run_test.py: return code 1
+-- run_test.py: verify result file '/home/yixin/ros2_ws/build/custom_action_interfaces/test_results/custom_action_interfaces/xmllint.xunit.xml'
+<end of output>
+Test time =   1.41 sec
+----------------------------------------------------------
+Test Failed.
+"xmllint" end time: May 31 19:02 EDT
+"xmllint" time elapsed: 00:00:01
+----------------------------------------------------------
+
+End testing: May 31 19:02 EDT
+
+lint_cmake =   0.87 sec*proc
+
+linter =   2.28 sec*proc
+
+xmllint =   1.41 sec*proc
+

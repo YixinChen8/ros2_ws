@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite
+  name="custom_action_cpp.uncrustify"
+  tests="3"
+  failures="3"
+  errors="0"
+  time="0.041"
+>
+  <testcase
+    name="include/custom_action_cpp/visibility_control.hpp"
+    classname="custom_action_cpp.uncrustify"
+  >
+      <failure message="Diff with 5 lines"><![CDATA[--- include/custom_action_cpp/visibility_control.hpp
++++ include/custom_action_cpp/visibility_control.hpp.uncrustify
+@@ -44 +44 @@
+-#endif  // CUSTOM_ACTION_CPP__VISIBILITY_CONTROL_H_+#endif  // CUSTOM_ACTION_CPP__VISIBILITY_CONTROL_H_
+]]></failure>
+  </testcase>
+  <testcase
+    name="src/fibonacci_action_client.cpp"
+    classname="custom_action_cpp.uncrustify"
+  >
+      <failure message="Diff with 90 lines"><![CDATA[--- src/fibonacci_action_client.cpp
++++ src/fibonacci_action_client.cpp.uncrustify
+@@ -38,2 +38,2 @@
+-    // We also instantiate a ROS timer that will kick off the one and only call to send_goal  
+-    auto timer_callback_lambda = [this](){ return this->send_goal(); };
++    // We also instantiate a ROS timer that will kick off the one and only call to send_goal
++    auto timer_callback_lambda = [this](){return this->send_goal();};
+@@ -73,8 +73,9 @@
+-    send_goal_options.goal_response_callback = [this](const GoalHandleFibonacci::SharedPtr & goal_handle)
+-    {
+-      if (!goal_handle) {
+-        RCLCPP_ERROR(this->get_logger(), "Goal was rejected by server");
+-      } else {
+-        RCLCPP_INFO(this->get_logger(), "Goal accepted by server, waiting for result");
+-      }
+-    };
++    send_goal_options.goal_response_callback =
++      [this](const GoalHandleFibonacci::SharedPtr & goal_handle)
++      {
++        if (!goal_handle) {
++          RCLCPP_ERROR(this->get_logger(), "Goal was rejected by server");
++        } else {
++          RCLCPP_INFO(this->get_logger(), "Goal accepted by server, waiting for result");
++        }
++      };
+@@ -86,8 +87,8 @@
+-    {
+-      std::stringstream ss;
+-      ss << "Next number in sequence received: ";
+-      for (auto number : feedback->partial_sequence) {
+-        ss << number << " ";
+-      }
+-      RCLCPP_INFO(this->get_logger(), ss.str().c_str());
+-    };
++      {
++        std::stringstream ss;
++        ss << "Next number in sequence received: ";
++        for (auto number : feedback->partial_sequence) {
++          ss << number << " ";
++        }
++        RCLCPP_INFO(this->get_logger(), ss.str().c_str());
++      };
+@@ -97,22 +98,22 @@
+-    {
+-      switch (result.code) {
+-        case rclcpp_action::ResultCode::SUCCEEDED:
+-          break;
+-        case rclcpp_action::ResultCode::ABORTED:
+-          RCLCPP_ERROR(this->get_logger(), "Goal was aborted");
+-          return;
+-        case rclcpp_action::ResultCode::CANCELED:
+-          RCLCPP_ERROR(this->get_logger(), "Goal was canceled");
+-          return;
+-        default:
+-          RCLCPP_ERROR(this->get_logger(), "Unknown result code");
+-          return;
+-      }
+-      std::stringstream ss;
+-      ss << "Result received: ";
+-      for (auto number : result.result->sequence) {
+-        ss << number << " ";
+-      }
+-      RCLCPP_INFO(this->get_logger(), ss.str().c_str());
+-      rclcpp::shutdown();
+-    };
++      {
++        switch (result.code) {
++          case rclcpp_action::ResultCode::SUCCEEDED:
++            break;
++          case rclcpp_action::ResultCode::ABORTED:
++            RCLCPP_ERROR(this->get_logger(), "Goal was aborted");
++            return;
++          case rclcpp_action::ResultCode::CANCELED:
++            RCLCPP_ERROR(this->get_logger(), "Goal was canceled");
++            return;
++          default:
++            RCLCPP_ERROR(this->get_logger(), "Unknown result code");
++            return;
++        }
++        std::stringstream ss;
++        ss << "Result received: ";
++        for (auto number : result.result->sequence) {
++          ss << number << " ";
++        }
++        RCLCPP_INFO(this->get_logger(), ss.str().c_str());
++        rclcpp::shutdown();
++      };
+@@ -129 +130 @@
+-RCLCPP_COMPONENTS_REGISTER_NODE(custom_action_cpp::FibonacciActionClient)+RCLCPP_COMPONENTS_REGISTER_NODE(custom_action_cpp::FibonacciActionClient)
+]]></failure>
+  </testcase>
+  <testcase
+    name="src/fibonacci_action_server.cpp"
+    classname="custom_action_cpp.uncrustify"
+  >
+      <failure message="Diff with 47 lines"><![CDATA[--- src/fibonacci_action_server.cpp
++++ src/fibonacci_action_server.cpp.uncrustify
+@@ -24 +24 @@
+-// derived the class "FibonacciActionServer" from the class "rclcpp::Node"    
++// derived the class "FibonacciActionServer" from the class "rclcpp::Node"
+@@ -42,5 +42,5 @@
+-    {
+-      RCLCPP_INFO(this->get_logger(), "Received goal request with order %d", goal->order);
+-      (void)uuid;
+-      return rclcpp_action::GoalResponse::ACCEPT_AND_EXECUTE;
+-    };
++      {
++        RCLCPP_INFO(this->get_logger(), "Received goal request with order %d", goal->order);
++        (void)uuid;
++        return rclcpp_action::GoalResponse::ACCEPT_AND_EXECUTE;
++      };
+@@ -51,5 +51,5 @@
+-    {
+-      RCLCPP_INFO(this->get_logger(), "Received request to cancel goal");
+-      (void)goal_handle;
+-      return rclcpp_action::CancelResponse::ACCEPT;
+-    };
++      {
++        RCLCPP_INFO(this->get_logger(), "Received request to cancel goal");
++        (void)goal_handle;
++        return rclcpp_action::CancelResponse::ACCEPT;
++      };
+@@ -60 +60 @@
+-    {
++      {
+@@ -63,3 +63,3 @@
+-      auto execute_in_thread = [this, goal_handle](){return this->execute(goal_handle);};
+-      std::thread{execute_in_thread}.detach();
+-    };
++        auto execute_in_thread = [this, goal_handle](){return this->execute(goal_handle);};
++        std::thread{execute_in_thread}.detach();
++      };
+@@ -80 +80,2 @@
+-  void execute(const std::shared_ptr<GoalHandleFibonacci> goal_handle) {
++  void execute(const std::shared_ptr<GoalHandleFibonacci> goal_handle)
++  {
+@@ -113 +114 @@
+-  };
++  }
+@@ -119 +120 @@
+-RCLCPP_COMPONENTS_REGISTER_NODE(custom_action_cpp::FibonacciActionServer)+RCLCPP_COMPONENTS_REGISTER_NODE(custom_action_cpp::FibonacciActionServer)
+]]></failure>
+  </testcase>
+  <system-out>Checked files:
+* include/custom_action_cpp/visibility_control.hpp
+* src/fibonacci_action_client.cpp
+* src/fibonacci_action_server.cpp</system-out>
+</testsuite>

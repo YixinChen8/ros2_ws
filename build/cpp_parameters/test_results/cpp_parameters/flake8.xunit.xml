@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite
+  name="cpp_parameters.flake8"
+  tests="1"
+  errors="0"
+  failures="1"
+  time="0.509"
+>
+  <testcase
+    name="W292 (./launch/cpp_parameters_launch.py:18:7)"
+    classname="cpp_parameters.flake8"
+  >
+      <failure message="no newline at end of file:&#10;    ])"/>
+  </testcase>
+  <system-out>Checked files:
+* ./launch/cpp_parameters_launch.py</system-out>
+</testsuite>

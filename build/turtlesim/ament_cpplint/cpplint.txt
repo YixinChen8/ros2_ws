@@ -1,0 +1,32 @@
+-- run_test.py: invoking following command in '/home/yixin/ros2_ws/src/ros_tutorials/turtlesim':
+ - /opt/ros/jazzy/bin/ament_cpplint --xunit-file /home/yixin/ros2_ws/build/turtlesim/test_results/turtlesim/cpplint.xunit.xml
+
+Using '--root=/home/yixin/ros2_ws/src' argument
+
+Done processing /home/yixin/ros2_ws/src/ros_tutorials/turtlesim/tutorials/draw_square.cpp
+
+Done processing /home/yixin/ros2_ws/src/ros_tutorials/turtlesim/tutorials/mimic.cpp
+
+Done processing /home/yixin/ros2_ws/src/ros_tutorials/turtlesim/tutorials/teleop_turtle_key.cpp
+
+Using '--root=/home/yixin/ros2_ws/src/ros_tutorials/turtlesim/include' argument
+
+Done processing /home/yixin/ros2_ws/src/ros_tutorials/turtlesim/include/turtlesim/qos.hpp
+
+Done processing /home/yixin/ros2_ws/src/ros_tutorials/turtlesim/include/turtlesim/turtle.hpp
+
+Done processing /home/yixin/ros2_ws/src/ros_tutorials/turtlesim/include/turtlesim/turtle_frame.hpp
+
+Using '--root=/home/yixin/ros2_ws/src/ros_tutorials/turtlesim/src' argument
+
+Done processing /home/yixin/ros2_ws/src/ros_tutorials/turtlesim/src/turtle.cpp
+
+Done processing /home/yixin/ros2_ws/src/ros_tutorials/turtlesim/src/turtle_frame.cpp
+
+Done processing /home/yixin/ros2_ws/src/ros_tutorials/turtlesim/src/turtlesim.cpp
+
+No problems found
+
+
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/yixin/ros2_ws/build/turtlesim/test_results/turtlesim/cpplint.xunit.xml'

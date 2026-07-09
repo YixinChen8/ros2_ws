@@ -1,0 +1,16 @@
+[0.748s] Invoking command in '/home/yixin/ros2_ws/src/my_python_package': AMENT_PREFIX_PATH=/home/yixin/ros2_ws/install/my_python_package:${AMENT_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTEST_ADDOPTS=--tb=short --junit-xml=/home/yixin/ros2_ws/build/my_python_package/pytest.xml --junit-prefix=my_python_package -o cache_dir=/home/yixin/ros2_ws/build/my_python_package/.pytest_cache PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=/home/yixin/ros2_ws/install/my_python_package/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -m pytest
+[1.582s] [1m============================= test session starts ==============================[0m
+[1.583s] platform linux -- Python 3.12.3, pytest-7.4.4, pluggy-1.4.0
+[1.590s] cachedir: /home/yixin/ros2_ws/build/my_python_package/.pytest_cache
+[1.590s] rootdir: /home/yixin/ros2_ws/src/my_python_package
+[1.591s] plugins: ament-flake8-0.17.4, ament-xmllint-0.17.4, launch-testing-ros-0.26.11, ament-pep257-0.17.4, ament-copyright-0.17.4, launch-testing-3.4.10, ament-lint-0.17.4, typeguard-4.1.5, cov-4.1.0, colcon-core-0.20.1
+[1.839s] [1mcollecting ... [0m[1m
+[1.839s] collected 3 items                                                              [0m
+[1.843s] 
+[1.865s] test/test_copyright.py [33ms[0m[32m                                                 [ 33%][0m
+[2.171s] test/test_flake8.py [32m.[0m[32m                                                    [ 66%][0m
+[2.213s] test/test_pep257.py [32m.[0m[32m                                                    [100%][0m
+[2.213s] 
+[2.213s] -- generated xml file: /home/yixin/ros2_ws/build/my_python_package/pytest.xml --
+[2.213s] [32m========================= [32m[1m2 passed[0m, [33m1 skipped[0m[32m in 0.63s[0m[32m =========================[0m
+[2.520s] Invoked command in '/home/yixin/ros2_ws/src/my_python_package' returned '0': AMENT_PREFIX_PATH=/home/yixin/ros2_ws/install/my_python_package:${AMENT_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTEST_ADDOPTS=--tb=short --junit-xml=/home/yixin/ros2_ws/build/my_python_package/pytest.xml --junit-prefix=my_python_package -o cache_dir=/home/yixin/ros2_ws/build/my_python_package/.pytest_cache PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=/home/yixin/ros2_ws/install/my_python_package/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -m pytest

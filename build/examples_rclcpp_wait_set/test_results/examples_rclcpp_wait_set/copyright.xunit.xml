@@ -4,7 +4,7 @@
   tests="15"
   errors="0"
   failures="0"
-  time="1.974"
+  time="0.992"
 >
   <testcase
     name="include/wait_set/listener.hpp"

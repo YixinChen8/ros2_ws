@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite
+  name="polygon_plugins.uncrustify"
+  tests="3"
+  failures="1"
+  errors="0"
+  time="0.025"
+>
+  <testcase
+    name="include/polygon_plugins/polygon_plugins.hpp"
+    classname="polygon_plugins.uncrustify"/>
+  <testcase
+    name="include/polygon_plugins/visibility_control.h"
+    classname="polygon_plugins.uncrustify"/>
+  <testcase
+    name="src/polygon_plugins.cpp"
+    classname="polygon_plugins.uncrustify"
+  >
+      <failure message="Diff with 74 lines"><![CDATA[--- src/polygon_plugins.cpp
++++ src/polygon_plugins.cpp.uncrustify
+@@ -22 +22,4 @@
+-  class Square : public polygon_base::RegularPolygon
++class Square : public polygon_base::RegularPolygon
++{
++public:
++  void initialize(double side_length) override
+@@ -24,5 +27,2 @@
+-    public:
+-      void initialize(double side_length) override
+-      {
+-        side_length_ = side_length;
+-      }
++    side_length_ = side_length;
++  }
+@@ -30,4 +30,4 @@
+-      double area() override
+-      {
+-        return side_length_ * side_length_;
+-      }
++  double area() override
++  {
++    return side_length_ * side_length_;
++  }
+@@ -35,3 +35,3 @@
+-    protected:
+-      double side_length_;
+-  };
++protected:
++  double side_length_;
++};
+@@ -39 +39,4 @@
+-  class Triangle : public polygon_base::RegularPolygon
++class Triangle : public polygon_base::RegularPolygon
++{
++public:
++  void initialize(double side_length) override
+@@ -41,5 +44,2 @@
+-    public:
+-      void initialize(double side_length) override
+-      {
+-        side_length_ = side_length;
+-      }
++    side_length_ = side_length;
++  }
+@@ -47,4 +47,4 @@
+-      double area() override
+-      {
+-        return 0.5 * side_length_ * getHeight();
+-      }
++  double area() override
++  {
++    return 0.5 * side_length_ * getHeight();
++  }
+@@ -52,4 +52,4 @@
+-      double getHeight()
+-      {
+-        return sqrt((side_length_ * side_length_) - ((side_length_ / 2) * (side_length_ / 2)));
+-      }
++  double getHeight()
++  {
++    return sqrt((side_length_ * side_length_) - ((side_length_ / 2) * (side_length_ / 2)));
++  }
+@@ -57,3 +57,3 @@
+-    protected:
+-      double side_length_;
+-  };
++protected:
++  double side_length_;
++};
+@@ -65 +65 @@
+-PLUGINLIB_EXPORT_CLASS(polygon_plugins::Triangle, polygon_base::RegularPolygon)+PLUGINLIB_EXPORT_CLASS(polygon_plugins::Triangle, polygon_base::RegularPolygon)
+]]></failure>
+  </testcase>
+  <system-out>Checked files:
+* include/polygon_plugins/polygon_plugins.hpp
+* include/polygon_plugins/visibility_control.h
+* src/polygon_plugins.cpp</system-out>
+</testsuite>
